@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/blog/en/index.html",
-    "items": [
-      "/blog/en/2026-03-27-call-for-papers.html"
-    ]
-  },
-  {
     "listing": "/blog/es/index.html",
     "items": [
       "/blog/es/2026-03-27-presentacion-trabajos.html"
+    ]
+  },
+  {
+    "listing": "/blog/en/index.html",
+    "items": [
+      "/blog/en/2026-03-27-call-for-papers.html"
     ]
   },
   {
