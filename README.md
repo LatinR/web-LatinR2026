@@ -1,7 +1,6 @@
-## LatinR Website - Version 2
+## LatinR Website
 
 Made with Quarto and R, by the LatinR organizing team.
-
 
 
 - Español: <https://latinr.org/>
