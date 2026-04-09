@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tutoriales – LatinR 2024</title>
+<title>Tutoriales – LatinR 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6d988966f9c5d00c8525fa757311aaea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-739b7331abf0522953fd368450cb052f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,7 +55,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -67,6 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<style>.blog-section-en, .blog-section-pt { display: none !important; }</style>
 
 
 </head>
@@ -79,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo light-content">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -121,21 +124,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../sobre/coc/index.html">
  <span class="dropdown-text">Código de Conducta</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../sobre/ediciones-anteriores/index.html">
- <span class="dropdown-text">Ediciones anteriores</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Participa</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-participa">    
-        <li>
-    <a class="dropdown-item" href="../../blog/es/2025-05-31-presentacion-trabajos-2025.html">
- <span class="dropdown-text">Llamado a presentación de trabajos</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -147,6 +135,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Ediciones anteriores</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-ediciones-anteriores">    
+        <li>
+    <a class="dropdown-item" href="https://2025.latinr.org/">
+ <span class="dropdown-text">2025</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="https://2024.latinr.org/">
  <span class="dropdown-text">2024</span></a>
@@ -211,221 +203,338 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción-a-github-para-investigadoraes" class="level2">
-<h2 class="anchored" data-anchor-id="introducción-a-github-para-investigadoraes">Introducción a Github para Investigador(a|e)s</h2>
-<section id="aprende-cómo-usar-github-en-tus-actividades-como-investigadora-de-la-mano-de-dos-invetigadoras-que-son-github-stars" class="level4">
-<h4 class="anchored" data-anchor-id="aprende-cómo-usar-github-en-tus-actividades-como-investigadora-de-la-mano-de-dos-invetigadoras-que-son-github-stars">Aprende cómo usar GitHub en tus actividades como investigador(a) de la mano de dos invetigadoras que son GitHub Stars!</h4>
+<section id="automatiza-la-publicación-de-tus-reportes-con-quarto-y-github-actions" class="level2">
+<h2 class="anchored" data-anchor-id="automatiza-la-publicación-de-tus-reportes-con-quarto-y-github-actions">Automatiza la publicación de tus reportes con Quarto y GitHub Actions</h2>
+<section id="aprende-a-implementar-un-flujo-de-trabajo-de-despliegue-continuo-para-automatizar-la-generación-y-publicación-de-reportes-usando-quarto-y-github-actions" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-a-implementar-un-flujo-de-trabajo-de-despliegue-continuo-para-automatizar-la-generación-y-publicación-de-reportes-usando-quarto-y-github-actions">Aprende a implementar un flujo de trabajo de despliegue continuo para automatizar la generación y publicación de reportes usando Quarto y GitHub Actions</h4>
 </section>
 <section id="sobre-el-curso" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso">Sobre el curso</h3>
-<p><strong>Fecha</strong> 18 de Noviembre de 2024, 2:00 PM - 5:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 10:00 AM - 12:30 PM (UTC-3)</p>
 <p><strong>Modalidad</strong>: Online</p>
 <p><strong>Idioma:</strong> Español</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1045617188157">Introducción a Github</a></p>
-<p>Este taller está diseñado para introducir a investigadoras/es a GitHub, una potente plataforma para el control de versiones y la colaboración. Los participantes aprenderán los fundamentos del uso de GitHub para gestionar sus proyectos de investigación, incluyendo cómo crear y gestionar repositorios, realizar un seguimiento de los cambios y colaborar con otras personas. Los objetivos específicos de aprendizaje incluyen: - Comprender los conceptos básicos del control de versiones y cómo se aplican a los flujos de trabajo de investigación. - Adquirir experiencia práctica en la creación y gestión de repositorios de GitHub. - Explorar el uso de GitHub Issues y Projects para gestionar las tareas de investigación y la comunicación dentro de los equipos de investigación. - Reconocer los diferentes componentes de un repositorio (readme, licencia, código de conducta, citas, entre otros).</p>
-<p>Además, el taller hará hincapié en la relevancia de GitHub en la promoción de la ciencia abierta, destacando su papel como repositorio de código y datos que apoya la transparencia y la reproducibilidad en la investigación. Al final del taller, los participantes serán capaces de integrar GitHub en sus flujos de trabajo de investigación, mejorando tanto la colaboración como la difusión abierta del conocimiento científico.</p>
-<p>Este tutorial está dirigido a investigadoras/es de todas las disciplinas interesados en mejorar sus habilidades de gestión de proyectos y colaboración utilizando GitHub. Es ideal para quienes forman parte de equipos o grupos de investigación, con cierta familiaridad con los flujos de trabajo de investigación, pero no se requiere experiencia previa con GitHub.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084">Automatiza la publicación de tus reportes con Quarto y GitHub Actions</a></p>
+<p>El objetivo del taller es aprender a automatizar la publicación y actualización de proyectos en R y Quarto mediante GitHub Actions y GitHub Pages. Esto permitirá a las y los participantes mejorar la eficiencia, reproducibilidad y accesibilidad de sus análisis y reportes, facilitando la difusión abierta de resultados.</p>
+<p>Durante el taller partiremos de un Google Form abierto (con sus respuestas en un Google Sheets público) y un tablero en Quarto (.qmd) ya preparados. Nos centraremos en la configuración del proyecto de Quarto, del repositorio de GitHub y del archivo de workflow en GitHub Actions para lograr la actualización automática de un tablero que recupere periódicamente las respuestas ingresadas en el formulario.</p>
+<p>Al finalizar el taller, las y los participantes podrán: - Describir qué es una acción de GitHub y reconocer sus componentes principales. - Configurar un archivo de workflow en YAML para automatizar la ejecución de un script de R en GitHub Actions. - Ejecutar un flujo de trabajo que obtenga datos desde Google Sheets, los procese con R, genere un tablero en Quarto y lo publique en GitHub Pages. - Programar la ejecución automática de un workflow en intervalos regulares.</p>
+<p>Este tutorial está dirigido a personas que trabajan con R y Quarto o RMarkdown y desean aprender a automatizar la publicación de reportes, análisis o tableros. Puede ser especialmente útil para personas investigadoras, docentes y profesionales de ciencia de datos que necesiten mantener resultados actualizados y accesibles en línea.</p>
 </section>
 <section id="requisitos" class="level3">
 <h3 class="anchored" data-anchor-id="requisitos">Requisitos</h3>
-<p>Los participantes deben disponer de un ordenador o portátil con acceso a Internet y almacenamiento suficiente para instalar Git. Deberán tener <a href="https://git-scm.com/">Git instalado</a> y una <a href="https://github.com/">cuenta de GitHub</a> creada antes del taller.</p>
+<p>Conocimientos previos recomendados: Para aprovechar mejor el taller, se recomienda que las y los participantes tengan familiaridad básica con R (ejecutar scripts, cargar paquetes, leer datos) y RMarkdown o Quarto (saber qué es un .rmd/.qmd y cómo renderizarlo). También se sugiere conocimiento básico de Git y GitHub (clonar un repositorio, hacer un commit y un push).</p>
+<p>No se requieren conocimientos previos de GitHub Actions ni de automatización: esos serán los temas centrales del taller.</p>
 </section>
-<section id="tutoras" class="level3">
-<h3 class="anchored" data-anchor-id="tutoras">Tutoras</h3>
-<p><strong>Beatriz Milz</strong> - Beatriz es una GitHub Star, y actualmente es investigadora post-doctoral en la Universidade Federal do ABC (UFABC), en Brasil. Es doctora en Ciencias Ambientales por la Universidade de São Paulo (USP). Es coorganizadora de R-Ladies São Paulo y editora de revisión de software en rOpenSci».</p>
-<p><strong>Yanina Bellini Saibene</strong> - Yani es una GitHub Star desde 2022. Es Community Manager de rOpenSci, Líder del Proyecto R-Ladies y Vicepresidenta de la Junta Directiva de The Carpentries. Vive en Argentina y es profesora en la Universidad Austral (Argentina). Es organizadora de R-Ladies Santa Rosa y cofundadora y co-presidenta de LatinR. Yani es también formadora e instructora certificada por Posit y The Carpentries.</p>
+<section id="instructoras" class="level3">
+<h3 class="anchored" data-anchor-id="instructoras">Instructoras</h3>
+<p><strong>Jesica Formoso</strong> es psicóloga cognitiva, Doctora por la Universidad de Buenos Aires e investigadora del CONICET en Argentina. Especializada en estadística aplicada a las ciencias de la salud, es instructora certificada de Posit y The Carpentries. Investiga sobre comprensión de texto en niños y asesora proyectos en diseño metodológico, análisis de datos y desarrollo de herramientas reproducibles. Es co-organizadora en R-Ladies Buenos Aires y colabora con R-Ladies Global y la comunidad Forwards. Además, integra el equipo de MetaDocencia, donde coordina el área de medición de impacto.</p>
+<p><strong>María Cristina Nanton</strong> es maestranda en Minería de Datos en la Universidad de Buenos Aires. Lidera un equipo de más de 20 científicas/os de datos y analistas en la Gerencia de Estadísticas en Salud del Ministerio de Salud de la Ciudad de Buenos Aires. Desde 2019 enseña y desarrolla programas en estadística, programación y ciencia de datos en diversas instituciones académicas, científicas y del sector público. Es instructora certificada de The Carpentries, co-organizadora de R-Ladies Buenos Aires y miembro del equipo global de R-Ladies, donde promueve la diversidad e inclusión en tecnología y ciencia de datos.</p>
 </section>
 </section>
-<section id="tutorial-análisis-de-datos-satelitales-en-r" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-análisis-de-datos-satelitales-en-r">Tutorial Análisis de Datos Satelitales en R</h2>
-<section id="aprende-a-realizar-análisis-de-datos-satelitales-con-r-combinado-con-técnicas-de-machine-learninig." class="level4">
-<h4 class="anchored" data-anchor-id="aprende-a-realizar-análisis-de-datos-satelitales-con-r-combinado-con-técnicas-de-machine-learninig.">Aprende a realizar análisis de datos satelitales con R combinado con técnicas de Machine Learninig.</h4>
+<section id="inteligencia-artificial-generativa-en-forma-local.-llms-en-tu-pc-usando-ollama-y-ollamar" class="level2">
+<h2 class="anchored" data-anchor-id="inteligencia-artificial-generativa-en-forma-local.-llms-en-tu-pc-usando-ollama-y-ollamar">Inteligencia Artificial Generativa en forma local. LLMs en tu PC usando ollama y ollamar</h2>
+<section id="workshop-práctico-sobre-uso-de-llms-locales-con-ollama-y-ollamar-instalación-uso-en-r-y-análisis-de-textos-sin-conexión" class="level4">
+<h4 class="anchored" data-anchor-id="workshop-práctico-sobre-uso-de-llms-locales-con-ollama-y-ollamar-instalación-uso-en-r-y-análisis-de-textos-sin-conexión">Workshop práctico sobre uso de LLMs locales con Ollama y ollamar: instalación, uso en R y análisis de textos sin conexión</h4>
 </section>
 <section id="sobre-el-curso-1" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-1">Sobre el curso</h3>
-<p><strong>Fecha</strong> 18 de Noviembre de 2024, 6:00 PM - 8:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 10:00 AM - 12:00 PM (UTC-3)</p>
 <p><strong>Modalidad</strong>: Online</p>
 <p><strong>Idioma:</strong> Español</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1045614801017">Análisis de Datos Satelitales en R</a></p>
-<p>El análisis de datos satelitales en R, combinado con técnicas de Machine Learning, abre nuevas oportunidades para interpretar y aprovechar la información geoespacial. En este tutorial se abordarán aplicaciones prácticas utilizando R para procesar y analizar imágenes satelitales. Se demostrará cómo aprovechar librerías especializadas en R, como raster, sf y caret, para manipular datos espaciales y construir modelos predictivos. El uso de Machine Learning permitirá identificar patrones en grandes conjuntos de datos satelitales, aplicando algoritmos como árboles de decisión, SVM y Random Forest. Se destacarán ejemplos reales en campos como la agricultura de precisión, monitoreo ambiental y detección de cambios en la superficie terrestre. La presentación enfatizará la importancia de integrar datos satelitales en la toma de decisiones y cómo estas técnicas permiten un análisis más eficiente y preciso de nuestro entorno desde el espacio.</p>
-</section>
-<section id="tutora" class="level3">
-<h3 class="anchored" data-anchor-id="tutora">Tutora</h3>
-<p><strong>Gladis Choque Ulloa</strong></p>
-<p>Tengo una maestría en estadística por la Universidad Federal de Rio Grande do Sul, Brasil, cuento con más de 5 años al mundo de los datos y la investigación. Actualmente soy estudiante becada en el doctorado en Estadística con enfoque en Ciencia de Datos en la Universidad de São Paulo, Brasil.</p>
-<p>Mi especializo en modelos de series de tiempo y de clasificación en Machine Learning. Además, he escrito artículos sobre modelos predictivos y clasificación, y he tenido el honor de ganar el Concurso Internacional del Massachusetts Institute of Technology (MIT) en el 2020, fui dominada para el Women That Build Awards como Mujer destacada en Datos por Globant en el 2022, fui Expomentora en el NASA Space Apps Challangue Perú en el 2023, ganadora de los Clubes de Ciencia Brasil 2020 y ganadora como mejor trabajo de investigación del programa “Clean Water Science Network” de la Universidad de Texas, USA. Fundadora de la comunidad de datos Women in Datalab, Top Voice Data Science en Linkedln e influencer de data con el nombre de “Datos con Gladys” y “Gladys Data Club”.</p>
-</section>
-</section>
-<section id="tutorial-trabajando-con-datos-más-grandes-que-la-memoria-en-r-con-arrow-y-duckdb" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-trabajando-con-datos-más-grandes-que-la-memoria-en-r-con-arrow-y-duckdb">Tutorial: Trabajando con datos más grandes que la memoria en R con Arrow y DuckDB</h2>
-<section id="aprende-a-analizar-grandes-conjuntos-de-datos-con-arrow-duckdb-y-duckplyr-en-r.acelera-los-flujos-de-trabajo-en-tu-portátil-usando-manipulación-de-datos-al-estilo-tidyverse." class="level4">
-<h4 class="anchored" data-anchor-id="aprende-a-analizar-grandes-conjuntos-de-datos-con-arrow-duckdb-y-duckplyr-en-r.acelera-los-flujos-de-trabajo-en-tu-portátil-usando-manipulación-de-datos-al-estilo-tidyverse.">Aprende a analizar grandes conjuntos de datos con Arrow, DuckDB y Duckplyr en R.Acelera los flujos de trabajo en tu portátil usando manipulación de datos al estilo tidyverse.</h4>
-</section>
-<section id="sobre-el-curso-2" class="level3">
-<h3 class="anchored" data-anchor-id="sobre-el-curso-2">Sobre el curso</h3>
-<p><strong>Fecha</strong> 19 de Noviembre de 2024, 10:00 AM - 12:00 AM (GMT-3)</p>
-<p><strong>Modalidad</strong>: Online</p>
-<p><strong>Idioma:</strong> Inglés</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1044938257457">Tutorial con Arrow y DuckDB</a></p>
-<p>Mientras que los conjuntos de datos son cada vez mayores, los recientes avances en tecnologías como Apache Arrow y DuckDB están poniendo al alcance de cualquiera el análisis de conjuntos de datos que antes requerían una infraestructura compleja.</p>
-<p>El uso de los paquetes {arrow}, {duckdb} y {duckplyr} abre la puerta al análisis de gigabytes de datos en cuestión de segundos utilizando la misma interfaz que con {tidyverse}. Aprendiendo sólo unos pocos conceptos, los usuarios de R pueden disfrutar trabajando fácilmente con conjuntos de datos más grandes que la memoria directamente desde su ordenador de uso cotidiano. En este tutorial, se analizarán datos reales para explorar los formatos utilizados para almacenar estos grandes conjuntos de datos en discos, cómo se pueden aprovechar Arrow y DuckDB para analizar datos, y cómo se integran estas herramientas con la interfaz de {tidyverse}.</p>
-<p>Después de asistir a este tutorial, los alumnos - Comprenderán cuándo el uso de Arrow o DuckDB puede ayudar a acelerar un análisis de datos. - Describir cómo Arrow y DuckDB pueden trabajar con conjuntos de datos de mayor tamaño que la memoria. - Reconocer el tipo de manipulaciones de datos que más se benefician del uso de herramientas como Arrow y DuckDB. - Decidir qué paquete ({arrow}, {duckdb} o {duckplyr}) es el más adecuado para su análisis de datos. - Desarrollar su propio análisis de datos utilizando Arrow o DuckDB</p>
-<p>Este tutorial está dirigido a todos aquellos que necesiten analizar conjuntos de datos mayores que la memoria de que disponen en su ordenador de uso cotidiano o que estén interesados en aprender a acelerar el análisis de grandes conjuntos de datos. Los participantes que no tengan acceso a HPC se beneficiarán especialmente de este tutorial, ya que las herramientas utilizadas pueden instalarse fácilmente en un ordenador portátil normal y proporcionar un buen rendimiento.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/llms-en-tu-pc-inteligencia-artificial-generativa-en-forma-local-tickets-1953038152689?aff=oddtdtcreator">Inteligencia Artificial Generativa en forma local</a></p>
+<p>Este workshop introductorio propone una experiencia práctica con Modelos Grandes de Lenguaje (LLMs) locales utilizando dos herramientas básicas: 1) ollama, una plataforma ligera que permite descargar y ejecutar modelos de lenguaje directamente en una computadora personal, sin necesidad de conexión a Internet ni acceso a APIs externas; 2) ollamar, una librería para integrar R con Ollama y facilita el trabajo con estructuras de datos (por ejemplo, historiales de conversación/chat) que son estándar para diferentes LLMs.</p>
+<p>A lo largo del encuentro, se guiará a les participantes en la instalación de Ollama, la carga de un modelo compatible (como LLaMA, Mistral u otros disponibles), y la ejecución de prompts estructurados para realizar tareas básicas de procesamiento de lenguaje natural (NLP). Se trabajará con un dataset de noticias en castellano, aplicando los modelos locales para identificar el tono de una noticia, generar resúmenes, etc.</p>
+<p>El objetivo es brindar una primera aproximación técnica al uso de LLMs sin conexión, explorando tanto su potencial como sus limitaciones en comparación con modelos en la nube.</p>
 </section>
 <section id="requisitos-1" class="level3">
 <h3 class="anchored" data-anchor-id="requisitos-1">Requisitos</h3>
-<p>Los participantes deben estar familiarizados con la manipulación de datos con el {tidyverse} y saber utilizar los 5 verbos más comunes de {dplyr} para el análisis de datos: mutate(), select(), filter(), summarize(), arrange() combinados con group_by().</p>
-<ul>
-<li><p><strong>Software</strong>: R &gt;= 4.1.0</p></li>
-<li><p><strong>Paquetes</strong>: arrow, duckdb, duckplyr, tidyverse, tictoc.</p></li>
-</ul>
+<p>Para participar necesitan una computadora, conexión a internet. Para evitar problemas de compatibilidad y de hardware el taller se desarrollará en un Google Colab (con kernel de R).</p>
 </section>
-<section id="tutor" class="level3">
-<h3 class="anchored" data-anchor-id="tutor">Tutor</h3>
-<p><strong>François Michonneau</strong> es un educador al que le encanta trabajar con datos y poner R en producción. Ha estado usando R durante más de 20 años y mantiene varios paquetes en CRAN. Después de formar parte de la dirección de The Carpentries durante 5 años, trabajó en Voltron Data durante un par de años. Actualmente está buscando su próximo rol.</p>
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<p><strong>German Rosatti</strong> - Germán Rosati es sociólogo, Investigador Adjunto del CONICET y docente en la Escuela Interdisciplinaria de Altos Estudios Sociales de la UNSAM, donde coordina factor~data, laboratorio en Ciencias Sociales Computacionales. Ha participado en proyectos que utilizan LLMs para extracción de información en textos administrativos y periodísticos, clasificación automatizada y análisis de sesgos.</p>
 </section>
 </section>
-<section id="tutorial-llevá-tus-gráficos-con-ggplot2-al-siguiente-nivel" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-llevá-tus-gráficos-con-ggplot2-al-siguiente-nivel">Tutorial Llevá tus gráficos con ggplot2 al siguiente nivel</h2>
-<section id="aprende-como-crear-visualizaciones-claras-informativas-y-cautivantes-para-tu-analisis-de-datos." class="level4">
-<h4 class="anchored" data-anchor-id="aprende-como-crear-visualizaciones-claras-informativas-y-cautivantes-para-tu-analisis-de-datos.">Aprende como crear visualizaciones claras, informativas y cautivantes para tu analisis de datos.</h4>
+<section id="forecasting-with-regression-models" class="level2">
+<h2 class="anchored" data-anchor-id="forecasting-with-regression-models">Forecasting with regression models</h2>
+<section id="aprende-técnicas-avanzadas-de-predicción-usando-modelos-de-regresión" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-técnicas-avanzadas-de-predicción-usando-modelos-de-regresión">Aprende técnicas avanzadas de predicción usando modelos de regresión</h4>
+</section>
+<section id="sobre-el-curso-2" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-2">Sobre el curso</h3>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 2:00 PM - 3:30 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Inglés</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/forecasting-with-regression-models-tickets-1955640717029?aff=oddtdtcreator">Forecasting with regression models</a></p>
+<p>Este taller se enfoca en los fundamentos de la predicción estadística mediante regresión lineal usando R. El taller es amigable para principiantes y cubre los siguientes temas: - Cómo plantear una serie de tiempo como un problema de regresión - Técnicas de selección de variables predictoras (feature engineering) para datos con contexto temporal - Modelado de tendencias, estacionalidad, valores atípicos y rupturas en tendencias - Consejos prácticos para evaluación y validación</p>
+<p>Este taller está dirigido a analistas de datos o científicos que deseen aprender a hacer pronósticos con modelos de regresión. No asume experiencia previa en análisis de series de tiempo y pronósticos, pero asume conocimiento básico de probabilidad, regresión lineal y programación en R.</p>
+</section>
+<section id="instructor-1" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-1">Instructor</h3>
+<p><strong>Rami Krispin</strong> - Especialista en machine learning, análisis de series de tiempo y pronósticos, con experiencia en modelos de producción con GitHub Actions usando R y Python, instructor en LinkedIn Learning, y autor de “Hands-On Time Series Analysis with R”.</p>
+</section>
+</section>
+<section id="tableros-con-quarto-dashboards-y-crosswalk" class="level2">
+<h2 class="anchored" data-anchor-id="tableros-con-quarto-dashboards-y-crosswalk">Tableros con Quarto Dashboards y Crosswalk</h2>
+<section id="aprende-a-crear-dashboards-interactivos-con-quarto-y-técnicas-de-integración" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-a-crear-dashboards-interactivos-con-quarto-y-técnicas-de-integración">Aprende a crear dashboards interactivos con Quarto y técnicas de integración</h4>
 </section>
 <section id="sobre-el-curso-3" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-3">Sobre el curso</h3>
-<p><strong>Fecha</strong> 19 de Noviembre de 2024, 2:00 PM - 4:30 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 6:00 PM - 8:00 PM (UTC-3)</p>
 <p><strong>Modalidad</strong>: Online</p>
 <p><strong>Idioma:</strong> Español</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1045608201277">Llevá tus gráficos con ggplot2 al siguiente nivel</a></p>
-<p>Crear visualizaciones claras, informativas y cautivantes es una labor indiscutida dentro del análisis de datos, tanto dentro de la academia como de la industria. Sin embargo, la amplia mayoría de los tutoriales o de los cursos iniciales de R suelen explicar solamente cómo funciona la gramática de gráficos de ggplot2, sin abarcar la potencialidad de los parámetros estéticos que ayudan a comunicar de forma no verbal el objetivo del gráfico. En este taller vamos a mostrar cómo editar el texto y los colores, tanto de forma específica como a partir del uso de paletas, y cómo adaptar el gráfico a criterios específicos de publicación.</p>
-<section id="objetivo-general-de-aprendizaje" class="level4">
-<h4 class="anchored" data-anchor-id="objetivo-general-de-aprendizaje">Objetivo general de aprendizaje:</h4>
-<p>Les participantes pueden adaptar sus gráficos a los requerimientos de publicación de una revista u otro formato académico.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/tableros-con-quarto-dashboards-y-crosswalk-tickets-1955757476259?aff=oddtdtcreator">Tableros con Quarto Dashboards y Crosswalk</a></p>
+<p>Tutorial sobre Quarto Dashboards y Crosswalk para crear tableros HTML estáticos, reproducibles y accesibles para visualización de datos.</p>
+<p>Este tutorial presenta la experiencia del Núcleo de Innovación Social en el uso de Quarto Dashboards y Crosswalk para la presentación de resultados en tableros HTML estáticos, a partir de una base de ejemplo sobre la oferta de libros en una librería online.</p>
+<p>Los objetivos de aprendizaje son: (1) familiarizarse con Quarto como herramienta de publicación dinámica y reproducible, (2) conocer los dashboards como opción comunicacional dentro de Quarto, (3) identificar sus componentes básicos y estructuras de layout, (4) incorporar gráficos y tarjetas en el diseño, y (5) aplicar Crosswalk para mapear un esquema simple de interacción entre variables mediante filtros y el widget KPI.</p>
+<p>Al finalizar, las y los participantes contarán con un tablero inicial en Quarto Dashboards que servirá como ejercicio práctico y reproducible. La relevancia de este tutorial radica en ofrecer una solución sencilla y portable para la visualización de datos en contextos donde se requiere una alternativa accesible.</p>
+</section>
+<section id="instructora" class="level3">
+<h3 class="anchored" data-anchor-id="instructora">Instructora</h3>
+<p><strong>Betsy Cohen</strong> - Socióloga especializada en gestión y políticas culturales. Forma parte del equipo de organizadoras de R-Ladies Buenos Aires y co-coordinadora del Núcleo de Innovación Social y actualmente se desempeña como analista de datos.</p>
 </section>
 </section>
-<section id="objetivos-específicos-de-aprendizaje" class="level3">
-<h3 class="anchored" data-anchor-id="objetivos-específicos-de-aprendizaje">Objetivos específicos de aprendizaje:</h3>
-<p>Les participantes pueden modificar los elementos textuales de los gráficos. Les participantes pueden editar el aspecto de los gráficos tanto a partir de la selección de colores específicos como del uso de paletas. Les participantes pueden especificar las dimensiones de exportación de gráficos.</p>
-<p>El tutorial está destinado a un público amplio que busque llevar sus gráficos al siguiente nivel por medio de la customización de etiquetas y textos, colores y detalles de los gráficos, sobre todo, para prepararlos de la mejor manera para presentaciones o publicaciones. En particular, este taller busca ayudar a quienes saben hacer un gráfico básico, pero no logran adaptarlo a sus necesidad específicas o que el gráfico muestre puntualmente lo que quieren.</p>
-</section>
-<section id="requisitos-2" class="level3">
-<h3 class="anchored" data-anchor-id="requisitos-2">Requisitos</h3>
-<p>Para seguir sin problemas las actividades del tutorial, es necesario tener algún grado de experiencia, aunque sea inicial, con R y RStudio y con el paquete ggplot2. Además deberán tener una computadora con R y R Studio instalados y actualizados. Al igual que el paquete tidyverse, que incluye al paquete ggplot2, sobre el cual tratará el curso.</p>
-</section>
-<section id="tutoras-1" class="level3">
-<h3 class="anchored" data-anchor-id="tutoras-1">Tutoras</h3>
-<p><strong>Noelia A. Stetie</strong> es Profesora y Licenciada en Letras por la Universidad de Buenos Aires (UBA) y becaria doctoral del CONICET. Se dedica al estudio del procesamiento psicolingüístico del nivel oracional. Colabora en proyectos de investigación radicados en la UBA y se ha desempeñado como docente en dicha institución, en la Universidad Nacional de José C. Paz y en institutos de formación docente. Es Instructora certificada de The Carpentries y ha dictado diversos workshops sobre análisis de datos con R. Dicta cursos con foco en el análisis de datos y en la aplicación de teorías psicolingüísticas a la práctica docente.</p>
-<p><strong>Macarena S. Quiroga</strong> es Magister en Psicología Cognitiva y Aprendizaje por la Facultad Latinoamericana de Ciencias Sociales (FLACSO), Profesora y Licenciada en Letras por la Universidad de Buenos Aires (UBA) y becaria doctoral del CONICET. Se dedica al estudio de la comprensión y producción del vocabulario en niñes pequeñes. Es docente en la Universidad Nacional de Hurlingham. Es Trainer e Instructora certificada de The Carpentries y ha dictado diversos workshops sobre análisis de datos con R.</p>
-</section>
-</section>
-<section id="tutorial-de-modelización-de-nichos-ecológicos-y-distribución-potencial-de-especies-con-r" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-de-modelización-de-nichos-ecológicos-y-distribución-potencial-de-especies-con-r">Tutorial de modelización de nichos ecológicos y distribución potencial de especies con R</h2>
-<section id="el-tutorial-cubrirá-la-teoría-básica-de-la-modelización-del-nicho-ecológico-y-la-distribución-potencial-de-especies-y-sus-principales-metodologías." class="level4">
-<h4 class="anchored" data-anchor-id="el-tutorial-cubrirá-la-teoría-básica-de-la-modelización-del-nicho-ecológico-y-la-distribución-potencial-de-especies-y-sus-principales-metodologías.">El tutorial cubrirá la teoría básica de la modelización del nicho ecológico y la distribución potencial de especies y sus principales metodologías.</h4>
+<section id="crea-tus-propios-inputs-y-outputs-en-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="crea-tus-propios-inputs-y-outputs-en-shiny">Crea tus propios inputs y outputs en shiny</h2>
+<section id="desarrolla-componentes-personalizados-para-aplicaciones-shiny" class="level4">
+<h4 class="anchored" data-anchor-id="desarrolla-componentes-personalizados-para-aplicaciones-shiny">Desarrolla componentes personalizados para aplicaciones Shiny</h4>
 </section>
 <section id="sobre-el-curso-4" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-4">Sobre el curso</h3>
-<p><strong>Fecha</strong> 19 de noviembre de 2024, 6:00 PM - 9:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 10:00 AM - 12:30 PM (UTC-3)</p>
 <p><strong>Modalidad</strong>: Online</p>
-<p><strong>Idioma:</strong> Portugués</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1045601130127">Tutorial de modelización de nichos ecológicos</a></p>
-<p>El tutorial cubrirá la teoría básica de la modelización de nichos ecológicos (ENM) y la modelización de la distribución de especies (SDM) y sus principales metodologías. Al final del curso, predominantemente práctico, los participantes tendrán la capacidad de ejecutar los modelos y comprender sus resultados, así como de elegir y aplicar la metodología correcta en función del objetivo de su tipo de estudio y de los datos. La tutoría será principalmente práctica, con algunos momentos teóricos. Todos los procesos de modelización, cálculos, gráficos y mapas se llevarán a cabo con R. Los participantes aprenderán a utilizar el algoritmo de modelización Maxent, a través del paquete {flexsdm} para desarrollar los modelos y se utilizará el paquete {tmap} para generar mapas.</p>
-</section>
-<section id="objetivos" class="level3">
-<h3 class="anchored" data-anchor-id="objetivos">Objetivos:</h3>
+<p><strong>Idioma:</strong> Español</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/crea-tus-propios-inputs-y-outputs-en-shiny-tickets-1955947434429?aff=oddtdtcreator">Crea tus propios inputs y outputs en shiny</a></p>
+<p>Aprende a crear inputs y outputs personalizados en Shiny, integrando JavaScript y mejorando la interactividad y diseño de tus apps.</p>
+<p>En este workshop aprenderás a crear tus propios inputs y outputs personalizados en Shiny, extendiendo las capacidades más allá de los componentes nativos que ofrece el framework (textInput, selectInput, etc).</p>
+<p>El dominio de esta técnica te permitirá: - Integrar librerías y widgets de JavaScript dentro de Shiny - Diseñar componentes más interactivos y atractivos para tus aplicaciones - Ajustar la experiencia de usuario a necesidades específicas que no cubren los controles estándar - En la práctica, esto significa que podrás conectar el ecosistema de R con el universo de componentes web modernos, logrando aplicaciones más ricas y profesionales.</p>
+<p><strong>Objetivos de aprendizaje</strong></p>
 <ul>
-<li>Presentar las bases teóricas de los modelos que se pueden utilizar;</li>
-<li>Discutir las ventajas y limitaciones de los modelos en el contexto de diferentes aplicaciones;</li>
-<li>Presentar cómo realizar correctamente un estudio de modelización del nicho ecológico o de la distribución de especies con distintos fines;</li>
-<li>Iniciar en el uso de la modelización de la distribución geográfica de especies utilizando R;</li>
+<li>Recordar la estructura básica de un input y un output en Shiny</li>
+<li>Comprender cómo funciona la comunicación entre R y JavaScript dentro de una app Shiny.</li>
+<li>Aplicar el patrón recomendado para construir inputs personalizados</li>
+<li>Analizar ejemplos de integración de componentes externos</li>
+<li>Crear un input propio que capture datos del usuario y lo comunique a R de forma reactiva</li>
+<li>Evaluar cuándo conviene extender Shiny con componentes personalizados frente a usar inputs nativos o paquetes existentes</li>
 </ul>
-<p>Estudiantes, investigadores y profesionales en cualquier etapa de su carrera con interés en desarrollar y aplicar la modelización de distribución de especies y/o nicho ecológico de forma reproducible y automatizada. Los participantes deben estar acostumbrados a trabajar con ordenadores, tener una buena conexión a Internet y, preferiblemente, una cámara web, ya que las sesiones en línea en directo están destinadas a ser altamente interactivas. Se recomienda tener experiencia básica con R, aunque no es estrictamente obligatorio. Todos los scripts de R serán proporcionados y explicados en detalle.</p>
+<p><strong>Dirigido a:</strong></p>
+<ul>
+<li>Analistas de datos y científicos de datos que usan Shiny para comunicar resultados y necesitan interfaces más flexibles</li>
+<li>Ingenieros de software o desarrolladores R interesados en integrar librerías web modernas dentro de sus aplicaciones</li>
+<li>Profesionales en áreas aplicadas (salud, finanzas, educación, gobierno, etc.) que construyen dashboards interactivos y quieren mejorar la experiencia de usuario</li>
+</ul>
 </section>
-<section id="requisitos-3" class="level3">
-<h3 class="anchored" data-anchor-id="requisitos-3">Requisitos</h3>
-<p>Última versión de R y RStudio y paquetes que se enviarán por correo electrónico. 32MB RAM deseable, pero es posible ejecutar el script con 16MB.</p>
-</section>
-<section id="tutor-1" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-1">Tutor</h3>
-<p><strong>George Amaro</strong> es investigador de la Empresa Brasileña de Investigación Agropecuaria (Embrapa), en el área de economía y modelización, y es líder y miembro de proyectos de modelización de la distribución de especies invasoras, revisor de revistas internacionales sobre el tema, con amplia experiencia en R y habiendo participado como autor y coautor de diversos trabajos relacionados con SDM/ENM.</p>
+<section id="instructor-2" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-2">Instructor</h3>
+<p><strong>Samuel Calderon</strong> - Actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.</p>
 </section>
 </section>
-<section id="optimizando-shiny-consejos-y-trucos-de-rendimiento" class="level2">
-<h2 class="anchored" data-anchor-id="optimizando-shiny-consejos-y-trucos-de-rendimiento">Optimizando Shiny: Consejos y Trucos de Rendimiento</h2>
-<section id="aprende-cómo-optimizar-el-rendimiento-de-aplicaciones-desarrolladas-con-r-shiny-de-la-mano-de-expertos-de-appsilon." class="level4">
-<h4 class="anchored" data-anchor-id="aprende-cómo-optimizar-el-rendimiento-de-aplicaciones-desarrolladas-con-r-shiny-de-la-mano-de-expertos-de-appsilon.">Aprende cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny de la mano de expertos de Appsilon.</h4>
+<section id="intro-a-positron" class="level2">
+<h2 class="anchored" data-anchor-id="intro-a-positron">Intro a Positron</h2>
+<section id="descubre-el-nuevo-ide-para-ciencia-de-datos" class="level4">
+<h4 class="anchored" data-anchor-id="descubre-el-nuevo-ide-para-ciencia-de-datos">Descubre el nuevo IDE para ciencia de datos</h4>
 </section>
 <section id="sobre-el-curso-5" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-5">Sobre el curso</h3>
-<p><strong>Fecha</strong> 18 de noviembre de 2024, 10:00 AM - 1:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 2:00 PM - 4:00 PM (UTC-3)</p>
 <p><strong>Modalidad</strong>: Online</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967">Optimizando Shiny: consejos y trucos de rendimiento</a></p>
 <p><strong>Idioma:</strong> Español</p>
-<p>En este workshop, exploraremos cómo optimizar el rendimiento de aplicaciones desarrolladas con R Shiny, desde mejorar la velocidad de respuesta hasta la escalabilidad.</p>
-<p>A través de ejemplos prácticos y técnicas avanzadas, identificaremos los cuellos de botella más comunes, para minimizar tiempos de carga y gestionar grandes volúmenes de datos de manera eficiente.</p>
-<p>También abordaremos las mejores prácticas para optimizar tanto el código como la estructura de la aplicación, incluyendo el uso adecuado de reactividad, carga de datos, y comunicación con el navegador.</p>
-<p>Al finalizar el taller, tendrás las herramientas necesarias para transformar tus aplicaciones Shiny, haciéndolas más rápidas, ligeras y listas para brindar una mejor experiencia de usuario.</p>
-<p>Este taller está dirigido a desarrolladores y analistas que buscan mejorar el rendimiento de sus aplicaciones Shiny, con un enfoque práctico y orientado a resultados.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/intro-a-positron-tickets-1964484827000?aff=oddtdtcreator">Intro a Positron</a></p>
+<p>Veni a conocer Positron, el nuevo IDE basado en VS Code para ciencia de datos con R y Python. Simple, integrado y sin configuración extra.</p>
+<p>Este taller introduce a la comunidad de R al IDE Positron, un entorno basado en Visual Studio Code diseñado para ciencia de datos. A diferencia de RStudio o VS Code con extensiones, Positron integra de forma nativa herramientas que simplifican la exploración de datos y la gestión de variables, reduciendo la necesidad de configuraciones complejas.</p>
+<p><strong>Objetivos de aprendizaje</strong></p>
+<p>Al finalizar el taller, los participantes podrán: - Diferenciar Positron de otras alternativas, reconociendo ventajas en usabilidad e integración - Instalar y configurar el IDE con soporte multilenguaje (R, Python) para proyectos reales - Usar el Data Explorer para revisar datasets y obtener estadísticas básicas sin código adicional - Trabajar con el Variables Pane para inspeccionar objetos de la sesión y navegar datos de forma intuitiva - Integrar extensiones y LLMs para potenciar productividad y depuración</p>
+<p>La relevancia de este taller radica en que Positron ofrece una experiencia moderna y práctica, optimizando el flujo de trabajo del científico de datos y permitiendo dedicar más tiempo al análisis y menos a la configuración del entorno.</p>
+<p>El tutorial está dirigido a científicos de datos, analistas, estadísticos y profesionales que usan R o Python para análisis de datos y desean optimizar su flujo de trabajo mediante un IDE moderno y eficiente. También es útil para docentes o estudiantes avanzados que buscan explorar herramientas que faciliten la exploración de datos y la gestión de variables sin depender de configuraciones complejas.</p>
+<p><strong>Requisitos:</strong> Se recomienda que los participantes tengan conocimientos básicos de R o Python y estén familiarizados con la ejecución de scripts y proyectos de análisis de datos, para poder aprovechar plenamente las funcionalidades de Positron, como el Data Explorer, el Variables Pane y la integración con LLMs.</p>
 </section>
-<section id="requisitos-4" class="level3">
-<h3 class="anchored" data-anchor-id="requisitos-4">Requisitos</h3>
-<p>R 4.1.0 o mayor, RStudio instalado. 8GB RAM (deseable), internet estable (deseable). Git instalado (deseable). Alternativamente, tener una cuenta en posit.cloud.</p>
-</section>
-<section id="tutor-2" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-2">Tutor</h3>
-<p><a href="https://www.linkedin.com/in/samuelcalderon/"><strong>Samuel Calderon</strong></a> actualmente trabaja como R shiny developer en Appsilon. Previamente, su desempeño profesional ha sido en el sector público peruano, participando en iniciativas de recojo, análisis y sistematización de información con miras a mejorar la calidad de los servicios brindados a la ciudadanía en temas de lucha contra el tráfico ilícito de drogas, mejora de la calidad de la educación superior universitaria, lucha contra la corrupción y medición de la pobreza monetaria.</p>
+<section id="instructor-3" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-3">Instructor</h3>
+<p><strong>Paulo Villarroel Tapia</strong> - Enfermero egresado de la Universidad de Chile con +20 años de experiencia en salud, especializado en excelencia operacional, análisis de datos e inteligencia artificial. Actualmente trabaja en el Ministerio de Salud de Chile como científico de datos. Fundador de OpenSalud LAB y la academia de programación Hazla con Datos. Además es charlista, mentor, docente postgrado y consultor en tecnologías aplicadas a la salud.</p>
 </section>
 </section>
-<section id="despliegue-continuo-con-r-github-y-quarto-implementando-buenas-prácticas" class="level2">
-<h2 class="anchored" data-anchor-id="despliegue-continuo-con-r-github-y-quarto-implementando-buenas-prácticas">Despliegue Continuo con R, GitHub y Quarto: Implementando Buenas Prácticas</h2>
-<section id="aprende-cómo-implementar-un-flujo-de-trabajo-de-despliegue-continuo-para-modelos-de-datos-en-r-utilizando-github-y-quarto" class="level4">
-<h4 class="anchored" data-anchor-id="aprende-cómo-implementar-un-flujo-de-trabajo-de-despliegue-continuo-para-modelos-de-datos-en-r-utilizando-github-y-quarto">Aprende cómo implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto</h4>
+<section id="introdución-a-tidymodels" class="level2">
+<h2 class="anchored" data-anchor-id="introdución-a-tidymodels">Introdución a Tidymodels</h2>
+<section id="aprende-sobre-el-ecosistema-tidymodels-de-modelado-estadístico-en-r" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-sobre-el-ecosistema-tidymodels-de-modelado-estadístico-en-r">Aprende sobre el ecosistema tidymodels de modelado estadístico en R</h4>
 </section>
 <section id="sobre-el-curso-6" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-6">Sobre el curso</h3>
-<p><strong>Fecha</strong> 18 de noviembre de 2024, 06:00 PM - 08:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 1 de Diciembre de 2025, 6:00 PM - 8:00 PM (UTC-3); 3:00 PM - 5:00 PM (CST)</p>
 <p><strong>Modalidad</strong>: Online</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747">Despliegue continuo con R, Github y Quarto</a></p>
 <p><strong>Idioma:</strong> Español</p>
-<p>Este taller tiene como objetivo enseñar a los participantes a implementar un flujo de trabajo de despliegue continuo para modelos de datos en R utilizando GitHub y Quarto. Al final de la sesión, los asistentes serán capaces de:</p>
-<p>Configurar un entorno de R en GitHub Actions para automatizar la ejecución de scripts. Instalar y gestionar dependencias de R de manera eficiente. Generar y renderizar informes en Quarto, facilitando la presentación de resultados. Integrar buenas prácticas de DevOps en sus flujos de trabajo para mejorar la colaboración y la calidad del código.</p>
-<p>La relevancia de este taller radica en la creciente necesidad de automatización en el análisis de datos y la ciencia de datos. Aprender a utilizar GitHub Actions y Quarto no solo optimiza el trabajo en equipo, sino que también permite a los participantes implementar soluciones robustas y escalables para la evaluación de métricas y el análisis de resultados. Este conocimiento es fundamental para quienes buscan mejorar la reproducibilidad de sus proyectos y la eficiencia de sus procesos de análisis.</p>
-<p>El taller está dirigido a profesionales y estudiantes de áreas como ciencia de datos, estadística, análisis de datos y programación en R. También es relevante para investigadores y desarrolladores interesados en optimizar sus flujos de trabajo mediante la automatización y la implementación de buenas prácticas de DevOps.</p>
-<p>Los participantes deben tener conocimientos básicos de programación en R y familiaridad con Git y GitHub. También es recomendable que tengan conocimientos basicos en generación de documentos en R, ya sea usando Rmarkdown o Quarto.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/introducion-a-tidymodels-tickets-1962543491413?aff=oddtdtcreator">Introdución a Tidymodels</a></p>
+<p>Introducción práctica a tidymodels: flujo de trabajo de ML con preparación, partición, ajuste y evaluación de modelos de clasificación o regresión.</p>
+<p>Este tutorial tiene como objetivo introducir a los participantes en el ecosistema tidymodels para machine learning. A lo largo del taller, se guiará a los participantes en el desarrollo de un flujo de trabajo que incluye: preparación de datos, partición del conjunto de datos, ajuste de modelos, y comparación de resultados. El foco estará puesto en comprender los principios del diseño de tidymodels y cómo aplicarlo a problemas reales de clasificación o regresión.</p>
+<p><strong>Los objetivos de aprendizaje incluyen:</strong></p>
+<ul>
+<li>Comprender la filosofía y estructura general de tidymodels</li>
+<li>Ajustar y comparar modelos con validación cruzada</li>
+<li>Interpretar métricas de evaluación y visualizarlas</li>
+</ul>
+<p>Este tutorial está dirigido a personas con experiencia básica en R, interesadas en aprender a implementar flujos de trabajo de machine learning. Está especialmente pensado para investigadoras/es, profesionales y estudiantes que trabajen en análisis de datos.</p>
+<p><strong>Requisitos:</strong> Se espera que las personas asistentes estén familiarizadas con operaciones básicas de manipulación de datos en R. No es necesario tener experiencia previa con machine learning, pero sí en modelos de regresión.</p>
 </section>
-<section id="requisitos-5" class="level3">
-<h3 class="anchored" data-anchor-id="requisitos-5">Requisitos</h3>
-<p>Para participar de forma óptima en el taller de Despliegue Continuo con R, GitHub y Quarto, los asistentes deben contar con una computadora portátil (Windows, macOS o Linux) y tener instalado el software necesario, que incluye R, RStudio, Git y Quarto. Además, es importante tener acceso a Internet y una cuenta de GitHub previamente creada. Se recomienda asegurarse de tener acceso a los archivos de ejemplo que se utilizarán durante el taller. Aunque no es estrictamente necesario, tener conocimientos básicos de R y Git, así como familiaridad con Markdown, será útil para aprovechar al máximo la experiencia.</p>
-</section>
-<section id="tutor-3" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-3">Tutor</h3>
-<p><strong>Sebastián Egaña Santibáñez</strong> es Magíster en Finanzas por la Universidad de Chile, Licenciado en Filosofía por la Universidad Alberto Hurtado y Ingeniero Comercial por la Universidad Santo Tomás, Chile.</p>
-<p>Es un profesional destacado en Ciencia de Datos, con una sólida trayectoria como docente universitario y experiencia en asesoría especializada. Ha contribuido significativamente a la formación académica y a la aplicación práctica del análisis de datos, ofreciendo soluciones innovadoras y estratégicas en diversos contextos.</p>
+<section id="instructores" class="level3">
+<h3 class="anchored" data-anchor-id="instructores">Instructores</h3>
+<p><strong>Francisco Cardozo</strong> es candidato a doctor en la Universidad de Miami. Su trabajo se centra en el uso de técnicas estadísticas y computacionales, incluyendo machine learning, para mejorar la evaluación e implementación de programas de prevención. Es instructor de R y miembro activo de rOpenSci y Software Carpentry. Ha dictado talleres de R y tidymodels en inglés y español en Latinoamérica y EE.UU.</p>
+<p><strong>Edgar Ruiz</strong> es ingeniero en Posit PBC, con amplia experiencia en el ecosistema de R y en el desarrollo de herramientas de machine learning. Es autor y mantenedor de varios paquetes que extienden las capacidades del tidyverse / tidymodels. Además, contribuye activamente en talleres, conferencias y publicaciones que promueven buenas prácticas en ciencia de datos y análisis reproducible.</p>
 </section>
 </section>
-<section id="desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementación" class="level2">
-<h2 class="anchored" data-anchor-id="desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementación">Desarrollo de Paquetes en R: Desde la Idea hasta la Implementación</h2>
-<section id="aprende-cómo-desarrollar-paquetes-de-r-como-implementarlos-y-distribuirlos." class="level4">
-<h4 class="anchored" data-anchor-id="aprende-cómo-desarrollar-paquetes-de-r-como-implementarlos-y-distribuirlos.">Aprende cómo desarrollar paquetes de R, como implementarlos y distribuirlos.</h4>
+<section id="miércoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento" class="level2">
+<h2 class="anchored" data-anchor-id="miércoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento">¡Miércoles, Git! Manejo de errores en Git y no morir en el intento</h2>
+<section id="taller-práctico-para-aprender-a-resolver-7-errores-comunes-en-git-y-ganar-confianza-desde-r" class="level4">
+<h4 class="anchored" data-anchor-id="taller-práctico-para-aprender-a-resolver-7-errores-comunes-en-git-y-ganar-confianza-desde-r">Taller práctico para aprender a resolver 7 errores comunes en Git y ganar confianza desde R</h4>
 </section>
 <section id="sobre-el-curso-7" class="level3">
 <h3 class="anchored" data-anchor-id="sobre-el-curso-7">Sobre el curso</h3>
-<p><strong>Fecha</strong> 19 de noviembre de 2024, 10:00 AM - 1:00 PM (GMT-3)</p>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 10:00 AM - 12:00 PM (UTC-3); 07:00 AM - 09:00 AM (CST)</p>
 <p><strong>Modalidad</strong>: Online</p>
-<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-1046361845447">Desarrollo de Paquetes en R</a></p>
 <p><strong>Idioma:</strong> Español</p>
-<p>Este taller ofrece una guía integral sobre el desarrollo de paquetes en R, cubriendo todo el proceso, desde la concepción de la idea hasta la implementación técnica y la distribución en plataformas como CRAN.</p>
-<p>El objetivo es brindar a los asistentes una comprensión clara y práctica de cómo crear un paquete en R que cumpla con los estándares de calidad y pueda ser utilizado por la comunidad científica y de desarrollo.</p>
-<p>A lo largo de la presentación, exploraremos las mejores prácticas para el diseño, documentación, pruebas, y publicación de paquetes. Se proporcionarán ejemplos y demostraciones en vivo para que los asistentes puedan adquirir habilidades prácticas aplicables en sus propios proyectos.</p>
-<p>El tutorial esta enfocado en usuario de R, desarrolladores de R, investigadores, científicos de datos y profesionales de otras disciplinas que pueden tomar su conocimiento, experiencias y datos y convertirlos en un paquete de R para su publicación en el CRAN.</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/miercoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento-tickets-1937068908249?aff=oddtdtcreator">¡Miércoles, Git! Manejo de errores en Git y no morir en el intento</a></p>
+<p>Git es muy útil, por cierto. Pero también puede ser escalofriante cuando cometemos un error. Por suerte, con experiencia cometemos menos errores… y/o sabemos mejor cómo corregirlas! En este taller práctico aprenderemos a salir de siete posibles situaciones de mier…coles que pueden ocurrirse, con siete ejercicios inspirados del sitio web <em>Oh Shit, Git!</em> y proporcionados por el paquete R {saperlipopette}. Al final de este taller, nos sentiremos más capaces de enfrentarnos a Git y a nuestra propia falibilidad.</p>
+<p>Este taller está orientado a personas que ya tienen alguna experiencia usando control de versiones, aunque no hace falta ser experto o experta. Ideal para quienes quieren fortalecer su confianza y autonomía frente a situaciones difíciles.</p>
+</section>
+<section id="requisitos-2" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-2">Requisitos</h3>
+<p>Para participar necesitarán una computadora con conexión a internet. Experiencia previa básica con Git y control de versiones es recomendable.</p>
+</section>
+<section id="instructoras-1" class="level3">
+<h3 class="anchored" data-anchor-id="instructoras-1">Instructoras</h3>
+<p><strong>Maëlle Salmon</strong> - doctora en estadística e ingeniera en software de R e investigación. Trabaja en rOpenSci, creó el blog de R-hub y coescribió el libro HTTP testing in R junto a Scott Chamberlain. Además, es miembro del equipo global de R-Ladies+ y colabora activamente en el desarrollo de herramientas para la comunidad de R. Enseña Git de forma regular desde hace meses, incluso este mismo tutorial en R en Buenos Aires + R-Ladies Santa Rosa. Creó el paquete {saperlipopette} para poder mostrar y compartir ejercicios de Git. Realiza traducciones al español con Yanina.</p>
+<p><strong>Yanina Bellini Saibene</strong> - maestra en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de R-Ladies+ y The Carpentries. Yanina es instructora y trainer certificada por The Carpentries y una GitHub Star. Ha enseñado Git y GitHub y como usarlo con R desde hace varios años. Trabaja con Maëlle en rOpenSci, especialmente en el Programa de Campeon(a|e)s y el Proyecto Multilingüe.</p>
+</section>
+</section>
+<section id="análisis-cualitativo-para-grandes-volúmenes-de-texto-con-llms" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-cualitativo-para-grandes-volúmenes-de-texto-con-llms">Análisis cualitativo para grandes volúmenes de texto con LLMs</h2>
+<section id="potencia-tu-análisis-cualitativo-de-textos-con-inteligencia-artificial-usando-r" class="level4">
+<h4 class="anchored" data-anchor-id="potencia-tu-análisis-cualitativo-de-textos-con-inteligencia-artificial-usando-r">Potencia tu análisis cualitativo de textos con inteligencia artificial usando R</h4>
+</section>
+<section id="sobre-el-curso-8" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-8">Sobre el curso</h3>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 2:00 PM - 4:15 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Español</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.com.ar/e/1962623150676?aff=oddtdtcreator">Análisis cualitativo para grandes volúmenes de texto con LLMs</a></p>
+<p>El desarrollo de la IA y los modelos generativos potencian el análisis cualitativo de textos para diversas disciplinas. Este tutorial aprovecha los créditos gratuitos de la API de Gemini de Google para enseñar a usar LLMs en R, un entorno amigable para el PLN. Se abordará un flujo de trabajo estructurado, desde el diseño y optimización de prompts y sus parámetros, hasta la iteración en dataframes para obtener salidas estructuradas, limpiar datos y finalmente, usar embeddings para visualizaciones.</p>
+<p><strong>Los objetivos planteados son:</strong> - El/la estudiante comprenderá los beneficios de usar LLMs para el análisis de texto. - El/la estudiante diseñará prompts para análisis cualitativo y creará criterios para evaluar los resultados del LLM. - El/la estudiante ajustará los parámetros del modelo y los prompts para apuntar a resultados rigurosos y reproducibles. - El/la estudiante automatizará el análisis de texto en R con funciones e iteraciones para obtener un objeto estructurado. - El/la estudiante analizará la información resultante mediante visualizaciones y estadística descriptiva.</p>
+<p>Este tutorial está dirigido a investigadores, estudiantes y profesionales de cualquier disciplina (ciencias sociales, humanidades, ciencias de la salud, etc.) que trabajen con datos de texto y deseen potenciar sus análisis cualitativos mediante herramientas de IA.</p>
+</section>
+<section id="requisitos-3" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-3">Requisitos</h3>
+<p>Para aprovechar al máximo el taller, los participantes deben tener un conocimiento básico-intermedio de R. Específicamente, se espera que puedan:</p>
+<ol type="1">
+<li>Entender y escribir funciones simples.</li>
+<li>Utilizar bucles for para iterar sobre elementos.</li>
+<li>Manejar datos tabulares con las funciones principales del paquete dplyr (como mutate, filter, select).</li>
+</ol>
+<p>No se requiere experiencia previa con APIs, Procesamiento de Lenguaje Natural (PLN) o modelos de lenguaje.</p>
+</section>
+<section id="tutores" class="level3">
+<h3 class="anchored" data-anchor-id="tutores">Tutores</h3>
+<p><strong>Ismael Aguayo</strong> - asistente de investigación en el núcleo milenio NUDOS y ayudante de estadística y métodos computacionales, con interés en la Ciencia de Datos y la inteligencia artificial. Integrante de la organización Socialtec.</p>
+<p><strong>Exequiel Trujillo</strong> - Desarrollador web y ayudante de métodos computacionales, y se encuentra estudiando ciberseguridad y sociología de la música a través del análisis computacional. Integrante de la organización Socialtec.</p>
+</section>
+</section>
+<section id="análisis-y-visualización-de-datos-funcionales-en-r-con-fda.usc-y-extensiones" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos-funcionales-en-r-con-fda.usc-y-extensiones">Análisis y visualización de datos funcionales en R con fda.usc y extensiones</h2>
+<section id="taller-práctico-en-r-sobre-análisis-de-datos-funcionales-creación-manipulación-y-visualización-con-fda.usc-ggplot2-y-plotly" class="level4">
+<h4 class="anchored" data-anchor-id="taller-práctico-en-r-sobre-análisis-de-datos-funcionales-creación-manipulación-y-visualización-con-fda.usc-ggplot2-y-plotly">Taller práctico en R sobre análisis de datos funcionales: creación, manipulación y visualización con fda.usc, ggplot2 y plotly</h4>
+</section>
+<section id="sobre-el-curso-9" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-9">Sobre el curso</h3>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 6:00 PM - 9:00 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Español</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/analisis-y-visualizacion-de-datos-funcionales-en-r-tickets-1962639693155?aff=oddtdtcreator">Análisis y visualización de datos funcionales en R con fda.usc y extensiones</a></p>
+<p>El taller comenzará con una introducción al análisis de datos funcionales en R, presentando los conceptos básicos, ejemplos de aplicación y una primera toma de contacto con el paquete fda.usc. Después se trabajará en la construcción de objetos funcionales a partir de datos reales, mostrando cómo manipularlos y cómo aplicar métodos de reducción de la dimensión, suavizado, detección de outliers y clustering.</p>
+<p>En la última parte se explorarán técnicas de visualización con ggplot2 y plotly.</p>
+<p>El taller tendrá un enfoque eminentemente práctico, con ejercicios guiados en RStudio y materiales reproducibles, permitiendo a las personas asistentes adquirir competencias para aplicar el análisis funcional en sus propias áreas de investigación o docencia.</p>
+<p>Resultará especialmente útil para quienes trabajen con series temporales, señales o datos de alta frecuencia en áreas como estadística, economía, ciencias ambientales, medicina o ingeniería.</p>
+</section>
+<section id="requisitos-4" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-4">Requisitos</h3>
+<p>Se espera que las personas participantes tengan conocimientos básicos de R (lectura de datos, uso de paquetes, operaciones con data frame) y un nivel como mínimo introductorio de estadística descriptiva y análisis multivariante. No se requiere experiencia previa en análisis de datos funcionales.</p>
+</section>
+<section id="tutor" class="level3">
+<h3 class="anchored" data-anchor-id="tutor">Tutor</h3>
+<p><strong>Manuel Oviedo de la Fuente</strong> - Doctor en Estadística (USC) y profesor en la Universidade da Coruña (España), desarrolla su labor investigadora en el ámbito del análisis de datos funcionales y la estadística computacional.Es autor de más de 20 artículos JCR en revistas como Journal of Statistical Software, TEST, The R Journal y Computational Statistics, y ha participado en proyectos competitivos. Es coautor y desarrollador principal del paquete fda.usc en R, con más de 50.000 descargas y 20+ paquetes dependientes en CRAN, además de autor de materiales abiertos sobre de <a href="https://rubenfcasal.github.io/aprendizaje_estadistico/">aprendizaje estadístico</a>.</p>
+</section>
+</section>
+<section id="coding-with-ai-in-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="coding-with-ai-in-rstudio">Coding with AI in RStudio</h2>
+<section id="aprende-a-usar-ia-en-rstudio-para-programar-más-rápido-generar-depurar-y-empaquetar-scripts-de-r-crear-aplicaciones-shiny-y-aumentar-la-productividad" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-a-usar-ia-en-rstudio-para-programar-más-rápido-generar-depurar-y-empaquetar-scripts-de-r-crear-aplicaciones-shiny-y-aumentar-la-productividad">Aprende a usar IA en RStudio para programar más rápido: generar, depurar y empaquetar scripts de R, crear aplicaciones Shiny y aumentar la productividad</h4>
+</section>
+<section id="sobre-el-curso-10" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-10">Sobre el curso</h3>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 10:00 AM - 12:00 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Inglés</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/coding-with-ai-in-rstudio-tickets-1962817615325?aff=oddtdtcreator">Coding with AI in RStudio</a></p>
+<p>Este tutorial práctico introducirá a los usuarios de R al poder transformador de la programación asistida por IA, específicamente dentro del IDE de RStudio. Cubriremos cómo usar asistentes de programación potenciados por IA para acelerar una variedad de tareas, desde generar código estándar y depurar scripts hasta construir paquetes profesionales de R.</p>
+<p><strong>Al completar este tutorial, los participantes podrán:</strong> - Comprender los beneficios y limitaciones del uso de IA para la generación de código en R - Configurar y usar un asistente de programación potenciado por IA dentro de RStudio - Aplicar herramientas de IA para escribir, depurar y refactorizar funciones y scripts de R - Usar IA para automatizar la generación de informes con Quarto y RMarkdown - Desarollar aplicaciones interactivas en Shiny con asistencia de IA - Agilizar el proceso de convertir scripts de R en paquetes de R reutilizables - Crear un flujo de trabajo personal que integre IA para aumentar la productividad</p>
+<p>Saber cómo aprovechar las herramientas de IA se está convirtiendo en una habilidad fundamental para profesionales de datos e investigadores. Este tutorial proporciona una introducción práctica y enfocada, permitiendo a los asistentes aplicar inmediatamente estas técnicas a su trabajo diario, ahorrando tiempo y reduciendo la carga cognitiva en tareas rutinarias.</p>
+<p>Este tutorial está dirigido a cualquier persona con un entendimiento básico a intermedio de R que esté interesada en mejorar su eficiencia de programación y conocimiento. Está dirigido a una audiencia amplia, incluyendo científicos de datos, investigadores académicos y estudiantes que usan R para análisis de datos, visualización y modelado.</p>
+</section>
+<section id="requisitos-5" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-5">Requisitos</h3>
+<p>Para obtener el máximo de esta oportunidad de aprendizaje, los participantes deben tener: - Familiaridad con la interfaz de RStudio - Un entendimiento básico de la sintaxis de R y estructuras de datos - Experiencia escribiendo funciones simples de R y scripts</p>
+</section>
+<section id="tutores-1" class="level3">
+<h3 class="anchored" data-anchor-id="tutores-1">Tutores</h3>
+<p><strong>Juan Cruz Rodriguez</strong> - Doctor en Ciencias de la Computación e Ingeniero de software con más de 10 años de experiencia programando, incluyendo 5 años en la industria del software desarrollando pipelines de producción y aplicaciones. Autor de los paquetes de R {chatgpt} y {myownrobs}, especializándose en flujos de trabajo de programación asistida por IA y herramientas que mejoran la productividad del desarrollador en entornos de R.</p>
+<p><strong>Luis D. Verde Arregoitia</strong> - Doctor en Biología con amplia experiencia en programación en R en análisis de datos, visualización y modelado estadístico. Autor de “Large Language Model tools for R”, una guía completa para flujos de trabajo de programación asistida por IA. Se especializa en integrar herramientas de IA en pipelines de investigación y enseñar aplicaciones prácticas de LLMs para ciencia de datos e investigación reproducible.</p>
+</section>
+</section>
+<section id="automatización-de-workflows-en-r-y-python-con-targets-y-snakemake" class="level2">
+<h2 class="anchored" data-anchor-id="automatización-de-workflows-en-r-y-python-con-targets-y-snakemake">Automatización de workflows en R y Python con targets y snakemake</h2>
+<section id="aprende-herramientas-poderosas-para-la-gestión-de-workflows-en-r-y-python-en-un-entorno-colaborativo-y-reproducible" class="level4">
+<h4 class="anchored" data-anchor-id="aprende-herramientas-poderosas-para-la-gestión-de-workflows-en-r-y-python-en-un-entorno-colaborativo-y-reproducible">Aprende herramientas poderosas para la gestión de workflows en R y Python, en un entorno colaborativo y reproducible</h4>
+</section>
+<section id="sobre-el-curso-11" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-11">Sobre el curso</h3>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 2:00 PM - 4:00 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Español</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/automatizacion-de-workflows-en-r-y-python-con-targets-y-snakemake-tickets-1936131664929?aff=oddtdtcreator">Automatización de workflows en R y Python con targets y snakemake</a></p>
+<p>La automatización de workflows es esencial para garantizar reproducibilidad, escalabilidad y eficiencia en proyectos de ciencia de datos. En este taller, exploraremos el uso de targets y snakemake, dos herramientas poderosas para la gestión de workflows en R y Python, en un entorno colaborativo y reproducible.</p>
+<p><strong>A través de ejemplos prácticos, los participantes aprenderán a:</strong> - Diseñar workflows reproducibles utilizando targets en R - Integrar snakemake para coordinar tareas que utilizan scripts en R y Python - Implementar estrategias para manejar dependencias y optimizar la ejecución de procesos</p>
+<p>Al finalizar, los asistentes tendrán las habilidades necesarias para construir pipelines reproducibles y escalables que hagan transparentes todos los pasos de un flujo de análisis, desde la adquisición de datos hasta la generación de reportes, integrando múltiples lenguajes y herramientas.</p>
 </section>
 <section id="requisitos-6" class="level3">
 <h3 class="anchored" data-anchor-id="requisitos-6">Requisitos</h3>
-<p>PC o Laptop con R, RStudio y RTools (windows) instalados y paquetes: devtools, available, usethis, testthat.</p>
+<p>Conocimientos básicos de R y Python, con cualquier formación y de cualquier disciplina.</p>
 </section>
-<section id="tutor-4" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-4">Tutor</h3>
-<p><strong>Renzo Cáceres Rossi</strong>, es un especialista en el lenguaje de programación R, ya ha participado en el Latin R 2022 con la ponencia Introducción a RMarkdown, ha dictado tutoriales, conferencias en diversas universidades en Latinoamérica a través del IEEE.</p>
-<p>Es creador de contenido sobre ciencia de datos a través de <a href="https://www.youtube.com/c/RenzoCaceresRossi">su canal de YouTube.</a></p>
+<section id="instructora-1" class="level3">
+<h3 class="anchored" data-anchor-id="instructora-1">Instructora</h3>
+<p><strong>Diana García</strong> - Bióloga Computacional del Breast Oncology Program en el Dana Farber Cancer Institute, donde investigamos las alteraciones del genoma asociadas a resistencia a terapias en cáncer de mama mestastático. Tengo un doctorado en Ciencias Biomédicas y una maestría en Ciencias de la Computación y experiencia desarrollando software tanto en la academia como en la industria. Disfruto mucho enseñar programación, fui profesora en CETYS Universidad, Campus Tijuana, y tallerista en la Escuela de Código Pilares en CDMX. Formo parte de R-Ladies Boston y del programa de camiones de rOpenSci, previamente participé en PyLadies CDMX y en Women Who Code CDMX.</p>
+</section>
+</section>
+<section id="qué-historia-vas-a-contar-hoy-herramientas-para-una-comunicación-eficaz" class="level2">
+<h2 class="anchored" data-anchor-id="qué-historia-vas-a-contar-hoy-herramientas-para-una-comunicación-eficaz">¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz</h2>
+<section id="aprendé-a-diseñar-una-presentación-con-una-estructura-clara-y-un-mensaje-que-genere-impacto-usando-recursos-audiovisuales-estratégicamente" class="level4">
+<h4 class="anchored" data-anchor-id="aprendé-a-diseñar-una-presentación-con-una-estructura-clara-y-un-mensaje-que-genere-impacto-usando-recursos-audiovisuales-estratégicamente">Aprendé a diseñar una presentación con una estructura clara y un mensaje que genere impacto usando recursos audiovisuales estratégicamente</h4>
+</section>
+<section id="sobre-el-curso-12" class="level3">
+<h3 class="anchored" data-anchor-id="sobre-el-curso-12">Sobre el curso</h3>
+<p><strong>Fecha</strong> 2 de Diciembre de 2025, 5:00 PM - 7:15 PM (UTC-3)</p>
+<p><strong>Modalidad</strong>: Online</p>
+<p><strong>Idioma:</strong> Español</p>
+<p><strong>Inscripción</strong>: <a href="https://www.eventbrite.cl/e/que-historia-vas-a-contar-hoy-herramientas-para-una-comunicacion-eficaz-tickets-1891497192019?aff=oddtdtcreator">¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz</a></p>
+<p>En este tutorial, cada participante aprenderá a diseñar una presentación o charla con una estructura clara y un mensaje que genere impacto, utilizando recursos audiovisuales de manera estratégica.</p>
+<p>El objetivo es proporcionar herramientas prácticas para superar el bloqueo de la “hoja en blanco” y desarrollar una narrativa poderosa a través de la técnica del storytelling que permita alcanzar metas específicas: inspirar, conseguir apoyo para un proyecto, o simplemente comunicar una idea con confianza.</p>
+<p>A través de ejercicios prácticos, los asistentes podrán llevarse una idea de la estructura de una charla o presentación y la importancia de la práctica como paso fundamental para estar preparados.</p>
+<p>Aunque la idea de “contar historias” pueda parecer ajena a la ciencia de datos, en realidad forma parte esencial de ella: se trata de descubrir y comunicar las historias que los propios datos revelan. Es precisamente en ese punto donde focalizamos este tutorial: encontrar las historias que hay detrás del trabajo que realiza cada participante y descubrir la mejor historia para conectar con la audiencia.</p>
+</section>
+<section id="requisitos-7" class="level3">
+<h3 class="anchored" data-anchor-id="requisitos-7">Requisitos</h3>
+<p>No se requieren conocimientos técnicos específicos. Este tutorial está diseñado para cualquier persona que desee mejorar sus habilidades de comunicación y presentación.</p>
+</section>
+<section id="instructora-2" class="level3">
+<h3 class="anchored" data-anchor-id="instructora-2">Instructora</h3>
+<p><strong>Alejandra Bellini</strong> - Licenciada en Comunicación Social con título intermedio de periodista profesional y Locutora Nacional (Argentina). Durante los últimos 21 años formé parte del equipo de Canal 12, un multimedio cordobés donde ocupé distintos roles: conductora y columnista en distintos programas de televisión, editora web, coordinadora de contenidos digitales. Fue parte del equipo que diseñó el lanzamiento de la plataforma digital del canal, transformándome en la primera mujer jefa de la historia del canal que ya tiene 65 años.</p>
+<p>Soy egresada del Colegio Universitario de Periodiso Obispo Trejo y Sanabria. Fue docente de la institución en las carreras de Periodismo y en la Licenciatura en Comunicación Social. Actualmente, soy conductora de un noticiero y un programa de interés general que se emite de lunes a viernes en Canal 12. Además, ofrezco cursos y capacitaciones para empresas, organizaciones y speakers que necesitan desarrollar una comunicación efectiva para distintos contextos.</p>
 
 
 </section>
@@ -483,13 +592,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -504,7 +614,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/latinr\.org");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -838,7 +948,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Copyright © 2023-2024, LatinR Team</p>
+<p>CC BY-NC © 2018-2026, LatinR Team</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

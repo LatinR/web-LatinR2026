@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="../../pt" xml:lang="../../pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Workshops – LatinR 2024</title>
+<title>Workshops – LatinR 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,15 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-739b7331abf0522953fd368450cb052f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -53,24 +55,25 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<style>.blog-section-es, .blog-section-en { display: none !important; }</style>
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -78,11 +81,12 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo light-content">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -120,56 +124,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../sobre/coc/codigo-de-conduta.html">
  <span class="dropdown-text">Código de conduta</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../sobre/ediciones-anteriores/edicoes-anteriores.html">
- <span class="dropdown-text">Edições anteriores</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participe" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Participe</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-participe">    
-        <li>
-    <a class="dropdown-item" href="../../blog/pt/2024-07-09-apresentacao-trabalhos-2024.html">
- <span class="dropdown-text">Chamada para submissão de trabalhos</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../blog/pt/2024-08-01-inscricao.qmd">
- <span class="dropdown-text">Sobre a inscrição</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&amp;utm-content=attendeeshare&amp;utm-medium=discovery&amp;utm-term=listing&amp;utm-source=cp&amp;aff=ebdsshcopyurl">
- <span class="dropdown-text">Inscrição</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Programa</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programa">    
-        <li>
-    <a class="dropdown-item" href="../../cronograma/programa/index.html">
- <span class="dropdown-text">Programação de Palestras</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../cronograma/conferencistas/palestras-convidadas.html">
- <span class="dropdown-text">Palestras convidadas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../cronograma/tutoriales/workshops-pt.html">
- <span class="dropdown-text">Workshops</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../cronograma/r-dev-day/rdevday-pt.html">
- <span class="dropdown-text">R Dev Day</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../cronograma/translaton/translaton-pt.html">
- <span class="dropdown-text">Traslaton rOpenSci</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -181,6 +135,14 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Edições anteriores</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-edições-anteriores">    
+        <li>
+    <a class="dropdown-item" href="https://2025.latinr.org/">
+ <span class="dropdown-text">2025</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2024.latinr.org/">
+ <span class="dropdown-text">2024</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="https://2023.latinr.org/">
  <span class="dropdown-text">2023</span></a>
@@ -241,217 +203,364 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction-to-github-for-researchers" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-github-for-researchers">Introduction to Github for Researcher(s)</h2>
-<section id="learn-how-to-use-github-in-your-activities-as-a-researcher-from-two-github-star-researchers" class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-use-github-in-your-activities-as-a-researcher-from-two-github-star-researchers">Learn how to use GitHub in your activities as a researcher from two GitHub Star researchers!</h4>
+<section id="automatiza-la-publicación-de-tus-reportes-con-quarto-y-github-actions" class="level2">
+<h2 class="anchored" data-anchor-id="automatiza-la-publicación-de-tus-reportes-con-quarto-y-github-actions">Automatiza la publicación de tus reportes con Quarto y GitHub Actions</h2>
+<section id="learn-to-implement-a-continuous-deployment-workflow-to-automate-the-generation-and-publication-of-reports-using-quarto-and-github-actions" class="level4">
+<h4 class="anchored" data-anchor-id="learn-to-implement-a-continuous-deployment-workflow-to-automate-the-generation-and-publication-of-reports-using-quarto-and-github-actions">Learn to implement a continuous deployment workflow to automate the generation and publication of reports using Quarto and GitHub Actions</h4>
 </section>
 <section id="about-the-course" class="level3">
 <h3 class="anchored" data-anchor-id="about-the-course">About the course</h3>
-<p><strong>Date</strong> November 18, 2024, 2:00 PM - 5:00 PM (GMT-3) <strong>Mode</strong>: Online <strong>Enrollment</strong>: <a href="https://www.eventbrite.com.ar/e/1045617188157">https://www.eventbrite.com.ar/e/1045617188157</a></p>
-<p><strong>Language:</strong> Spanish</p>
-<p>This workshop is designed to introduce researchers to GitHub, a powerful platform for version control and collaboration. Participants will learn the basics of using GitHub to manage their research projects, including how to create and manage repositories, track changes, and collaborate with others. Specific learning objectives include: - Understand the basic concepts of version control and how they apply to research workflows. - Gain hands-on experience in creating and managing GitHub repositories. - Explore the use of GitHub Issues and Projects to manage research tasks and communication within research teams. - Recognize the different components of a repository (readme, license, code of conduct, citations, among others). In addition, the workshop will emphasize the relevance of GitHub in promoting open science, highlighting its role as a repository of code and data that supports transparency and reproducibility in research. At the end of the workshop, participants will be able to integrate GitHub into their research workflows, enhancing both collaboration and open dissemination of scientific knowledge. This tutorial is aimed at researchers from all disciplines interested in improving their project management and collaboration skills using GitHub. It is ideal for those who are part of research teams or groups, with some familiarity with research workflows, but no prior experience with GitHub is required. ### Requirements. Participants must have a computer/laptop with Internet access and sufficient storage to install Git. They must have Git installed and a GitHub account created prior to the workshop. - Install Git: <a href="https://git-scm.com/">https://git-scm.com/</a> - Create a free GitHub account: <a href="https://github.com/">https://github.com/</a></p>
-</section>
-<section id="tutors" class="level3">
-<h3 class="anchored" data-anchor-id="tutors">Tutors</h3>
-<p><strong>Beatriz Milz</strong> - Beatriz is a GitHub Star, and is currently a post-doctoral researcher at the Universidade Federal do ABC (UFABC), in Brazil. She holds a PhD in Environmental Sciences from the Universidade de São Paulo (USP). She is co-organizer of R-Ladies São Paulo and software review editor at rOpenSci.” <strong>Yanina Bellini Saibene</strong> - Yani is a GitHub Star since 2022. She is Community Manager at rOpenSci, R-Ladies Project Leader and Vice President of the Board of The Carpentries. She lives in Argentina and teaches at Universidad Austral.</p>
-</section>
-</section>
-<section id="tutorial-satellite-data-analysis-in-r" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-satellite-data-analysis-in-r">Tutorial Satellite Data Analysis in R</h2>
-<section id="learn-how-to-perform-satellite-data-analysis-with-r-combined-with-machine-learninig-techniques." class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-perform-satellite-data-analysis-with-r-combined-with-machine-learninig-techniques.">Learn how to perform satellite data analysis with R combined with Machine Learninig techniques.</h4>
-</section>
-<section id="about-the-course-1" class="level3">
-<h3 class="anchored" data-anchor-id="about-the-course-1">About the course</h3>
-<p><strong>Date</strong> November 18, 2024, 6:00 PM - 8:00 PM (GMT-3)</p>
+<p><strong>Date</strong> December 1, 2025, 10:00 AM - 12:30 PM (UTC-3)</p>
 <p><strong>Mode</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.com.ar/e/1045614801017">https://www.eventbrite.com.ar/e/1045614801017</a></p>
 <p><strong>Language:</strong> Spanish</p>
-<p>Satellite data analysis in R, combined with Machine Learning techniques, opens new opportunities to interpret and leverage geospatial information. This tutorial will address practical applications using R to process and analyze satellite imagery. It will demonstrate how to take advantage of specialized libraries in R, such as raster, sf and caret, to manipulate spatial data and build predictive models. The use of Machine Learning will allow the identification of patterns in large satellite data sets, applying algorithms such as decision trees, SVM and Random Forest. Real examples in fields such as precision agriculture, environmental monitoring and land surface change detection will be highlighted. The presentation will emphasize the importance of integrating satellite data in decision making and how these techniques allow a more efficient and accurate analysis of our environment from space.</p>
-</section>
-<section id="tutor" class="level3">
-<h3 class="anchored" data-anchor-id="tutor">Tutor</h3>
-<p><strong>Gladis Choque Ulloa</strong></p>
-<p>I have a master’s degree in statistics from the Federal University of Rio Grande do Sul, Brazil, I have more than 5 years of experience in the world of data and research. I am currently a scholarship student in the PhD in Statistics with focus in Data Science at the University of São Paulo, Brazil.</p>
-<p>I specialize in time series and classification models in Machine Learning. In addition, I have written articles on predictive models and classification, and I have had the honor of winning the Massachusetts Institute of Technology (MIT) International Competition in 2020, I was dominated for the Women That Build Awards as Outstanding Woman in Data by Globant in 2022, I was Expomentor in the NASA Space Apps Challangue Peru in 2023, winner of the Science Clubs Brazil 2020 and winner as best research paper of the “Clean Water Science Network” program at the University of Texas, USA. Founder of the data community Women in Datalab, Top Voice Data Science on Linkedln and data influencer under the name “Datos con Gladys” and “Gladys Data Club”.</p>
-</section>
-</section>
-<section id="tutorial-working-with-larger-than-memory-data-in-r-with-arrow-and-duckdb" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-working-with-larger-than-memory-data-in-r-with-arrow-and-duckdb">Tutorial: Working with larger than memory data in R with Arrow and DuckDB</h2>
-<section id="learn-to-analyze-large-datasets-with-arrow-duckdb-duckplyr-in-r.speed-up-workflows-on-your-laptop-using-tidyverse-style-data-manipulation" class="level4">
-<h4 class="anchored" data-anchor-id="learn-to-analyze-large-datasets-with-arrow-duckdb-duckplyr-in-r.speed-up-workflows-on-your-laptop-using-tidyverse-style-data-manipulation">Learn to analyze large datasets with Arrow, DuckDB &amp; Duckplyr in R.Speed up workflows on your laptop using tidyverse-style data manipulation</h4>
-</section>
-<section id="about-the-course-2" class="level3">
-<h3 class="anchored" data-anchor-id="about-the-course-2">About the course</h3>
-<p><strong>Date</strong> November 19, 2024, 10:00 AM - 12:00 AM (GMT-3)</p>
-<p><strong>Mode</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.com.ar/e/1044938257457">https://www.eventbrite.com.ar/e/1044938257457</a></p>
-<p><strong>Language:</strong> English</p>
-<p>While datasets are growing larger, recent advances in technologies such as Apache Arrow and DuckDB are making the analysis of datasets that used to require complex infrastructure accessible to anyone.</p>
-<p>Using the {arrow}, {duckdb}, and {duckplyr} packages opens up the door to analyzing gigabytes of data in seconds using the same interface as with the {tidyverse}. By learning just a few concepts, R users can enjoy working easily with larger-than-memory datasets directly from their everyday computer. In this tutorial, will analyze real data to explore formats used to store these large datasets on disks, how Arrow and DuckDB can be leveraged to analyze data, and how these tools integrate with the {tidyverse} interface.</p>
-<p>After attending this tutorial, learners will: - Understand when using Arrow or DuckDB can help speed up a data analysis - Describe how Arrow and DuckDB can work with datasets that are larger than memory - Recognize the type of data manipulations that benefit the most from leveraging tools like Arrow and DuckDB - Decide which package ({arrow}, {duckdb}, or {duckplyr}) is best suited for their data analysis - Develop their own data analysis using Arrow or DuckDB</p>
-<p>This tutorial is aimed at everyone who needs to analyze datasets that are larger than the memory they have available on their everyday computer or who is interested in learning how to speed up the analysis of large datasets. Participants who don’t have access to HPC will particularly benefit from this tutorial as the tools used can easily be installed on a regular laptop and provide good performance.</p>
-</section>
-<section id="requirements." class="level3">
-<h3 class="anchored" data-anchor-id="requirements.">Requirements.</h3>
-<p>Participants should already be familiar with data manipulation with the {tidyverse} (knowing how to use the 5 most common {dplyr} verbs for data analysis: mutate(), select(), filter(), summarize(), arrange() combined with group_by()).</p>
-<p><strong>Software</strong>: R &gt;= 4.1.0 <strong>packages</strong>: arrow, duckdb, duckplyr, tidyverse, tictoc.</p>
-</section>
-<section id="tutor-1" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-1">Tutor</h3>
-<p><strong>François Michonneau</strong> is an educator who loves to work with data and putting R in production. He has been using R for over 20 years and maintains several packages on CRAN. After being part of the leadership at The Carpentries for 5 years, he worked at Voltron Data for a couple of years. He’s currently looking for his next role.</p>
-</section>
-</section>
-<section id="tutorial-take-your-graphs-with-ggplot2-to-the-next-level" class="level2">
-<h2 class="anchored" data-anchor-id="tutorial-take-your-graphs-with-ggplot2-to-the-next-level">Tutorial Take your graphs with ggplot2 to the next level</h2>
-<section id="learn-how-to-create-clear-informative-and-captivating-visualizations-for-your-data-analysis." class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-create-clear-informative-and-captivating-visualizations-for-your-data-analysis.">Learn how to create clear, informative and captivating visualizations for your data analysis.</h4>
-</section>
-<section id="about-the-course-3" class="level3">
-<h3 class="anchored" data-anchor-id="about-the-course-3">About the course</h3>
-<p><strong>Date</strong> November 19th, 2024, 2:00 PM - 4:30 PM (GMT-3)</p>
-<p><strong>Mode</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.com.ar/e/1045608201277">https://www.eventbrite.com.ar/e/1045608201277</a></p>
-<p><strong>Language:</strong> Spanish</p>
-<p>Creating clear, informative and captivating visualizations is an undisputed endeavor within data analytics, both within academia and industry. However, the vast majority of tutorials or initial R courses tend to only explain how the ggplot2 graph grammar works, without covering the potential of the aesthetic parameters that help to nonverbally communicate the graph’s objective. In this workshop we will show how to edit text and colors, both specifically and from the use of palettes, and how to adapt the chart to specific publication criteria.</p>
-<section id="general-learning-objective" class="level4">
-<h4 class="anchored" data-anchor-id="general-learning-objective">General learning objective:</h4>
-<p>Participants can adapt their graphics to the publication requirements of a journal or other academic format.</p>
-</section>
-</section>
-<section id="specific-learning-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="specific-learning-objectives">Specific learning objectives:</h3>
-<p>Participants can modify the textual elements of the graphics. Participants can edit the appearance of graphics both by selecting specific colors and using palettes. Participants can specify the export dimensions of graphics.</p>
-<p>The tutorial is intended for a wide audience looking to take their graphics to the next level by customizing labels and text, colors and details of the graphics, especially to prepare them in the best way for presentations or publications. In particular, this workshop aims to help those who know how to make a basic graphic, but are unable to adapt it to their specific needs or to get the graphic to show exactly what they want.</p>
+<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084">Automate the publication of your reports with Quarto and GitHub Actions</a></p>
+<p>The objective of the workshop is to learn how to automate the publication and updates of R and Quarto projects through GitHub Actions and GitHub Pages. This will allow participants to improve the efficiency, reproducibility and accessibility of their analyses and reports, facilitating the open dissemination of results.</p>
+<p>During the workshop we will start from an open Google Form (with its responses in a public Google Sheet) and a Quarto dashboard (.qmd) already prepared. We will focus on configuring the Quarto project, the GitHub repository and the workflow file in GitHub Actions to achieve automatic updating of a dashboard that periodically retrieves the responses entered in the form.</p>
+<p>Upon completion of the workshop, participants will be able to: - Describe what a GitHub action is and recognize its main components. - Configure a workflow file in YAML to automate the execution of an R script in GitHub Actions. - Execute a workflow that obtains data from Google Sheets, processes it with R, generates a dashboard in Quarto and publishes it on GitHub Pages. - Schedule the automatic execution of a workflow at regular intervals.</p>
+<p>This tutorial is aimed at people who work with R and Quarto or RMarkdown and want to learn how to automate the publication of reports, analyses or dashboards. It may be especially useful for researchers, teachers and data science professionals who need to keep results updated and accessible online.</p>
 </section>
 <section id="requirements" class="level3">
 <h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
-<p>In order to be able to follow the tutorial activities smoothly, it is necessary to have some experience, even if it is initial, with R and RStudio and with the ggplot2 package.</p>
-<p>You should have a computer with R and R Studio installed and up to date. They should also install the tidyverse package, which includes the ggplot2 package, which is what the course will be about.</p>
+<p>Recommended prior knowledge: To make the most of the workshop, it is recommended that participants have basic familiarity with R (running scripts, loading packages, reading data) and RMarkdown or Quarto (knowing what a .rmd/.qmd is and how to render it). Basic knowledge of Git and GitHub (cloning a repository, making a commit and a push) is also suggested.</p>
+<p>No prior knowledge of GitHub Actions or automation is required: these will be the central topics of the workshop.</p>
 </section>
-<section id="tutors-1" class="level3">
-<h3 class="anchored" data-anchor-id="tutors-1">Tutors</h3>
-<p><strong>Noelia A. Stetie</strong> is a Professor and Bachelor of Arts at the University of Buenos Aires (UBA) and a doctoral fellow of CONICET. She is dedicated to the study of psycholinguistic processing at the sentence level. She collaborates in research projects at the UBA and has worked as a teacher at that institution, at the Universidad Nacional de José C. Paz and at teacher training institutes. She is a certified instructor at The Carpentries and has given several workshops on data analysis with R. She teaches courses focused on data analysis and the application of psycholinguistic theories to teaching practice.</p>
-<p><strong>Macarena S. Quiroga</strong> holds a Master’s degree in Cognitive Psychology and Learning from the Latin American Faculty of Social Sciences (FLACSO), a BA in Literature from the University of Buenos Aires (UBA) and a doctoral fellowship from CONICET. She is dedicated to the study of the comprehension and production of vocabulary in young children. She teaches at the National University of Hurlingham. She is a certified Trainer and Instructor of The Carpentries and has given several workshops on data analysis with R.</p>
+<section id="instructors" class="level3">
+<h3 class="anchored" data-anchor-id="instructors">Instructors</h3>
+<p><strong>Jesica Formoso</strong> is a cognitive psychologist, PhD from the University of Buenos Aires and CONICET researcher in Argentina. Specialized in statistics applied to health sciences, she is a certified Posit and The Carpentries instructor. She researches text comprehension in children and advises projects in methodological design, data analysis and development of reproducible tools. She is co-organizer at R-Ladies Buenos Aires and collaborates with R-Ladies Global and the Forwards community. Additionally, she is part of the MetaDocencia team, where she coordinates the impact measurement area.</p>
+<p><strong>María Cristina Nanton</strong> is a Master’s student in Data Mining at the University of Buenos Aires. She leads a team of more than 20 data scientists and analysts at the Health Statistics Management of the Buenos Aires City Ministry of Health. Since 2019, she teaches and develops programs in statistics, programming and data science in various academic, scientific and public sector institutions. She is a certified Carpentries instructor, co-organizer of R-Ladies Buenos Aires, and a member of the global R-Ladies team, where she promotes diversity and inclusion in technology and data science.</p>
 </section>
 </section>
-<section id="ecological-niche-and-potential-species-distribution-tutorial-with-r" class="level2">
-<h2 class="anchored" data-anchor-id="ecological-niche-and-potential-species-distribution-tutorial-with-r">Ecological Niche and Potential Species Distribution Tutorial with R</h2>
-<section id="the-tutorial-will-cover-the-basic-theory-of-ecological-niche-and-potential-species-distribution-modeling-and-its-main-methodologies." class="level4">
-<h4 class="anchored" data-anchor-id="the-tutorial-will-cover-the-basic-theory-of-ecological-niche-and-potential-species-distribution-modeling-and-its-main-methodologies.">The tutorial will cover the basic theory of ecological niche and potential species distribution modeling and its main methodologies.</h4>
+<section id="inteligencia-artificial-generativa-en-forma-local.-llms-en-tu-pc-usando-ollama-y-ollamar" class="level2">
+<h2 class="anchored" data-anchor-id="inteligencia-artificial-generativa-en-forma-local.-llms-en-tu-pc-usando-ollama-y-ollamar">Inteligencia Artificial Generativa en forma local. LLMs en tu PC usando ollama y ollamar</h2>
+<section id="using-local-llms-in-r-with-ollama-and-ollamar-installation-use-and-offline-text-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="using-local-llms-in-r-with-ollama-and-ollamar-installation-use-and-offline-text-analysis">Using local LLMs in R with Ollama and ollamar: installation, use, and offline text analysis</h4>
 </section>
-<section id="about-the-course-4" class="level3">
-<h3 class="anchored" data-anchor-id="about-the-course-4">About the course</h3>
-<p><strong>Date</strong>: November 19, 2024, 6:00 PM - 9:00 PM (GMT-3)</p>
-<p><strong>Modality</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.com.ar/e/1045601130127">https://www.eventbrite.com.ar/e/1045601130127</a></p>
-<p><strong>Language:</strong> English</p>
-<p>The tutorial will cover the basic theory of ecological niche modeling (ENM) and species distribution potential (SDM) and their main methodologies. By the end of the predominantly practical course, participants will have the ability to run the models and understand their results, as well as choose and apply the correct methodology depending on the purpose of their type of study and data. The tutorial will be mainly practical, with some theoretical moments. All modeling processes, calculations, graphs and maps will be carried out with R. Participants will learn to use Maxent modeling algorithm, through the {flexsdm} package to develop the models and the {tmap} package will be used to generate maps.</p>
-</section>
-<section id="objectives" class="level3">
-<h3 class="anchored" data-anchor-id="objectives">Objectives:</h3>
-<ul>
-<li>To present the theoretical bases of the models that can be used;</li>
-<li>Dscuss the advantages and limitations of the models in the context of different applications;</li>
-<li>To introduce the ways of correctly conducting an ecological niche or species distribution modeling study for various purposes;</li>
-<li>Initiate the use of geographic distribution modeling of species using R;</li>
-</ul>
-<p>Students, researchers and professionals at any stage of their career with an interest in developing and applying species distribution and/or ecological niche models in a reproducible and automated way. Participants should be used to working with computers, have a good internet connection and preferably a webcam, as the live online sessions are intended to be highly interactive. Previous basic experience with R is strongly desirable, although not strictly mandatory. All R scripts will be provided and explained in detail.</p>
+<section id="about-the-course-1" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-1">About the course</h3>
+<p><strong>Date</strong> December 1, 2025, 10:00 AM - 12:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/llms-en-tu-pc-inteligencia-artificial-generativa-en-forma-local-tickets-1953038152689?aff=oddtdtcreator">Inteligencia Artificial Generativa en forma local</a></p>
+<p>This introductory workshop provides a practical experience with local Large Language Models (LLMs) using two basic tools: 1) ollama, a lightweight platform that allows downloading and running language models directly on a personal computer, without the need for an Internet connection or access to external APIs; 2) ollamar, a library to integrate R with Ollama which facilitates working with data structures (for example: conversation/chat histories) that are standard for different LLMs.</p>
+<p>Throughout the session, participants will be guided through the installation of Ollama, loading a compatible model (such as LLaMA, Mistral or others), and executing structured prompts to perform basic natural language processing (NLP) tasks. Work will be done with a Spanish-language news dataset, applying local models to identify the tone of a news item, generate summaries, etc.</p>
+<p>The objective is to provide a first technical approach to the use of LLMs without an internet connection, exploring both their potential and their limitations compared to cloud models.</p>
 </section>
 <section id="requirements-1" class="level3">
 <h3 class="anchored" data-anchor-id="requirements-1">Requirements</h3>
+<p>To participate you need a computer and internet connection. To avoid compatibility and hardware problems, the workshop will be developed in a Google Colab (with R kernel).</p>
+</section>
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<p><strong>German Rosatti</strong> - Germán Rosati is a sociologist, Associate Researcher at CONICET and professor at the Interdisciplinary School of Advanced Social Studies at UNSAM, where he coordinates factor~data, a laboratory in Computational Social Sciences. He has participated in projects that use LLMs for information extraction in administrative and journalistic texts, automated classification and bias analysis.</p>
+</section>
+</section>
+<section id="forecasting-with-regression-models" class="level2">
+<h2 class="anchored" data-anchor-id="forecasting-with-regression-models">Forecasting with regression models</h2>
+<section id="learn-advanced-forecasting-techniques-using-regression-models" class="level4">
+<h4 class="anchored" data-anchor-id="learn-advanced-forecasting-techniques-using-regression-models">Learn advanced forecasting techniques using regression models</h4>
+</section>
+<section id="about-the-course-2" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-2">About the course</h3>
+<p><strong>Date</strong> December 1, 2025, 2:00 PM - 3:30 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> English</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/forecasting-with-regression-models-tickets-1955640717029?aff=oddtdtcreator">Forecasting with regression models</a></p>
+<p>This workshop focuses on the foundation of feature-based forecasting with linear regression using R. The workshop is beginner-friendly, and it covers the following topics: - How to frame a time series as a regression problem - Feature engineering techniques for time-aware data - Modeling trend, seasonality, outliers, and breaks - Practical tips for evaluation and validation</p>
+<p>This workshop is for practitioners (data analysts/scientists) who wish to learn how to forecast with regression models. It assumes no background in time series analysis and forecasting, but assumes basic knowledge of probability, linear regression, and R programming.</p>
+</section>
+<section id="instructor-1" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-1">Instructor</h3>
+<p><strong>Rami Krispin</strong> - Specialist in time series analysis and forecasting, with experience in GitHub Actions using R and Python, instructor on LinkedIn Learning, and author of “Hands-On Time Series Analysis with R”.</p>
+</section>
+</section>
+<section id="tableros-con-quarto-dashboards-y-crosswalk" class="level2">
+<h2 class="anchored" data-anchor-id="tableros-con-quarto-dashboards-y-crosswalk">Tableros con Quarto Dashboards y Crosswalk</h2>
+<section id="learn-to-create-interactive-dashboards-with-quarto-and-crosswalk" class="level4">
+<h4 class="anchored" data-anchor-id="learn-to-create-interactive-dashboards-with-quarto-and-crosswalk">Learn to create interactive dashboards with Quarto and Crosswalk</h4>
+</section>
+<section id="about-the-course-3" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-3">About the course</h3>
+<p><strong>Date</strong> December 1, 2025, 6:00 PM - 8:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/tableros-con-quarto-dashboards-y-crosswalk-tickets-1955757476259?aff=oddtdtcreator">Tableros con Quarto Dashboards y Crosswalk</a></p>
+<p>Tutorial on Quarto Dashboards and Crosswalk to create static, reproducible and accessible HTML dashboards for data visualization.</p>
+<p>This tutorial presents the experience of the Núcleo de Innovación Social in using Quarto Dashboards and Crosswalk for presenting results in static HTML dashboards, based on an example about the inventory of an online bookstore.</p>
+<p>Learning objectives are: (1) become familiar with Quarto as a dynamic and reproducible publishing tool, (2) understand dashboards as a communication option within Quarto, (3) identify their basic components and layout structures, (4) incorporate graphics and cards in the design, and (5) apply Crosswalk to map a simple interaction scheme between variables using filters and the KPI widget.</p>
+<p>At the end, participants will have an initial dashboard in Quarto Dashboards that will serve as a practical and reproducible exercise. The relevance of this tutorial lies in offering a simple and portable solution for data visualization in contexts where an accessible alternative is required.</p>
+</section>
+<section id="instructor-2" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-2">Instructor</h3>
+<p><strong>Betsi Cohen</strong> - Sociologist, specializing in management and policy of cultural affairs. Co-organizer of R-Ladies Buenos Aires chapter and co-coordinator of the Núcleo de Innovación Social, currently working as a data analyst.</p>
+</section>
+</section>
+<section id="crea-tus-propios-inputs-y-outputs-en-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="crea-tus-propios-inputs-y-outputs-en-shiny">Crea tus propios inputs y outputs en shiny</h2>
+<section id="develop-custom-components-for-shiny-applications" class="level4">
+<h4 class="anchored" data-anchor-id="develop-custom-components-for-shiny-applications">Develop custom components for Shiny applications</h4>
+</section>
+<section id="about-the-course-4" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-4">About the course</h3>
+<p><strong>Date</strong> December 1, 2025, 10:00 AM - 12:30 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/crea-tus-propios-inputs-y-outputs-en-shiny-tickets-1955947434429?aff=oddtdtcreator">Crea tus propios inputs y outputs en shiny</a></p>
+<p>Learn to create custom inputs and outputs in Shiny, integrating JavaScript and improving the interactivity and design of your apps.</p>
+<p>In this workshop you will learn to create your own custom inputs and outputs in Shiny, extending capabilities beyond the native components offered by the framework (textInput, selectInput, etc).</p>
+<p>Mastering this technique will allow you to:</p>
 <ul>
-<li>Latest version of R and RStudio and packages that will be sent by email. 32MB RAM desirable, but it is possible to run the script with 16MB.</li>
+<li>Integrate JavaScript libraries and widgets within Shiny</li>
+<li>Design more interactive and attractive components for your applications</li>
+<li>Adjust the user experience to specific needs not covered by standard controls</li>
+<li>In practice, this means you can connect the R ecosystem with the universe of modern web components, achieving richer and more professional applications.</li>
+</ul>
+<p><strong>Learning objectives</strong></p>
+<ul>
+<li>Apply recommended patterns and practices for building custom inputs</li>
+<li>Analyze examples of external component integration</li>
+<li>Create your own input that captures user data and communicates it to R reactively</li>
+<li>Evaluate when it’s convenient to extend Shiny with custom components versus using native inputs or existing packages</li>
+</ul>
+<p><strong>Target audience:</strong></p>
+<ul>
+<li>Data analysts and data scientists who use Shiny to communicate results and need more flexible interfaces</li>
+<li>Software engineers or R developers interested in integrating modern web libraries within their applications</li>
+<li>Professionals in applied areas (health, finance, education, government, etc.) who build interactive dashboards and want to improve user experience</li>
 </ul>
 </section>
-<section id="tutor-2" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-2">Tutor</h3>
-<p><strong>George Amaro</strong> is a researcher at the Brazilian Agricultural Research Corporation (Embrapa), in the area of economics and modeling, and is a leader and member of invasive species distribution modeling projects, a reviewer for international journals on the subject, with extensive experience in R and having participated as an author and co-author of several works related to SDM/ENM.</p>
+<section id="instructor-3" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-3">Instructor</h3>
+<p><strong>Samuel Calderon</strong> - Currently works as an R Shiny developer at Appsilon. Previously, his professional work has been in the public sector in Peru, participating in initiatives for data collection, analysis, and systematization to improve the quality of services provided to citizens in areas such as combating illicit drug trafficking, improving the quality of higher education, fighting corruption, and measuring monetary poverty.</p>
 </section>
 </section>
-<section id="optimizing-shiny-performance-tips-and-tricks" class="level2">
-<h2 class="anchored" data-anchor-id="optimizing-shiny-performance-tips-and-tricks">Optimizing Shiny: Performance Tips and Tricks</h2>
-<section id="learn-how-to-optimize-the-performance-of-applications-developed-with-r-shiny-with-experts-from-appsilon." class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-optimize-the-performance-of-applications-developed-with-r-shiny-with-experts-from-appsilon.">Learn how to optimize the performance of applications developed with R Shiny with experts from Appsilon.</h4>
+<section id="intro-a-positron" class="level2">
+<h2 class="anchored" data-anchor-id="intro-a-positron">Intro a Positron</h2>
+<section id="discover-the-new-ide-for-data-science" class="level4">
+<h4 class="anchored" data-anchor-id="discover-the-new-ide-for-data-science">Discover the new IDE for data science</h4>
 </section>
 <section id="about-the-course-5" class="level3">
 <h3 class="anchored" data-anchor-id="about-the-course-5">About the course</h3>
-<p><strong>Date</strong> November 18, 2024, 10:00 AM - 1:00 PM (GMT-3)</p>
-<p><strong>Modalidad</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967">https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967</a></p>
+<p><strong>Date</strong> December 1, 2025, 2:00 PM - 4:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
 <p><strong>Language:</strong> Spanish</p>
-<p>In this workshop, we will explore how to optimize the performance of applications developed with R Shiny, from improving response speed to scalability.</p>
-<p>Through practical examples and advanced techniques, we will identify the most common bottlenecks, minimizing load times and efficiently managing large volumes of data.</p>
-<p>We will also cover best practices to optimize both the code and the application structure, including the appropriate use of reactivity, data loading, and browser communication.</p>
-<p>By the end of the workshop, you will have the tools to transform your Shiny applications, making them faster, lighter, and ready to provide a better user experience.</p>
-<p>This workshop is aimed at developers and analysts looking to improve the performance of their Shiny applications, with a practical and results-oriented approach.</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/intro-a-positron-tickets-1964484827000?aff=oddtdtcreator">Intro a Positron</a></p>
+<p>Come and learn about Positron, the new IDE based on VS Code for data science with R and Python. Simple, integrated and with no extra configuration.</p>
+<p>This workshop introduces the R community to the Positron IDE, an environment based on Visual Studio Code designed for data science. Unlike RStudio or VS Code with extensions, Positron natively integrates tools that simplify data exploration and variable management, reducing the need for complex configurations.</p>
+<p><strong>Learning objectives</strong></p>
+<p>By the end of the workshop, participants will be able to:</p>
+<ul>
+<li>Differentiate Positron from other alternatives, recognizing advantages in usability and integration</li>
+<li>Install and configure the IDE with multi-language support (R, Python) for real projects</li>
+<li>Use the Data Explorer to review datasets and get basic statistics without additional code</li>
+<li>Work with the Variables Pane to inspect session objects and navigate data intuitively</li>
+<li>Integrate extensions for using LLMs for increased producivity</li>
+</ul>
+<p>The tutorial is aimed at data scientists, analysts, statisticians and professionals who use R or Python for data analysis and want to optimize their workflow through a modern and efficient IDE. It is also useful for teachers or advanced students who seek to explore tools that facilitate data exploration and variable management without depending on complex configurations.</p>
+<p><strong>Requirements</strong> It is recommended that participants have basic knowledge of R or Python and be familiar with running scripts and data analysis projects, to be able to fully take advantage of Positron’s functionalities, such as the Data Explorer, Variables Pane and integration with LLMs.</p>
 </section>
-<section id="requirements-2" class="level3">
-<h3 class="anchored" data-anchor-id="requirements-2">Requirements</h3>
-<p>R 4.1.0 or higher, RStudio installed. 8GB RAM (recommended), stable internet (recommended). Git installed (recommended). Alternatively, a posit.cloud account.</p>
-</section>
-<section id="tutor-3" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-3">Tutor</h3>
-<p><strong><a href="https://www.linkedin.com/in/samuelcalderon/">Samuel Calderon</a></strong> currently works as an R Shiny developer at Appsilon. Previously, his professional work has been in the Peruvian public sector, participating in initiatives for data collection, analysis, and systematization to improve the quality of services provided to citizens in areas such as combating illicit drug trafficking, improving the quality of higher education, fighting corruption, and measuring monetary poverty.</p>
+<section id="instructor-4" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-4">Instructor</h3>
+<p><strong>Paulo Villarroel Tapia</strong> - Certified nurse (Universidad de Chile) with +20 years of experience in health, specialized in operational excellence, data analysis and artificial intelligence. Currently works at the Chilean Ministry of Health as a data scientist. Founder of OpenSalud LAB and the programming academy Hazla con Datos. He is also a speaker, mentor, postgraduate teacher and consultant in technologies applied to health.</p>
 </section>
 </section>
-<section id="continuous-deployment-with-r-github-and-quarto-implementing-best-practices" class="level2">
-<h2 class="anchored" data-anchor-id="continuous-deployment-with-r-github-and-quarto-implementing-best-practices">Continuous Deployment with R, GitHub, and Quarto: Implementing Best Practices</h2>
-<section id="learn-how-to-implement-a-continuous-deployment-workflow-for-data-models-in-r-using-github-and-quarto" class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-implement-a-continuous-deployment-workflow-for-data-models-in-r-using-github-and-quarto">Learn how to implement a continuous deployment workflow for data models in R using GitHub and Quarto</h4>
+<section id="introdución-a-tidymodels" class="level2">
+<h2 class="anchored" data-anchor-id="introdución-a-tidymodels">Introdución a Tidymodels</h2>
+<section id="learn-the-statistical-modeling-ecosystem-in-r" class="level4">
+<h4 class="anchored" data-anchor-id="learn-the-statistical-modeling-ecosystem-in-r">Learn the statistical modeling ecosystem in R</h4>
 </section>
 <section id="about-the-course-6" class="level3">
 <h3 class="anchored" data-anchor-id="about-the-course-6">About the course</h3>
-<p><strong>Date</strong>: November 18, 2024, 06:00 PM - 08:00 PM (GMT-3)</p>
-<p><strong>Modalidad</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747">https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747</a></p>
+<p><strong>Date</strong> December 1, 2025, 6:00 PM - 8:00 PM (UTC-3); 3:00 PM - 5:00 PM (CST)</p>
+<p><strong>Mode</strong>: Online</p>
 <p><strong>Language:</strong> Spanish</p>
-<p>This workshop aims to teach participants how to implement a continuous deployment workflow for data models in R using GitHub and Quarto. By the end of the session, attendees will be able to:</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/introducion-a-tidymodels-tickets-1962543491413?aff=oddtdtcreator">Introdución a Tidymodels</a></p>
+<p>Practical introduction to tidymodels: ML workflow with preparation, partitioning, tuning and evaluation of classification or regression models.</p>
+<p>This tutorial aims to introduce participants to the tidymodels ecosystem for machine learning. Throughout the workshop, participants will be guided through developing a workflow that includes: data preparation, dataset partitioning, model fitting, and comparison of results. The focus will be on understanding the principles of tidymodels design and how to apply it to real classification or regression problems.</p>
+<p><strong>Learning objectives include:</strong></p>
 <ul>
-<li>Configure an R environment in GitHub Actions to automate script execution.</li>
-<li>Efficiently install and manage R dependencies.</li>
-<li>Generate and render reports in Quarto, facilitating results presentation.</li>
-<li>Integrate DevOps best practices into their workflows to improve collaboration and code quality.</li>
+<li>Understand the philosophy and general structure of tidymodels</li>
+<li>Fit and compare models with cross-validation</li>
+<li>Interpret evaluation metrics and visualize them</li>
 </ul>
-<p>The importance of this workshop lies in the growing need for automation in data analysis and data science. Learning to use GitHub Actions and Quarto not only optimizes teamwork but also allows participants to implement robust and scalable solutions for metric evaluation and results analysis. This knowledge is essential for those looking to improve the reproducibility of their projects and the efficiency of their analysis processes.</p>
-<p>The workshop is aimed at professionals and students in fields such as data science, statistics, data analysis, and R programming. It is also relevant for researchers and developers interested in optimizing their workflows through automation and DevOps best practices.</p>
-<p>Participants should have a basic knowledge of R programming and be familiar with Git and GitHub. Basic knowledge of document generation in R, using either Rmarkdown or Quarto, is also recommended.</p>
+<p>The workshop is meant for people with basic experience in R, interested in learning how to implement machine learning workflows. It is especially aimed at researchers, professionals and students working in data</p>
+<p><strong>Requirements:</strong> Attendees are expected to be familiar with basic data manipulation operations in R. No prior experience with machine learning is necessary, but experience with regression models is required.</p>
 </section>
-<section id="requirements-3" class="level3">
-<h3 class="anchored" data-anchor-id="requirements-3">Requirements</h3>
-<p>To optimally participate in the Continuous Deployment with R, GitHub, and Quarto workshop, attendees should have a laptop (Windows, macOS, or Linux) with the necessary software installed, including R, RStudio, Git, and Quarto. Additionally, internet access and a previously created GitHub account are important. Access to sample files to be used during the workshop is recommended. Although not strictly necessary, basic knowledge of R and Git, as well as familiarity with Markdown, will be useful for making the most of the experience.</p>
-</section>
-<section id="tutor-4" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-4">Tutor</h3>
-<p><strong>Sebastián Egaña Santibáñez</strong> holds a Master’s in Finance from the University of Chile, a Bachelor’s in Philosophy from the Universidad Alberto Hurtado, and a Commercial Engineering degree from Universidad Santo Tomás, Chile.</p>
-<p>He is a distinguished professional in Data Science, with a solid background as a university lecturer and experience in specialized consulting. He has significantly contributed to academic training and the practical application of data analysis, offering innovative and strategic solutions in diverse contexts.</p>
+<section id="instructors-1" class="level3">
+<h3 class="anchored" data-anchor-id="instructors-1">Instructors</h3>
+<p><strong>Francisco Cardozo</strong> is a PhD candidate at the University of Miami. His work focuses on the use of statistical and computational techniques, including machine learning, to improve the evaluation and implementation of prevention programs. He is an R instructor and active member of rOpenSci and Software Carpentry. He has taught R and tidymodels workshops in English and Spanish in Latin America and the US.</p>
+<p><strong>Edgar Ruiz</strong> is an engineer at Posit PBC, with extensive experience in the R ecosystem and tool development for machine learning. He is the author and maintainer of several packages that extend tidyverse/tidymodels capabilities. Additionally, he actively contributes to workshops, conferences, and publications that promote best practices in data science and reproducible analysis.</p>
 </section>
 </section>
-<section id="package-development-in-r-from-idea-to-implementation" class="level2">
-<h2 class="anchored" data-anchor-id="package-development-in-r-from-idea-to-implementation">Package Development in R: From Idea to Implementation</h2>
-<section id="learn-how-to-develop-implement-and-distribute-r-packages." class="level4">
-<h4 class="anchored" data-anchor-id="learn-how-to-develop-implement-and-distribute-r-packages.">Learn how to develop, implement, and distribute R packages.</h4>
+<section id="miércoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento" class="level2">
+<h2 class="anchored" data-anchor-id="miércoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento">¡Miércoles, Git! Manejo de errores en Git y no morir en el intento</h2>
+<section id="practical-workshop-to-learn-how-to-solve-7-common-git-errors-and-gain-confidence-from-r" class="level4">
+<h4 class="anchored" data-anchor-id="practical-workshop-to-learn-how-to-solve-7-common-git-errors-and-gain-confidence-from-r">Practical workshop to learn how to solve 7 common Git errors and gain confidence from R</h4>
 </section>
 <section id="about-the-course-7" class="level3">
 <h3 class="anchored" data-anchor-id="about-the-course-7">About the course</h3>
-<p><strong>Date</strong>: November 19, 2024, 10:00 AM - 1:00 PM (GMT-3)</p>
-<p><strong>Modalidad</strong>: Online</p>
-<p><strong>Enrollment</strong>: <a href="https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-1046361845447">Package Development in R</a></p>
+<p><strong>Date</strong> December 2, 2025, 10:00 AM - 12:00 PM (UTC-3); 07:00 AM - 09:00 AM (CST)</p>
+<p><strong>Mode</strong>: Online</p>
 <p><strong>Language:</strong> Spanish</p>
-<p>This workshop provides a comprehensive guide to developing packages in R, covering the entire process, from concept to technical implementation and distribution on platforms like CRAN.</p>
-<p>The goal is to give attendees a clear and practical understanding of how to create an R package that meets quality standards and can be used by the scientific and development community.</p>
-<p>Throughout the presentation, we will explore best practices for package design, documentation, testing, and publication. Examples and live demonstrations will be provided so attendees can gain practical skills applicable to their own projects.</p>
-<p>The tutorial is aimed at R users, R developers, researchers, data scientists, and professionals from other fields who can take their knowledge, experiences, and data and turn them into an R package for publication on CRAN.</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/miercoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento-tickets-1937068908249?aff=oddtdtcreator">¡Miércoles, Git! Manejo de errores en Git y no morir en el intento</a></p>
+<p>Git is very useful, of course. But it can also be scary when we make a mistake. Fortunately, with experience we’ll make fewer mistakes… and/or we’ll know how to fix them! In this practical workshop we will learn to get out of seven possible worrying situations that can occur, with seven exercises inspired by the ‘<em>Oh Shit, Git!</em>’ website and provided by the R package {saperlipopette}. At the end of this workshop, we will feel more capable of facing Git and our own fallibility.</p>
+<p>This workshop is aimed at people who already have some experience using version control, although you don’t need to be an expert. Ideal for those who want to strengthen their confidence and autonomy when facing difficult situations.</p>
+</section>
+<section id="requirements-2" class="level3">
+<h3 class="anchored" data-anchor-id="requirements-2">Requirements</h3>
+<p>To participate you will need a computer with internet connection. Previous basic experience with Git and version control is recommended.</p>
+</section>
+<section id="instructors-2" class="level3">
+<h3 class="anchored" data-anchor-id="instructors-2">Instructors</h3>
+<p><strong>Maëlle Salmon</strong> - Maëlle is a software developer at rOpenSci. In her spare time she develops R packages to facilitate her daily work, and likes to explore interesting data sources. She is also a member of the global R-Ladies+ team and actively collaborates in the development of tools for the R community. She teaches Git regularly for months, including this same tutorial for R in Buenos Aires and R-Ladies Santa Rosa. She created the {saperlipopette} package to be able to show and share Git exercises. She translates messages and documentation into Spanish with Yanina.</p>
+<p><strong>Yanina Bellini Saibene</strong> - Yanina Bellini Saibene has a master’s degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of directors of R-Ladies+ and The Carpentries. Yanina is a certified instructor and trainer by The Carpentries and a GitHub Star. She has taught Git and GitHub and how to use it with R for several years. She works with Maëlle at rOpenSci, especially in the Champion Program and the Multilingual Project.</p>
+</section>
+</section>
+<section id="análisis-cualitativo-para-grandes-volúmenes-de-texto-con-llms" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-cualitativo-para-grandes-volúmenes-de-texto-con-llms">Análisis cualitativo para grandes volúmenes de texto con LLMs</h2>
+<section id="enhance-your-qualitative-text-analysis-with-artificial-intelligence-using-r" class="level4">
+<h4 class="anchored" data-anchor-id="enhance-your-qualitative-text-analysis-with-artificial-intelligence-using-r">Enhance your qualitative text analysis with artificial intelligence using R</h4>
+</section>
+<section id="about-the-course-8" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-8">About the course</h3>
+<p><strong>Date</strong> December 2, 2025, 2:00 PM - 4:15 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.com.ar/e/1962623150676?aff=oddtdtcreator">Análisis cualitativo para grandes volúmenes de texto con LLMs</a></p>
+<p>The development of AI and generative models enhance qualitative text analysis for various disciplines. This tutorial leverages Google Gemini’s free tier API credits to teach how to use LLMs in R, a user-friendly environment for NLP. The materials will address a structured workflow, from designing and optimizing prompts and their parameters, to iterating in dataframes to obtain structured outputs, clean data and finally, use embeddings for visualizations.</p>
+<p><strong>Learning objectives</strong><br>
+- Understanding the benefits of using LLMs for text analysis. - Students will learn how to design prompts for qualitative analysis and create criteria to evaluate LLM results. - Adjusting model parameters and prompts to aim for rigorous and reproducible results.</p>
+<p>This tutorial is aimed at researchers, students and professionals from any discipline (social sciences, humanities, health sciences, etc.) who work with text data and wish to enhance their qualitative analysis through AI tools.</p>
+</section>
+<section id="requirements-3" class="level3">
+<h3 class="anchored" data-anchor-id="requirements-3">Requirements</h3>
+<p>To make the most of the workshop, participants should have a basic to intermediate knowledge of R. Specifically, they are expected to be able to:</p>
+<ol type="1">
+<li>Understand and write simple functions.</li>
+<li>Use for loops to iterate over elements.</li>
+<li>Handle tabular data with the main functions of the dplyr package (like mutate, filter, select).</li>
+</ol>
+<p>No prior experience with APIs, Natural Language Processing (NLP) or language models is required.</p>
+</section>
+<section id="instructors-3" class="level3">
+<h3 class="anchored" data-anchor-id="instructors-3">Instructors</h3>
+<p><strong>Ismael Aguayo</strong> - Research assistant at the NUDOS millennium nucleus and assistant in statistics and computational methods, with interest in Data Science and artificial intelligence. Member of the Socialtec organization.</p>
+<p><strong>Exequiel Trujillo</strong> - Web developer and assistant in computational methods, and is studying cybersecurity and sociology of music through computational analysis. Member of the Socialtec organization.</p>
+</section>
+</section>
+<section id="análisis-y-visualización-de-datos-funcionales-en-r-con-fda.usc-y-extensiones" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-y-visualización-de-datos-funcionales-en-r-con-fda.usc-y-extensiones">Análisis y visualización de datos funcionales en R con fda.usc y extensiones</h2>
+<section id="practical-workshop-in-r-on-functional-data-analysis-creation-manipulation-and-visualization-with-fda.usc-ggplot2-and-plotly" class="level4">
+<h4 class="anchored" data-anchor-id="practical-workshop-in-r-on-functional-data-analysis-creation-manipulation-and-visualization-with-fda.usc-ggplot2-and-plotly">Practical workshop in R on functional data analysis: creation, manipulation and visualization with fda.usc, ggplot2 and plotly</h4>
+</section>
+<section id="about-the-course-9" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-9">About the course</h3>
+<p><strong>Date</strong> December 2, 2025, 6:00 PM - 9:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/analisis-y-visualizacion-de-datos-funcionales-en-r-tickets-1962639693155?aff=oddtdtcreator">Análisis y visualización de datos funcionales en R con fda.usc y extensiones</a></p>
+<p>The workshop will begin with an introduction to functional data analysis in R, presenting basic concepts, application examples and a first contact with the fda.usc package. Then we will work on building functional objects from real data, showing how to manipulate them and how to apply dimension reduction methods, smoothing, outlier detection and clustering. Lastly, visualization techniques with ggplot2 and plotly will be explored.</p>
+<p>The workshop will have an eminently practical approach, with guided exercises in RStudio and reproducible materials, allowing attendees to acquire skills to apply functional analysis in their own research or teaching areas. This workshop will be especially useful for those working with time series, signals or high-frequency data in areas such as statistics, economics, environmental sciences, medicine or engineering.</p>
 </section>
 <section id="requirements-4" class="level3">
 <h3 class="anchored" data-anchor-id="requirements-4">Requirements</h3>
-<p>PC or laptop with R, RStudio, and RTools (Windows) installed; packages: devtools, available, usethis, testthat.</p>
+<p>Participants are expected to have basic knowledge of R (data reading, package usage, data frame operations) and an introductory level of descriptive statistics and multivariate analysis. No prior experience in functional data analysis is required.</p>
 </section>
-<section id="tutor-5" class="level3">
-<h3 class="anchored" data-anchor-id="tutor-5">Tutor</h3>
-<p><strong>Renzo Cáceres Rossi</strong> is an R programmer specialist and participated in Latin R 2022 with the presentation Introduction to RMarkdown. He has given tutorials and lectures at various universities across Latin America through IEEE.</p>
-<p>He creates data science content on his <a href="https://www.youtube.com/c/RenzoCaceresRossi">YouTube channel</a>.</p>
+<section id="instructor-5" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-5">Instructor</h3>
+<p><strong>Manuel Oviedo de la Fuente</strong> - Doctor in Statistics (USC) and professor at the Universidade da Coruña (Spain), he develops his research work in the field of functional data analysis and computational statistics. Author of more than 20 JCR articles in journals such as the Journal of Statistical Software, TEST, The R Journal, and Computational Statistics. Manuel is a co-author and main developer of the fda.usc package, as well as the author of open materials such as the statistical learning <a href="https://rubenfcasal.github.io/aprendizaje_estadistico/">bookdown guide</a>.</p>
+</section>
+</section>
+<section id="coding-with-ai-in-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="coding-with-ai-in-rstudio">Coding with AI in RStudio</h2>
+<section id="learn-to-use-ai-in-rstudio-to-code-faster-generate-debug-and-package-r-scripts-build-shiny-apps-and-boost-productivity-with-ai" class="level4">
+<h4 class="anchored" data-anchor-id="learn-to-use-ai-in-rstudio-to-code-faster-generate-debug-and-package-r-scripts-build-shiny-apps-and-boost-productivity-with-ai">Learn to use AI in RStudio to code faster: generate, debug, and package R scripts, build Shiny apps, and boost productivity with AI</h4>
+</section>
+<section id="about-the-course-10" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-10">About the course</h3>
+<p><strong>Date</strong> December 2, 2025, 10:00 AM - 12:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> English</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/coding-with-ai-in-rstudio-tickets-1962817615325?aff=oddtdtcreator">Coding with AI in RStudio</a></p>
+</section>
+</section>
+<section id="this-hands-on-tutorial-will-introduce-r-users-to-the-transformative-power-of-ai-assisted-coding-specifically-within-the-rstudio-ide.-we-will-cover-how-to-use-ai-powered-coding-assistants-to-accelerate-a-variety-of-tasks-from-generating-boilerplate-code-and-debugging-scripts-to-building-professional-r-packages." class="level2">
+<h2 class="anchored" data-anchor-id="this-hands-on-tutorial-will-introduce-r-users-to-the-transformative-power-of-ai-assisted-coding-specifically-within-the-rstudio-ide.-we-will-cover-how-to-use-ai-powered-coding-assistants-to-accelerate-a-variety-of-tasks-from-generating-boilerplate-code-and-debugging-scripts-to-building-professional-r-packages.">This hands-on tutorial will introduce R users to the transformative power of AI-assisted coding, specifically within the RStudio IDE. We will cover how to use AI-powered coding assistants to accelerate a variety of tasks, from generating boilerplate code and debugging scripts to building professional R packages.</h2>
+<p><strong>Upon completion of this tutorial, participants will be able to:</strong></p>
+<ul>
+<li>Grasp the benefits and limitations of using AI for code generation in R.<br>
+</li>
+<li>Configure and use an AI-powered coding assistant within RStudio.<br>
+</li>
+<li>Apply AI tools to write, debug, and refactor R functions and scripts efficiently.<br>
+</li>
+<li>Leverage AI to automatically generate Quarto and R Markdown reports.<br>
+</li>
+<li>Develop interactive Shiny applications with AI assistance.<br>
+</li>
+<li>Streamline the process of turning R scripts into reusable R packages.<br>
+</li>
+<li>Create a personal workflow that integrates AI for increased productivity.</li>
+</ul>
+<p>Knowing how to take advantage of AI tools is becoming a core skill for data professionals and researchers. This tutorial provides a practical and focused introduction, enabling attendees to immediately apply these techniques to their daily work, saving time and reducing cognitive load on routine tasks.</p>
+<p>This tutorial is for anyone with a basic to intermediate understanding of R who is interested in improving their coding efficiency and knowledge. It is aimed at a wide audience, including data scientists, academic researchers, and students who use R for data analysis, visualization, and modeling.</p>
+<section id="requirements-5" class="level3">
+<h3 class="anchored" data-anchor-id="requirements-5">Requirements</h3>
+<p>To get the most out of this learning opportunity, participants should have: - Familiarity with the RStudio interface - A basic understanding of R syntax and data structures - Experience writing simple R functions and scripts</p>
+</section>
+<section id="instructors-4" class="level3">
+<h3 class="anchored" data-anchor-id="instructors-4">Instructors</h3>
+<p><strong>Juan Cruz Rodriguez</strong> - PhD in Computer Science with over 10 years of R programming experience, including 5 years in the software industry developing production pipelines and applications. Author of the R packages <code>{chatgpt}</code> and <code>{myownrobs}</code>, specializing in AI-assisted programming workflows and tools that enhance developer productivity in R environments.</p>
+<p><strong>Luis D. Verde Arregoitia</strong> - PhD in Biology with extensive R programming experience in data analysis, visualization, and statistical modeling. Author of “Large Language Model tools for R” a comprehensive guide to AI-assisted programming workflows. Specializes in integrating AI tools into research pipelines and teaching practical applications of LLMs for data science and reproducible research.</p>
+</section>
+</section>
+<section id="automatización-de-workflows-en-r-y-python-con-targets-y-snakemake" class="level2">
+<h2 class="anchored" data-anchor-id="automatización-de-workflows-en-r-y-python-con-targets-y-snakemake">Automatización de workflows en R y Python con targets y snakemake</h2>
+<section id="learn-powerful-tools-for-workflow-management-in-r-and-python-in-a-collaborative-and-reproducible-environment" class="level4">
+<h4 class="anchored" data-anchor-id="learn-powerful-tools-for-workflow-management-in-r-and-python-in-a-collaborative-and-reproducible-environment">Learn powerful tools for workflow management in R and Python, in a collaborative and reproducible environment</h4>
+</section>
+<section id="about-the-course-11" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-11">About the course</h3>
+<p><strong>Date</strong> December 2, 2025, 2:00 PM - 4:00 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/automatizacion-de-workflows-en-r-y-python-con-targets-y-snakemake-tickets-1936131664929?aff=oddtdtcreator">Automatización de workflows en R y Python con targets y snakemake</a></p>
+<p>Workflow automation is essential to ensure reproducibility, scalability and efficiency in data science projects. In this workshop, we will explore the use of targets and snakemake, two powerful tools for workflow management in R and Python, in a collaborative and reproducible environment.</p>
+<p><strong>Through practical examples, participants will learn to:</strong> - Design reproducible workflows using targets in R - Integrate snakemake to coordinate tasks that use R and Python scripts - Implement strategies to handle dependencies and optimize process execution</p>
+<p>At the end, attendees will have the necessary skills to build reproducible and scalable pipelines that make transparent all the steps of an analysis flow, from data acquisition to report generation, integrating multiple languages and tools.</p>
+</section>
+<section id="requirements-6" class="level3">
+<h3 class="anchored" data-anchor-id="requirements-6">Requirements</h3>
+<p>Basic knowledge of R and Python, with any background and from any discipline.</p>
+</section>
+<section id="instructor-6" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-6">Instructor</h3>
+<p><strong>Diana García</strong> - Computational Biologist at the Breast Oncology Program at Dana Farber Cancer Institute, where we research genome alterations associated with therapy resistance in metastatic breast cancer. I have a PhD in Biomedical Sciences and a Master’s degree in Computer Science and experience developing software both in academia and industry. I really enjoy teaching programming, I was a professor at CETYS Universidad, Tijuana Campus, and workshop instructor at Escuela de Código Pilares in CDMX. I am part of R-Ladies Boston and the rOpenSci Champions program, previously I participated in PyLadies CDMX and Women Who Code CDMX.</p>
+</section>
+</section>
+<section id="qué-historia-vas-a-contar-hoy-herramientas-para-una-comunicación-eficaz" class="level2">
+<h2 class="anchored" data-anchor-id="qué-historia-vas-a-contar-hoy-herramientas-para-una-comunicación-eficaz">¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz</h2>
+<section id="learn-to-design-a-presentation-with-a-clear-structure-and-a-message-that-generates-impact-using-audiovisual-resources-strategically" class="level4">
+<h4 class="anchored" data-anchor-id="learn-to-design-a-presentation-with-a-clear-structure-and-a-message-that-generates-impact-using-audiovisual-resources-strategically">Learn to design a presentation with a clear structure and a message that generates impact using audiovisual resources strategically</h4>
+</section>
+<section id="about-the-course-12" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-course-12">About the course</h3>
+<p><strong>Date</strong> December 2, 2025, 5:00 PM - 7:15 PM (UTC-3)</p>
+<p><strong>Mode</strong>: Online</p>
+<p><strong>Language:</strong> Spanish</p>
+<p><strong>Registration</strong>: <a href="https://www.eventbrite.cl/e/que-historia-vas-a-contar-hoy-herramientas-para-una-comunicacion-eficaz-tickets-1891497192019?aff=oddtdtcreator">¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz</a></p>
+<p>In this tutorial, each participant will learn to design a presentation or talk with a clear structure and a message that generates impact, using audiovisual resources strategically.</p>
+<p>The objective is to provide practical tools to overcome the “blank page” block and develop a powerful narrative through storytelling technique that allows achieving specific goals: inspire, get support for a project, or simply communicate an idea with confidence.</p>
+<p>Through practical exercises, attendees will be able to take away an idea of the structure of a talk or presentation and the importance of practice as a fundamental step to be prepared.</p>
+<p>Although the idea of “storytelling” may seem foreign to data science, it actually forms an essential part of it: it’s about discovering and communicating the stories that the data itself reveals. It is precisely at that point where we focus this tutorial: finding the stories behind the work that each participant performs and discovering the best story to connect with the audience.</p>
+</section>
+<section id="requirements-7" class="level3">
+<h3 class="anchored" data-anchor-id="requirements-7">Requirements</h3>
+<p>No specific technical knowledge is required. This tutorial is designed for anyone who wants to improve their communication and presentation skills.</p>
+</section>
+<section id="instructor-7" class="level3">
+<h3 class="anchored" data-anchor-id="instructor-7">Instructor</h3>
+<p><strong>Alejandra Bellini</strong> - Graduate in Social Communication with intermediate degree as professional journalist and National Broadcaster (Argentina). During the last 21 years I was part of the Canal 12 team, a Córdoba multimedia where I held different roles: host and columnist in different television programs, web editor, digital content coordinator. She was part of the team that designed the launch of the channel’s digital platform, becoming the first woman head in the history of the 65-year-old channel.</p>
+<p>I am a graduate of the University College of Journalism Obispo Trejo y Sanabria. She was a faculty member at the institution in Journalism careers and in the Bachelor’s Degree in Social Communication. Currently, I am the host of a newscast and a general interest program that airs Monday through Friday on Canal 12. In addition, I offer courses and training for companies, organizations and speakers who need to develop effective communication for different contexts.</p>
 
 
 </section>
@@ -459,239 +568,243 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -699,185 +812,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -885,7 +974,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Copyright © 2023-2024, LatinR Team</p>
+<p>CC BY-NC © 2018-2026, LatinR Team</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

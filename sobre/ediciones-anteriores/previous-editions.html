@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Previous editions – LatinR 2024</title>
+<title>Previous editions – LatinR 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6d988966f9c5d00c8525fa757311aaea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-739b7331abf0522953fd368450cb052f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,7 +55,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -67,6 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<style>.blog-section-en, .blog-section-pt { display: none !important; }</style>
 
 
 </head>
@@ -79,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo light-content">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -121,21 +124,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../sobre/coc/index.html">
  <span class="dropdown-text">Código de Conducta</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../sobre/ediciones-anteriores/index.html">
- <span class="dropdown-text">Ediciones anteriores</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-participa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Participa</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-participa">    
-        <li>
-    <a class="dropdown-item" href="../../blog/es/2025-05-31-presentacion-trabajos-2025.html">
- <span class="dropdown-text">Llamado a presentación de trabajos</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -147,6 +135,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Ediciones anteriores</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-ediciones-anteriores">    
+        <li>
+    <a class="dropdown-item" href="https://2025.latinr.org/">
+ <span class="dropdown-text">2025</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="https://2024.latinr.org/">
  <span class="dropdown-text">2024</span></a>
@@ -279,13 +271,14 @@ Buenos Aires, September 2018. Chairs: Laura Acion, Riva Quiroga, Natalia da Silv
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -300,7 +293,7 @@ Buenos Aires, September 2018. Chairs: Laura Acion, Riva Quiroga, Natalia da Silv
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/latinr\.org");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -634,7 +627,7 @@ Buenos Aires, September 2018. Chairs: Laura Acion, Riva Quiroga, Natalia da Silv
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Copyright © 2023-2024, LatinR Team</p>
+<p>CC BY-NC © 2018-2026, LatinR Team</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
