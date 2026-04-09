@@ -2,16 +2,19 @@ library(tibble)
 library(yaml)
 title_mapping <- list(
     "es" = list(
+        "partner" = "Partner",
         "sponsor" = "Patrocinadores",
         "community" = "Comunidades Amigas",
         "supporter" = "Nos Apoyan"
     ),
     "en" = list(
+        "partner" = "Partner",
         "sponsor" = "Sponsors",
         "community" = "Community Partners",
         "supporter" = "Supporters"
     ),
     "pt" = list(
+        "partner" = "Partner",
         "sponsor" = "Patrocinadores",
         "community" = "Comunidades parceiras",
         "supporter" = "Apoiadores"
@@ -46,7 +49,7 @@ generar_lista_sponsors <- function(info_sponsors, lang = "es") {
 
     unique_types <- unique(info_sponsors$type)
 
-    unique_types <- factor(unique_types, levels = c("sponsor", "supporter", "community"), ordered = TRUE)
+    unique_types <- factor(unique_types, levels = c("partner", "sponsor", "supporter", "community"), ordered = TRUE)
     unique_types <- unique_types[order(unique_types)]
 
     for (sponsor_type in unique_types) {

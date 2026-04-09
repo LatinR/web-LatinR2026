@@ -1,5 +1,11 @@
 lang: pt
 
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>.blog-section-es, .blog-section-en { display: none !important; }</style>
+
 project:
   output-dir: docs/pt
 
@@ -20,15 +26,15 @@ website:
             href: sobre/equipo/index.qmd        
           - href: sobre/apoyo/apoio.qmd
           - href: sobre/coc/codigo-de-conduta.qmd
-          - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
-      - text: Participe
-        menu: 
+         # - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
+      #- text: Participe
+      #  menu: 
           # - text: "Chamada para submissão de trabalhos"
           #   href: blog/pt/2025-05-31-apresentacao-trabalhos-2025.html
          # - text: "Sobre a inscrição"
          #   href: blog/pt/2024-08-01-inscricao.qmd
-         - text: "Inscrição"
-           href: https://www.eventbrite.com.ar/e/1939670499679?aff=oddtdtcreator
+        # - text: "Inscrição"
+         #  href: https://www.eventbrite.com.ar/e/1939670499679?aff=oddtdtcreator
 
       # - text: LatinR 2025
       #   menu: 
@@ -38,16 +44,16 @@ website:
       #       href: cronograma/recursos-turisticos/index-pt.qmd  
       #     - text: "Bolsas"
       #       href: blog/pt/2023-08-18-bolsas-2023.html    
-      - text: Programa
-        menu:
-          # - text: "Programaa resumido"
-          #   href: cronograma/programa/preliminar.qmd 
-           - text: "Programação de Palestras"
-             href: cronograma/programa/index.qmd
-           - text: "Palestras convidadas"
-             href: cronograma/conferencistas/palestras-convidadas.qmd
-           - text: "Workshops"
-             href: cronograma/tutoriales/workshops-pt.qmd
+      # - text: Programa
+      #   menu:
+      #     # - text: "Programaa resumido"
+      #     #   href: cronograma/programa/preliminar.qmd 
+      #      - text: "Programação de Palestras"
+      #        href: cronograma/programa/index.qmd
+      #      - text: "Palestras convidadas"
+      #        href: cronograma/conferencistas/palestras-convidadas.qmd
+      #      - text: "Workshops"
+      #        href: cronograma/tutoriales/workshops-pt.qmd
           # - text: "R Dev Day"
           #   href: cronograma/r-dev-day/rdevday-pt.qmd      
           # - text: "Traslaton rOpenSci"
@@ -60,6 +66,8 @@ website:
         href: blog/pt/index.html   
       - text: Edições anteriores
         menu:
+        - text: "2025"
+          href: https://2025.latinr.org/
         - text: "2024"
           href: https://2024.latinr.org/
         - text: "2023"

@@ -1,5 +1,11 @@
 lang: es
 
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>.blog-section-en, .blog-section-pt { display: none !important; }</style>
+
 project:
   output-dir: docs
 
@@ -20,15 +26,15 @@ website:
             href: sobre/equipo/index.qmd        
           - href: sobre/apoyo/index.qmd
           - href: sobre/coc/index.qmd
-          - href: sobre/ediciones-anteriores/index.qmd  
-      - text: Participa
-        menu: 
+        #  - href: sobre/ediciones-anteriores/index.qmd  
+     # - text: Participa
+      #  menu: 
           # - text: "Llamado a presentación de trabajos"
           #   href: blog/es/2025-05-31-presentacion-trabajos-2025.html
          # - text: "Sobre la Inscripción"
          #   href: blog/es/2024-08-01-inscripcion.html 
-         - text: "Inscripción"
-           href: https://www.eventbrite.com.ar/e/1939670499679?
+      #   - text: "Inscripción"
+       #    href: https://www.eventbrite.com.ar/e/1939670499679?
            
       # - text: LatinR 2025
       #   menu: 
@@ -38,16 +44,16 @@ website:
       #       href: cronograma/recursos-turisticos/index.qmd  
       #     - text: "Becas de asistencia"
       #       href: blog/es/2023-08-18-becas-2023.html    
-      - text: Programa
-        menu:
-          # - text: "Programa resumido"
-          #   href: cronograma/programa/preliminar.qmd 
-          - text: "Programa de Charlas y Conferencias"
-            href: cronograma/programa/index.qmd
-          - text: "Conferencistas"
-            href: cronograma/conferencistas/index.qmd
-          - text: "Tutoriales"
-            href: cronograma/tutoriales/index.qmd
+      # - text: Programa
+      #   menu:
+      #     # - text: "Programa resumido"
+      #     #   href: cronograma/programa/preliminar.qmd 
+      #     - text: "Programa de Charlas y Conferencias"
+      #       href: cronograma/programa/index.qmd
+      #     - text: "Conferencistas"
+      #       href: cronograma/conferencistas/index.qmd
+      #     - text: "Tutoriales"
+      #       href: cronograma/tutoriales/index.qmd
          # - text: "R Dev Day"
          #   href: cronograma/r-dev-day/index.qmd
          # - text: "Traslaton rOpenSci"
@@ -60,6 +66,8 @@ website:
         href: blog/es/index.html          
       - text: "Ediciones anteriores"
         menu:
+        - text: "2025"
+          href: https://2025.latinr.org/
         - text: "2024"
           href: https://2024.latinr.org/
         - text: "2023"

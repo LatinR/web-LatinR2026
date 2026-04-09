@@ -7,7 +7,7 @@ knitr:
     warning: false
 ---
 
-If you want to be a Sponsor, please send an email to [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+If you want to be a Sponsor, please send an email to [info\@latinr.org](mailto:info@latinr.org).
 
 
 ::: {.content-visible when-profile="en"}

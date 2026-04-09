@@ -7,7 +7,7 @@ knitr:
     warning: false
 ---
 
-Caso queira ser um patrocinador do evento, envie um email para [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+Caso queira ser um patrocinador do evento, envie um email para [info\@latinr.org](mailto:info@latinr.org).
 
 
 

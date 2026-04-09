@@ -11,7 +11,7 @@ generate_card <- function(person, class_group = "card-header-team") {
 
 get_info_committe <- function(){
   # Run code below when we need to update
-  url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1sX8eF2b1dN-P_KkH97WQFvSVV-SCkBQNYuotz8B7c_4/edit?gid=1251804780#gid=1251804780"
+  url_sheets_comite <- "https://docs.google.com/spreadsheets/d/10TaBeco18m8d6FQOGJAIMxUjn10OJGQY_cSPdbERxsI/edit?resourcekey=&gid=616118855#gid=616118855"
   
   sheets_comite_raw <-
      googlesheets4::read_sheet(url_sheets_comite, "Respuestas de formulario 1")
@@ -45,7 +45,7 @@ get_info_committe <- function(){
 
 update_info_team <- function(){
     # Run code below when we need to update
-  url_sheets_team <- "https://docs.google.com/spreadsheets/d/1btvszmcXAC3X0uwK_mPx7nb5q82m0AnSyt1L63SgwnE/edit?gid=186104900#gid=186104900"
+  url_sheets_team <- "https://docs.google.com/spreadsheets/d/13AKRAYxg6Q1FFyscCuY6WKEG0DmG9IRu7MpTK236H7M/edit?resourcekey=&gid=1301120377#gid=1301120377"
 
   sheets_team_raw <-
     googlesheets4::read_sheet(url_sheets_team)
@@ -80,6 +80,7 @@ get_info_team <- function(){
     dplyr::mutate(
       category = dplyr::case_when(
        name_complete %in% c("Natalia da Silva", "Riva Quiroga", "Yanina Bellini Saibene") ~ "chairs",
+       name_complete %in% c("Olga Usuaga", "Elena Patiño") ~ "chairs_locales",
         TRUE ~ "organizacion"
       )
     ) |> 

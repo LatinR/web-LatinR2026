@@ -1,45 +1,29 @@
-- name: R Consortium
-  href: https://r-consortium.org
-  thumbnail: https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp
-  type: sponsor
-- name: Appsilon
-  href: https://appsilon.com/
-  thumbnail: ../../img/partners/Appsilon.svg
-  type: sponsor 
-- name: rOpenSci (Community partner)
-  href: https://ropensci.org/
-  thumbnail: ../../img/partners/ropensci.png
-  type: community
-- name: Cynkra
-  href: https://www.cynkra.com/
-  thumbnail: ../../img/partners/cynkra.svg
-  type: sponsor
-- name: Jumping Rivers
-  href: https://www.jumpingrivers.com/
-  thumbnail: ../../img/partners/JumpingRivers_Primary.png
-  type: supporter
-- name: R Contributor
-  href: https://contributor.r-project.org
-  thumbnail: ../../img/partners/rcontributor.png
-  type: community
-
-    # - name: Instituto de Estadística
-    #   href: https://iesta.fcea.udelar.edu.uy/
-    #   thumbnail: ../../img/partners/iesta.jpg 
-    # - name: Facultad de Ciencias Económicas y de Administración
-    #   href: http://eva.fcea.edu.uy/
-    #   thumbnail: ../../img/partners/FCEA.png
-    # - name: Universidad de la República Uruguay
-    #   href: https://udelar.edu.uy/portal/
-    #   thumbnail: ../../img/partners/udelar.png
-
-    # - name: Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático 
-    #   href: https://cicada.uy/
-    #   thumbnail: ../../img/partners/cicada.png
-
-    # - name: Agencia Nacional de Investigación e Innovación
-    #   href: https://www.anii.org.uy/
-    #   thumbnail: ../../img/partners/proyecto-anii.jpg
-    # - name: Fundación Ceibal
-    #   href: https://fundacionceibal.edu.uy
-    #   thumbnail: ../../img/partners/fundacion-ceibal.jpg
+  - name: Universidad de Antioquia
+    href: https://www.udea.edu.co
+    thumbnail: ../../img/partners/universidad-de-antioquia.png
+    type: partner
+  - name: R Consortium
+    href: https://r-consortium.org
+    thumbnail: https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp
+    type: sponsor
+  
+# - name: Appsilon
+#   href: https://appsilon.com/
+#   thumbnail: ../../img/partners/Appsilon.svg
+#   type: sponsor 
+# - name: rOpenSci (Community partner)
+#   href: https://ropensci.org/
+#   thumbnail: ../../img/partners/ropensci.png
+#   type: community
+# - name: Cynkra
+#   href: https://www.cynkra.com/
+#   thumbnail: ../../img/partners/cynkra.svg
+#   type: sponsor
+# - name: Jumping Rivers
+#   href: https://www.jumpingrivers.com/
+#   thumbnail: ../../img/partners/JumpingRivers_Primary.png
+#   type: supporter
+# - name: R Contributor
+#   href: https://contributor.r-project.org
+#   thumbnail: ../../img/partners/rcontributor.png
+#   type: community

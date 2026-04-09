@@ -16,7 +16,7 @@ website:
     search: true
   page-footer: 
 #    left: "Proudly supported by R Consortium"
-    center: "Copyright © 2023-2024, LatinR Team" 
+    center: "CC BY-NC © 2018-2026, LatinR Team" 
     right: 
       - icon: envelope
         aria-label: "Email"

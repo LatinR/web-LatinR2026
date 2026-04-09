@@ -1,5 +1,5 @@
 ---
-pagetitle: "LatinR 2025"
+pagetitle: "LatinR 2026"
 toc: false
 page-layout: custom
 listing:
@@ -56,45 +56,28 @@ listing:
 ::: {.content-visible when-profile="es"}
 ::: grid
 ::: {#banner .g-col-12}
-# LatinR 2025
+# LatinR 2026
 
 ## Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo
 
-## 1 al 5 de diciembre de 2025 - Online
+## 11 al 13 de noviembre de 2026
 
-<center> {{< fa location-dot >}} Zoom </center>
+<center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-
-<!-- <center><a href='blog/es/2025-05-31-presentacion-trabajos-2025.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center> -->
-
-
-<!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programa</button></a></center> -->
-
-<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscripción</button></a> </center>
-
-<!-- <center>
-<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a>
-</center>
-
-</center> -->
-
-<center>
-<a href='cronograma/conferencistas/index.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Conferencistas Principales</button></a>
-</center>
-
 <br> 
 :::
 :::
+:::
 
 
-## Conferencistas
+<!--## Conferencistas-->
 
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: true
+#| eval: false
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -104,57 +87,33 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 
 
-
-:::
-
-
-:::: {.content-visible when-profile="en"}
+::: {.content-visible when-profile="en"}
 ::: grid
 ::: {#banner .g-col-12}
-# LatinR 2025
+# LatinR 2026
 
 ## Latinamerican Conference About the Use of R in R&D
 
-## December 1-5, 2025 - Online
+## November 11-13, 2026
 
-<center> {{< fa location-dot >}} Zoom </center>
+<center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-
-<!--
-<center><a href='blog/en/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center> -->
-
-
-<!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
-
-<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> </center>
-
-<!--  <center>
-<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Program</button></a>
-</center> -->
-
-
-
-<center>
-<a href='cronograma/conferencistas/keynotes.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Keynotes</button></a>
-</center>
-
-
 <br>
 :::
 :::
+:::
 
 
 
 
-
-## Keynotes
+<!--## Keynotes-->
 
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: true
+#| eval: false
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -162,50 +121,32 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ```
 
-::::
-
-:::: {.content-visible when-profile="pt"}
+::: {.content-visible when-profile="pt"}
 ::: grid
 ::: {#banner .g-col-12}
 
-# LatinR 2025
+# LatinR 2026
 
 ## Conferência Latino-Americana sobre o Uso de R em Pesquisa e Desenvolvimento
 
-## 1 a 5 de dezembro de 2025 - Online
+## 11 a 13 Novembro de 2025
 
-<center> {{< fa location-dot >}} Zoom</center>
+<center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia</center>
 <br>
 </section>
-
-<!-- <center><a href='blog/pt/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center> -->
-
-<!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
-
-<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> </center>
-
-<!-- <center>
-<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a> 
-</center> -->
-
-<center>
-<a href='cronograma/conferencistas/palestras-convidadas.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Palestras convidadas</button></a>
-</center>
-
-
 <br>
 :::
 :::
+:::
 
 
-
-## Palestrantes principais
+<!--## Palestrantes principais-->
 
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: true
+#| eval: false
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -213,23 +154,27 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ```
 
-:::
 
-## Novedades (Español)
+::: {.blog-section-es}
+## Novedades
 
 ::: {#blog-es}
 :::
 <br>
+:::
 
-## News (English)
+::: {.blog-section-en}
+## News
 
 ::: {#blog-en}
 :::
 <br>
+:::
 
-
-## Novidades (Português)
+::: {.blog-section-pt}
+## Novidades
 
 ::: {#blog-pt}
 :::
 <br>
+:::

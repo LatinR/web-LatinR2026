@@ -5,10 +5,10 @@ knitr:
     echo: false
     message: false
     warning: false
-    eval: false
+    eval: true
 ---
 
-Si tienes interés en patrocinar el evento, por favor envía un mensaje a [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+Si tienes interés en patrocinar el evento, por favor envía un mensaje a [info\@latinr.org](mailto:info@latinr.org).
 
 
 ::: {.content-visible when-profile="es"}
