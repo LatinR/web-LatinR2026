@@ -6,6 +6,12 @@
     ]
   },
   {
+    "listing": "/blog/es/index.html",
+    "items": [
+      "/blog/es/2026-03-27-presentacion-trabajos.html"
+    ]
+  },
+  {
     "listing": "/blog/pt/index.html",
     "items": [
       "/blog/pt/2026-03-27-apresentacao-trabalhos.html"
@@ -17,12 +23,6 @@
       "/blog/es/2026-03-27-presentacion-trabajos.html",
       "/blog/en/2026-03-27-call-for-papers.html",
       "/blog/pt/2026-03-27-apresentacao-trabalhos.html"
-    ]
-  },
-  {
-    "listing": "/blog/es/index.html",
-    "items": [
-      "/blog/es/2026-03-27-presentacion-trabajos.html"
     ]
   }
 ]
