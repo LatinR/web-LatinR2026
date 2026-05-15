@@ -47,7 +47,7 @@ The suggested topics are the following:
 <br>
 
 <div class="boxBorder">
-Proposals can be submitted from mid April via [Open Review](https://openreview.net/group?id=LATIN-R.com/2026/Conference&referrer=%5BHomepage%5D(%2F)#tab-your-consoles).
+Proposals can be submitted from mid April via [Open Review](https://openreview.net/group?id=LATIN-R.com/2026/Conference).
 Please note that you need to register on the platform to submit your work. The process of creating an account on OpenReview may take up to two-weeks if you are not using an institutional email due to the personal account verification process. **We suggest not to leave account creation to the last minute**.
 </div>
 
