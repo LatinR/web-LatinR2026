@@ -1,6 +1,6 @@
 ---
 title:  "Call for papers"
-date: 2026-04-31
+date: 2026-03-27
 ref: call-for-papers-2026
 categories: "2026"
 ---
