@@ -27,10 +27,10 @@ website:
           - href: sobre/apoyo/index.qmd
           - href: sobre/coc/index.qmd
         #  - href: sobre/ediciones-anteriores/index.qmd  
-     # - text: Participa
-      #  menu: 
-          # - text: "Llamado a presentación de trabajos"
-          #   href: blog/es/2025-05-31-presentacion-trabajos-2025.html
+     - text: Participa
+       menu:
+         - text: "Llamado a presentación de trabajos"
+         href: blog/es/2026-03-27-presentacion-trabajos.html
          # - text: "Sobre la Inscripción"
          #   href: blog/es/2024-08-01-inscripcion.html 
       #   - text: "Inscripción"
