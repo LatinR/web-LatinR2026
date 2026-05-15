@@ -74,7 +74,7 @@ and dialogue with the audience. <br><br>
 
 -   All works must be submitted in PDF format, **without authors or affiliation**, in letter size, written in font size 11 with single spacing. The length must not exceed two pages.
 
-- There is a package developed by Elio Campitelli that allows the abstract to be prepared in an RMarkdown file. You can check the details in [this post](https://latinr.org/en/blog/en/2020-03-03-latinr-package.html). In previous editions of the conference, it was possible to submit directly from R. Since 2023 it's no longer possible as we changed platforms. If you prefer to use a word processor, we ask you use [this template](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) for submission.
+- There is a package developed by Elio Campitelli that allows the abstract to be prepared in an RMarkdown file. You can check the details in [this post](https://2023.latinr.org/en/blog/en/2020-03-03-latinr-package.html). In previous editions of the conference, it was possible to submit directly from R. Since 2023 it's no longer possible as we changed platforms. If you prefer to use a word processor, we ask you use [this template](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) for submission.
 
 - Works must be submitted through the Open Review platform. Registration is required to make the submission. It is important to consider that registration is not automatic; it can take up to two weeks if using a personal account. **It is strongly suggested not to leave account creation to the last minute.**
 
