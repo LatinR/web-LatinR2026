@@ -27,16 +27,16 @@ website:
           - href: sobre/apoyo/apoio.qmd
           - href: sobre/coc/codigo-de-conduta.qmd
          # - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
-      #- text: Participe
-      #  menu: 
-          # - text: "Chamada para submissão de trabalhos"
-          #   href: blog/pt/2025-05-31-apresentacao-trabalhos-2025.html
+      - text: Participe
+        menu: 
+           - text: "Chamada para submissão de trabalhos"
+             href: blog/pt/2026-03-27-apresentacao-trabalhos.html
          # - text: "Sobre a inscrição"
          #   href: blog/pt/2024-08-01-inscricao.qmd
         # - text: "Inscrição"
          #  href: https://www.eventbrite.com.ar/e/1939670499679?aff=oddtdtcreator
 
-      # - text: LatinR 2025
+      # - text: LatinR 2026
       #   menu: 
       #     - text: "Localização"
       #       href: cronograma/lugar/lugar-pt.qmd    

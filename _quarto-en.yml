@@ -27,10 +27,10 @@ website:
           - href: sobre/apoyo/sponsors.qmd
           - href: sobre/coc/code-of-conduct.qmd
         #  - href: sobre/ediciones-anteriores/previous-editions.qmd  
-    #  - text: Attend
-     #   menu: 
-          # - text: "Call for Papers"
-          #   href: blog/en/2025-05-31-call-for-papers-2025.html
+      - text: Attend
+        menu:
+          - text: "Call for Papers"
+            href: blog/en/2026-03-27-call-for-papers.html
           # - text: "About Registration"
           #  href: blog/en/2024-08-01-register.html
           #- text: "Registration"

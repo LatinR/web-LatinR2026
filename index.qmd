@@ -65,6 +65,9 @@ listing:
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
+<center><a href='blog/es/2026-03-27-presentacion-trabajos.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center>
+
+
 <br> 
 :::
 :::
@@ -99,6 +102,9 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
+
+<center><a href='blog/en/2026-03-27-call-for-papers.html'><button type="button" class="btn btn-light btn-lg">Open Call for Papers</button></a></center>
+
 <br>
 :::
 :::
@@ -129,11 +135,13 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 ## Conferência Latino-Americana sobre o Uso de R em Pesquisa e Desenvolvimento
 
-## 11 a 13 Novembro de 2025
+## 11 a 13 Novembro de 2026
 
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia</center>
 <br>
 </section>
+
+<center><a href='blog/pt/2026-03-27-apresentacao-trabalhos.html'><button type="button" class="btn btn-light btn-lg">Chamada para submissão de trabalhos</button></a></center>
 <br>
 :::
 :::
