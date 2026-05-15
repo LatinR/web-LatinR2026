@@ -46,7 +46,7 @@ Os temas sugeridos para esta edição são os seguintes:
 <br>
 
 <div class="boxBorder">
-Você pode enviar seu trabalho usando este  [link](https://openreview.net/group?id=LATIN-R.com/2025/Conference).
+Você pode enviar seu trabalho usando este  [link](https://openreview.net/group?id=LATIN-R.com/2026/Conference).
 Tenha em mente que é necessário se registrar na plataforma para poder enviar seu trabalho. O processo de criação de uma conta no OpenReview pode levar algum tempo se não for utilizado um e-mail institucional devido ao processo de verificação de contas pessoais. **Sugerimos não deixar a criação da conta para o último minuto**.
 </div>
 
