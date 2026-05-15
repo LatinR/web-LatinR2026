@@ -46,7 +46,7 @@ Os temas sugeridos para esta edição são os seguintes:
 <br>
 
 <div class="boxBorder">
-Você pode enviar seu trabalho usando este  [link](https://openreview.net/group?id=LATIN-R.com/2025/Conference).
+Você pode enviar seu trabalho usando este  [link](https://openreview.net/group?id=LATIN-R.com/2026/Conference).
 Tenha em mente que é necessário se registrar na plataforma para poder enviar seu trabalho. O processo de criação de uma conta no OpenReview pode levar algum tempo se não for utilizado um e-mail institucional devido ao processo de verificação de contas pessoais. **Sugerimos não deixar a criação da conta para o último minuto**.
 </div>
 
@@ -76,7 +76,7 @@ apresentação de pôsteres e interação com o público. <br><br>
 
 -   Todos os trabalhos devem ser enviados em formato PDF, **sem autores nem afiliação,** em tamanho carta, escritos em fonte tamanho 11 com espaçamento simples. A extensão não pode ultrapassar duas páginas.
 
--   Existe um pacote desenvolvido por Elio Campitelli que permite elaborar o resumo em um arquivo RMarkdown. Você pode conferir os detalhes [neste post](https://latinr.org/pt/blog/pt/2020-03-03-pacote-latinr.html). Em edições anteriores da conferência era possível fazer o envio diretamente do R. Nesta ocasião, isso não é possível, pois a plataforma não é a mesma. Se preferir usar um processador de texto, pedimos que utilize [este modelo](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) para o envio.
+-   Existe um pacote desenvolvido por Elio Campitelli que permite elaborar o resumo em um arquivo RMarkdown. Você pode conferir os detalhes [neste post](https://2023.latinr.org/en/blog/en/2020-03-03-latinr-package.html). Em edições anteriores da conferência era possível fazer o envio diretamente do R. Nesta ocasião, isso não é possível, pois a plataforma não é a mesma. Se preferir usar um processador de texto, pedimos que utilize [este modelo](https://docs.google.com/document/d/1KrPbi2AR5Rcq5fKMkC_yK_9gpez4Fmtz/edit?usp=sharing&ouid=107644076848762167027&rtpof=true&sd=true) para o envio.
 
 - Os trabalhos devem ser enviados através da plataforma Open Review. É necessário se registrar nela para poder fazer o envio. É importante considerar que o registro não é automático; pode levar **até 2 semanas** para que a conta seja habilitada se for usada uma conta pessoal. **Sugerimos não deixar a criação da conta para o último minuto**.
 
