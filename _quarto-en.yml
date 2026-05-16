@@ -63,7 +63,9 @@ website:
           # - text: "Posters"
           #   href: cronograma/programa/posters.qmd             
       - text: "News"
-        href: blog/en/index.html                 
+        href: blog/en/index.html
+      - text: "Keynote Speakers"
+        href: cronograma/conferencistas/keynotes.qmd
       - text: "Past events"
         menu:
         - text: "2025"

@@ -63,7 +63,9 @@ website:
           # - text: "Pôsters"
           #   href: cronograma/programa/posters.qmd               
       - text: "Novidades"
-        href: blog/pt/index.html   
+        href: blog/pt/index.html
+      - text: "Palestrantes convidados"
+        href: cronograma/conferencistas/palestras-convidadas.qmd
       - text: Edições anteriores
         menu:
         - text: "2025"

@@ -80,11 +80,11 @@ listing:
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_es", width_col = 1/3)
 
 ```
 
@@ -119,11 +119,11 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_en", width_col = 1/3)
 
 ```
 
@@ -154,11 +154,11 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_pt", width_col = 1/3)
 
 ```
 
