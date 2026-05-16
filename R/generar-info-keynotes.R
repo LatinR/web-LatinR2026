@@ -3,9 +3,9 @@ generar_info_keynotes <- function() {
     name = "Nic Crane",
     href = "https://niccrane.com",
     img = "img/posts/nic-crane.jpg",
-    info_es = "Nic Crane es una desarrolladora de software especializada en R y en el ecosistema de Apache Arrow. Es coautora del paquete {arrow} de R, que permite trabajar con grandes conjuntos de datos de manera eficiente. Ha contribuido activamente a la comunidad de R, incluyendo la organización y participación en eventos de desarrollo colaborativo.",
-    info_en = "Nic Crane is a software developer specialising in R and the Apache Arrow ecosystem. She is a co-author of the {arrow} R package, which enables efficient work with large datasets. She has been an active contributor to the R community, including organising and participating in collaborative development events.",
-    info_pt = "Nic Crane é uma desenvolvedora de software especializada em R e no ecossistema Apache Arrow. Ela é coautora do pacote {arrow} do R, que permite trabalhar com grandes conjuntos de dados de forma eficiente. Ela contribuiu ativamente para a comunidade R, incluindo a organização e participação em eventos de desenvolvimento colaborativo."
+    info_es = "Nic Crane es ",
+    info_en = "Nic Crane is ",
+    info_pt = "Nic Crane é "
   ) |>
      tibble::add_row(
        name = "Edgar Ruiz",
