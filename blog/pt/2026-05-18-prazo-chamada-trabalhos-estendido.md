@@ -1,7 +1,7 @@
 ---
 title: "Prazo da chamada de trabalhos estendido!"
 categories: "2026"
-date: 2026-05-16
+date: 2026-05-18
 ref: deadline-extension-2026
 ---
 
