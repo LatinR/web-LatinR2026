@@ -1,27 +1,33 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog/pt/index.html",
     "items": [
-      "/blog/es/2026-03-27-presentacion-trabajos.html",
-      "/blog/en/2026-03-27-call-for-papers.html",
+      "/blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html",
       "/blog/pt/2026-03-27-apresentacao-trabalhos.html"
-    ]
-  },
-  {
-    "listing": "/blog/en/index.html",
-    "items": [
-      "/blog/en/2026-03-27-call-for-papers.html"
     ]
   },
   {
     "listing": "/blog/es/index.html",
     "items": [
+      "/blog/es/2026-05-18-extension-llamado-trabajos.html",
       "/blog/es/2026-03-27-presentacion-trabajos.html"
     ]
   },
   {
-    "listing": "/blog/pt/index.html",
+    "listing": "/blog/en/index.html",
     "items": [
+      "/blog/en/2026-05-18-call-for-papers-deadline-extended.html",
+      "/blog/en/2026-03-27-call-for-papers.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/es/2026-05-18-extension-llamado-trabajos.html",
+      "/blog/es/2026-03-27-presentacion-trabajos.html",
+      "/blog/en/2026-05-18-call-for-papers-deadline-extended.html",
+      "/blog/en/2026-03-27-call-for-papers.html",
+      "/blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html",
       "/blog/pt/2026-03-27-apresentacao-trabalhos.html"
     ]
   }
