@@ -84,7 +84,7 @@ listing:
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_information = "info_es", width_col = 1/3)
+generar_cards_keynotes(info_keynotes, col_info = "info_es", width_col = "20%")
 
 ```
 

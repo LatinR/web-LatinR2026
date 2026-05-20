@@ -3,8 +3,8 @@ generar_info_keynotes <- function() {
     name = "Nic Crane",
     href = "https://niccrane.com",
     img = "img/posts/nic-crane.jpg",
-    info_es = "Nic Crane es ",
-    info_en = "Nic Crane is ",
+    info_es = "Nic Crane es mantenedora de software de código abierto, consultores independiente de R y formadores. Es miembro del Comité de Gestión del Proyecto Apache Arrow y una de las personas que mantiene el paquete Arrow para R, con lo que contribuye al ecosistema general de Arrow y a su adopción en los flujos de trabajo de ciencia de datos. Nic colabora con el paquete ellmer para R e imparte clases y escribe sobre el uso de modelos de lenguaje a gran escala (LLM) en R (https://niccrane.com).",
+    info_en = "Nic Crane is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R (https://niccrane.com/).",
     info_pt = "Nic Crane é "
   ) |>
      tibble::add_row(
