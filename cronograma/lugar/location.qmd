@@ -20,9 +20,9 @@ Parque Explora will host:
 
 - 🎤 **Opening ceremony**
 - 🎤 **Keynote talks**
-- 🐟 **Aquarium visit** — one of the special conference activities
+- 🐟 **Visit to the aquarium and an interactive room at Explora Park** — one of the special conference activities
 
-**Address:** Carrera 52 #73-75, Medellín, Colombia  
+**Address:** Carrera 52 #73-75, Medellín, Colombia Auditorium, Floor 1
 **Website:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
@@ -47,7 +47,7 @@ The Edificio de Extensión will host:
 - ⚡ **Lightning talks**
 - 📋 **Poster sessions**
 
-**Address:** Calle 67 #53-108, Medellín, Colombia  
+**Address:** Cl. 70 # 52 - 72, Medellín, Colombia
 **Website:** [www.udea.edu.co](https://www.udea.edu.co/)
 :::
 ::: {.column width="40%"}
@@ -63,16 +63,22 @@ Medellín is served by **José María Córdova International Airport** (IATA cod
 
 From the international airport you can reach central Medellín by:
 
-- 🚌 Intercity bus services (to Terminal del Norte or Terminal del Centro)
+- 🚌 Intercity bus services (to Terminal del Norte or Terminal del Centro). There are
+three bus routes to Medellín: "Terminal del Norte"; (North Bus Terminal -north area),
+"Hotel Nutibara"(downtown), and "San Diego/Exposiciones" (Metro Station -south
+area)
 - 🚕 Taxi or ride-sharing apps (Uber, InDriver, etc.)
 
 ### Getting around the city
 
 Medellín has an excellent integrated public transport system:
 
-- **Metro** — Lines A and B connect the city centre with different neighbourhoods.
-- **Tram (Tranvía)** — Connects the Metro to the Miraflores area.
-- **Cable car (Metro Cable)** — Lines connecting hillside neighbourhoods to the Metro.
-- **Integrated bus (SITVA)** — Feeder buses and rapid transit buses.
+- **Metro** — Lines A and B connect downtown Medellín with the north, south, and
+western areas of the city.
+- **Tram** — Connects downtown and San Antonio Station with the eastern area of the
+city, including Buenos Aires and Miraflores.
+- **Cable car** — Cable car lines connecting hillside neighborhoods with Metro stations.
+- **Integrated bus** — Feeder and local buses connect neighborhoods and nearby towns with the Metro system.
 
-Both venues are located in the **Barrio Universitario / Laureles** area, well connected to the Metro (Universidad or Hospital stations).
+Both venues are located in the University City area, accessible from _Universidad_ and _Hospital_ stations on _Metro Line A_, near the Botanical Garden, Planetarium, and Parque Norte. 
+More access information at https://www.parqueexplora.org/visitanos/como-llegar.
