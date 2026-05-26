@@ -20,9 +20,9 @@ No Parque Explora serão realizados:
 
 - 🎤 **Cerimônia de abertura** da conferência
 - 🎤 **Palestras convidadas (Keynotes)**
-- 🐟 **Visita ao Aquário** — uma das atividades especiais da conferência
+- 🐟 **Visita ao Aquário e a uma sala interativa do Parque Explora** — uma das atividades especiais da conferência
 
-**Endereço:** Carrera 52 #73-75, Medellín, Colômbia  
+**Endereço:** Cl. 70 # 52 - 72, Medellín, Colômbia  
 **Site:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
@@ -70,9 +70,13 @@ Do aeroporto internacional é possível chegar ao centro de Medellín por:
 
 Medellín conta com um excelente sistema de transporte público integrado:
 
-- **Metrô** — As linhas A e B conectam o centro com diferentes bairros.
-- **Bonde (Tranvía)** — Conecta o Metrô à área de Miraflores.
-- **Teleférico (Metro Cable)** — Linhas que conectam bairros nas encostas ao sistema de Metrô.
-- **Ônibus integrado (SITVA)** — Alimentadores e ônibus de trânsito rápido.
+- **Metrô** — As linhas A e B conectam o centro de Medellín às zonas norte, sul e oeste da cidade.
+- **VLT/Bonde** — Conecta o centro e a estação San Antonio à zona leste da cidade,
+incluindo Buenos Aires e Miraflores.
+- **Teleférico (Metrocable)** — Linhas de teleférico conectam bairros nas encostas às estações do
+metrô.
+- **Ônibus integrado** — Linhas alimentadoras conectam bairros e municípios próximos ao sistema de metrô.
 
-Ambas as sedes estão localizadas na região do **Barrio Universitario / Laureles**, bem conectadas ao Metrô (estações Universidad ou Hospital).
+Ambos os locais ficam na região da Cidade Universitária, com acesso pelas estações "Universidad" e "Hospital" da Linha A do metrô, perto do Jardim Botânico, Planetário e Parque Norte. 
+Mais informações de acesso em
+https://www.parqueexplora.org/visitanos/como-llegar.
