@@ -26,7 +26,7 @@ En Parque Explora se realizarán:
 **Web:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
-![Parque Explora, Medellín](https://commons.wikimedia.org/wiki/File:Parque_Explora_(Medell%C3%ADn,_Colombia).JPG){fig-alt="Vista exterior de Parque Explora en Medellín" width="100%"}
+![Parque Explora, Medellín](img/posts/Parque_Explora.JPG)" width="100%"}
 :::
 :::
 
