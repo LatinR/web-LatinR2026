@@ -23,11 +23,12 @@ En Parque Explora se realizarán:
 - 🐟 **Visita al Acuario y a una sala interactiva del parque explora**— una de las actividades especiales de la conferencia! ✨ 
 
 **Dirección:** Carrera 52 #73-75, Medellín, Colombia - Auditorio, Piso 1
+
 **Web:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
-![Parque Explora, Medellín](img/posts/Parque_Explora.JPG)" width="100%"}
-:::
+![Parque Explora, Medellín](/img/posts/Parque_Explora.JPG){fig-alt="Vista de la sede de Parque Explora" width="100%"} 
+
 :::
 
 ---
@@ -51,7 +52,7 @@ En el Edificio de Extensión se realizarán:
 **Web:** [www.udea.edu.co](https://www.udea.edu.co/)
 :::
 ::: {.column width="40%"}
-![Universidad de Antioquia, Medellín](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/UdeA_Edificio_Central.jpg/640px-UdeA_Edificio_Central.jpg){fig-alt="Vista del edificio central de la Universidad de Antioquia" width="100%"}
+![Universidad de Antioquia, Medellín](/img/posts/edificio-extension-udea.jpg){fig-alt="Vista del edificio de extensión de la Universidad de Antioquia" width="100%"}
 :::
 :::
 

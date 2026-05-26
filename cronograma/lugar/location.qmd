@@ -26,7 +26,7 @@ Parque Explora will host:
 **Website:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
-![Parque Explora, Medellín](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Parque_Explora.jpg/640px-Parque_Explora.jpg){fig-alt="Exterior view of Parque Explora in Medellín" width="100%"}
+![Parque Explora, Medellín](/img/posts/Parque_Explora.JPG){fig-alt="Exterior view of Parque Explora in Medellín" width="100%"}
 :::
 :::
 
@@ -51,7 +51,7 @@ The Edificio de Extensión will host:
 **Website:** [www.udea.edu.co](https://www.udea.edu.co/)
 :::
 ::: {.column width="40%"}
-![Universidad de Antioquia, Medellín](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/UdeA_Edificio_Central.jpg/640px-UdeA_Edificio_Central.jpg){fig-alt="View of the central building of Universidad de Antioquia" width="100%"}
+![Universidad de Antioquia, Medellín](/img/posts/edificio-extension-udea.jpg){fig-alt="View of the extension building of Universidad de Antioquia" width="100%"}
 :::
 :::
 
