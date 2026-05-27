@@ -1,0 +1,79 @@
+---
+title: "Lugar"
+---
+
+# Sede de LatinR 2026 — Medellín, Colombia
+
+LatinR 2026 se realizará en la ciudad de **Medellín, Colombia**, distribuida en dos espacios emblemáticos de la ciudad.
+
+---
+
+## Parque Explora
+
+**Acto de apertura, Keynotes y visita al Acuario**
+
+::: {.columns}
+::: {.column width="60%"}
+[Parque Explora](https://www.parqueexplora.org/) es un museo interactivo de ciencia y tecnología ubicado en el corazón del centro de innovación de Medellín. Sus instalaciones ofrecen espacios modernos y versátiles ideales para grandes eventos académicos.
+
+En Parque Explora se realizarán:
+
+- 🎤 **Acto de apertura** de la conferencia
+- 🎤 **Conferencias magistrales (Keynotes)**
+- 🐟 **Visita al Acuario y a una sala interactiva del parque explora**— una de las actividades especiales de la conferencia! ✨ 
+
+**Dirección:** Carrera 52 #73-75, Medellín, Colombia - Auditorio, Piso 1
+
+**Web:** [www.parqueexplora.org](https://www.parqueexplora.org/)
+:::
+::: {.column width="40%"}
+![Parque Explora, Medellín](/img/posts/Parque_Explora.JPG){fig-alt="Vista de la sede de Parque Explora" width="100%"} 
+
+:::
+
+---
+
+## Universidad de Antioquia — Edificio de Extensión
+
+**Tutoriales, Charlas regulares, Charlas relámpago y Pósters**
+
+::: {.columns}
+::: {.column width="60%"}
+La [Universidad de Antioquia](https://www.udea.edu.co/) es una de las universidades públicas más importantes de Colombia y de América Latina. Su **Edificio de Extensión** cuenta con aulas y salones equipados para albergar actividades académicas de alto nivel.
+
+En el Edificio de Extensión se realizarán:
+
+- 📚 **Tutoriales**
+- 🗣️ **Charlas regulares**
+- ⚡ **Charlas relámpago**
+- 📋 **Sesiones de pósters**
+
+**Dirección:** Cl. 70 # 52 - 72, Medellín, Colombia  
+**Web:** [www.udea.edu.co](https://www.udea.edu.co/)
+:::
+::: {.column width="40%"}
+![Universidad de Antioquia, Medellín](/img/posts/edificio-extension-udea.jpg){fig-alt="Vista del edificio de extensión de la Universidad de Antioquia" width="100%"}
+:::
+:::
+
+---
+
+## Cómo llegar a Medellín
+
+Medellín cuenta con el **Aeropuerto Internacional José María Córdova** (código IATA: MDE), ubicado en Rionegro, a aproximadamente 45 minutos del centro de la ciudad. También existe el aeropuerto doméstico **Olaya Herrera** (EOH) dentro de la ciudad.
+
+Desde el aeropuerto se puede llegar al centro de Medellín mediante:
+
+- 🚌 Bus intermunicipales Existen tres rutas de bus hacia Medellín: Terminal del Norte (zona norte), Nutibara (centro) y ruta sur, con paradas en San Diego y estación Metro Exposiciones.
+- 🚕 Taxi o aplicaciones de transporte (Uber, InDriver, etc.)
+
+### Movilidad en la ciudad
+
+Medellín cuenta con un excelente sistema de transporte público integrado:
+
+- **Metro** — Las líneas A y B conectan el centro con el norte, sur y occidente de Medellín.
+- **Tranvía** — Conecta el centro y la estación San Antonio con la zona oriental incluyendo Buenos Aires y Miraflores.
+- **Metro Cable** — Líneas aéreas que conectan barrios de las laderas con estaciones del Metro.
+- **Bus integrado** — Buses alimentadores conectan barrios y municipios con estaciones del Metro.
+
+Ambas sedes se encuentran en el sector Ciudad Universitaria, con acceso por las estaciones **Universidad** y **Hospital** de la **línea A del Metro**, cerca del Jardín Botánico, Planetario y Parque Norte. Más opciones de acceso en https://www.parqueexplora.org/visitanos/como-llegar.

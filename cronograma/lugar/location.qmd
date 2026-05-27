@@ -1,0 +1,84 @@
+---
+title: "Location"
+---
+
+# LatinR 2026 Venue — Medellín, Colombia
+
+LatinR 2026 will take place in **Medellín, Colombia**, across two iconic venues in the city.
+
+---
+
+## Parque Explora
+
+**Opening ceremony, Keynotes, and Aquarium visit**
+
+::: {.columns}
+::: {.column width="60%"}
+[Parque Explora](https://www.parqueexplora.org/) is an interactive science and technology museum located in the heart of Medellín's innovation district. Its modern and versatile facilities are ideal for large academic events.
+
+Parque Explora will host:
+
+- 🎤 **Opening ceremony**
+- 🎤 **Keynote talks**
+- 🐟 **Visit to the aquarium and an interactive room at Explora Park** — one of the special conference activities
+
+**Address:** Carrera 52 #73-75, Medellín, Colombia Auditorium, Floor 1
+**Website:** [www.parqueexplora.org](https://www.parqueexplora.org/)
+:::
+::: {.column width="40%"}
+![Parque Explora, Medellín](/img/posts/Parque_Explora.JPG){fig-alt="Exterior view of Parque Explora in Medellín" width="100%"}
+:::
+:::
+
+---
+
+## Universidad de Antioquia — Edificio de Extensión
+
+**Tutorials, Regular talks, Lightning talks, and Posters**
+
+::: {.columns}
+::: {.column width="60%"}
+The [Universidad de Antioquia](https://www.udea.edu.co/) is one of the most important public universities in Colombia and Latin America. Its **Edificio de Extensión** (Extension Building) provides fully equipped classrooms and halls for high-level academic activities.
+
+The Edificio de Extensión will host:
+
+- 📚 **Tutorials**
+- 🗣️ **Regular talks**
+- ⚡ **Lightning talks**
+- 📋 **Poster sessions**
+
+**Address:** Cl. 70 # 52 - 72, Medellín, Colombia
+**Website:** [www.udea.edu.co](https://www.udea.edu.co/)
+:::
+::: {.column width="40%"}
+![Universidad de Antioquia, Medellín](/img/posts/edificio-extension-udea.jpg){fig-alt="View of the extension building of Universidad de Antioquia" width="100%"}
+:::
+:::
+
+---
+
+## Getting to Medellín
+
+Medellín is served by **José María Córdova International Airport** (IATA code: MDE), located in Rionegro, approximately 45 minutes from the city centre. The domestic **Olaya Herrera Airport** (EOH) is also located within the city.
+
+From the international airport you can reach central Medellín by:
+
+- 🚌 Intercity bus services (to Terminal del Norte or Terminal del Centro). There are
+three bus routes to Medellín: "Terminal del Norte"; (North Bus Terminal -north area),
+"Hotel Nutibara"(downtown), and "San Diego/Exposiciones" (Metro Station -south
+area)
+- 🚕 Taxi or ride-sharing apps (Uber, InDriver, etc.)
+
+### Getting around the city
+
+Medellín has an excellent integrated public transport system:
+
+- **Metro** — Lines A and B connect downtown Medellín with the north, south, and
+western areas of the city.
+- **Tram** — Connects downtown and San Antonio Station with the eastern area of the
+city, including Buenos Aires and Miraflores.
+- **Cable car** — Cable car lines connecting hillside neighborhoods with Metro stations.
+- **Integrated bus** — Feeder and local buses connect neighborhoods and nearby towns with the Metro system.
+
+Both venues are located in the University City area, accessible from _Universidad_ and _Hospital_ stations on _Metro Line A_, near the Botanical Garden, Planetarium, and Parque Norte. 
+More access information at https://www.parqueexplora.org/visitanos/como-llegar.
