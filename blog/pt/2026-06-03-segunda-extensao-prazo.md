@@ -54,7 +54,6 @@ Se você ainda não tem conta no OpenReview, siga estes passos:
 
 #### Datas importantes atualizadas
 
-**Início do recebimento dos trabalhos**: meados de abril
 
 **Novo prazo para envio de propostas**: **15 de junho de 2026**
 

@@ -54,7 +54,6 @@ Si aún no tenés cuenta en OpenReview, seguí estos pasos:
 
 #### Fechas importantes actualizadas
 
-**Inicio recepción de trabajos**: 16 de abril
 
 **Nueva fecha límite para la recepción de propuestas**: **15 de junio de 2026**
 

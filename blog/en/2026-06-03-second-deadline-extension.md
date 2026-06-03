@@ -54,7 +54,6 @@ If you don't have an OpenReview account yet, follow these steps:
 
 #### Updated important dates
 
-**Start of work submission**: Mid April
 
 **New deadline for proposal submission**: **June 15, 2026**
 
