@@ -41,15 +41,7 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_pt
 
 ### Nic Crane
 
-Nic Crane is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R (https://niccrane.com/).
-
-### Edgar Ruiz
-
-*Em breve*
-
-### TBD
-
-*Em breve*
+Nic Crane é mantenedora de software de código aberto, consultora independente de R e educadora. É membro do Comitê de Gestão do Projeto Apache Arrow e uma das mantenedoras do pacote Arrow para R, contribuindo para o ecossistema geral do Arrow e sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R e ensina e escreve sobre o uso de LLMs em R (https://niccrane.com/).
 
 <!-- font awesome -->
 
