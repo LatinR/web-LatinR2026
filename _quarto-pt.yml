@@ -42,14 +42,14 @@ website:
             href: cronograma/lugar/lugar-pt.qmd    
           - text: "Recursos turísticos"
             href: cronograma/recursos-turisticos/index-pt.qmd  
-      # - text: Programa
-      #   menu:
+      - text: Programa
+        menu:
       #     # - text: "Programaa resumido"
       #     #   href: cronograma/programa/preliminar.qmd 
       #      - text: "Programação de Palestras"
       #        href: cronograma/programa/index.qmd
-      #      - text: "Palestras convidadas"
-      #        href: cronograma/conferencistas/palestras-convidadas.qmd
+          - text: "Palestras convidadas"
+            href: cronograma/conferencistas/palestras-convidadas.qmd
       #      - text: "Workshops"
       #        href: cronograma/tutoriales/workshops-pt.qmd
           # - text: "R Dev Day"
