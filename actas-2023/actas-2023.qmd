@@ -1,0 +1,348 @@
+---
+title: "LatinR 2023"
+subtitle: "VI Conferencia Latinoamericana sobre el Uso de R en Investigación + Desarrollo"
+date: "18-20 de octubre de 2023"
+lang: es
+format:
+  pdf:
+    toc: true
+    toc-title: "Tabla de contenidos"
+    number-sections: true
+    documentclass: article
+    papersize: a4
+    fontsize: 11pt
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{hyperref}
+        \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+```{r setup}
+library(readr)
+library(dplyr)
+library(here)
+library(janitor)
+library(lubridate)
+library(stringr)
+```
+
+\newpage
+
+# Programa {#sec-programa}
+
+LatinR 2023 se realizó en Montevideo, Uruguay, del 18 al 20 de octubre de 2023.
+El programa incluyó conferencias plenarias, tutoriales, presentaciones orales y pósters.
+
+## Conferencias plenarias (Keynotes) {#sec-keynotes}
+
+En esta sexta edición de LatinR contamos con cuatro conferencistas invitadas/os de reconocida
+trayectoria en el área de la estadística, la visualización y el modelado con R:
+
+---
+
+**Dianne Cook**
+
+*Conferencia plenaria inaugural – Jueves 19 de octubre*
+
+Dianne Cook es profesora de estadística en la Monash University (Australia).
+Especialista en visualización estadística, desarrolló herramientas como el paquete
+`tourr` para exploración de datos multivariados. Es una de las impulsoras de la
+filosofía de gráficos para inferencia estadística con R.
+
+---
+
+**Hannah Frick**
+
+*Conferencia plenaria – Jueves 19 de octubre*
+
+Hannah Frick es doctora en estadística y trabaja en Posit (anteriormente RStudio).
+Es una de las desarrolladoras principales del ecosistema `tidymodels`, el marco de
+trabajo de R para modelado estadístico y machine learning con principios del
+tidyverse.
+
+---
+
+**Fabrizio Scrollini**
+
+*Conferencia plenaria – Viernes 20 de octubre*
+
+Fabrizio Scrollini es investigador y especialista en datos abiertos y gobierno abierto
+en América Latina. Dirige la Iniciativa Latinoamericana por los Datos Abiertos (ILDA)
+y trabaja en la intersección entre datos, sociedad civil y políticas públicas.
+
+---
+
+**Max Kuhn**
+
+*Conferencia plenaria – Viernes 20 de octubre*
+
+Max Kuhn es doctor en estadística y trabaja en Posit (anteriormente RStudio).
+Es el autor original del paquete `caret` y uno de los creadores del ecosistema
+`tidymodels`. Reconocido por su contribución a la estadística aplicada y al machine
+learning en R.
+
+---
+
+## Tutoriales {#sec-tutoriales}
+
+Los tutoriales se realizaron el miércoles 18 de octubre de 2023 (día previo a la
+conferencia principal).
+
+---
+
+**Introduction to Machine Learning with tidymodels (Part I)**
+
+*Hannah Frick & Max Kuhn*
+
+Turno mañana: 09:00 – 12:20 hs
+
+This workshop provides an introduction to machine learning with R using the
+tidymodels framework, a collection of packages for modeling and machine learning
+using tidyverse principles. We will build, evaluate, and compare predictive models.
+Along the way, we'll learn about key concepts in machine learning including
+overfitting and resampling. Learners will gain knowledge about good predictive
+modeling practices, as well as hands-on experience using tidymodels packages like
+parsnip, rsample, yardstick, and workflows.
+
+---
+
+**Introduction to Machine Learning with tidymodels (Part II)**
+
+*Hannah Frick & Max Kuhn*
+
+Turno tarde: 13:40 – 17:00 hs
+
+This workshop provides an introduction to machine learning with R using the
+tidymodels framework, a collection of packages for modeling and machine learning
+using tidyverse principles. We will build, evaluate, and compare predictive models.
+Along the way, we'll learn about key concepts in machine learning including
+overfitting and resampling. Learners will gain knowledge about good predictive
+modeling practices, as well as hands-on experience using tidymodels packages like
+parsnip, rsample, yardstick, and workflows.
+
+---
+
+**Using and contributing to the data.table package for efficient big data analysis**
+
+*Toby Dylan Hocking*
+
+Turno mañana: 09:00 – 12:20 hs
+
+data.table is one of the most efficient open-source in-memory data manipulation
+packages available today. First released to CRAN by Matt Dowle in 2006, it continues
+to grow in popularity, and now over 1400 other CRAN packages depend on data.table.
+This three hour tutorial will start with data reading from CSV, discuss basic and
+advanced data manipulation topics, and finally will end with a discussion about how
+you can contribute to data.table. In each part of the tutorial, you will be asked to
+solve a few exercises, to practice each new concept.
+
+---
+
+**Creating data plots for effective decision-making using statistical inference with R**
+
+*Dianne Cook*
+
+Turno tarde: 13:40 – 17:00 hs
+
+En este tutorial se abordarán técnicas de visualización estadística para la toma de
+decisiones efectiva, con énfasis en la inferencia estadística a través de gráficos.
+Se explorarán herramientas del ecosistema R para crear visualizaciones que permitan
+validar hipótesis y comunicar resultados de manera rigurosa.
+
+---
+
+**Creación de reportes reproducibles con Quarto**
+
+*Riva Quiroga*
+
+Turno tarde: 13:40 – 17:00 hs
+
+En este tutorial se hará una introducción a Quarto, un sistema de publicación
+científica y técnica que permite crear contenido dinámico usando R, Python, Julia
+y Observable. Durante la sesión se abordarán los aspectos generales de su uso para
+crear reportes con R, con especial énfasis en el trabajo en formato HTML. Para ello,
+se mostrará paso a paso cómo crear un reporte reproducible, cómo parametrizar su
+contenido, cómo editar su apariencia y cómo publicarlo utilizando GitHub Pages y
+Netlify.
+
+Para poder seguir sin problema las actividades del tutorial, es necesario tener
+algún grado de experiencia con el operador "pipe" (en cualquiera de sus dos
+versiones: `%>%` o `|>`), con las funciones principales del paquete `dplyr` (como
+`filter`, `summarize` y `group_by`) y con el paquete `ggplot2` (por ejemplo, tener
+una idea general de qué hacen las funciones `geom_*` o saber cómo modificar la
+escala del eje "y" de un gráfico). Para quienes tengan interés en la publicación de
+un reporte utilizando el servicio GitHub Pages, es necesario tener al menos un
+manejo inicial de git (saber cómo hacer commits y enviar cambios a un repositorio
+personal).
+
+---
+
+**Introducción a Shiny – Buenas prácticas en un entorno de producción**
+
+*Agustin Perez Santangelo, Oriol Senan y Federico Rivadeneira*
+
+Turno mañana: 09:00 – 12:20 hs
+
+El tutorial consistirá en la introducción de conceptos básicos haciendo foco en las
+buenas prácticas de desarrollo. El mismo constará de tres partes:
+
+- Estructura inicial y básica de un proyecto junto a las herramientas que podemos
+  utilizar para asistirnos en esta tarea.
+- Modularización y buenas prácticas de desarrollo haciendo hincapié en conceptos de
+  desarrollo con ejemplos.
+- Optimización y performance de una aplicación introduciendo paquetes y buenas
+  prácticas.
+
+---
+
+## Contribuciones {#sec-contribuciones}
+
+Las contribuciones se organizaron en sesiones temáticas a lo largo del jueves 19 y
+viernes 20 de octubre. Los resúmenes de cada trabajo se incluyen al final de este
+libro de actas.
+
+```{r load-data}
+program_raw <- read_rds(here("cronograma/programa/program.rds"))
+cronograma_raw <- read_rds(here("cronograma/programa/cronograma.rds"))
+posters_raw <- read_rds(here("cronograma/programa/posters.rds"))
+
+# Process program data
+prog <- program_raw |>
+  clean_names() |>
+  rename(
+    id = numero_propuesta_en_open_review,
+    title = titulo_presentacion,
+    body = resumen_breve
+  )
+
+# Get author names
+name_cols <- names(prog)[str_starts(names(prog), "nombre")]
+prog <- prog |>
+  mutate(
+    authors = apply(prog[, name_cols], 1, function(row) {
+      vals <- row[!is.na(row) & str_trim(row) != ""]
+      paste(vals, collapse = ", ")
+    })
+  ) |>
+  select(id, title, authors)
+
+# Process cronograma
+cron <- cronograma_raw |>
+  clean_names() |>
+  rename(dia = x1)
+
+# Get talks (charlas)
+charlas <- cron |>
+  filter(sesion == "charlas") |>
+  left_join(prog, by = "id") |>
+  mutate(
+    display_title = if_else(!is.na(titulo) & str_trim(titulo) != "", titulo, title),
+    hora = hour(hora_inicio),
+    minuto = minute(hora_inicio)
+  ) |>
+  arrange(hora, minuto)
+
+# Get ordered list of unique thematic groups preserving appearance order
+temas_jueves <- charlas |> filter(dia == "jueves") |> pull(tema) |> unique()
+temas_viernes <- charlas |> filter(dia == "viernes") |> pull(tema) |> unique()
+```
+
+### Jueves 19 de octubre de 2023
+
+```{r charlas-jueves, results='asis'}
+charlas_jueves <- charlas |> filter(dia == "jueves")
+
+for (tema_actual in temas_jueves) {
+  if (is.na(tema_actual)) next
+  
+  grupo <- charlas_jueves |> filter(tema == tema_actual)
+  if (nrow(grupo) == 0) next
+  
+  cat(paste0("\n#### ", tema_actual, "\n\n"))
+  
+  for (i in seq_len(nrow(grupo))) {
+    row <- grupo[i, ]
+    titulo <- row$display_title
+    autores <- row$authors
+    
+    if (is.na(titulo) || str_trim(titulo) == "" || titulo == "nan") next
+    
+    cat(paste0("**", titulo, "**"))
+    
+    if (!is.na(autores) && str_trim(autores) != "" && autores != "nan") {
+      cat(paste0("\n\n*", autores, "*"))
+    }
+    
+    cat("\n\n---\n\n")
+  }
+}
+```
+
+### Viernes 20 de octubre de 2023
+
+```{r charlas-viernes, results='asis'}
+charlas_viernes <- charlas |> filter(dia == "viernes")
+
+for (tema_actual in temas_viernes) {
+  if (is.na(tema_actual)) next
+  
+  grupo <- charlas_viernes |> filter(tema == tema_actual)
+  if (nrow(grupo) == 0) next
+  
+  cat(paste0("\n#### ", tema_actual, "\n\n"))
+  
+  for (i in seq_len(nrow(grupo))) {
+    row <- grupo[i, ]
+    titulo <- row$display_title
+    autores <- row$authors
+    
+    if (is.na(titulo) || str_trim(titulo) == "" || titulo == "nan") next
+    
+    cat(paste0("**", titulo, "**"))
+    
+    if (!is.na(autores) && str_trim(autores) != "" && autores != "nan") {
+      cat(paste0("\n\n*", autores, "*"))
+    }
+    
+    cat("\n\n---\n\n")
+  }
+}
+```
+
+## Pósters {#sec-posters}
+
+```{r posters, results='asis'}
+posters <- posters_raw |>
+  left_join(prog |> rename(title_prog = title), by = "id") |>
+  mutate(
+    display_title = if_else(!is.na(titulo) & str_trim(titulo) != "", titulo, title_prog)
+  )
+
+for (i in seq_len(nrow(posters))) {
+  row <- posters[i, ]
+  titulo <- row$display_title
+  autores <- row$authors
+  
+  if (is.na(titulo) || str_trim(titulo) == "" || titulo == "nan") next
+  
+  cat(paste0("**", titulo, "**"))
+  
+  if (!is.na(autores) && str_trim(autores) != "" && autores != "nan") {
+    cat(paste0("\n\n*", autores, "*"))
+  }
+  
+  cat("\n\n---\n\n")
+}
+```
