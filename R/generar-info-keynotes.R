@@ -23,20 +23,11 @@ generar_card_keynote <- function(tab, col_info = "info_es"){
 }
 
 
-generar_cards_keynotes <-
-  function(info_keynotes,
-           col_information = "info_es",
-           width_col = 0.5) {
-    cards <- lapply(seq_len(nrow(info_keynotes)), function(i) {
-      generar_card_keynote(info_keynotes[i, ], col_info = col_information)
-    })
-    do.call(bslib::layout_column_wrap, c(
-      list(
-        class = "cards-display",
-        width = width_col,
-        gap = "0.5cm",
-        height = 300
-      ),
-      cards
-    ))
-  }
+generar_cards_keynotes <- function(info_keynotes, col_information = "info_es", width_col = 0.5) {
+  bslib::layout_column_wrap(
+    class = "cards-display", width = width_col, gap = "0.5cm", height = 300,
+    generar_card_keynote(info_keynotes[1,], col_info = col_information),
+    # generar_card_keynote(info_keynotes[2,],  col_info = col_information),
+    # generar_card_keynote(info_keynotes[3,],  col_info = col_information),
+  )
+}
