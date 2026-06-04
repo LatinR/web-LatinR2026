@@ -1,28 +1,28 @@
 generar_info_keynotes <- function() {
   tibble::tibble(
-    name = "Heather Turner",
-    href = "https://warwick.ac.uk/go/heatherturner",
-    img = "img/posts/heatherT.jpg",
-    info_es = "Heather Turner es investigadora en ingeniería de software científico y profesora asociada de estadística en la Universidad de Warwick, Reino Unido. Participa activamente en la comunidad de R; en particular, forma parte de la junta directiva de la Fundación R (R Foundation) y preside tanto el Grupo de Trabajo de Contribución de R (R Contribution Working Group) como la iniciativa Forwards para grupos subrepresentados.",
-    info_en = "Heather Turner is a Research Software Engineering Fellow and Associate Professor in Statistics at the University of Warwick, UK. She is an active member of the R community, in particular, she is on the board of the R Foundation and chairs both the R Contribution Working Group and the Forwards taskforce for underrepresented groups.",
-    info_pt = "Heather Turner é pesquisadora em Engenharia de Software Científico e professora associada de Estatística na Universidade de Warwick, Reino Unido. Ela participa ativamente da comunidade R; em particular, faz parte da diretoria da Fundação R (R Foundation) e preside tanto o Grupo de Trabalho de Contribuição do R (R Contribution Working Group) quanto a iniciativa Forwards para grupos sub-representados."
-  ) |> 
-     tibble::add_row(
-       name = "Stephanie Zimmer",
-       href = "https://github.com/szimmer",
-       img = "img/posts/StephanieZ.jpg",
-       info_es = "Stephanie Zimmer es una estadística senior en RTI con una década de experiencia en muestreo y diseño de encuestas, ponderación y análisis de datos, y gestión de datos. Es una experta en  programación estadística, instructora certificada, y coautora del libro Exploring Complex Survey Data Analysis Using R.",
-       info_pt = "Stephanie Zimmer é uma estatística sênior na RTI com uma década de experiência em amostragem e desenho de pesquisas, ponderação e análise de dados, e gestão de dados. Ela é especialista em programação estatística, instrutora certificada, e coautora do livro Exploring Complex Survey Data Analysis Using R.",
-       info_en = "Stephanie Zimmer is a Senior Research Statistician at RTI with a decade of experience in survey sampling and design, survey weighting and analysis, and data management. Stephanie is an expert statistical programmer and instructor and she and co‑authored the book Exploring Complex Survey Data Analysis Using R."
-     ) |> 
-     tibble::add_row(
-       name = "Equipo TRACE-LAC",
-       href = "https://medicina.javeriana.edu.co/trace-lac",
-       img = "img/posts/logo-tracelac.png",
-       info_es = "TRACE-LAC es un proyecto financiado por el International Development Research Centre, liderado por la Pontificia Universidad Javeriana y la Universidad de los Andes. Busca informar sobre la toma de decisiones en la respuesta a epidemias por enfermedades infecciosas en Latinoamérica y el Caribe. TRACE-LAC está articulado con las iniciativas TRACE y Epiverse lideradas por el London School of Hygiene and Tropical Medicine en colaboración con el Medical Research Council Unit en Gambia.",
-       info_pt = "TRACE-LAC é um projeto financiado pelo International Development Research Centre, liderado pela Pontifícia Universidade Javeriana e a Universidade dos Andes. Busca informar sobre a tomada de decisões na resposta a epidemias por doenças infecciosas na América Latina e Caribe. TRACE-LAC está articulado com as iniciativas TRACE e Epiverse lideradas pela London School of Hygiene and Tropical Medicine em colaboração com o Medical Research Council Unit na Gâmbia.",
-       info_en = "TRACE-LAC is a project funded by the International Development Research Centre, led by Pontificia Universidad Javeriana and Universidad de los Andes. It seeks to inform decision-making in the response to infectious disease epidemics in Latin America and the Caribbean. TRACE-LAC is linked with the TRACE and Epiverse initiatives led by the London School of Hygiene and Tropical Medicine in collaboration with the Medical Research Council Unit in The Gambia."
-     )
+    name = "Nic Crane",
+    href = "https://niccrane.com",
+    img = "img/posts/nic-crane.png",
+    info_es = "Nic Crane mantiene software de código abierto, realiza consultorías de R y también tiene experiencia como docente. Es parte del Comité de Gestión del Proyecto Apache Arrow y una de las personas que mantiene el paquete Arrow para R, con lo que contribuye al ecosistema general de Arrow y a su adopción en los flujos de trabajo de ciencia de datos. Nic colabora con el paquete ellmer para R e imparte clases y escribe sobre el uso de modelos de lenguaje a gran escala (LLM) en R.",
+    info_en = "Nic Crane is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R (https://niccrane.com/).",
+    info_pt = "Nic Crane trabalha com manutenção de software de código aberto, consultoria em R e também possui experiência em ensino. Integra o Comitê de Gestão do Projeto Apache Arrow e faz parte da equipe responsável pela manutenção do pacote Arrow para R, contribuindo para o ecossistema Arrow como um todo e para sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R, além de ministrar cursos e escrever sobre o uso de modelos de linguagem de grande porte (LLMs) em R."
+  ) #|> 
+    # tibble::add_row(
+    #   name = "Stephanie Zimmer",
+    #   href = "https://github.com/szimmer",
+    #   img = "img/posts/StephanieZ.jpg",
+    #   info_es = "",
+    #   info_pt = "",
+    #   info_en = ""
+    # ) |> 
+    # tibble::add_row(
+    # name = "Equipo TRACE-LAC",
+    #  href = "https://medicina.javeriana.edu.co/trace-lac",
+    #   img = "img/posts/logo-tracelac.png",
+    #   info_es = "",
+    #   info_pt = "",
+    #   info_en = ""
+    # )
 }
 
 generar_card_keynote <- function(tab, col_info = "info_es"){
@@ -49,8 +49,8 @@ generar_cards_keynotes <-
       gap = "0.5cm",
       height = 300,
       generar_card_keynote(info_keynotes[1,], col_info = col_information),
-      generar_card_keynote(info_keynotes[2,],  col_info = col_information),
-      generar_card_keynote(info_keynotes[3,],  col_info = col_information),
+      # generar_card_keynote(info_keynotes[2,],  col_info = col_information),
+      # generar_card_keynote(info_keynotes[3,],  col_info = col_information),
       # generar_card_keynote(info_keynotes[4,],  col_info = col_information)
     )
   }
