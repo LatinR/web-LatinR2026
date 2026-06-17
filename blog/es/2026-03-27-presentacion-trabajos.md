@@ -126,7 +126,7 @@ público asistente. <br><br>
 
 **Fecha límite para la recepción de propuestas**: 18 de mayo
 
-**Notificación resultados evaluación**: inicios de julio
+**Notificación resultados evaluación**: fines de julio
 
 **Fecha límite para confirmar participación**: inicios de agosto
 

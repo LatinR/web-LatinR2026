@@ -35,7 +35,7 @@ If you haven't submitted your work yet, this is your chance! You can participate
 
 **New deadline for proposal submission**: **June 1, 2026**
 
-**Notification of evaluation results**: early July
+**Notification of evaluation results**: late July
 
 **Deadline for confirming participation**: early August
 

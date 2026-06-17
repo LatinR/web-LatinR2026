@@ -94,7 +94,7 @@ apresentação de pôsteres e interação com o público. <br><br>
 
 **Data limite para envio de propostas**: 18 de maio
 
-**Notificação dos resultados da avaliação**: no início de julho
+**Notificação dos resultados da avaliação**: julho
 
 **Data limite para confirmação de participação**: no início de agosto
 

@@ -94,7 +94,7 @@ and dialogue with the audience. <br><br>
 
 **Deadline for proposal submission**: May 18
 
-**Notification of evaluation results**: early July
+**Notification of evaluation results**: late July
 
 **Deadline for confirming participation**: early August
 

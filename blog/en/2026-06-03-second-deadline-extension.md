@@ -57,7 +57,7 @@ If you don't have an OpenReview account yet, follow these steps:
 
 **New deadline for proposal submission**: **June 15, 2026**
 
-**Notification of evaluation results**: early July
+**Notification of evaluation results**: late July
 
 **Deadline for confirming participation**: early August
 

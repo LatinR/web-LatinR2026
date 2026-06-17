@@ -35,7 +35,7 @@ Si todavía no has enviado tu trabajo, ¡esta es tu oportunidad! Recordá que po
 
 **Nueva fecha límite para la recepción de propuestas**: **1 de junio de 2026**
 
-**Notificación resultados evaluación**: inicios de julio
+**Notificación resultados evaluación**: fines de julio
 
 **Fecha límite para confirmar participación**: inicios de agosto
 

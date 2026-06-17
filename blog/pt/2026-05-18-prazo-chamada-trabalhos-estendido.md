@@ -35,7 +35,7 @@ Se você ainda não enviou seu trabalho, esta é a sua oportunidade! Você pode 
 
 **Novo prazo para envio de propostas**: **1 de junho de 2026**
 
-**Notificação dos resultados da avaliação**: início de julho
+**Notificação dos resultados da avaliação**: julho
 
 **Data limite para confirmação de participação**: início de agosto
 
