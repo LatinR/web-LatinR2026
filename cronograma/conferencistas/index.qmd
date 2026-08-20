@@ -45,6 +45,10 @@ Nic Crane mantiene software de código abierto, realiza consultorías de R y tam
 
 Pueden encontrarle en https://niccrane.com/.
 
+### Emil Hvitfeldt
+
+Emil Hvitfeldt es Ingeniero de Software en Posit, donde trabaja en el ecosistema tidymodels. Es autor y mantenedor de varios paquetes de R, entre ellos textrecipes, paletteer y hardhat, y coautor del libro Supervised Machine Learning for Text Analysis in R. Pueden encontrarle en https://emilhvitfeldt.com.
+
 <!-- font awesome -->
 
 ```{=html}
