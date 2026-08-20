@@ -441,3 +441,68 @@ Não são necessários conhecimentos técnicos específicos. Este tutorial é pr
 **Alejandra Bellini** - Licenciada em Comunicação Social com título intermediário de jornalista profissional e Locutora Nacional (Argentina). Durante os últimos 21 anos fez parte da equipe do Canal 12, uma multimídia cordobesa onde ocupou diferentes funções: apresentadora e colunista em diferentes programas de televisão, editora web, coordenadora de conteúdos digitais. Foi parte da equipe que projetou o lançamento da plataforma digital do canal, transformando-se na primeira mulher chefe da história do canal que já tem 65 anos.
 
 É graduada do Colégio Universitário de Jornalismo Obispo Trejo y Sanabria. Foi docente da instituição nas carreiras de Jornalismo e na Licenciatura em Comunicação Social. Atualmente, é apresentadora de um noticiário e um programa de interesse geral que é transmitido de segunda a sexta-feira no Canal 12. Além disso, oferece cursos e capacitações para empresas, organizações e palestrantes que precisam desenvolver uma comunicação eficaz para diferentes contextos.
+
+
+## LLMs in R using {ellmer}
+
+### Sobre o curso
+
+**Idioma:** Inglês
+
+Este workshop apresenta aos participantes o uso de Grandes Modelos de Linguagem em R com o pacote {ellmer}.
+
+### Instrutores
+
+**Nic Crane** e **Yanina Bellini Saibene**
+
+
+## Desarrollando paquetes de R con IA
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Este tutorial cobre o desenvolvimento de pacotes R com o apoio de ferramentas de Inteligência Artificial.
+
+### Instrutora
+
+**Yanina Bellini Saibene**
+
+
+## Making great slides with quarto and revealjs
+
+### Sobre o curso
+
+**Idioma:** Inglês
+
+This workshop is all about making great slides in Quarto! You don't need to be a Quarto expert in order to participate, but having some basic knowledge of Quarto would be helpful. We will start with the basics of making a slide deck in Quarto using the revealjs output format and progress through lots of tips and tricks to help you get the most out of your slidecrafting experience. We will cover everything from styling and theming to how to best position elements on your slides for the best outcome.
+
+### Instrutor
+
+**Emil Hvitfeldt**
+
+
+## Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Tutorial prático sobre construção de modelos de Machine Learning usando o ecossistema tidymodels em R.
+
+### Instrutor
+
+**Freddy Hernández Barajas**
+
+
+## Shiny App
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Tutorial sobre desenvolvimento de aplicações Shiny em R.
+
+### Instrutor
+
+**Joshua Kunst**
