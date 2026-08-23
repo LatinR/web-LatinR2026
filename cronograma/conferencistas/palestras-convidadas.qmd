@@ -47,7 +47,8 @@ Mais informações podem ser encontradas em https://niccrane.com/.
 
 ### Emil Hvitfeldt
 
-Emil Hvitfeldt é Engenheiro de Software na Posit, onde trabalha no ecossistema tidymodels. É autor e mantenedor de diversos pacotes do R, incluindo textrecipes, paletteer e hardhat, além de coautor do livro Supervised Machine Learning for Text Analysis in R. Mais informações podem ser encontradas em https://emilhvitfeldt.com.
+Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. 
+É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*. Mais informações podem ser encontradas em https://emilhvitfeldt.com.
 <!-- font awesome -->
 
 ```{=html}
