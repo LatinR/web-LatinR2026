@@ -44,6 +44,11 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_pt
 Nic Crane trabalha com manutenção de software de código aberto, consultoria em R e também possui experiência em ensino. Integra o Comitê de Gestão do Projeto Apache Arrow e faz parte da equipe responsável pela manutenção do pacote Arrow para R, contribuindo para o ecossistema Arrow como um todo e para sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R, além de ministrar cursos e escrever sobre o uso de modelos de linguagem de grande porte (LLMs) em R.
 
 Mais informações podem ser encontradas em https://niccrane.com/.
+
+### Emil Hvitfeldt
+
+Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. 
+É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*. Mais informações podem ser encontradas em https://emilhvitfeldt.com.
 <!-- font awesome -->
 
 ```{=html}
