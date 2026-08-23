@@ -13,7 +13,7 @@ generar_info_keynotes <- function() {
       img = "img/posts/emil-hvitfeldt.png",
       info_es = "Emil Hvitfeldt es Ingeniero de Software en Posit, donde trabaja en el ecosistema tidymodels. Es autor y mantenedor de varios paquetes de R, entre ellos textrecipes, paletteer y hardhat, y coautor del libro Supervised Machine Learning for Text Analysis in R.",
       info_en = "Emil Hvitfeldt is a Software Engineer at Posit, where he works on the tidymodels ecosystem. He is the author and maintainer of several R packages including textrecipes, paletteer, and hardhat, and co-author of the book Supervised Machine Learning for Text Analysis in R.",
-      info_pt = "Emil Hvitfeldt é Engenheiro de Software na Posit, onde trabalha no ecossistema tidymodels. É autor e mantenedor de diversos pacotes do R, incluindo textrecipes, paletteer e hardhat, além de coautor do livro Supervised Machine Learning for Text Analysis in R."
+      info_pt = "Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*."
     ) #|> 
     # tibble::add_row(
     #   name = "Stephanie Zimmer",
