@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-08-23">
 
-<title>Novidades – LatinR 2026</title>
+<title>Aviso importante: latin-r.com não é o site oficial da LatinR – LatinR 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -62,86 +61,28 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>.blog-section-es, .blog-section-pt { display: none !important; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -150,8 +91,8 @@ window.Quarto = {
     <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -279,96 +220,74 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Aviso importante: latin-r.com não é o site oficial da LatinR</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">2026</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 23, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Novidades</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="aviso-importante-sobre-o-domínio-latin-r.com" class="level2">
+<h2 class="anchored" data-anchor-id="aviso-importante-sobre-o-domínio-latin-r.com">Aviso importante sobre o domínio latin-r.com</h2>
+<p>Queremos informar à nossa comunidade que o site <strong>latin-r.com</strong> <strong>não é o site oficial da conferência LatinR</strong>. O site oficial da LatinR é <strong><a href="https://latinr.org">latinr.org</a></strong>.</p>
+<p>A LatinR foi proprietária do domínio latin-r.com no passado e o utilizou como parte de sua presença online. Posteriormente, tomamos a decisão de migrar nosso site oficial para o domínio .org, pois este reflete melhor a natureza da nossa conferência. Por isso, o latin-r.com deixou de ser propriedade da LatinR.</p>
+<p>Recentemente tomamos conhecimento de que esse domínio está sendo utilizado por terceiros para publicar informações relacionadas à conferência LatinR. <strong>Não sabemos quem são nem por que estão usando esse domínio.</strong> A atual organização da LatinR não tem qualquer relação com os atuais proprietários ou gestores do latin-r.com:</p>
+<ul>
+<li>Não os conhecemos e não os autorizamos a representar a nossa conferência.</li>
+<li>Não temos nenhum envolvimento no desenvolvimento, manutenção ou atualização desse site.</li>
+<li>Não controlamos, revisamos nem aprovamos as informações atualmente publicadas lá.</li>
+</ul>
+<p>Essa situação pode gerar confusão e levar visitantes a acreditar erroneamente que o latin-r.com ainda é um site oficial da LatinR ou que é de alguma forma afiliado, autorizado ou endossado pela nossa organização. <strong>Pedimos que tenham especial cuidado</strong> ao acessar esse site.</p>
+<section id="denúncia-de-abuso-registrada" class="level3">
+<h3 class="anchored" data-anchor-id="denúncia-de-abuso-registrada">Denúncia de abuso registrada</h3>
+<p>Diante dessa situação, registramos uma <strong>denúncia de abuso por usurpação não autorizada e uso enganoso da identidade da LatinR</strong> junto ao responsável pela venda do domínio (NameBright.com).</p>
+<p>Em nossa comunicação, explicamos o seguinte:</p>
+<blockquote class="blockquote">
+<p>Escrevemos em nome da conferência LatinR em relação ao domínio latin-r.com. A LatinR foi anteriormente proprietária e usuária desse domínio como parte de sua presença online. Posteriormente, tomamos a decisão de migrar nosso site oficial para o domínio .org, pois este reflete melhor a natureza da nossa conferência. Por isso, o latin-r.com não é mais propriedade nem está sob o controle da LatinR.</p>
+<p>Tomamos conhecimento recentemente de que o domínio está sendo utilizado por terceiros para publicar informações relacionadas à conferência LatinR. Isso gera preocupação porque os visitantes podem razoavelmente acreditar que o latin-r.com ainda é um site oficial da LatinR ou que está afiliado, autorizado ou endossado pela nossa organização.</p>
+<p>Para ser claro: - A LatinR foi anteriormente proprietária e operadora do latin-r.com, mas não somos mais proprietárias nem controlamos esse domínio. - O atual registrante e os operadores do site não têm nenhuma autorização da LatinR para representar a nossa conferência. - Não temos nenhum envolvimento no desenvolvimento, manutenção ou atualização do site atual. - Não controlamos, revisamos nem aprovamos as informações atualmente publicadas lá. - O uso do antigo domínio da LatinR para publicar informações sobre a nossa conferência cria um risco significativo de confusão e deturpação.</p>
+<p>Solicitamos respeitosamente que investiguem se o uso atual desse domínio viola suas políticas de abuso, usurpação de identidade, representação enganosa ou outras políticas aplicáveis.</p>
+</blockquote>
+<p>Recebemos a seguinte confirmação por parte da NameBright.com:</p>
+<blockquote class="blockquote">
+<p><em>“Obrigado por entrar em contato com a NameBright.com. Este e-mail confirma que recebemos sua denúncia de abuso enviada na quinta-feira, 20 de agosto de 2026, referente ao nome de domínio latin-r.com. De acordo com a Seção 3.18.1 do Acordo de Acreditação de Registradores da ICANN, esta mensagem serve apenas como confirmação de recebimento.”</em></p>
+</blockquote>
+<p>Continuaremos informando a comunidade sobre quaisquer novidades neste assunto.</p>
+<hr>
+<p>Lembrem-se sempre de que o único site oficial da conferência é <strong><a href="https://latinr.org">latinr.org</a></strong>.</p>
 
 
-<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="MjAyNg==" data-listing-date-sort="1787443200000" data-listing-file-modified-sort="1787522412808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="532">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/pt/2026-08-23-aviso-dominio-latin-r-com.html" class="no-external">Aviso importante: latin-r.com não é o site oficial da LatinR</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/pt/2026-08-23-aviso-dominio-latin-r-com.html" class="no-external">
-<div class="listing-date">
-23 de ago. de 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="MjAyNg==" data-listing-date-sort="1780444800000" data-listing-file-modified-sort="1787522412808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/pt/2026-06-03-segunda-extensao-prazo.html" class="no-external">Prazo da chamada de trabalhos estendido novamente!</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/pt/2026-06-03-segunda-extensao-prazo.html" class="no-external">
-<div class="listing-date">
-3 de jun. de 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="MjAyNg==" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1787522412808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html" class="no-external">Prazo da chamada de trabalhos estendido!</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html" class="no-external">
-<div class="listing-date">
-18 de mai. de 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="MjAyNg==" data-listing-date-sort="1774569600000" data-listing-file-modified-sort="1787522412808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="653">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/pt/2026-03-27-apresentacao-trabalhos.html" class="no-external">Chamada de apresentação de trabalhos</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/pt/2026-03-27-apresentacao-trabalhos.html" class="no-external">
-<div class="listing-date">
-27 de mar. de 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Nenhum item correspondente</div>
-</div>
-
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -396,12 +315,12 @@ window.Quarto = {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiada");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiada");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
