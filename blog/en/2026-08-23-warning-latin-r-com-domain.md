@@ -5,45 +5,28 @@ date: 2026-08-23
 ref: domain-warning
 ---
 
-## Important notice about the domain latin-r.com
+# Important Notice About the latin-r.com Domain
 
-We want to inform our community that the website **latin-r.com** is **not the official LatinR conference website**. The official LatinR website is **[latinr.org](https://latinr.org)**.
+We would like to inform our community that **latin-r.com is not the official website of the LatinR conference**. The official LatinR website is **[latinr.org](https://latinr.org)**.
 
-LatinR previously owned and used the domain latin-r.com as part of our online presence. We later made the decision to move our official website to the .org domain, as this better reflects the nature of our conference. As a result, latin-r.com is no longer owned or controlled by LatinR.
+LatinR previously owned the **latin-r.com** domain and used it as part of its online presence. We later decided to move our official website to the **.org** domain, as it better reflects the nature of our conference. As a result, **latin-r.com is no longer owned or controlled by LatinR**.
 
-We have recently become aware that the domain is now being used by a third party to publish information related to the LatinR conference. **We do not know who they are or why they are using this domain.** The current LatinR organizing team has no relationship with the current owners or operators of latin-r.com:
+We recently became aware that this domain is being used by a third party to publish information related to the LatinR conference. **The current LatinR organization has no relationship with the current owners or operators of latin-r.com**, nor have we authorized them to represent our conference.
 
-- We do not know them and have not authorized them to represent our conference.
+In particular:
+
 - We have no involvement in the development, maintenance, or updating of that website.
-- We do not control, review, or approve the information currently published there.
+- We do not control, review, or approve the information published there.
+- Information published on latin-r.com should not be interpreted as official, authorized, or endorsed by LatinR.
 
-This situation may cause confusion and lead visitors to mistakenly believe that latin-r.com is still an official LatinR website or is otherwise affiliated with, authorized by, or endorsed by our organization. **We ask you to please exercise extra caution** if you visit that site.
+This situation may cause confusion and lead visitors to mistakenly believe that **latin-r.com** is still an official website or is affiliated with, authorized by, or endorsed by LatinR. **We recommend exercising particular caution and always consulting our official sources.**
 
-### Abuse report filed
+## Actions Taken
 
-In response to this situation, we have filed an **abuse report for unauthorized impersonation and misleading use of LatinR identity** with the party responsible for selling the domain (NameBright.com).
+In response to this situation, we have taken the appropriate steps to report the possible misuse of LatinR's former domain and the potential confusion caused by its current use.
 
-In our communication we explained the following:
-
-> We are writing on behalf of the LatinR conference regarding the domain latin-r.com. LatinR previously owned and used this domain as part of our online presence. We later made the decision to move our official website to a .org domain, as this better reflects the nature of our conference. As a result, latin-r.com is no longer owned or controlled by LatinR.
->
-> We have recently become aware that the domain is now being used by a third party to publish information related to the LatinR conference. This is causing concern because visitors may reasonably believe that latin-r.com is still an official LatinR website or is otherwise affiliated with, authorized by, or endorsed by our organization.
->
-> To be clear:
-> - LatinR previously owned and operated latin-r.com, but we no longer own or control this domain.
-> - The current registrant and operators of the website have no authorization from LatinR to represent our conference.
-> - We have no involvement in the development, maintenance, or updating of the current website.
-> - We do not control, review, or approve the information currently published there.
-> - The use of the former LatinR domain to publish information about our conference creates a significant risk of confusion and misrepresentation.
->
-> We respectfully request that you investigate whether the current use of this domain violates your abuse, impersonation, misleading representation, or other applicable policies.
-
-We received the following confirmation from NameBright.com:
-
-> *"Thank you for contacting NameBright.com. This email confirms we have received your abuse complaint submitted on Thursday, August 20, 2026 regarding domain name latin-r.com. In accordance with Section 3.18.1 of the ICANN Registrar Accreditation Agreement, this message serves as confirmation of receipt only."*
-
-We will continue to keep the community informed of any developments in this matter.
+The report has been received by the relevant entity, and we will continue to monitor the situation. We will keep the community informed of any relevant developments.
 
 ---
 
-Please always remember that the only official conference website is **[latinr.org](https://latinr.org)**.
+Please remember that the only official website of the conference is **[latinr.org](https://latinr.org)**.
