@@ -71,22 +71,20 @@ listing:
 <br> 
 :::
 :::
-:::
 
-
-<!--## Conferencistas-->
-
+## Conferencistas
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "info_es", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_es", width_col = "20%")
 
 ```
+:::
 
 
 
@@ -108,24 +106,20 @@ generar_cards_keynotes(info_keynotes, col_info = "info_es", width_col = "20%")
 <br>
 :::
 :::
-:::
 
-
-
-
-<!--## Keynotes-->
-
+## Keynotes
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "info_en", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_en", width_col = "20%")
 
 ```
+:::
 
 ::: {.content-visible when-profile="pt"}
 ::: grid
@@ -145,22 +139,20 @@ generar_cards_keynotes(info_keynotes, col_info = "info_en", width_col = "20%")
 <br>
 :::
 :::
-:::
 
-
-<!--## Palestrantes principais-->
-
+## Palestrantes principais
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
-generar_cards_keynotes(info_keynotes, col_info = "info_pt", width_col = "20%")
+generar_cards_keynotes(info_keynotes, col_information = "info_pt", width_col = "20%")
 
 ```
+:::
 
 
 ::: {.blog-section-es}

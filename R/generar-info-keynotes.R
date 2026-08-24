@@ -14,23 +14,16 @@ generar_info_keynotes <- function() {
       info_es = "Emil Hvitfeldt es ingeniero de software en Posit y forma parte del equipo de tidymodels, que trabaja para mejorar las capacidades de modelado en R. Mantiene varios paquetes relacionados con el modelado, el análisis de texto y las paletas de colores. También intenta convertir *slidecrafting* en un verbo respetable. Es coautor, junto con Julia Silge, del libro *Supervised Machine Learning for Text Analysis in R*, y actualmente trabaja en el libro *Feature Engineering A-Z*.",
       info_en = "Emil Hvitfeldt is a software engineer at Posit and part of the tidymodels team’s effort to improve R’s modeling capabilities. He maintains several packages within the realms of modeling, text analysis, and color palettes. Trying to make slidecrafting a well respecting verb. He co-authored the book Supervised Machine Learning for Text Analysis in R with Julia Silge. Working on book Feature Engineering A-Z.",
       info_pt = "Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*."
-    ) #|> 
-    # tibble::add_row(
-    #   name = "Stephanie Zimmer",
-    #   href = "https://github.com/szimmer",
-    #   img = "img/posts/StephanieZ.jpg",
-    #   info_es = "",
-    #   info_pt = "",
-    #   info_en = ""
-    # ) |> 
-    # tibble::add_row(
-    # name = "Equipo TRACE-LAC",
-    #  href = "https://medicina.javeriana.edu.co/trace-lac",
-    #   img = "img/posts/logo-tracelac.png",
-    #   info_es = "",
-    #   info_pt = "",
-    #   info_en = ""
-    # )
+    ) |>
+    tibble::add_row(
+      name = "Jaime Mosquera Gutiérrez",
+      href = "https://github.com/jmosquerag", # TODO: confirm link
+      img = "img/posts/jaime-mosquera.png",   # TODO: replace with real photo
+      # TODO: confirm bio
+      info_es = "Jaime Mosquera Gutiérrez. Profesor e investigador.",
+      info_en = "Jaime Mosquera Gutiérrez is a professor and statistics researcher.",
+      info_pt = "Jaime Mosquera Gutiérrez é professor e pesquisador de estatística."
+    )
 }
 
 generar_card_keynote <- function(tab, col_info = "info_es"){
@@ -51,14 +44,19 @@ generar_cards_keynotes <-
   function(info_keynotes,
            col_information = "info_es",
            width_col = 0.5) {
-    bslib::layout_column_wrap(
-      class = "cards-display",
-      width = width_col,
-      gap = "0.5cm",
-      height = 300,
-      generar_card_keynote(info_keynotes[1,], col_info = col_information),
-      generar_card_keynote(info_keynotes[2,],  col_info = col_information),
-      # generar_card_keynote(info_keynotes[3,],  col_info = col_information),
-      # generar_card_keynote(info_keynotes[4,],  col_info = col_information)
+    cards <- lapply(seq_len(nrow(info_keynotes)), function(i) {
+      generar_card_keynote(info_keynotes[i, ], col_info = col_information)
+    })
+    do.call(
+      bslib::layout_column_wrap,
+      c(
+        list(
+          class = "cards-display",
+          width = width_col,
+          gap = "0.5cm",
+          height = 300
+        ),
+        cards
+      )
     )
   }
