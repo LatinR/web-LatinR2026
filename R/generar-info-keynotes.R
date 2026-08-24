@@ -20,9 +20,9 @@ generar_info_keynotes <- function() {
       href = "https://github.com/jmosquerag", # TODO: confirm link
       img = "img/posts/jaime-mosquera.png",   # TODO: replace with real photo
       # TODO: confirm bio
-      info_es = "Jaime Mosquera Gutiérrez es profesor e investigador de estadística en la Universidad Nacional de Colombia, sede Medellín. Es autor de paquetes de R como `RelDists` y coautor de libros en español sobre R y estadística. Su trabajo se centra en distribuciones de probabilidad, modelos de supervivencia y la enseñanza de estadística con R.",
-      info_en = "Jaime Mosquera Gutiérrez is a professor and statistics researcher at Universidad Nacional de Colombia, Medellín campus. He is the author of R packages such as `RelDists` and co-author of Spanish-language books on R and statistics. His work focuses on probability distributions, survival models, and teaching statistics with R.",
-      info_pt = "Jaime Mosquera Gutiérrez é professor e pesquisador de estatística na Universidad Nacional de Colombia, campus Medellín. É autor de pacotes R como `RelDists` e coautor de livros em espanhol sobre R e estatística. Seu trabalho concentra-se em distribuições de probabilidade, modelos de sobrevivência e no ensino de estatística com R."
+      info_es = "Jaime Mosquera Gutiérrez. Profesor e investigador.",
+      info_en = "Jaime Mosquera Gutiérrez is a professor and statistics researcher.",
+      info_pt = "Jaime Mosquera Gutiérrez é professor e pesquisador de estatística."
     )
 }
 
