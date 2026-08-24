@@ -6,7 +6,15 @@
     href: https://r-consortium.org
     thumbnail: https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp
     type: sponsor
-  
+  - name: Posit P.B.C
+    href: https://posit.co
+    thumbnail: https://posit.co/wp-content/uploads/2022/10/posit-logo-fullcolor-TM.svg
+    type: sponsor
+  - name: rOpenSci
+    href: https://ropensci.org/
+    thumbnail: ../../img/partners/ropensci.svg
+    type: community
+
 # - name: Appsilon
 #   href: https://appsilon.com/
 #   thumbnail: ../../img/partners/Appsilon.svg
