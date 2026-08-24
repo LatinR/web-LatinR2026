@@ -27,10 +27,10 @@ website:
           - href: sobre/apoyo/apoio.qmd
           - href: sobre/coc/codigo-de-conduta.qmd
          # - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
-      - text: Participe
-        menu: 
-           - text: "Chamada para submissão de trabalhos"
-             href: blog/pt/2026-06-03-segunda-extensao-prazo.html
+      # - text: Participe
+      #   menu: 
+      #      - text: "Chamada para submissão de trabalhos"
+      #        href: blog/pt/2026-06-03-segunda-extensao-prazo.html
          # - text: "Sobre a inscrição"
          #   href: blog/pt/2024-08-01-inscricao.qmd
         # - text: "Inscrição"
