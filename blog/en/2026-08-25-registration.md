@@ -1,7 +1,7 @@
 ---
 title: "Registration"
 categories: "2026"
-date: 2026-06-04
+date: 2026-08-25
 ref: inscripcion
 ---
 
@@ -13,12 +13,22 @@ ref: inscripcion
 
 ##### Registration fees (in US dollars)
 
-| | Conference | Conference + 1 tutorial | Conference + 2 tutorials |
-|---|---|---|---|
-| Student | US$33 | US$67 | US$100 |
-| Academic | US$49 | US$85 | US$130 |
-| Industry | US$64 | US$107 | US$150 |
+**Early bird pricing**
+
+| | Conference | Tutorial (per tutorial) |
+|---|---|---|
+| Student | US$35 | US$25 |
+| Academic | US$50 | US$35 |
+| Industry | US$65 | US$50 |
+
+**Regular pricing**
+
+| | Conference |
+|---|---|
+| Student | US$40 |
+| Academic | US$60 |
+| Industry | US$75 |
 
 <br>
 
-Registration will be available from **July 2026**, once we announce the results of the review process. Registration will be handled through Eventbrite.
+Registration will be available from **September 2026** through Eventbrite.

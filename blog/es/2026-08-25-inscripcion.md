@@ -1,7 +1,7 @@
 ---
 title: "Inscripción"
 categories: "2026"
-date: 2026-06-04
+date: 2026-08-25
 ref: inscripcion
 ---
 
@@ -13,12 +13,22 @@ ref: inscripcion
 
 ##### Costos de inscripción (en dólares estadounidenses)
 
-| | Conferencia | Conferencia + 1 tutorial | Conferencia + 2 tutoriales |
-|---|---|---|---|
-| Estudiante | US$33 | US$67 | US$100 |
-| Académico/a | US$49 | US$85 | US$130 |
-| Industria | US$64 | US$107 | US$150 |
+**Precio early bird**
+
+| | Conferencia | Tutorial (por tutorial) |
+|---|---|---|
+| Estudiante | US$35 | US$25 |
+| Académico/a | US$50 | US$35 |
+| Industria | US$65 | US$50 |
+
+**Precio regular**
+
+| | Conferencia |
+|---|---|
+| Estudiante | US$40 |
+| Académico/a | US$60 |
+| Industria | US$75 |
 
 <br>
 
-Las inscripciones estarán disponibles a partir de **julio de 2026**, una vez que informemos los resultados del proceso de revisión. El registro se realizará a través de Eventbrite.
+Las inscripciones estarán disponibles a partir de **septiembre de 2026** a través de Eventbrite.
