@@ -65,8 +65,6 @@ listing:
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-<center><a href='blog/es/2026-06-03-segunda-extension-llamado-trabajos.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center>
-
 
 <br> 
 :::
@@ -102,8 +100,6 @@ generar_cards_keynotes(info_keynotes, col_info = "info_es", width_col = "20%")
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-
-<center><a href='blog/en/2026-06-03-second-deadline-extension.html'><button type="button" class="btn btn-light btn-lg">Open Call for Papers</button></a></center>
 
 <br>
 :::
@@ -141,7 +137,6 @@ generar_cards_keynotes(info_keynotes, col_info = "info_en", width_col = "20%")
 <br>
 </section>
 
-<center><a href='blog/pt/2026-06-03-segunda-extensao-prazo.html'><button type="button" class="btn btn-light btn-lg">Chamada para submissão de trabalhos</button></a></center>
 <br>
 :::
 :::

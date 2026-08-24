@@ -27,15 +27,6 @@ website:
           - href: sobre/apoyo/sponsors.qmd
           - href: sobre/coc/code-of-conduct.qmd
         #  - href: sobre/ediciones-anteriores/previous-editions.qmd  
-      - text: Attend
-        menu:
-          - text: "Call for Papers"
-            href: blog/en/2026-06-03-second-deadline-extension.html
-          # - text: "About Registration"
-          #  href: blog/en/2024-08-01-register.html
-          #- text: "Registration"
-          #  href: https://www.eventbrite.com.ar/e/1939670499679
-
       - text: LatinR 2026
         menu: 
           - text: "Location"
