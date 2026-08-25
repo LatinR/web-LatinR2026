@@ -2,6 +2,7 @@
   {
     "listing": "/blog/es/index.html",
     "items": [
+      "/blog/es/2026-08-25-inscripcion.html",
       "/blog/es/2026-08-23-aviso-dominio-latin-r-com.html",
       "/blog/es/2026-06-03-segunda-extension-llamado-trabajos.html",
       "/blog/es/2026-05-18-extension-llamado-trabajos.html",
@@ -11,6 +12,7 @@
   {
     "listing": "/blog/en/index.html",
     "items": [
+      "/blog/en/2026-08-25-registration.html",
       "/blog/en/2026-08-23-warning-latin-r-com-domain.html",
       "/blog/en/2026-06-03-second-deadline-extension.html",
       "/blog/en/2026-05-18-call-for-papers-deadline-extended.html",
@@ -20,14 +22,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/es/2026-08-25-inscripcion.html",
       "/blog/es/2026-08-23-aviso-dominio-latin-r-com.html",
       "/blog/es/2026-06-03-segunda-extension-llamado-trabajos.html",
       "/blog/es/2026-05-18-extension-llamado-trabajos.html",
       "/blog/es/2026-03-27-presentacion-trabajos.html",
+      "/blog/en/2026-08-25-registration.html",
       "/blog/en/2026-08-23-warning-latin-r-com-domain.html",
       "/blog/en/2026-06-03-second-deadline-extension.html",
       "/blog/en/2026-05-18-call-for-papers-deadline-extended.html",
       "/blog/en/2026-03-27-call-for-papers.html",
+      "/blog/pt/2026-08-25-inscricao.html",
       "/blog/pt/2026-08-23-aviso-dominio-latin-r-com.html",
       "/blog/pt/2026-06-03-segunda-extensao-prazo.html",
       "/blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html",
@@ -37,6 +42,7 @@
   {
     "listing": "/blog/pt/index.html",
     "items": [
+      "/blog/pt/2026-08-25-inscricao.html",
       "/blog/pt/2026-08-23-aviso-dominio-latin-r-com.html",
       "/blog/pt/2026-06-03-segunda-extensao-prazo.html",
       "/blog/pt/2026-05-18-prazo-chamada-trabalhos-estendido.html",
