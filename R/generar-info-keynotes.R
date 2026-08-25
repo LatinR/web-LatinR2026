@@ -17,7 +17,7 @@ generar_info_keynotes <- function() {
     ) |>
     tibble::add_row(
       name = "Mauricio Gómez Ardila",
-      href = "https://www.linkedin.com/in/mauricio-gomez-ardila/",
+      href = "",
       img = "img/posts/mauricio-gomez-ardila.png",
       info_es = "Mauricio Gómez Ardila es especialista de actuaría en Seguros Sura y docente de cátedra en la Facultad de Ingeniería de la Universidad de Antioquia, Colombia. Combina las matemáticas aplicadas y el aprendizaje estadístico para el análisis y solución de problemas financieros y de gestión de riesgos. Su experiencia se centra en el desarrollo de modelos de tarifación de seguros y optimización de reservas técnicas, integrando métodos actuariales con analítica avanzada.",
       info_en = "Mauricio Gómez Ardila is an actuarial specialist at Seguros Sura and a lecturer at the Faculty of Engineering of the Universidad de Antioquia, Colombia. He combines applied mathematics and statistical learning to analyze and solve financial and risk management problems. His expertise focuses on the development of insurance pricing models and optimization of technical reserves, integrating actuarial methods with advanced analytics.",
