@@ -20,13 +20,6 @@ website:
         text: "**ES**"    
       - text: "Principal"
         href: /index.html
-      - text: Sobre LatinR
-        menu:        
-          - text: "Equipo Organizador"
-            href: sobre/equipo/index.qmd        
-          - href: sobre/apoyo/index.qmd
-          - href: sobre/coc/index.qmd
-        #  - href: sobre/ediciones-anteriores/index.qmd  
       # - text: Participa
       #   menu:
       #    - text: "Llamado a presentación de trabajos"
@@ -42,6 +35,11 @@ website:
             href: cronograma/lugar/index.qmd 
           - text: "Recursos turísticos"
             href: cronograma/recursos-turisticos/index.qmd  
+          - text: "Equipo Organizador"
+            href: sobre/equipo/index.qmd        
+          - href: sobre/apoyo/index.qmd
+          - href: sobre/coc/index.qmd
+        #  - href: sobre/ediciones-anteriores/index.qmd  
       - text: Programa
         menu:
       #     # - text: "Programa resumido"
