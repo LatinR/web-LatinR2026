@@ -8,7 +8,7 @@
     type: sponsor
   - name: Posit P.B.C
     href: https://posit.co
-    thumbnail: https://posit.co/wp-content/uploads/2022/10/posit-logo-fullcolor-TM.svg
+    thumbnail: ../../img/partners/posit.png
     type: sponsor
   - name: rOpenSci
     href: https://ropensci.org/
