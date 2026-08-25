@@ -46,6 +46,10 @@ Nic Crane is an open-source maintainer and independent R consultant and educator
 
 Emil Hvitfeldt is a software engineer at Posit and part of the tidymodels team’s effort to improve R’s modeling capabilities. He maintains several packages within the realms of modeling, text analysis, and color palettes. Trying to make slidecrafting a well respecting verb. He co-authored the book Supervised Machine Learning for Text Analysis in R with Julia Silge. Working on book Feature Engineering A-Z. More information at https://emilhvitfeldt.com.
 
+### Mauricio Gómez Ardila
+
+Mauricio Gómez Ardila is an actuarial specialist at Seguros Sura and a lecturer at the Faculty of Engineering of the Universidad de Antioquia, Colombia. He combines applied mathematics and statistical learning to analyze and solve financial and risk management problems. His expertise focuses on the development of insurance pricing models and optimization of technical reserves, integrating actuarial methods with advanced analytics.
+
 <!-- font awesome -->
 
 ```{=html}
