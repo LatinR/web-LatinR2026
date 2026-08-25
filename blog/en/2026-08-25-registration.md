@@ -23,11 +23,11 @@ ref: inscripcion
 
 **Regular pricing**
 
-| | Conference |
-|---|---|
-| Student | US$40 |
-| Academic | US$60 |
-| Industry | US$75 |
+| | Conference | Tutorial (per tutorial) |
+|---|---|---|
+| Student | US$40 | US$25 |
+| Academic | US$60 | US$35 |
+| Industry | US$75 | US$50 |
 
 <br>
 

@@ -23,11 +23,11 @@ ref: inscripcion
 
 **Preço regular**
 
-| | Conferência |
-|---|---|
-| Estudante | US$40 |
-| Acadêmico/a | US$60 |
-| Indústria | US$75 |
+| | Conferência | Tutorial (por tutorial) |
+|---|---|---|
+| Estudante | US$40 | US$25 |
+| Acadêmico/a | US$60 | US$35 |
+| Indústria | US$75 | US$50 |
 
 <br>
 
