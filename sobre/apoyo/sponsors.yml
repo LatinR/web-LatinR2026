@@ -12,7 +12,7 @@
     type: sponsor
   - name: rOpenSci
     href: https://ropensci.org/
-    thumbnail: ../../img/partners/ropensci.svg
+    thumbnail: ../../img/partners/ropensci.png
     type: community
 
 # - name: Appsilon
