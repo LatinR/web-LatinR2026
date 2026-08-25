@@ -16,13 +16,12 @@ generar_info_keynotes <- function() {
       info_pt = "Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*."
     ) |>
     tibble::add_row(
-      name = "Jaime Mosquera Gutiérrez",
-      href = "https://github.com/jmosquerag", # TODO: confirm link
-      img = "img/posts/jaime-mosquera.png",   # TODO: replace with real photo
-      # TODO: confirm bio
-      info_es = "Jaime Mosquera Gutiérrez. Profesor e investigador.",
-      info_en = "Jaime Mosquera Gutiérrez is a professor and statistics researcher.",
-      info_pt = "Jaime Mosquera Gutiérrez é professor e pesquisador de estatística."
+      name = "Mauricio Gómez Ardila",
+      href = "",
+      img = "img/posts/mauricio-gomez-ardila.png",
+      info_es = "Mauricio Gómez Ardila es especialista de actuaría en Seguros Sura y docente de cátedra en la Facultad de Ingeniería de la Universidad de Antioquia, Colombia. Combina las matemáticas aplicadas y el aprendizaje estadístico para el análisis y solución de problemas financieros y de gestión de riesgos. Su experiencia se centra en el desarrollo de modelos de tarifación de seguros y optimización de reservas técnicas, integrando métodos actuariales con analítica avanzada.",
+      info_en = "Mauricio Gómez Ardila is an actuarial specialist at Seguros Sura and a lecturer at the Faculty of Engineering of the Universidad de Antioquia, Colombia. He combines applied mathematics and statistical learning to analyze and solve financial and risk management problems. His expertise focuses on the development of insurance pricing models and optimization of technical reserves, integrating actuarial methods with advanced analytics.",
+      info_pt = "Mauricio Gómez Ardila é especialista em atuária na Seguros Sura e professor na Faculdade de Engenharia da Universidade de Antioquia, Colômbia. Combina matemática aplicada e aprendizado estatístico para analisar e solucionar problemas financeiros e de gestão de riscos. Sua experiência concentra-se no desenvolvimento de modelos de precificação de seguros e otimização de reservas técnicas, integrando métodos atuariais com análise avançada de dados."
     )
 }
 
