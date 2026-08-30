@@ -20,13 +20,6 @@ website:
         text: "ES"    
       - text: "Home"
         href: /index.html
-      - text: About LatinR
-        menu:        
-          - text: "Organizing Team"
-            href: sobre/equipo/index.qmd        
-          - href: sobre/apoyo/sponsors.qmd
-          - href: sobre/coc/code-of-conduct.qmd
-        #  - href: sobre/ediciones-anteriores/previous-editions.qmd  
       # - text: Attend
       #   menu:
       #     - text: "Call for Papers"
@@ -42,6 +35,11 @@ website:
             href: cronograma/lugar/location.qmd            
           - text: "Tourist resources"
             href: cronograma/recursos-turisticos/index-en.qmd
+          - text: "Organizing Team"
+            href: sobre/equipo/index.qmd        
+          - href: sobre/apoyo/sponsors.qmd
+          - href: sobre/coc/code-of-conduct.qmd
+        #  - href: sobre/ediciones-anteriores/previous-editions.qmd  
       - text: Program
         menu:
       #     # - text: "Summarised program"
