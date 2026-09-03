@@ -42,7 +42,6 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_en
 
 I'll talk about my experiences of trying to use AI to improve my life as a data analyst, R developer, and human being. At a time when generating ideas is easy but knowing which ones to pursue is harder, how do you figure out what is worth your time, what is actually going to have a positive impact, and how to make it work with you, not against you?
 
-Nic Crane is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R (https://niccrane.com/).
 
 ### Emil Hvitfeldt
 
@@ -52,7 +51,6 @@ Emil Hvitfeldt is a software engineer at Posit and part of the tidymodels teamâ€
 
 For years the discussion was "R or Python?". Now the question is different: why keep choosing? This talk proposes viewing data science as what it truly is: an ecosystem, not a catalog of competing tools. No component has value in isolation: ingestion sustains storage, storage enables modeling, and modeling only matters if it reaches deployment. When one layer matures without the others, the whole system becomes unbalanced. Choosing a language is just one decision within that machinery, not its axis. From this perspective, we will explore the tools that today break down the barrier between languages. We will see how productive teams stopped translating code and built a single pipeline where each piece does what it does best: R's statistical rigor combined with Python's integration and automation capabilities. Code silos inevitably create people silos. Recognizing this double interdependence (technical and organizational) leads us to a definitive conclusion: the best pipeline doesn't speak just one language, it speaks whichever ones the project needs.
 
-Mauricio GÃ³mez Ardila is an actuarial specialist at Seguros Sura and a lecturer at the Faculty of Engineering of the Universidad de Antioquia, Colombia. He combines applied mathematics and statistical learning to analyze and solve financial and risk management problems. His expertise focuses on the development of insurance pricing models and optimization of technical reserves, integrating actuarial methods with advanced analytics.
 
 <!-- font awesome -->
 
