@@ -7,43 +7,21 @@ knitr:
     warning: false
 ---
 
-## Automatiza la publicación de tus reportes con Quarto y GitHub Actions
+## Automate the publication of your reports with Quarto and GitHub Actions
 
 #### Learn to implement a continuous deployment workflow to automate the generation and publication of reports using Quarto and GitHub Actions
 
 ### About the course
 
-**Date** December 1, 2025, 10:00 AM - 12:30 PM (UTC-3)
-
-**Mode**: Online
-
 **Language:** Spanish
 
-**Enrollment**: [Automate the publication of your reports with Quarto and GitHub Actions](https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084)
 
 The objective of the workshop is to learn how to automate the publication and updates of R and Quarto projects through GitHub Actions and GitHub Pages. This will allow participants to improve the efficiency, reproducibility and accessibility of their analyses and reports, facilitating the open dissemination of results.
 
-During the workshop we will start from an open Google Form (with its responses in a public Google Sheet) and a Quarto dashboard (.qmd) already prepared. We will focus on configuring the Quarto project, the GitHub repository and the workflow file in GitHub Actions to achieve automatic updating of a dashboard that periodically retrieves the responses entered in the form.
 
-Upon completion of the workshop, participants will be able to:
-- Describe what a GitHub action is and recognize its main components.
-- Configure a workflow file in YAML to automate the execution of an R script in GitHub Actions.
-- Execute a workflow that obtains data from Google Sheets, processes it with R, generates a dashboard in Quarto and publishes it on GitHub Pages.
-- Schedule the automatic execution of a workflow at regular intervals.
-
-This tutorial is aimed at people who work with R and Quarto or RMarkdown and want to learn how to automate the publication of reports, analyses or dashboards. It may be especially useful for researchers, teachers and data science professionals who need to keep results updated and accessible online.
-
-### Requirements
-
-Recommended prior knowledge: To make the most of the workshop, it is recommended that participants have basic familiarity with R (running scripts, loading packages, reading data) and RMarkdown or Quarto (knowing what a .rmd/.qmd is and how to render it). Basic knowledge of Git and GitHub (cloning a repository, making a commit and a push) is also suggested.
-
-No prior knowledge of GitHub Actions or automation is required: these will be the central topics of the workshop.
-
-### Instructors
+### Instructor
 
 **Jesica Formoso** is a cognitive psychologist, PhD from the University of Buenos Aires and CONICET researcher in Argentina. Specialized in statistics applied to health sciences, she is a certified Posit and The Carpentries instructor. She researches text comprehension in children and advises projects in methodological design, data analysis and development of reproducible tools. She is co-organizer at R-Ladies Buenos Aires and collaborates with R-Ladies Global and the Forwards community. Additionally, she is part of the MetaDocencia team, where she coordinates the impact measurement area.
-
-**María Cristina Nanton** is a Master's student in Data Mining at the University of Buenos Aires. She leads a team of more than 20 data scientists and analysts at the Health Statistics Management of the Buenos Aires City Ministry of Health. Since 2019, she teaches and develops programs in statistics, programming and data science in various academic, scientific and public sector institutions. She is a certified Carpentries instructor, co-organizer of R-Ladies Buenos Aires, and a member of the global R-Ladies team, where she promotes diversity and inclusion in technology and data science.
 
 
 ## Making great slides with quarto and revealjs
@@ -76,7 +54,7 @@ In this workshop we'll explore using LLMs programmatically in R with ellmer. We'
 **Nic Crane** is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R.
 
 
-## Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
+## Building Machine Learning Models with tidymodels: A Hands-on Tutorial
 
 #### Hands-on workshop to build machine learning models with the tidymodels ecosystem in R
 
@@ -91,7 +69,7 @@ This hands-on workshop is dedicated to building machine learning models using th
 **Freddy Hernández Barajas**
 
 
-## De idea a paquete: programá tu primer paquete de R
+## From idea to package: program your first R package
 
 #### Hands-on workshop to turn an idea into an R package, from project setup to publication
 
@@ -103,10 +81,10 @@ In this hands-on workshop you will learn how to turn an idea into an R package, 
 
 ### Instructor
 
-**Yanina Bellini Saibene** - holds a Master's degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of R-Ladies+ and The Carpentries. Yanina is a certified Carpentries instructor and trainer, and a GitHub Star.
+**Yanina Bellini Saibene** - holds a Master's degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of R-Ladies+ and The Carpentries. Yanina is a Sovereign Tech Fellow 2026, a certified Carpentries instructor and trainer, and a GitHub Star. She is an undergraduate and postgraduate professor at Austral University (Argentina).
 
 
-## Incorpora IA a tus aplicaciones Shiny
+## Incorporate AI into your Shiny applications.
 
 #### Hands-on workshop to add artificial intelligence to your Shiny applications
 
