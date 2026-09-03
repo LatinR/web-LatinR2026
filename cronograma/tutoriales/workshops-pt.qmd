@@ -441,3 +441,78 @@ Não são necessários conhecimentos técnicos específicos. Este tutorial é pr
 **Alejandra Bellini** - Licenciada em Comunicação Social com título intermediário de jornalista profissional e Locutora Nacional (Argentina). Durante os últimos 21 anos fez parte da equipe do Canal 12, uma multimídia cordobesa onde ocupou diferentes funções: apresentadora e colunista em diferentes programas de televisão, editora web, coordenadora de conteúdos digitais. Foi parte da equipe que projetou o lançamento da plataforma digital do canal, transformando-se na primeira mulher chefe da história do canal que já tem 65 anos.
 
 É graduada do Colégio Universitário de Jornalismo Obispo Trejo y Sanabria. Foi docente da instituição nas carreiras de Jornalismo e na Licenciatura em Comunicação Social. Atualmente, é apresentadora de um noticiário e um programa de interesse geral que é transmitido de segunda a sexta-feira no Canal 12. Além disso, oferece cursos e capacitações para empresas, organizações e palestrantes que precisam desenvolver uma comunicação eficaz para diferentes contextos.
+
+
+## Making great slides with quarto and revealjs
+
+#### Aprenda a criar ótimos slides no Quarto usando o formato revealjs
+
+### Sobre o curso
+
+**Idioma:** Inglês
+
+Este workshop é totalmente dedicado a criar ótimos slides no Quarto! Não é necessário ser especialista em Quarto para participar, mas ter algum conhecimento básico ajudará. Começaremos pelo básico da criação de uma apresentação de slides no Quarto usando o formato de saída revealjs e avançaremos por diversas dicas e truques para ajudar você a aproveitar ao máximo sua experiência de criação de slides. Abordaremos desde estilo e temas até a melhor forma de posicionar elementos nos seus slides para obter o melhor resultado.
+
+### Instrutor
+
+**Emil Hvitfeldt** é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*.
+
+
+## LLMs in R using {ellmer}
+
+#### Aprenda a usar LLMs de forma programática em R com {ellmer}
+
+### Sobre o curso
+
+**Idioma:** Inglês
+
+Neste workshop vamos explorar o uso programático de LLMs em R com ellmer. Veremos os principais conceitos a entender, e você vai aprender a se conectar a APIs de LLMs, a extrair dados estruturados a partir de texto não estruturado, e a permitir que os LLMs chamem funções em R e acessem fontes externas para obter resultados mais confiáveis.
+
+### Instrutor
+
+**Nic Crane** trabalha com manutenção de software de código aberto, consultoria em R e também possui experiência em ensino. Integra o Comitê de Gestão do Projeto Apache Arrow e faz parte da equipe responsável pela manutenção do pacote Arrow para R, contribuindo para o ecossistema Arrow como um todo e para sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R, além de ministrar cursos e escrever sobre o uso de LLMs em R.
+
+
+## Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
+
+#### Workshop prático para construir modelos de machine learning com o ecossistema tidymodels em R
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Este workshop prático é dedicado à construção de modelos de machine learning utilizando o ecossistema tidymodels em R.
+
+### Instrutor
+
+**Freddy Hernández Barajas**
+
+
+## De idea a paquete: programá tu primer paquete de R
+
+#### Workshop prático para transformar uma ideia em um pacote de R, da organização do projeto até a publicação
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Neste workshop prático você vai aprender a transformar uma ideia em um pacote de R, percorrendo as principais etapas do processo de desenvolvimento: organização do projeto, programação, documentação, testes e publicação. Também discutiremos o uso de IA (GitHub Copilot) como assistente durante o desenvolvimento do seu pacote.
+
+### Instrutora
+
+**Yanina Bellini Saibene** - mestra em Data Mining and Knowledge Discovery. Trabalha como Community Manager na rOpenSci e integra o conselho diretivo da R-Ladies+ e da The Carpentries. Yanina é instrutora e trainer certificada pela The Carpentries e GitHub Star.
+
+
+## Incorpora IA a tus aplicaciones Shiny
+
+#### Workshop prático para incorporar inteligência artificial em suas aplicações Shiny
+
+### Sobre o curso
+
+**Idioma:** Espanhol
+
+Este workshop é dedicado a incorporar inteligência artificial em aplicações Shiny.
+
+### Instrutor
+
+**Joshua Kunst**

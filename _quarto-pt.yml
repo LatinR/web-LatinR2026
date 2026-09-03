@@ -48,8 +48,8 @@ website:
       #        href: cronograma/programa/index.qmd
           - text: "Palestras convidadas"
             href: cronograma/conferencistas/palestras-convidadas.qmd
-      #      - text: "Workshops"
-      #        href: cronograma/tutoriales/workshops-pt.qmd
+          - text: "Workshops"
+            href: cronograma/tutoriales/workshops-pt.qmd
           # - text: "R Dev Day"
           #   href: cronograma/r-dev-day/rdevday-pt.qmd      
           # - text: "Traslaton rOpenSci"

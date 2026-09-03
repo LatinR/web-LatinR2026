@@ -455,4 +455,79 @@ No se requieren conocimientos técnicos específicos. Este tutorial está diseñ
 
 **Alejandra Bellini** - Licenciada en Comunicación Social con título intermedio de periodista profesional y Locutora Nacional (Argentina). Durante los últimos 21 años formé parte del equipo de Canal 12, un multimedio cordobés donde ocupé distintos roles: conductora y columnista en distintos programas de televisión, editora web, coordinadora de contenidos digitales. Fue parte del equipo que diseñó el lanzamiento de la plataforma digital del canal, transformándome en la primera mujer jefa de la historia del canal que ya tiene 65 años.
 
+
+## Making great slides with quarto and revealjs
+
+#### Aprende a crear grandes diapositivas en Quarto usando el formato revealjs
+
+### Sobre el curso
+
+**Idioma:** Inglés
+
+Este taller está dedicado a la creación de grandes diapositivas en Quarto. No es necesario ser experto o experta en Quarto para participar, aunque contar con conocimientos básicos resultará de ayuda. Comenzaremos por los fundamentos de la creación de una presentación en Quarto utilizando el formato de salida revealjs y avanzaremos a través de numerosos consejos y trucos para ayudarte a aprovechar al máximo tu experiencia de creación de diapositivas. Cubriremos desde el estilo y la tematización hasta la mejor forma de posicionar los elementos en tus diapositivas para lograr el mejor resultado.
+
+### Tutor
+
+**Emil Hvitfeldt** es ingeniero de software en Posit y forma parte del equipo de tidymodels, que trabaja para mejorar las capacidades de modelado en R. Mantiene varios paquetes relacionados con el modelado, el análisis de texto y las paletas de colores. También intenta convertir *slidecrafting* en un verbo respetable. Es coautor, junto con Julia Silge, del libro *Supervised Machine Learning for Text Analysis in R*, y actualmente trabaja en el libro *Feature Engineering A-Z*.
+
+
+## LLMs in R using {ellmer}
+
+#### Aprende a usar LLMs de forma programática en R con {ellmer}
+
+### Sobre el curso
+
+**Idioma:** Inglés
+
+En este taller exploraremos el uso de LLMs de forma programática en R con ellmer. Veremos los conceptos clave para comprender su funcionamiento, y aprenderás a conectarte a APIs de LLMs, a extraer datos estructurados a partir de texto no estructurado, y a permitir que los LLMs llamen funciones de R y accedan a fuentes externas para obtener resultados más confiables.
+
+### Tutor
+
+**Nic Crane** mantiene software de código abierto, realiza consultorías de R y también tiene experiencia como docente. Es parte del Comité de Gestión del Proyecto Apache Arrow y una de las personas que mantiene el paquete Arrow para R, con lo que contribuye al ecosistema general de Arrow y a su adopción en los flujos de trabajo de ciencia de datos. Nic colabora con el paquete ellmer para R e imparte clases y escribe sobre el uso de modelos de lenguaje a gran escala (LLM) en R.
+
+
+## Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
+
+#### Taller práctico para construir modelos de machine learning con el ecosistema tidymodels en R
+
+### Sobre el curso
+
+**Idioma:** Español
+
+Este taller práctico está dedicado a la construcción de modelos de machine learning utilizando el ecosistema tidymodels en R.
+
+### Tutor
+
+**Freddy Hernández Barajas**
+
+
+## De idea a paquete: programá tu primer paquete de R
+
+#### Taller práctico para transformar una idea en un paquete de R, desde la organización del proyecto hasta su publicación
+
+### Sobre el curso
+
+**Idioma:** Español
+
+En este taller práctico vas a aprender a transformar una idea en un paquete de R, recorriendo las principales etapas del proceso de desarrollo: organización del proyecto, programación, documentación, pruebas y publicación. También discutiremos el uso de IA (GitHub Copilot) como asistente durante el desarrollo de tu paquete.
+
+### Tutora
+
+**Yanina Bellini Saibene** - maestra en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de R-Ladies+ y The Carpentries. Yanina es instructora y trainer certificada por The Carpentries y una GitHub Star.
+
+
+## Incorpora IA a tus aplicaciones Shiny
+
+#### Taller práctico para incorporar inteligencia artificial a tus aplicaciones Shiny
+
+### Sobre el curso
+
+**Idioma:** Español
+
+Este taller está dedicado a incorporar inteligencia artificial a aplicaciones Shiny.
+
+### Tutor
+
+**Joshua Kunst**
+
 Soy egresada del Colegio Universitario de Periodiso Obispo Trejo y Sanabria. Fue docente de la institución en las carreras de Periodismo y en la Licenciatura en Comunicación Social. Actualmente, soy conductora de un noticiero y un programa de interés general que se emite de lunes a viernes en Canal 12. Además, ofrezco cursos y capacitaciones para empresas, organizaciones y speakers que necesitan desarrollar una comunicación efectiva para distintos contextos.
