@@ -44,7 +44,6 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_es
 Hablaré sobre mis experiencias al intentar usar la IA para mejorar mi vida como analista de datos, desarrollador/a de R y ser humano. En una época en la que generar ideas es fácil pero saber cuáles vale la pena perseguir es más difícil, ¿cómo se determina qué merece tu tiempo, qué realmente tendrá un impacto positivo, y cómo lograr que funcione a tu favor y no en tu contra?
 
 
-Pueden encontrarle en https://niccrane.com/.
 
 ### Emil Hvitfeldt
 
