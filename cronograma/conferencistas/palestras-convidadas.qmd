@@ -39,11 +39,9 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_pt
 ## Palestras
 
 
-### Nic Crane
+### Nic Crane: Aprendendo com IA: Código, Dados e Vida
 
-**Título:** Aprendendo com IA: Código, Dados e Vida
-
-**Resumo:** Vou falar sobre minhas experiências tentando usar IA para melhorar minha vida como analista de dados, desenvolvedor(a) de R e ser humano. Em uma época em que gerar ideias é fácil, mas saber quais vale a pena perseguir é mais difícil, como você descobre o que vale o seu tempo, o que realmente terá um impacto positivo e como fazer com que funcione a seu favor, e não contra você?
+Vou falar sobre minhas experiências tentando usar IA para melhorar minha vida como analista de dados, desenvolvedor(a) de R e ser humano. Em uma época em que gerar ideias é fácil, mas saber quais vale a pena perseguir é mais difícil, como você descobre o que vale o seu tempo, o que realmente terá um impacto positivo e como fazer com que funcione a seu favor, e não contra você?
 
 Nic Crane trabalha com manutenção de software de código aberto, consultoria em R e também possui experiência em ensino. Integra o Comitê de Gestão do Projeto Apache Arrow e faz parte da equipe responsável pela manutenção do pacote Arrow para R, contribuindo para o ecossistema Arrow como um todo e para sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R, além de ministrar cursos e escrever sobre o uso de modelos de linguagem de grande porte (LLMs) em R.
 
@@ -54,11 +52,9 @@ Mais informações podem ser encontradas em https://niccrane.com/.
 Emil Hvitfeldt é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. 
 É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*. Mais informações podem ser encontradas em https://emilhvitfeldt.com.
 
-### Mauricio Gómez Ardila
+### Mauricio Gómez Ardila: Da guerra de linguagens à sinergia tecnológica
 
-**Título:** Da guerra de linguagens à sinergia tecnológica
-
-**Resumo:** Durante anos, a discussão foi "R ou Python?". A pergunta agora é outra: por que continuar escolhendo? Esta palestra propõe ver a ciência de dados como ela realmente é: um ecossistema, e não um catálogo de ferramentas concorrentes. Nenhum componente tem valor isolado: a ingestão sustenta o armazenamento, o armazenamento viabiliza a modelagem, e a modelagem só importa se chegar ao deployment. Quando uma camada amadurece sem as outras, todo o sistema se desequilibra. A escolha da linguagem é apenas uma decisão dentro dessa engrenagem, não o seu eixo. Sob essa perspectiva, vamos percorrer as ferramentas que hoje rompem a barreira entre linguagens. Veremos como equipes produtivas deixaram de traduzir código e construíram um pipeline único, no qual cada peça faz o que sabe fazer melhor: o rigor estatístico do R aliado à capacidade de integração e automação do Python. Silos de código inevitavelmente criam silos de pessoas. Reconhecer essa dupla interdependência (técnica e organizacional) nos leva a uma conclusão definitiva: o melhor pipeline não fala apenas um idioma, fala os que o projeto precisar.
+Durante anos, a discussão foi "R ou Python?". A pergunta agora é outra: por que continuar escolhendo? Esta palestra propõe ver a ciência de dados como ela realmente é: um ecossistema, e não um catálogo de ferramentas concorrentes. Nenhum componente tem valor isolado: a ingestão sustenta o armazenamento, o armazenamento viabiliza a modelagem, e a modelagem só importa se chegar ao deployment. Quando uma camada amadurece sem as outras, todo o sistema se desequilibra. A escolha da linguagem é apenas uma decisão dentro dessa engrenagem, não o seu eixo. Sob essa perspectiva, vamos percorrer as ferramentas que hoje rompem a barreira entre linguagens. Veremos como equipes produtivas deixaram de traduzir código e construíram um pipeline único, no qual cada peça faz o que sabe fazer melhor: o rigor estatístico do R aliado à capacidade de integração e automação do Python. Silos de código inevitavelmente criam silos de pessoas. Reconhecer essa dupla interdependência (técnica e organizacional) nos leva a uma conclusão definitiva: o melhor pipeline não fala apenas um idioma, fala os que o projeto precisar.
 
 Mauricio Gómez Ardila é especialista em atuária na Seguros Sura e professor na Faculdade de Engenharia da Universidade de Antioquia, Colômbia. Combina matemática aplicada e aprendizado estatístico para analisar e solucionar problemas financeiros e de gestão de riscos. Sua experiência concentra-se no desenvolvimento de modelos de precificação de seguros e otimização de reservas técnicas, integrando métodos atuariais com análise avançada de dados.
 <!-- font awesome -->
