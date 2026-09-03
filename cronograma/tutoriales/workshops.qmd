@@ -7,443 +7,93 @@ knitr:
     warning: false
 ---
 
-## Automatiza la publicación de tus reportes con Quarto y GitHub Actions
+## Automate the publication of your reports with Quarto and GitHub Actions
 
 #### Learn to implement a continuous deployment workflow to automate the generation and publication of reports using Quarto and GitHub Actions
 
 ### About the course
 
-**Date** December 1, 2025, 10:00 AM - 12:30 PM (UTC-3)
-
-**Mode**: Online
-
 **Language:** Spanish
 
-**Enrollment**: [Automate the publication of your reports with Quarto and GitHub Actions](https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084)
 
 The objective of the workshop is to learn how to automate the publication and updates of R and Quarto projects through GitHub Actions and GitHub Pages. This will allow participants to improve the efficiency, reproducibility and accessibility of their analyses and reports, facilitating the open dissemination of results.
 
-During the workshop we will start from an open Google Form (with its responses in a public Google Sheet) and a Quarto dashboard (.qmd) already prepared. We will focus on configuring the Quarto project, the GitHub repository and the workflow file in GitHub Actions to achieve automatic updating of a dashboard that periodically retrieves the responses entered in the form.
 
-Upon completion of the workshop, participants will be able to:
-- Describe what a GitHub action is and recognize its main components.
-- Configure a workflow file in YAML to automate the execution of an R script in GitHub Actions.
-- Execute a workflow that obtains data from Google Sheets, processes it with R, generates a dashboard in Quarto and publishes it on GitHub Pages.
-- Schedule the automatic execution of a workflow at regular intervals.
-
-This tutorial is aimed at people who work with R and Quarto or RMarkdown and want to learn how to automate the publication of reports, analyses or dashboards. It may be especially useful for researchers, teachers and data science professionals who need to keep results updated and accessible online.
-
-### Requirements
-
-Recommended prior knowledge: To make the most of the workshop, it is recommended that participants have basic familiarity with R (running scripts, loading packages, reading data) and RMarkdown or Quarto (knowing what a .rmd/.qmd is and how to render it). Basic knowledge of Git and GitHub (cloning a repository, making a commit and a push) is also suggested.
-
-No prior knowledge of GitHub Actions or automation is required: these will be the central topics of the workshop.
-
-### Instructors
+### Instructor
 
 **Jesica Formoso** is a cognitive psychologist, PhD from the University of Buenos Aires and CONICET researcher in Argentina. Specialized in statistics applied to health sciences, she is a certified Posit and The Carpentries instructor. She researches text comprehension in children and advises projects in methodological design, data analysis and development of reproducible tools. She is co-organizer at R-Ladies Buenos Aires and collaborates with R-Ladies Global and the Forwards community. Additionally, she is part of the MetaDocencia team, where she coordinates the impact measurement area.
 
-**María Cristina Nanton** is a Master's student in Data Mining at the University of Buenos Aires. She leads a team of more than 20 data scientists and analysts at the Health Statistics Management of the Buenos Aires City Ministry of Health. Since 2019, she teaches and develops programs in statistics, programming and data science in various academic, scientific and public sector institutions. She is a certified Carpentries instructor, co-organizer of R-Ladies Buenos Aires, and a member of the global R-Ladies team, where she promotes diversity and inclusion in technology and data science.
 
+## Making great slides with quarto and revealjs
 
-## Inteligencia Artificial Generativa en forma local. LLMs en tu PC usando ollama y ollamar
-
-#### Using local LLMs in R with Ollama and ollamar: installation, use, and offline text analysis
+#### Learn to make great slides in Quarto using the revealjs output format
 
 ### About the course
-
-**Date** December 1, 2025, 10:00 AM - 12:00 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Inteligencia Artificial Generativa en forma local](https://www.eventbrite.cl/e/llms-en-tu-pc-inteligencia-artificial-generativa-en-forma-local-tickets-1953038152689?aff=oddtdtcreator)
-
-This introductory workshop provides a practical experience with local Large Language Models (LLMs) using two basic tools: 1) ollama, a lightweight platform that allows downloading and running language models directly on a personal computer, without the need for an Internet connection or access to external APIs; 2) ollamar, a library to integrate R with Ollama which facilitates working with data structures (for example: conversation/chat histories) that are standard for different LLMs.
-
-Throughout the session, participants will be guided through the installation of Ollama, loading a compatible model (such as LLaMA, Mistral or others), and executing structured prompts to perform basic natural language processing (NLP) tasks. Work will be done with a Spanish-language news dataset, applying local models to identify the tone of a news item, generate summaries, etc.
-
-The objective is to provide a first technical approach to the use of LLMs without an internet connection, exploring both their potential and their limitations compared to cloud models.
-
-### Requirements
-
-To participate you need a computer and internet connection. To avoid compatibility and hardware problems, the workshop will be developed in a Google Colab (with R kernel).
-
-### Instructor
-
-**German Rosatti** - Germán Rosati is a sociologist, Associate Researcher at CONICET and professor at the Interdisciplinary School of Advanced Social Studies at UNSAM, where he coordinates factor~data, a laboratory in Computational Social Sciences. He has participated in projects that use LLMs for information extraction in administrative and journalistic texts, automated classification and bias analysis.
-
-
-## Forecasting with regression models
-
-#### Learn advanced forecasting techniques using regression models
-
-### About the course
-
-**Date** December 1, 2025, 2:00 PM - 3:30 PM (UTC-3)
-
-**Mode**: Online
 
 **Language:** English
 
-**Registration**: [Forecasting with regression models](https://www.eventbrite.cl/e/forecasting-with-regression-models-tickets-1955640717029?aff=oddtdtcreator)
-
-This workshop focuses on the foundation of feature-based forecasting with linear regression using R. The workshop is beginner-friendly, and it covers the following topics:
-- How to frame a time series as a regression problem
-- Feature engineering techniques for time-aware data
-- Modeling trend, seasonality, outliers, and breaks
-- Practical tips for evaluation and validation
-
-This workshop is for practitioners (data analysts/scientists) who wish to learn how to forecast with regression models. It assumes no background in time series analysis and forecasting, but assumes basic knowledge of probability, linear regression, and R programming.
+This workshop is all about making great slides in Quarto! You don't need to be a Quarto expert in order to participate, but having some basic knowledge of Quarto would be helpful. We will start with the basics of making a slide deck in Quarto using the revealjs output format and progress through lots of tips and tricks to help you get the most out of your slidecrafting experience. We will cover everything from styling and theming to how to best position elements on your slides for the best outcome.
 
 ### Instructor
 
-**Rami Krispin** - Specialist in time series analysis and forecasting, with experience in GitHub Actions using R and Python, instructor on LinkedIn Learning, and author of "Hands-On Time Series Analysis with R".
+**Emil Hvitfeldt** is a software engineer at Posit and part of the tidymodels team’s effort to improve R’s modeling capabilities. He maintains several packages within the realms of modeling, text analysis, and color palettes. Trying to make slidecrafting a well respecting verb. He co-authored the book Supervised Machine Learning for Text Analysis in R with Julia Silge. Working on book Feature Engineering A-Z.
 
 
-## Tableros con Quarto Dashboards y Crosswalk
+## LLMs in R using {ellmer}
 
-#### Learn to create interactive dashboards with Quarto and Crosswalk
-
-### About the course
-
-**Date** December 1, 2025, 6:00 PM - 8:00 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Tableros con Quarto Dashboards y Crosswalk](https://www.eventbrite.cl/e/tableros-con-quarto-dashboards-y-crosswalk-tickets-1955757476259?aff=oddtdtcreator)
-
-Tutorial on Quarto Dashboards and Crosswalk to create static, reproducible and accessible HTML dashboards for data visualization.
-
-This tutorial presents the experience of the Núcleo de Innovación Social in using Quarto Dashboards and Crosswalk for presenting results in static HTML dashboards, based on an example about the inventory of an online bookstore.
-
-Learning objectives are: (1) become familiar with Quarto as a dynamic and reproducible publishing tool, (2) understand dashboards as a communication option within Quarto, (3) identify their basic components and layout structures, (4) incorporate graphics and cards in the design, and (5) apply Crosswalk to map a simple interaction scheme between variables using filters and the KPI widget.
-
-At the end, participants will have an initial dashboard in Quarto Dashboards that will serve as a practical and reproducible exercise. The relevance of this tutorial lies in offering a simple and portable solution for data visualization in contexts where an accessible alternative is required.
-
-### Instructor
-
-**Betsi Cohen** - Sociologist, specializing in management and policy of cultural affairs. Co-organizer of R-Ladies Buenos Aires chapter and co-coordinator of the Núcleo de Innovación Social, currently working as a data analyst.
-
-
-## Crea tus propios inputs y outputs en shiny
-
-#### Develop custom components for Shiny applications
+#### Learn to use LLMs programmatically in R with {ellmer}
 
 ### About the course
-
-**Date** December 1, 2025, 10:00 AM - 12:30 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Crea tus propios inputs y outputs en shiny](https://www.eventbrite.cl/e/crea-tus-propios-inputs-y-outputs-en-shiny-tickets-1955947434429?aff=oddtdtcreator)
-
-Learn to create custom inputs and outputs in Shiny, integrating JavaScript and improving the interactivity and design of your apps.
-
-In this workshop you will learn to create your own custom inputs and outputs in Shiny, extending capabilities beyond the native components offered by the framework (textInput, selectInput, etc).
-
-Mastering this technique will allow you to:
-
-- Integrate JavaScript libraries and widgets within Shiny
-- Design more interactive and attractive components for your applications
-- Adjust the user experience to specific needs not covered by standard controls
-- In practice, this means you can connect the R ecosystem with the universe of modern web components, achieving richer and more professional applications.
-
-**Learning objectives**
-
-- Apply recommended patterns and practices for building custom inputs
-- Analyze examples of external component integration
-- Create your own input that captures user data and communicates it to R reactively
-- Evaluate when it's convenient to extend Shiny with custom components versus using native inputs or existing packages
-
-**Target audience:**
-
-- Data analysts and data scientists who use Shiny to communicate results and need more flexible interfaces
-- Software engineers or R developers interested in integrating modern web libraries within their applications
-- Professionals in applied areas (health, finance, education, government, etc.) who build interactive dashboards and want to improve user experience
-
-### Instructor
-
-**Samuel Calderon** - Currently works as an R Shiny developer at Appsilon. Previously, his professional work has been in the public sector in Peru, participating in initiatives for data collection, analysis, and systematization to improve the quality of services provided to citizens in areas such as combating illicit drug trafficking, improving the quality of higher education, fighting corruption, and measuring monetary poverty.
-
-
-## Intro a Positron
-
-#### Discover the new IDE for data science
-
-### About the course
-
-**Date** December 1, 2025, 2:00 PM - 4:00 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Intro a Positron](https://www.eventbrite.cl/e/intro-a-positron-tickets-1964484827000?aff=oddtdtcreator)
-
-Come and learn about Positron, the new IDE based on VS Code for data science with R and Python. Simple, integrated and with no extra configuration.
-
-This workshop introduces the R community to the Positron IDE, an environment based on Visual Studio Code designed for data science. Unlike RStudio or VS Code with extensions, Positron natively integrates tools that simplify data exploration and variable management, reducing the need for complex configurations.
-
-**Learning objectives** 
-
-By the end of the workshop, participants will be able to:
-
-- Differentiate Positron from other alternatives, recognizing advantages in usability and integration
-- Install and configure the IDE with multi-language support (R, Python) for real projects
-- Use the Data Explorer to review datasets and get basic statistics without additional code
-- Work with the Variables Pane to inspect session objects and navigate data intuitively
-- Integrate extensions for using LLMs for increased producivity
-
-The tutorial is aimed at data scientists, analysts, statisticians and professionals who use R or Python for data analysis and want to optimize their workflow through a modern and efficient IDE. It is also useful for teachers or advanced students who seek to explore tools that facilitate data exploration and variable management without depending on complex configurations.
-
-**Requirements** 
-It is recommended that participants have basic knowledge of R or Python and be familiar with running scripts and data analysis projects, to be able to fully take advantage of Positron's functionalities, such as the Data Explorer, Variables Pane and integration with LLMs.
-
-### Instructor
-
-**Paulo Villarroel Tapia** - Certified nurse (Universidad de Chile) with +20 years of experience in health, specialized in operational excellence, data analysis and artificial intelligence. Currently works at the Chilean Ministry of Health as a data scientist. Founder of OpenSalud LAB and the programming academy Hazla con Datos. He is also a speaker, mentor, postgraduate teacher and consultant in technologies applied to health.
-
-
-## Introdución a Tidymodels
-
-#### Learn the statistical modeling ecosystem in R
-
-### About the course
-
-**Date** December 1, 2025, 6:00 PM - 8:00 PM (UTC-3); 3:00 PM - 5:00 PM (CST)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Introdución a Tidymodels](https://www.eventbrite.cl/e/introducion-a-tidymodels-tickets-1962543491413?aff=oddtdtcreator)
-
-Practical introduction to tidymodels: ML workflow with preparation, partitioning, tuning and evaluation of classification or regression models.
-
-This tutorial aims to introduce participants to the tidymodels ecosystem for machine learning. Throughout the workshop, participants will be guided through developing a workflow that includes: data preparation, dataset partitioning, model fitting, and comparison of results. The focus will be on understanding the principles of tidymodels design and how to apply it to real classification or regression problems.
-
-**Learning objectives include:**
-
-- Understand the philosophy and general structure of tidymodels
-- Fit and compare models with cross-validation
-- Interpret evaluation metrics and visualize them
-
-The workshop is meant for people with basic experience in R, interested in learning how to implement machine learning workflows. It is especially aimed at researchers, professionals and students working in data
-
-**Requirements:** Attendees are expected to be familiar with basic data manipulation operations in R. No prior experience with machine learning is necessary, but experience with regression models is required.
-
-### Instructors
-
-**Francisco Cardozo** is a PhD candidate at the University of Miami. His work focuses on the use of statistical and computational techniques, including machine learning, to improve the evaluation and implementation of prevention programs. He is an R instructor and active member of rOpenSci and Software Carpentry. He has taught R and tidymodels workshops in English and Spanish in Latin America and the US.
-
-**Edgar Ruiz** is an engineer at Posit PBC, with extensive experience in the R ecosystem and tool development for machine learning. He is the author and maintainer of several packages that extend tidyverse/tidymodels capabilities. Additionally, he actively contributes to workshops, conferences, and publications that promote best practices in data science and reproducible analysis.
-
-
-## ¡Miércoles, Git! Manejo de errores en Git y no morir en el intento
-
-#### Practical workshop to learn how to solve 7 common Git errors and gain confidence from R
-
-### About the course
-
-**Date** December 2, 2025, 10:00 AM - 12:00 PM (UTC-3); 07:00 AM - 09:00 AM (CST)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [¡Miércoles, Git! Manejo de errores en Git y no morir en el intento](https://www.eventbrite.cl/e/miercoles-git-manejo-de-errores-en-git-y-no-morir-en-el-intento-tickets-1937068908249?aff=oddtdtcreator)
-
-Git is very useful, of course. But it can also be scary when we make a mistake. Fortunately, with experience we'll make fewer mistakes... and/or we'll know how to fix them! In this practical workshop we will learn to get out of seven possible worrying situations that can occur, with seven exercises inspired by the '_Oh Shit, Git!_' website and provided by the R package {saperlipopette}. At the end of this workshop, we will feel more capable of facing Git and our own fallibility.
-
-This workshop is aimed at people who already have some experience using version control, although you don't need to be an expert. Ideal for those who want to strengthen their confidence and autonomy when facing difficult situations.
-
-### Requirements
-
-To participate you will need a computer with internet connection. Previous basic experience with Git and version control is recommended.
-
-### Instructors
-
-**Maëlle Salmon** - Maëlle is a software developer at rOpenSci. In her spare time she develops R packages to facilitate her daily work, and likes to explore interesting data sources. She is also a member of the global R-Ladies+ team and actively collaborates in the development of tools for the R community. She teaches Git regularly for months, including this same tutorial for R in Buenos Aires and R-Ladies Santa Rosa. She created the {saperlipopette} package to be able to show and share Git exercises. She translates messages and documentation into Spanish with Yanina.
-
-**Yanina Bellini Saibene** - Yanina Bellini Saibene has a master's degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of directors of R-Ladies+ and The Carpentries. Yanina is a certified instructor and trainer by The Carpentries and a GitHub Star. She has taught Git and GitHub and how to use it with R for several years. She works with Maëlle at rOpenSci, especially in the Champion Program and the Multilingual Project.
-
-
-## Análisis cualitativo para grandes volúmenes de texto con LLMs
-
-#### Enhance your qualitative text analysis with artificial intelligence using R
-
-### About the course
-
-**Date** December 2, 2025, 2:00 PM - 4:15 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Análisis cualitativo para grandes volúmenes de texto con LLMs](https://www.eventbrite.com.ar/e/1962623150676?aff=oddtdtcreator)
-
-The development of AI and generative models enhance qualitative text analysis for various disciplines. This tutorial leverages Google Gemini's free tier API credits to teach how to use LLMs in R, a user-friendly environment for NLP. The materials will address a structured workflow, from designing and optimizing prompts and their parameters, to iterating in dataframes to obtain structured outputs, clean data and finally, use embeddings for visualizations.
-
-**Learning objectives**  
-- Understanding the benefits of using LLMs for text analysis.
-- Students will learn how to design prompts for qualitative analysis and create criteria to evaluate LLM results.
-- Adjusting model parameters and prompts to aim for rigorous and reproducible results.
-
-This tutorial is aimed at researchers, students and professionals from any discipline (social sciences, humanities, health sciences, etc.) who work with text data and wish to enhance their qualitative analysis through AI tools.
-
-### Requirements
-
-To make the most of the workshop, participants should have a basic to intermediate knowledge of R. Specifically, they are expected to be able to:
-
-1. Understand and write simple functions.
-2. Use for loops to iterate over elements.
-3. Handle tabular data with the main functions of the dplyr package (like mutate, filter, select).
-
-No prior experience with APIs, Natural Language Processing (NLP) or language models is required.
-
-### Instructors
-
-**Ismael Aguayo** - Research assistant at the NUDOS millennium nucleus and assistant in statistics and computational methods, with interest in Data Science and artificial intelligence. Member of the Socialtec organization.
-
-**Exequiel Trujillo** - Web developer and assistant in computational methods, and is studying cybersecurity and sociology of music through computational analysis. Member of the Socialtec organization.
-
-
-## Análisis y visualización de datos funcionales en R con fda.usc y extensiones
-
-#### Practical workshop in R on functional data analysis: creation, manipulation and visualization with fda.usc, ggplot2 and plotly
-
-### About the course
-
-**Date** December 2, 2025, 6:00 PM - 9:00 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Análisis y visualización de datos funcionales en R con fda.usc y extensiones](https://www.eventbrite.cl/e/analisis-y-visualizacion-de-datos-funcionales-en-r-tickets-1962639693155?aff=oddtdtcreator)
-
-The workshop will begin with an introduction to functional data analysis in R, presenting basic concepts, application examples and a first contact with the fda.usc package. Then we will work on building functional objects from real data, showing how to manipulate them and how to apply dimension reduction methods, smoothing, outlier detection and clustering. Lastly, visualization techniques with ggplot2 and plotly will be explored.
-
-The workshop will have an eminently practical approach, with guided exercises in RStudio and reproducible materials, allowing attendees to acquire skills to apply functional analysis in their own research or teaching areas. This workshop will be especially useful for those working with time series, signals or high-frequency data in areas such as statistics, economics, environmental sciences, medicine or engineering.
-
-### Requirements
-
-Participants are expected to have basic knowledge of R (data reading, package usage, data frame operations) and an introductory level of descriptive statistics and multivariate analysis. No prior experience in functional data analysis is required.
-
-### Instructor
-
-**Manuel Oviedo de la Fuente** - Doctor in Statistics (USC) and professor at the Universidade da Coruña (Spain), he develops his research work in the field of functional data analysis and computational statistics. Author of more than 20 JCR articles in journals such as the Journal of Statistical Software, TEST, The R Journal, and Computational Statistics. Manuel is a co-author and main developer of the fda.usc package, as well as the author of open materials  such as the statistical learning [bookdown guide](https://rubenfcasal.github.io/aprendizaje_estadistico/).
-
-
-## Coding with AI in RStudio
-
-#### Learn to use AI in RStudio to code faster: generate, debug, and package R scripts, build Shiny apps, and boost productivity with AI
-
-### About the course
-
-**Date** December 2, 2025, 10:00 AM - 12:00 PM (UTC-3)
-
-**Mode**: Online
 
 **Language:** English
 
-**Registration**: [Coding with AI in RStudio](https://www.eventbrite.cl/e/coding-with-ai-in-rstudio-tickets-1962817615325?aff=oddtdtcreator)
-
-This hands-on tutorial will introduce R users to the transformative power of AI-assisted coding, specifically within the RStudio IDE. We will cover how to use AI-powered coding assistants to accelerate a variety of tasks, from generating boilerplate code and debugging scripts to building professional R packages.
--
-**Upon completion of this tutorial, participants will be able to:**
-
-- Grasp the benefits and limitations of using AI for code generation in R.  
-- Configure and use an AI-powered coding assistant within RStudio.  
-- Apply AI tools to write, debug, and refactor R functions and scripts efficiently.  
-- Leverage AI to automatically generate Quarto and R Markdown reports.  
-- Develop interactive Shiny applications with AI assistance.  
-- Streamline the process of turning R scripts into reusable R packages.  
-- Create a personal workflow that integrates AI for increased productivity.  
-
-Knowing how to take advantage of AI tools is becoming a core skill for data professionals and researchers. This tutorial provides a practical and focused introduction, enabling attendees to immediately apply these techniques to their daily work, saving time and reducing cognitive load on routine tasks.
-
-This tutorial is for anyone with a basic to intermediate understanding of R who is interested in improving their coding efficiency and knowledge. It is aimed at a wide audience, including data scientists, academic researchers, and students who use R for data analysis, visualization, and modeling.
-
-### Requirements
-
-To get the most out of this learning opportunity, participants should have:
-- Familiarity with the RStudio interface
-- A basic understanding of R syntax and data structures
-- Experience writing simple R functions and scripts
-
-### Instructors
-
-**Juan Cruz Rodriguez** - PhD in Computer Science with over 10 years of R programming experience, including 5 years in the software industry developing production pipelines and applications. Author of the R packages `{chatgpt}` and `{myownrobs}`, specializing in AI-assisted programming workflows and tools that enhance developer productivity in R environments.
-
-**Luis D. Verde Arregoitia** - PhD in Biology with extensive R programming experience in data analysis, visualization, and statistical modeling. Author of "Large Language Model tools for R" a comprehensive guide to AI-assisted programming workflows. Specializes in integrating AI tools into research pipelines and teaching practical applications of LLMs for data science and reproducible research.
-
-## Automatización de workflows en R y Python con targets y snakemake
-
-#### Learn powerful tools for workflow management in R and Python, in a collaborative and reproducible environment
-
-### About the course
-
-**Date** December 2, 2025, 2:00 PM - 4:00 PM (UTC-3)
-
-**Mode**: Online
-
-**Language:** Spanish
-
-**Registration**: [Automatización de workflows en R y Python con targets y snakemake](https://www.eventbrite.cl/e/automatizacion-de-workflows-en-r-y-python-con-targets-y-snakemake-tickets-1936131664929?aff=oddtdtcreator)
-
-Workflow automation is essential to ensure reproducibility, scalability and efficiency in data science projects. In this workshop, we will explore the use of targets and snakemake, two powerful tools for workflow management in R and Python, in a collaborative and reproducible environment.
-
-**Through practical examples, participants will learn to:**
-- Design reproducible workflows using targets in R
-- Integrate snakemake to coordinate tasks that use R and Python scripts
-- Implement strategies to handle dependencies and optimize process execution
-
-At the end, attendees will have the necessary skills to build reproducible and scalable pipelines that make transparent all the steps of an analysis flow, from data acquisition to report generation, integrating multiple languages and tools.
-
-### Requirements
-
-Basic knowledge of R and Python, with any background and from any discipline.
+In this workshop we'll explore using LLMs programmatically in R with ellmer. We'll cover at the key concepts to understand, and you'll learn how to connect to LLM APIs, extract structured data from unstructured text, and how to let LLMs call R functions and access external sources for more reliable results.
 
 ### Instructor
 
-**Diana García** - Computational Biologist at the Breast Oncology Program at Dana Farber Cancer Institute, where we research genome alterations associated with therapy resistance in metastatic breast cancer. I have a PhD in Biomedical Sciences and a Master's degree in Computer Science and experience developing software both in academia and industry. I really enjoy teaching programming, I was a professor at CETYS Universidad, Tijuana Campus, and workshop instructor at Escuela de Código Pilares in CDMX. I am part of R-Ladies Boston and the rOpenSci Champions program, previously I participated in PyLadies CDMX and Women Who Code CDMX.
+**Nic Crane** is an open-source maintainer and independent R consultant and educator. They are a member of the Apache Arrow Project Management Committee and one of the maintainers of the Arrow R package, contributing to the broader Arrow ecosystem and its adoption across data science workflows. Nic is a contributor to the ellmer R package and teaches and writes about using LLMs in R.
 
 
-## ¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz
+## Building Machine Learning Models with tidymodels: A Hands-on Tutorial
 
-#### Learn to design a presentation with a clear structure and a message that generates impact using audiovisual resources strategically
+#### Hands-on workshop to build machine learning models with the tidymodels ecosystem in R
 
 ### About the course
 
-**Date** December 2, 2025, 5:00 PM - 7:15 PM (UTC-3)
-
-**Mode**: Online
-
 **Language:** Spanish
 
-**Registration**: [¿Qué historia vas a contar hoy? Herramientas para una comunicación eficaz](https://www.eventbrite.cl/e/que-historia-vas-a-contar-hoy-herramientas-para-una-comunicacion-eficaz-tickets-1891497192019?aff=oddtdtcreator)
-
-In this tutorial, each participant will learn to design a presentation or talk with a clear structure and a message that generates impact, using audiovisual resources strategically.
-
-The objective is to provide practical tools to overcome the "blank page" block and develop a powerful narrative through storytelling technique that allows achieving specific goals: inspire, get support for a project, or simply communicate an idea with confidence.
-
-Through practical exercises, attendees will be able to take away an idea of the structure of a talk or presentation and the importance of practice as a fundamental step to be prepared.
-
-Although the idea of "storytelling" may seem foreign to data science, it actually forms an essential part of it: it's about discovering and communicating the stories that the data itself reveals. It is precisely at that point where we focus this tutorial: finding the stories behind the work that each participant performs and discovering the best story to connect with the audience.
-
-### Requirements
-
-No specific technical knowledge is required. This tutorial is designed for anyone who wants to improve their communication and presentation skills.
+This hands-on workshop is dedicated to building machine learning models using the tidymodels ecosystem in R.
 
 ### Instructor
 
-**Alejandra Bellini** - Graduate in Social Communication with intermediate degree as professional journalist and National Broadcaster (Argentina). During the last 21 years I was part of the Canal 12 team, a Córdoba multimedia where I held different roles: host and columnist in different television programs, web editor, digital content coordinator. She was part of the team that designed the launch of the channel's digital platform, becoming the first woman head in the history of the 65-year-old channel.
+**Freddy Hernández Barajas**
 
-I am a graduate of the University College of Journalism Obispo Trejo y Sanabria. She was a faculty member at the institution in Journalism careers and in the Bachelor's Degree in Social Communication. Currently, I am the host of a newscast and a general interest program that airs Monday through Friday on Canal 12. In addition, I offer courses and training for companies, organizations and speakers who need to develop effective communication for different contexts.
+
+## From idea to package: program your first R package
+
+#### Hands-on workshop to turn an idea into an R package, from project setup to publication
+
+### About the course
+
+**Language:** Spanish
+
+In this hands-on workshop you will learn how to turn an idea into an R package, going through the main stages of the development process: project organization, coding, documentation, testing and publication. We will also discuss the use of AI (GitHub Copilot) as an assistant during the development of your package.
+
+### Instructor
+
+**Yanina Bellini Saibene** - holds a Master's degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of R-Ladies+ and The Carpentries. Yanina is a Sovereign Tech Fellow 2026, a certified Carpentries instructor and trainer, and a GitHub Star. She is an undergraduate and postgraduate professor at Austral University (Argentina).
+
+
+## Incorporate AI into your Shiny applications.
+
+#### Hands-on workshop to add artificial intelligence to your Shiny applications
+
+### About the course
+
+**Language:** Spanish
+
+This workshop is dedicated to adding artificial intelligence to Shiny applications.
+
+### Instructor
+
+**Joshua Kunst**
