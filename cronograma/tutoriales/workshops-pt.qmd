@@ -13,37 +13,15 @@ knitr:
 
 ### Sobre o curso
 
-**Data** 1 de dezembro de 2025, 10:00 AM - 12:30 PM (UTC-3)
-
-**Modalidade**: Online
-
 **Idioma:** Espanhol
 
-**Inscrição**: [Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions](https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084)
 
 O objetivo do workshop é aprender a automatizar a publicação e atualização de projetos em R e Quarto através de GitHub Actions e GitHub Pages. Isso permitirá aos participantes melhorar a eficiência, reprodutibilidade e acessibilidade de suas análises e relatórios, facilitando a disseminação aberta de resultados.
 
-Durante o workshop, partiremos de um Google Form aberto (com suas respostas em uma planilha do Google Sheets pública) e um dashboard em Quarto (.qmd) já preparado. Nos concentraremos na configuração do projeto Quarto, do repositório GitHub e do arquivo de workflow no GitHub Actions para conseguir a atualização automática de um dashboard que recupere periodicamente as respostas inseridas no formulário.
 
-Ao finalizar o workshop, os participantes poderão:
-- Descrever o que é uma ação do GitHub e reconhecer seus componentes principais.
-- Configurar um arquivo de workflow em YAML para automatizar a execução de um script R no GitHub Actions.
-- Executar um fluxo de trabalho que obtenha dados do Google Sheets, os processe com R, gere um dashboard em Quarto e o publique no GitHub Pages.
-- Programar a execução automática de um workflow em intervalos regulares.
-
-Este tutorial está dirigido a pessoas que trabalham com R e Quarto ou RMarkdown e desejam aprender a automatizar a publicação de relatórios, análises ou dashboards. Pode ser especialmente útil para pesquisadores, docentes e profissionais de ciência de dados que precisem manter resultados atualizados e acessíveis online.
-
-### Requisitos
-
-Conhecimentos prévios recomendados: Para aproveitar melhor o workshop, recomenda-se que os participantes tenham familiaridade básica com R (executar scripts, carregar pacotes, ler dados) e RMarkdown ou Quarto (saber o que é um .rmd/.qmd e como renderizá-lo). Também é sugerido conhecimento básico de Git e GitHub (clonar um repositório, fazer um commit e um push).
-
-Não são requeridos conhecimentos prévios de GitHub Actions nem de automação: esses serão os temas centrais do workshop.
-
-### Instrutoras
+### Instrutora
 
 **Jesica Formoso** é psicóloga cognitiva, Doutora pela Universidade de Buenos Aires e pesquisadora do CONICET na Argentina. Especializada em estatística aplicada às ciências da saúde, é instrutora certificada da Posit e The Carpentries. Pesquisa sobre compreensão de texto em crianças e assessora projetos em design metodológico, análise de dados e desenvolvimento de ferramentas reprodutíveis. É co-organizadora no R-Ladies Buenos Aires e colabora com R-Ladies Global e a comunidade Forwards. Além disso, integra a equipe da MetaDocencia, onde coordena a área de medição de impacto.
-
-**María Cristina Nanton** é mestranda em Mineração de Dados na Universidade de Buenos Aires. Lidera uma equipe de mais de 20 cientistas de dados e analistas na Gerência de Estatísticas em Saúde do Ministério da Saúde da Cidade de Buenos Aires. Desde 2019 ensina e desenvolve programas em estatística, programação e ciência de dados em diversas instituições acadêmicas, científicas e do setor público. É instrutora certificada da The Carpentries, co-organizadora do R-Ladies Buenos Aires e membro da equipe global do R-Ladies, onde promove a diversidade e inclusão em tecnologia e ciência de dados.
 
 
 ## Making great slides with quarto and revealjs
@@ -103,7 +81,7 @@ Neste workshop prático você vai aprender a transformar uma ideia em um pacote 
 
 ### Instrutora
 
-**Yanina Bellini Saibene** - mestra em Data Mining and Knowledge Discovery. Trabalha como Community Manager na rOpenSci e integra o conselho diretivo da R-Ladies+ e da The Carpentries. Yanina é instrutora e trainer certificada pela The Carpentries e GitHub Star.
+**Yanina Bellini Saibene** - magister em Data Mining and Knowledge Discovery. Trabalha como Community Manager na rOpenSci e integra o conselho diretivo da RLadies+ e da The Carpentries. Yanina é a Sovereign Tech Fellow 2026, instrutora e trainer certificada pela The Carpentries e GitHub Star. É professora de graduação e pós-graduação na Universidade Austral (Argentina).
 
 
 ## Incorpora IA a tus aplicaciones Shiny
