@@ -13,41 +13,19 @@ knitr:
 
 ### Sobre el curso
 
-**Fecha** 1 de Diciembre de 2025, 10:00 AM - 12:30 PM (UTC-3)
-
-**Modalidad**: Online
 
 **Idioma:** Español
 
-**Inscripción**: [Automatiza la publicación de tus reportes con Quarto y GitHub Actions](https://www.eventbrite.cl/e/automatiza-la-publicacion-de-tus-reportes-con-quarto-y-github-actions-tickets-1967685428084)
 
-El objetivo del taller es aprender a automatizar la publicación y actualización de proyectos en R y Quarto mediante GitHub Actions y GitHub Pages. Esto permitirá a las y los participantes mejorar la eficiencia, reproducibilidad y accesibilidad de sus análisis y reportes, facilitando la difusión abierta de resultados.
-
-Durante el taller partiremos de un Google Form abierto (con sus respuestas en un Google Sheets público) y un tablero en Quarto (.qmd) ya preparados. Nos centraremos en la configuración del proyecto de Quarto, del repositorio de GitHub y del archivo de workflow en GitHub Actions para lograr la actualización automática de un tablero que recupere periódicamente las respuestas ingresadas en el formulario.
-
-Al finalizar el taller, las y los participantes podrán:
-- Describir qué es una acción de GitHub y reconocer sus componentes principales.
-- Configurar un archivo de workflow en YAML para automatizar la ejecución de un script de R en GitHub Actions.
-- Ejecutar un flujo de trabajo que obtenga datos desde Google Sheets, los procese con R, genere un tablero en Quarto y lo publique en GitHub Pages.
-- Programar la ejecución automática de un workflow en intervalos regulares.
-
-
-Este tutorial está dirigido a personas que trabajan con R y Quarto o RMarkdown y desean aprender a automatizar la publicación de reportes, análisis o tableros. Puede ser especialmente útil para personas investigadoras, docentes y profesionales de ciencia de datos que necesiten mantener resultados actualizados y accesibles en línea.
-
-### Requisitos
-
-Conocimientos previos recomendados: Para aprovechar mejor el taller, se recomienda que las y los participantes tengan familiaridad básica con R (ejecutar scripts, cargar paquetes, leer datos) y RMarkdown o Quarto (saber qué es un .rmd/.qmd y cómo renderizarlo). También se sugiere conocimiento básico de Git y GitHub (clonar un repositorio, hacer un commit y un push).
-
-No se requieren conocimientos previos de GitHub Actions ni de automatización: esos serán los temas centrales del taller.
+El objetivo del taller es aprender a automatizar con GitHub Actions y GitHub Pages la actualización y publicación de proyectos en R y Quarto. A partir de un Google Form y un tablero en Quarto ya preparados, las y los participantes configurarán un repositorio de GitHub y un workflow en YAML para recuperar datos de Google Sheets, procesarlos con R, generar el tablero y publicarlo automáticamente en GitHub Pages a intervalos regulares. Está dirigido a personas que trabajan con R y Quarto o RMarkdown y buscan mejorar la eficiencia, reproducibilidad, accesibilidad y difusión de sus análisis, reportes y tableros. 
 
 ### Instructoras
 
 **Jesica Formoso** es psicóloga cognitiva, Doctora por la Universidad de Buenos Aires e investigadora del CONICET en Argentina. Especializada en estadística aplicada a las ciencias de la salud, es instructora certificada de Posit y The Carpentries. Investiga sobre comprensión de texto en niños y asesora proyectos en diseño metodológico, análisis de datos y desarrollo de herramientas reproducibles. Es co-organizadora en R-Ladies Buenos Aires y colabora con R-Ladies Global y la comunidad Forwards. Además, integra el equipo de MetaDocencia, donde coordina el área de medición de impacto.
 
-**María Cristina Nanton** es maestranda en Minería de Datos en la Universidad de Buenos Aires. Lidera un equipo de más de 20 científicas/os de datos y analistas en la Gerencia de Estadísticas en Salud del Ministerio de Salud de la Ciudad de Buenos Aires. Desde 2019 enseña y desarrolla programas en estadística, programación y ciencia de datos en diversas instituciones académicas, científicas y del sector público. Es instructora certificada de The Carpentries, co-organizadora de R-Ladies Buenos Aires y miembro del equipo global de R-Ladies, donde promueve la diversidad e inclusión en tecnología y ciencia de datos.
 
 
-## Making great slides with quarto and revealjs
+## Making great slides with Quarto and revealjs
 
 #### Aprende a crear grandes diapositivas en Quarto usando el formato revealjs
 
@@ -89,8 +67,7 @@ Este taller práctico está dedicado a la construcción de modelos de machine le
 
 ### Tutor
 
-**Freddy Hernández Barajas**
-
+**Freddy Hernández Barajas** 
 
 ## De idea a paquete: programá tu primer paquete de R
 
@@ -104,7 +81,7 @@ En este taller práctico vas a aprender a transformar una idea en un paquete de 
 
 ### Tutora
 
-**Yanina Bellini Saibene** - maestra en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de R-Ladies+ y The Carpentries. Yanina es instructora y trainer certificada por The Carpentries y una GitHub Star.
+**Yanina Bellini Saibene** - magister en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de RLadies+ y The Carpentries. Yanina es Sovereing Tech Fellow 2026, instructora y trainer certificada por The Carpentries y una GitHub Star. También es profesora de grado y posgrado en la Universidad Austral (Argentina).
 
 
 ## Incorpora IA a tus aplicaciones Shiny
