@@ -14,6 +14,26 @@
     href: https://ropensci.org/
     thumbnail: ../../img/partners/ropensci.png
     type: community
+  - name: Fundación Universidad de Antioquia
+    href: https://www.udea.edu.co
+    thumbnail: ../../img/partners/fundacion-universidad-de-antioquia.png
+    type: sponsor
+  - name: Bureau
+    href: "#"
+    thumbnail: ../../img/partners/bureau.png
+    type: sponsor
+  - name: Bureau Medellín
+    href: "#"
+    thumbnail: ../../img/partners/bureau-medellin.png
+    type: community
+  - name: Marca Ciudad Medellín
+    href: "#"
+    thumbnail: ../../img/partners/marca-ciudad-medellin.png
+    type: community
+  - name: Alcaldía de Medellín
+    href: "#"
+    thumbnail: ../../img/partners/alcaldia-de-medellin.png
+    type: community
 
 # - name: Appsilon
 #   href: https://appsilon.com/

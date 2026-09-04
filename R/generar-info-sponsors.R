@@ -4,19 +4,19 @@ title_mapping <- list(
     "es" = list(
         "partner" = "Partner",
         "sponsor" = "Patrocinadores",
-        "community" = "Comunidades Amigas",
+        "community" = "Apoyan",
         "supporter" = "Nos Apoyan"
     ),
     "en" = list(
         "partner" = "Partner",
         "sponsor" = "Sponsors",
-        "community" = "Community Partners",
+        "community" = "Supporters",
         "supporter" = "Supporters"
     ),
     "pt" = list(
         "partner" = "Partner",
         "sponsor" = "Patrocinadores",
-        "community" = "Comunidades parceiras",
+        "community" = "Apoiam",
         "supporter" = "Apoiadores"
     )
 )
