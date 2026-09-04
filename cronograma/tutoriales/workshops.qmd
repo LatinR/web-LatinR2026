@@ -84,7 +84,7 @@ In this hands-on workshop you will learn how to turn an idea into an R package, 
 **Yanina Bellini Saibene** - holds a Master's degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of R-Ladies+ and The Carpentries. Yanina is a Sovereign Tech Fellow 2026, a certified Carpentries instructor and trainer, and a GitHub Star. She is an undergraduate and postgraduate professor at Austral University (Argentina).
 
 
-## Incorporate AI into your Shiny applications.
+## Shiny + ellmer: patterns for connecting conversation, data, and interface
 
 #### Hands-on workshop to add artificial intelligence to your Shiny applications
 
@@ -92,7 +92,9 @@ In this hands-on workshop you will learn how to turn an idea into an R package, 
 
 **Language:** Spanish
 
-This workshop is dedicated to adding artificial intelligence to Shiny applications.
+This is a hands-on workshop that walks step by step through different ways of incorporating language models into a Shiny application using ellmer. We will start from a simple application and add conversation, controlled access to data, SQL queries, state updates, and actions on the interface, ending with a conversational dashboard that controls charts, tables, and maps.
+
+Each pattern is presented as an independent application that changes a single idea relative to the previous one. This makes it possible to clearly identify what code enables each pattern, when it is useful, and what validations it requires. The goal is not to replace the traditional interface with a chat, but to understand how both forms of interaction can complement each other.
 
 ### Instructor
 

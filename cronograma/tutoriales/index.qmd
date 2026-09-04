@@ -84,7 +84,7 @@ En este taller práctico vas a aprender a transformar una idea en un paquete de 
 **Yanina Bellini Saibene** - magister en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de RLadies+ y The Carpentries. Yanina es Sovereing Tech Fellow 2026, instructora y trainer certificada por The Carpentries y una GitHub Star. También es profesora de grado y posgrado en la Universidad Austral (Argentina).
 
 
-## Incorpora IA a tus aplicaciones Shiny
+## Shiny + ellmer: patrones para conectar conversación, datos e interfaz
 
 #### Taller práctico para incorporar inteligencia artificial a tus aplicaciones Shiny
 
@@ -92,7 +92,9 @@ En este taller práctico vas a aprender a transformar una idea en un paquete de 
 
 **Idioma:** Español
 
-Este taller está dedicado a incorporar inteligencia artificial a aplicaciones Shiny.
+Este es un taller práctico que recorre, paso a paso, distintas formas de incorporar modelos de lenguaje en una aplicación Shiny usando ellmer. Partiremos desde una aplicación simple y agregaremos conversación, acceso controlado a datos, consultas SQL, actualización del estado y acciones sobre la interfaz, para finalizar con un dashboard conversacional que controla gráficos, tablas y mapas.
+
+Cada patrón se presenta como una aplicación independiente que cambia una sola idea respecto de la anterior. Esto permite identificar con claridad qué código habilita cada patrón, cuándo resulta útil y qué validaciones necesita. El objetivo no es reemplazar la interfaz tradicional con un chat, sino entender cómo ambas formas de interacción pueden complementarse.
 
 ### Tutor
 
