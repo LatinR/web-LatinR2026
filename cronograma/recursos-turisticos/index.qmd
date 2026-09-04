@@ -2,6 +2,10 @@
 title: "Recursos turísticos"
 ---
 
+::: {.callout-note}
+Si necesitas un hotel, visita nuestra sección de [hoteles aliados](../hoteles-aliados/index.qmd).
+:::
+
 # Medellín — Información turística
 
 Medellín es una ciudad vibrante, innovadora y llena de contrastes. Conocida mundialmente por su transformación urbana, ofrece una rica oferta cultural, gastronómica y natural para los visitantes de LatinR 2026.
