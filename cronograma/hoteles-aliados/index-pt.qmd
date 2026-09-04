@@ -1,0 +1,13 @@
+---
+title: "Hotéis Aliados"
+---
+
+# Hotéis Aliados
+
+Estes são os hotéis aliados ao evento. O **Hotel Beminimal** usará o seguinte código: `%20LATINR2026`, e os demais usarão o código `LATINR2026`.
+
+1. [Eutopíq Hotel](https://www.google.com/maps/place/Eutopiq+Hotel/@6.2448825,-75.5889092,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDesp25_wE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHRPTWlGdGNZOs1iQjV_djvnIklF3DDx09gsZ8m6fai3ecfK31X-UxU-oSX5q2mdDp6mdrpl1XbORSbmhjprpDPE3hTvVhkcrOQnxK0bD0rF9iLtK4fnEPJEU9Bj_7zb6luke9ArpQaA%3Dw129-h86-k-no!7i2048!8i1365!4m21!1m10!3m9!1s0x8e4429a66747fe6f:0xd69d36403f1ab7f6!2sEutopiq+Hotel!5m2!4m1!1i2!8m2!3d6.2448323!4d-75.5887376!16s%2Fg%2F11sqd16wrc!3m9!1s0x8e4429a66747fe6f:0xd69d36403f1ab7f6!5m2!4m1!1i2!8m2!3d6.2448323!4d-75.5887376!10e5!16s%2Fg%2F11sqd16wrc?entry=ttu&g_ep=EgoyMDI2MDgxNy4wIKXMDSoASAFQAw%3D%3D)
+2. [Hotel Cool Living by Los Patios](https://www.google.com/maps/place/Hotel+Cool+living+los+Patios/data=!4m2!3m1!1s0x8e4429587981d9f1:0x3fa22a2c17f02ceb?sa=X&ved=1t:242&ictx=111)
+3. [Tequendama Hotel Medellín](https://www.google.com/maps/place/Tequendama+Hotel+Medellín/@6.2590696,-75.5868815,17z/data=!3m1!4b1!4m9!3m8!1s0x8e44290fe24c7107:0xc3b35eed499b59e7!5m2!4m1!1i2!8m2!3d6.2590696!4d-75.5868815!16s%2Fg%2F1vxw99mf?entry=ttu&g_ep=EgoyMDI2MDgxNy4wIKXMDSoASAFQAw%3D%3D)
+4. [Sonata 44 Hotel Laureles](http://google.com/maps/place/Sonata+44+Hotel/data=!4m2!3m1!1s0x8e442995c0a6819b:0xeaf26713b5506dc1?sa=X&ved=1t:242&ictx=111)
+5. [Beminimal Hotel](https://beminimal.co/)

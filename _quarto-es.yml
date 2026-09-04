@@ -35,6 +35,8 @@ website:
             href: cronograma/lugar/index.qmd 
           - text: "Recursos turísticos"
             href: cronograma/recursos-turisticos/index.qmd  
+          - text: "Hoteles Aliados"
+            href: cronograma/hoteles-aliados/index.qmd
           - text: "Equipo Organizador"
             href: sobre/equipo/index.qmd        
           - href: sobre/apoyo/index.qmd

@@ -35,6 +35,8 @@ website:
             href: cronograma/lugar/location.qmd            
           - text: "Tourist resources"
             href: cronograma/recursos-turisticos/index-en.qmd
+          - text: "Partner Hotels"
+            href: cronograma/hoteles-aliados/index-en.qmd
           - text: "Organizing Team"
             href: sobre/equipo/index.qmd        
           - href: sobre/apoyo/sponsors.qmd
