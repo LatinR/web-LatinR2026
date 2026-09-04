@@ -20,15 +20,8 @@ website:
         text: "**ES**"    
       - text: "Principal"
         href: /index.html
-      # - text: Participa
-      #   menu:
-      #    - text: "Llamado a presentación de trabajos"
-      #      href: blog/es/2026-06-03-segunda-extension-llamado-trabajos.html
-         # - text: "Sobre la Inscripción"
-         #   href: blog/es/2024-08-01-inscripcion.html 
-      #   - text: "Inscripción"
-       #    href: https://www.eventbrite.com.ar/e/1939670499679?
-           
+      - text: "Inscripción"
+        href: https://www.eventbrite.com.ar/e/1998690018649
       - text: LatinR 2026
         menu: 
           - text: "Lugar"
