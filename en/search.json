@@ -133,11 +133,11 @@
     "text": "De idea a paquete: programá tu primer paquete de R\n\nWorkshop prático para transformar uma ideia em um pacote de R, da organização do projeto até a publicação\n\n\nSobre o curso\nIdioma: Espanhol\nNeste workshop prático você vai aprender a transformar uma ideia em um pacote de R, percorrendo as principais etapas do processo de desenvolvimento: organização do projeto, programação, documentação, testes e publicação. Também discutiremos o uso de IA (GitHub Copilot) como assistente durante o desenvolvimento do seu pacote.\n\n\nInstrutora\nYanina Bellini Saibene - magister em Data Mining and Knowledge Discovery. Trabalha como Community Manager na rOpenSci e integra o conselho diretivo da RLadies+ e da The Carpentries. Yanina é a Sovereign Tech Fellow 2026, instrutora e trainer certificada pela The Carpentries e GitHub Star. É professora de graduação e pós-graduação na Universidade Austral (Argentina)."
   },
   {
-    "objectID": "cronograma/tutoriales/workshops-pt.html#incorpora-ia-a-tus-aplicaciones-shiny",
-    "href": "cronograma/tutoriales/workshops-pt.html#incorpora-ia-a-tus-aplicaciones-shiny",
+    "objectID": "cronograma/tutoriales/workshops-pt.html#shiny-ellmer-padrões-para-conectar-conversa-dados-e-interface",
+    "href": "cronograma/tutoriales/workshops-pt.html#shiny-ellmer-padrões-para-conectar-conversa-dados-e-interface",
     "title": "Workshops",
-    "section": "Incorpora IA a tus aplicaciones Shiny",
-    "text": "Incorpora IA a tus aplicaciones Shiny\n\nWorkshop prático para incorporar inteligência artificial em suas aplicações Shiny\n\n\nSobre o curso\nIdioma: Espanhol\nEste workshop é dedicado a incorporar inteligência artificial em aplicações Shiny.\n\n\nInstrutor\nJoshua Kunst"
+    "section": "Shiny + ellmer: padrões para conectar conversa, dados e interface",
+    "text": "Shiny + ellmer: padrões para conectar conversa, dados e interface\n\nWorkshop prático para incorporar inteligência artificial em suas aplicações Shiny\n\n\nSobre o curso\nIdioma: Espanhol\nEste é um workshop prático que percorre, passo a passo, diferentes formas de incorporar modelos de linguagem em uma aplicação Shiny usando ellmer. Partiremos de uma aplicação simples e adicionaremos conversa, acesso controlado a dados, consultas SQL, atualização do estado e ações sobre a interface, finalizando com um dashboard conversacional que controla gráficos, tabelas e mapas.\nCada padrão é apresentado como uma aplicação independente que muda uma única ideia em relação à anterior. Isso permite identificar claramente qual código habilita cada padrão, quando ele é útil e quais validações ele necessita. O objetivo não é substituir a interface tradicional por um chat, mas entender como ambas as formas de interação podem se complementar.\n\n\nInstrutor\nJoshua Kunst"
   },
   {
     "objectID": "cronograma/tutoriales/index.html",
@@ -182,11 +182,11 @@
     "text": "De idea a paquete: programá tu primer paquete de R\n\nTaller práctico para transformar una idea en un paquete de R, desde la organización del proyecto hasta su publicación\n\n\nSobre el curso\nIdioma: Español\nEn este taller práctico vas a aprender a transformar una idea en un paquete de R, recorriendo las principales etapas del proceso de desarrollo: organización del proyecto, programación, documentación, pruebas y publicación. También discutiremos el uso de IA (GitHub Copilot) como asistente durante el desarrollo de tu paquete.\n\n\nTutora\nYanina Bellini Saibene - magister en Data Mining and Knowledge Discovery. Trabaja como Community Manager en rOpenSci y es parte del consejo directivo de RLadies+ y The Carpentries. Yanina es Sovereing Tech Fellow 2026, instructora y trainer certificada por The Carpentries y una GitHub Star. También es profesora de grado y posgrado en la Universidad Austral (Argentina)."
   },
   {
-    "objectID": "cronograma/tutoriales/index.html#incorpora-ia-a-tus-aplicaciones-shiny",
-    "href": "cronograma/tutoriales/index.html#incorpora-ia-a-tus-aplicaciones-shiny",
+    "objectID": "cronograma/tutoriales/index.html#shiny-ellmer-patrones-para-conectar-conversación-datos-e-interfaz",
+    "href": "cronograma/tutoriales/index.html#shiny-ellmer-patrones-para-conectar-conversación-datos-e-interfaz",
     "title": "Tutoriales",
-    "section": "Incorpora IA a tus aplicaciones Shiny",
-    "text": "Incorpora IA a tus aplicaciones Shiny\n\nTaller práctico para incorporar inteligencia artificial a tus aplicaciones Shiny\n\n\nSobre el curso\nIdioma: Español\nEste taller está dedicado a incorporar inteligencia artificial a aplicaciones Shiny.\n\n\nTutor\nJoshua Kunst"
+    "section": "Shiny + ellmer: patrones para conectar conversación, datos e interfaz",
+    "text": "Shiny + ellmer: patrones para conectar conversación, datos e interfaz\n\nTaller práctico para incorporar inteligencia artificial a tus aplicaciones Shiny\n\n\nSobre el curso\nIdioma: Español\nEste es un taller práctico que recorre, paso a paso, distintas formas de incorporar modelos de lenguaje en una aplicación Shiny usando ellmer. Partiremos desde una aplicación simple y agregaremos conversación, acceso controlado a datos, consultas SQL, actualización del estado y acciones sobre la interfaz, para finalizar con un dashboard conversacional que controla gráficos, tablas y mapas.\nCada patrón se presenta como una aplicación independiente que cambia una sola idea respecto de la anterior. Esto permite identificar con claridad qué código habilita cada patrón, cuándo resulta útil y qué validaciones necesita. El objetivo no es reemplazar la interfaz tradicional con un chat, sino entender cómo ambas formas de interacción pueden complementarse.\n\n\nTutor\nJoshua Kunst"
   },
   {
     "objectID": "cronograma/lugar/lugar-pt.html",
@@ -854,11 +854,11 @@
     "text": "From idea to package: program your first R package\n\nHands-on workshop to turn an idea into an R package, from project setup to publication\n\n\nAbout the course\nLanguage: Spanish\nIn this hands-on workshop you will learn how to turn an idea into an R package, going through the main stages of the development process: project organization, coding, documentation, testing and publication. We will also discuss the use of AI (GitHub Copilot) as an assistant during the development of your package.\n\n\nInstructor\nYanina Bellini Saibene - holds a Master’s degree in Data Mining and Knowledge Discovery. She works as Community Manager at rOpenSci and is part of the board of R-Ladies+ and The Carpentries. Yanina is a Sovereign Tech Fellow 2026, a certified Carpentries instructor and trainer, and a GitHub Star. She is an undergraduate and postgraduate professor at Austral University (Argentina)."
   },
   {
-    "objectID": "cronograma/tutoriales/workshops.html#incorporate-ai-into-your-shiny-applications.",
-    "href": "cronograma/tutoriales/workshops.html#incorporate-ai-into-your-shiny-applications.",
+    "objectID": "cronograma/tutoriales/workshops.html#shiny-ellmer-patterns-for-connecting-conversation-data-and-interface",
+    "href": "cronograma/tutoriales/workshops.html#shiny-ellmer-patterns-for-connecting-conversation-data-and-interface",
     "title": "Workshops",
-    "section": "Incorporate AI into your Shiny applications.",
-    "text": "Incorporate AI into your Shiny applications.\n\nHands-on workshop to add artificial intelligence to your Shiny applications\n\n\nAbout the course\nLanguage: Spanish\nThis workshop is dedicated to adding artificial intelligence to Shiny applications.\n\n\nInstructor\nJoshua Kunst"
+    "section": "Shiny + ellmer: patterns for connecting conversation, data, and interface",
+    "text": "Shiny + ellmer: patterns for connecting conversation, data, and interface\n\nHands-on workshop to add artificial intelligence to your Shiny applications\n\n\nAbout the course\nLanguage: Spanish\nThis is a hands-on workshop that walks step by step through different ways of incorporating language models into a Shiny application using ellmer. We will start from a simple application and add conversation, controlled access to data, SQL queries, state updates, and actions on the interface, ending with a conversational dashboard that controls charts, tables, and maps.\nEach pattern is presented as an independent application that changes a single idea relative to the previous one. This makes it possible to clearly identify what code enables each pattern, when it is useful, and what validations it requires. The goal is not to replace the traditional interface with a chat, but to understand how both forms of interaction can complement each other.\n\n\nInstructor\nJoshua Kunst"
   },
   {
     "objectID": "cronograma/hoteles-aliados/index-en.html",
