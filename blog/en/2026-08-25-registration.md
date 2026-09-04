@@ -13,7 +13,7 @@ ref: inscripcion
 
 ##### Registration fees (in US dollars)
 
-**Early bird pricing**
+**Early bird pricing** - October 4
 
 | | Conference | Tutorial (per tutorial) |
 |---|---|---|
@@ -31,4 +31,5 @@ ref: inscripcion
 
 <br>
 
-Registration will be available from **September 2026** through Eventbrite.
+[Registration is now open through Eventbrite](https://www.eventbrite.com.ar/e/1998690018649).
+

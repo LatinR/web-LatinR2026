@@ -13,7 +13,7 @@ ref: inscripcion
 
 ##### Costos de inscripción (en dólares estadounidenses)
 
-**Precio early bird**
+**Precio early bird** - hasta el **4 de Octubre**
 
 | | Conferencia | Tutorial (por tutorial) |
 |---|---|---|
@@ -31,4 +31,4 @@ ref: inscripcion
 
 <br>
 
-Las inscripciones estarán disponibles a partir de **septiembre de 2026** a través de Eventbrite.
+[Las inscripciones ya están disponibles a través de Eventbrite](https://www.eventbrite.com.ar/e/1998690018649).
