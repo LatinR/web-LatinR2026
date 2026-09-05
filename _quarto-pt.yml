@@ -28,6 +28,12 @@ website:
          #   href: blog/pt/2024-08-01-inscricao.qmd
         # - text: "Inscrição"
          #  href: https://www.eventbrite.com.ar/e/1939670499679?aff=oddtdtcreator
+      - text: "Inscrição"
+        menu:
+          - text: "Informações de inscrição"
+            href: blog/pt/2026-08-25-inscricao.html
+          - text: "Inscreva-se no Eventbrite"
+            href: https://www.eventbrite.com.ar/e/1998690018649
 
       - text: LatinR 2026
         menu: 
