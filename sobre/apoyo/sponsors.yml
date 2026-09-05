@@ -2,6 +2,10 @@
     href: https://www.udea.edu.co
     thumbnail: ../../img/partners/universidad-de-antioquia.png
     type: partner
+  - name: Fundación Universidad de Antioquia
+    href: "#"
+    thumbnail: ../../img/partners/logo_fundacion_UA.png
+    type: partner    
   - name: R Consortium
     href: https://r-consortium.org
     thumbnail: https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp
@@ -14,7 +18,18 @@
     href: https://ropensci.org/
     thumbnail: ../../img/partners/ropensci.png
     type: community
-
+  - name: Bureau Medellín
+    href: "#"
+    thumbnail: ../../img/partners/bureau.png
+    type: supporter
+  - name: Marca Ciudad Medellín
+    href: "#"
+    thumbnail: ../../img/partners/marca_ciudad.png
+    type: supporter
+  - name: Alcaldía de Medellín
+    href: "#"
+    thumbnail: ../../img/partners/alcaldia.png
+    type: supporter    
 # - name: Appsilon
 #   href: https://appsilon.com/
 #   thumbnail: ../../img/partners/Appsilon.svg

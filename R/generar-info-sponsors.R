@@ -10,7 +10,7 @@ title_mapping <- list(
     "en" = list(
         "partner" = "Partner",
         "sponsor" = "Sponsors",
-        "community" = "Community Partners",
+        "community" = "Partner Communities",
         "supporter" = "Supporters"
     ),
     "pt" = list(
