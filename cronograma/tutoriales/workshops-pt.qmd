@@ -12,7 +12,7 @@ knitr:
 
 Ao realizar a [inscrição na conferência](https://www.eventbrite.com.ar/e/1998690018649), você poderá selecionar os tutoriais dos quais deseja participar. A inscrição é flexível: você pode escolher um único tutorial ou quantos forem do seu interesse.
 
-Os tutoriais têm uma [taxa de inscrição adicional](https://latinr.org/blog/es/2026-08-25-inscripcion.html), que varia de acordo com a categoria do participante.
+Os tutoriais têm uma [taxa de inscrição adicional](https://latinr.org/pt/blog/pt/2026-08-25-inscricao.html), que varia de acordo com a categoria do participante.
 :::
 
 ## Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions

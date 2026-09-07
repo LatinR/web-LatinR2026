@@ -12,7 +12,7 @@ knitr:
 
 When completing the [conference registration](https://www.eventbrite.com.ar/e/1998690018649), you will be able to select the tutorials you would like to attend. Registration is flexible: you can choose a single tutorial or as many as you are interested in.
 
-The tutorials have an [additional registration fee](https://latinr.org/blog/es/2026-08-25-inscripcion.html), which varies depending on the participant category.
+The tutorials have an [additional registration fee](https://latinr.org/en/blog/en/2026-08-25-registration.html), which varies depending on the participant category.
 :::
 
 ## Automate the publication of your reports with Quarto and GitHub Actions
