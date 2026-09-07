@@ -7,6 +7,14 @@ knitr:
     warning: false
 ---
 
+::: {.callout-note}
+**Na quarta-feira, 11 de novembro**, a LatinR 2026 oferecerá uma série de tutoriais práticos, desenvolvidos para fortalecer habilidades específicas no uso do R.
+
+Ao realizar a [inscrição na conferência](https://www.eventbrite.com.ar/e/1998690018649), você poderá selecionar os tutoriais dos quais deseja participar. A inscrição é flexível: você pode escolher um único tutorial ou quantos forem do seu interesse.
+
+Os tutoriais têm uma [taxa de inscrição adicional](https://latinr.org/pt/blog/pt/2026-08-25-inscricao.html), que varia de acordo com a categoria do participante.
+:::
+
 ## Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions
 
 #### Aprenda a implementar um fluxo de trabalho de implantação contínua para automatizar a geração e publicação de relatórios usando Quarto e GitHub Actions

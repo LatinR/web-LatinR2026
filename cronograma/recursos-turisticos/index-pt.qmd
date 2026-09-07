@@ -47,6 +47,10 @@ Medellín é o epicentro da cozinha **paisa**, uma das mais reconhecidas da Col�
 
 ## Hospedagem
 
+::: {.callout-note}
+Lembre-se de que temos uma seção de [hotéis parceiros](../hoteles-aliados/index-pt.qmd) com descontos para as pessoas que participam da conferência.
+:::
+
 Medellín oferece uma ampla variedade de opções de hospedagem:
 
 - **El Poblado** — A área mais turística, com hotéis boutique, hostels e apartamentos. Vida noturna animada e restaurantes a poucos passos.

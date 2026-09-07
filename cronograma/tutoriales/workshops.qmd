@@ -7,6 +7,14 @@ knitr:
     warning: false
 ---
 
+::: {.callout-note}
+**On Wednesday, November 11**, LatinR 2026 will offer a series of hands-on tutorials designed to strengthen specific skills in the use of R.
+
+When completing the [conference registration](https://www.eventbrite.com.ar/e/1998690018649), you will be able to select the tutorials you would like to attend. Registration is flexible: you can choose a single tutorial or as many as you are interested in.
+
+The tutorials have an [additional registration fee](https://latinr.org/en/blog/en/2026-08-25-registration.html), which varies depending on the participant category.
+:::
+
 ## Automate the publication of your reports with Quarto and GitHub Actions
 
 #### Learn to implement a continuous deployment workflow to automate the generation and publication of reports using Quarto and GitHub Actions
