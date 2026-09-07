@@ -47,6 +47,10 @@ Medellín es el epicentro de la cocina **paisa**, una de las más reconocidas de
 
 ## Alojamiento
 
+::: {.callout-note}
+Recuerda que tenemos una sección de [hoteles aliados](../hoteles-aliados/index.qmd) con descuentos para las personas que participan de la conferencia.
+:::
+
 Medellín cuenta con una amplia oferta de alojamiento:
 
 - **El Poblado** — La zona más turística, con hoteles boutique, hostales y apartamentos. Activa vida nocturna y restaurantes a poca distancia.

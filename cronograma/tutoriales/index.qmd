@@ -7,6 +7,16 @@ knitr:
     warning: false
 ---
 
+::: {.callout-note}
+
+**El miércoles 11**, LatinR 2926 ofrece un espacio  de tutoriales prácticos, diseñados para fortalecer habilidades específicas en el uso de R. 
+
+Al completar el [registro para la conferencia](https://www.eventbrite.com.ar/e/1998690018649), podrás seleccionar los tutoriales en los que desees participar. La inscripción es flexible: puedes elegir un único tutorial o tantos como sean de tu interés.
+
+Los tutoriales tienen un [costo de inscripción](https://latinr.org/blog/es/2026-08-25-inscripcion.html), que varía según la categoría del participante.
+
+:::
+
 ## Automatiza la publicación de tus reportes con Quarto y GitHub Actions
 
 #### Aprende a implementar un flujo de trabajo de despliegue continuo para automatizar la generación y publicación de reportes usando Quarto y GitHub Actions

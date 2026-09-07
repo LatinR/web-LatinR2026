@@ -48,6 +48,10 @@ Medellín is the epicentre of **paisa** cuisine, one of the most celebrated in C
 
 ## Accommodation
 
+::: {.callout-note}
+Remember that we have a section with [partner hotels](../hoteles-aliados/index-en.qmd) offering discounts for conference participants.
+:::
+
 Medellín offers a wide range of accommodation options:
 
 - **El Poblado** — The most touristy area, with boutique hotels, hostels and apartments. Lively nightlife and restaurants within walking distance.
