@@ -7,6 +7,9 @@ ref: tutoriales
 
 ### Tutoriales de LatinR 2026
 
+![Collage de fotos de tutoriales de ediciones pasadas de LatinR](/img/posts/collage-tutoriales-ediciones-pasadas.png){fig-alt="Collage de fotos de tutoriales de ediciones pasadas de LatinR" width="100%"}
+<!-- TODO: reemplazar por el collage definitivo de fotos de tutoriales de ediciones pasadas -->
+
 <br> ¡Ya se viene la novena edición de LatinR! Este año, además de las charlas y sesiones de diálogo, tendremos una gran variedad de tutoriales prácticos dictados por especialistas de la comunidad R. A continuación te contamos de qué se tratará cada uno.
 
 <br>
@@ -59,7 +62,7 @@ En este taller exploraremos el uso de LLMs de forma programática en R con ellme
 
 Este es un taller práctico que presenta, paso a paso, el flujo de trabajo para construir modelos de Machine Learning en R utilizando tidymodels. Se explorarán algunas de las principales herramientas del ecosistema para trabajar con datos, definir modelos y organizar un proceso de modelado reproducible. A través de ejemplos aplicados, se revisarán diferentes etapas del proceso, desde la preparación de los datos hasta la evaluación del desempeño de los modelos, buscando ofrecer una visión general y práctica de las posibilidades que ofrece tidymodels para el desarrollo de modelos de Machine Learning en R.
 
-**Tutor:** Freddy Hernández-Barajas es Profesor Asociado de Estadística en la Universidad Nacional de Colombia, Sede Medellín. Su investigación se centra en estadística y computación estadística, con especial interés en modelos lineales generalizados, modelos mixtos y simulación. Es usuario y desarrollador de herramientas para R y ha creado diversos paquetes para el análisis estadístico, entre ellos RelDists, DiscreteDists, ZeroOneDists y stests. También es autor de varios libros de código abierto sobre R, como Manual de R, Análisis de regresión con R, Modelos Mixtos con R e Introducción a Machine Learning. Su trabajo combina la estadística, la programación y la enseñanza, promoviendo el acceso abierto a recursos para el aprendizaje y la aplicación de métodos estadísticos con R.
+**Tutor:** Freddy Hernández-Barajas
 
 <br>
 
@@ -91,4 +94,22 @@ Cada patrón se presenta como una aplicación independiente que cambia una sola 
 
 <br>
 
-Podés encontrar toda la información sobre los tutoriales en la [página de tutoriales](../../cronograma/tutoriales/index.qmd) de la web de la conferencia. ¡Muy pronto compartiremos más novedades sobre la inscripción a cada uno de ellos!
+Podés encontrar toda la información sobre los tutoriales en la [página de tutoriales](../../cronograma/tutoriales/index.qmd) de la web de la conferencia.
+
+<br>
+
+### Inscripción
+
+Para inscribirte a los tutoriales podés registrarte a través de [Eventbrite](https://www.eventbrite.com.ar/e/1998690018649).
+
+##### Costos de inscripción a tutoriales (en dólares estadounidenses, por tutorial)
+
+| | Precio |
+|---|---|
+| Estudiante | US$25 |
+| Académico/a | US$35 |
+| Industria | US$50 |
+
+<br>
+
+🎉 **¡Aprovechá el precio early bird!** Vale la pena recordar que, si además te inscribís a la conferencia, el precio **early bird** es más conveniente que el precio regular. Podés encontrar todos los detalles sobre los costos de inscripción, incluyendo los valores early bird y regular de la conferencia, en nuestro [post de inscripción](https://latinr.org/blog/es/2026-08-25-inscripcion.html).
