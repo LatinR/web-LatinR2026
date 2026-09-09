@@ -57,9 +57,9 @@ En este taller exploraremos el uso de LLMs de forma programática en R con ellme
 
 **Idioma:** Español
 
-Este taller práctico está dedicado a la construcción de modelos de machine learning utilizando el ecosistema tidymodels en R.
+Este es un taller práctico que presenta, paso a paso, el flujo de trabajo para construir modelos de Machine Learning en R utilizando tidymodels. Se explorarán algunas de las principales herramientas del ecosistema para trabajar con datos, definir modelos y organizar un proceso de modelado reproducible. A través de ejemplos aplicados, se revisarán diferentes etapas del proceso, desde la preparación de los datos hasta la evaluación del desempeño de los modelos, buscando ofrecer una visión general y práctica de las posibilidades que ofrece tidymodels para el desarrollo de modelos de Machine Learning en R.
 
-**Tutor:** Freddy Hernández Barajas
+**Tutor:** Freddy Hernández-Barajas es Profesor Asociado de Estadística en la Universidad Nacional de Colombia, Sede Medellín. Su investigación se centra en estadística y computación estadística, con especial interés en modelos lineales generalizados, modelos mixtos y simulación. Es usuario y desarrollador de herramientas para R y ha creado diversos paquetes para el análisis estadístico, entre ellos RelDists, DiscreteDists, ZeroOneDists y stests. También es autor de varios libros de código abierto sobre R, como Manual de R, Análisis de regresión con R, Modelos Mixtos con R e Introducción a Machine Learning. Su trabajo combina la estadística, la programación y la enseñanza, promoviendo el acceso abierto a recursos para el aprendizaje y la aplicación de métodos estadísticos con R.
 
 <br>
 
