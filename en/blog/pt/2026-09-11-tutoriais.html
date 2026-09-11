@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-11">
 
-<title>News – LatinR 2026</title>
+<title>Tutoriais do LatinR 2026 – LatinR 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -75,73 +74,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>.blog-section-es, .blog-section-pt { display: none !important; }</style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>.blog-section-es, .blog-section-en { display: none !important; }</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -157,12 +98,12 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text"><strong>PT</strong></span></a>
+    <a class="nav-link" href="../../../pt/index.html"> 
+<span class="menu-text">PT</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../en/index.html"> 
-<span class="menu-text">EN</span></a>
+    <a class="nav-link" href="../.././index.html"> 
+<span class="menu-text"><strong>EN</strong></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../index.html"> 
@@ -170,20 +111,20 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Página inicial</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inscrição" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Inscrição</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-registration" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Registration</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-inscrição">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-registration">    
         <li>
-    <a class="dropdown-item" href="../../blog/pt/2026-08-25-inscricao.html">
- <span class="dropdown-text">Informações de inscrição</span></a>
+    <a class="dropdown-item" href="../../blog/en/2026-08-25-registration.html">
+ <span class="dropdown-text">Registration information</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://www.eventbrite.com.ar/e/1998690018649">
- <span class="dropdown-text">Inscreva-se no Eventbrite</span></a>
+ <span class="dropdown-text">Register on Eventbrite</span></a>
   </li>  
     </ul>
   </li>
@@ -193,55 +134,55 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-latinr-2026">    
         <li>
-    <a class="dropdown-item" href="../../cronograma/lugar/lugar-pt.html">
- <span class="dropdown-text">Localização</span></a>
+    <a class="dropdown-item" href="../../cronograma/lugar/location.html">
+ <span class="dropdown-text">Location</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cronograma/recursos-turisticos/index-pt.html">
- <span class="dropdown-text">Recursos turísticos</span></a>
+    <a class="dropdown-item" href="../../cronograma/recursos-turisticos/index-en.html">
+ <span class="dropdown-text">Tourist resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cronograma/hoteles-aliados/index-pt.html">
- <span class="dropdown-text">Hotéis Aliados</span></a>
+    <a class="dropdown-item" href="../../cronograma/hoteles-aliados/index-en.html">
+ <span class="dropdown-text">Partner Hotels</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../sobre/equipo/index.html">
- <span class="dropdown-text">Equipe organizadora</span></a>
+ <span class="dropdown-text">Organizing Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../sobre/apoyo/apoio.html">
- <span class="dropdown-text">Apoio</span></a>
+    <a class="dropdown-item" href="../../sobre/apoyo/sponsors.html">
+ <span class="dropdown-text">Sponsors</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../sobre/coc/codigo-de-conduta.html">
- <span class="dropdown-text">Código de conduta</span></a>
+    <a class="dropdown-item" href="../../sobre/coc/code-of-conduct.html">
+ <span class="dropdown-text">Code of Conduct</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Programa</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-program" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Program</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programa">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-program">    
         <li>
-    <a class="dropdown-item" href="../../cronograma/conferencistas/palestras-convidadas.html">
- <span class="dropdown-text">Palestras convidadas</span></a>
+    <a class="dropdown-item" href="../../cronograma/conferencistas/keynotes.html">
+ <span class="dropdown-text">Keynote Speakers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../cronograma/tutoriales/workshops-pt.html">
+    <a class="dropdown-item" href="../../cronograma/tutoriales/workshops.html">
  <span class="dropdown-text">Workshops</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/pt/index.html"> 
-<span class="menu-text">Novidades</span></a>
+    <a class="nav-link" href="../../blog/en/index.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-edições-anteriores" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Edições anteriores</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-past-events" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Past events</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-edições-anteriores">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-past-events">    
         <li>
     <a class="dropdown-item" href="https://2025.latinr.org/">
  <span class="dropdown-text">2025</span></a>
@@ -284,124 +225,168 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Tutoriais do LatinR 2026</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">2026</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 11, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">News</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="tutoriais-do-latinr-2026" class="level3">
+<h3 class="anchored" data-anchor-id="tutoriais-do-latinr-2026">Tutoriais do LatinR 2026</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutoriales.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Pessoa participando de um tutorial no LatinR"></p>
+<figcaption>Fotos de tutoriais de edições anteriores do LatinR</figcaption>
+</figure>
+</div>
+<p><br> Já vem chegando a nona edição do LatinR! Este ano, além das palestras e sessões de diálogo, teremos uma grande variedade de tutoriais práticos ministrados por especialistas da comunidade R. A seguir, contamos do que vai se tratar cada um deles.</p>
+<p><br></p>
+<section id="automatiza-a-publicação-dos-seus-relatórios-com-quarto-e-github-actions" class="level4">
+<h4 class="anchored" data-anchor-id="automatiza-a-publicação-dos-seus-relatórios-com-quarto-e-github-actions">Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial_quarto-github-actions.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions"></p>
+<figcaption>Flyer do tutorial “Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Espanhol</p>
+<p>O objetivo do workshop é aprender a automatizar a publicação e atualização de projetos em R e Quarto através de GitHub Actions e GitHub Pages. A partir de um Google Form e um painel em Quarto já preparados, as e os participantes vão configurar um repositório do GitHub e um workflow em YAML para recuperar dados do Google Sheets, processá-los com R, gerar o painel e publicá-lo automaticamente no GitHub Pages em intervalos regulares. É voltado para pessoas que trabalham com R e Quarto ou RMarkdown e buscam melhorar a eficiência, reprodutibilidade, acessibilidade e divulgação de suas análises, relatórios e painéis.</p>
+<p><strong>Instrutora:</strong> Jesica Formoso</p>
+<p><br></p>
+</section>
+<section id="making-great-slides-with-quarto-and-revealjs" class="level4">
+<h4 class="anchored" data-anchor-id="making-great-slides-with-quarto-and-revealjs">Making great slides with Quarto and revealjs</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial-slides-quarto.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial Making great slides with Quarto and revealjs"></p>
+<figcaption>Flyer do tutorial “Making great slides with Quarto and revealjs”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Inglês</p>
+<p>Este workshop é totalmente dedicado a criar ótimos slides no Quarto! Não é necessário ser especialista em Quarto para participar, mas ter algum conhecimento básico ajudará. Começaremos pelo básico da criação de uma apresentação de slides no Quarto usando o formato de saída revealjs e avançaremos por diversas dicas e truques para ajudar você a aproveitar ao máximo sua experiência de criação de slides. Abordaremos desde estilo e temas até a melhor forma de posicionar elementos nos seus slides para obter o melhor resultado.</p>
+<p><strong>Instrutor:</strong> Emil Hvitfeldt</p>
+<p><br></p>
+</section>
+<section id="llms-in-r-using-ellmer" class="level4">
+<h4 class="anchored" data-anchor-id="llms-in-r-using-ellmer">LLMs in R using {ellmer}</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial-llms-en-r-con-ellmer.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial LLMs in R using ellmer"></p>
+<figcaption>Flyer do tutorial “LLMs in R using {ellmer}”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Inglês</p>
+<p>Neste workshop vamos explorar o uso programático de LLMs em R com ellmer. Veremos os principais conceitos a entender, e você vai aprender a se conectar a APIs de LLMs, a extrair dados estruturados a partir de texto não estruturado, e a permitir que os LLMs chamem funções em R e acessem fontes externas para obter resultados mais confiáveis.</p>
+<p><strong>Instrutor:</strong> Nic Crane</p>
+<p><br></p>
+</section>
+<section id="construindo-modelos-de-machine-learning-com-tidymodels-um-tutorial-prático" class="level4">
+<h4 class="anchored" data-anchor-id="construindo-modelos-de-machine-learning-com-tidymodels-um-tutorial-prático">Construindo modelos de Machine Learning com tidymodels: um tutorial prático</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial_tidymodels.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial Construindo modelos de Machine Learning com tidymodels"></p>
+<figcaption>Flyer do tutorial “Construindo modelos de Machine Learning com tidymodels: um tutorial prático”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Espanhol</p>
+<p>Este é um workshop prático que apresenta, passo a passo, o fluxo de trabalho para construir modelos de Machine Learning em R utilizando o tidymodels. Serão exploradas algumas das principais ferramentas do ecossistema para trabalhar com dados, definir modelos e organizar um processo de modelagem reprodutível. Por meio de exemplos aplicados, serão revisadas as diferentes etapas do processo, desde a preparação dos dados até a avaliação do desempenho dos modelos, buscando oferecer uma visão geral e prática das possibilidades que o tidymodels oferece para o desenvolvimento de modelos de Machine Learning em R.</p>
+<p><strong>Instrutor:</strong> Freddy Hernández-Barajas</p>
+<p><br></p>
+</section>
+<section id="de-idea-a-paquete-programá-tu-primer-paquete-de-r" class="level4">
+<h4 class="anchored" data-anchor-id="de-idea-a-paquete-programá-tu-primer-paquete-de-r">De idea a paquete: programá tu primer paquete de R</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial-de-idea-a-paquete.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial De idea a paquete"></p>
+<figcaption>Flyer do tutorial “De idea a paquete: programá tu primer paquete de R”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Espanhol</p>
+<p>Neste workshop prático você vai aprender a transformar uma ideia em um pacote de R, percorrendo as principais etapas do processo de desenvolvimento: organização do projeto, programação, documentação, testes e publicação. Também discutiremos o uso de IA (GitHub Copilot) como assistente durante o desenvolvimento do seu pacote.</p>
+<p><strong>Instrutora:</strong> Yanina Bellini Saibene</p>
+<p><br></p>
+</section>
+<section id="shiny-ellmer-padrões-para-conectar-conversa-dados-e-interface" class="level4">
+<h4 class="anchored" data-anchor-id="shiny-ellmer-padrões-para-conectar-conversa-dados-e-interface">Shiny + ellmer: padrões para conectar conversa, dados e interface</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../img/posts/tutorial-shiny-ellmer.png" class="img-fluid figure-img" style="width:100.0%" alt="Flyer do tutorial Shiny + ellmer"></p>
+<figcaption>Flyer do tutorial “Shiny + ellmer: padrões para conectar conversa, dados e interface”</figcaption>
+</figure>
+</div>
+<p><strong>Idioma:</strong> Espanhol</p>
+<p>Este é um workshop prático que percorre, passo a passo, diferentes formas de incorporar modelos de linguagem em uma aplicação Shiny usando ellmer. Partiremos de uma aplicação simples e adicionaremos conversa, acesso controlado a dados, consultas SQL, atualização do estado e ações sobre a interface, finalizando com um dashboard conversacional que controla gráficos, tabelas e mapas.</p>
+<p>Cada padrão é apresentado como uma aplicação independente que muda uma única ideia em relação à anterior. Isso permite identificar claramente qual código habilita cada padrão, quando ele é útil e quais validações ele necessita. O objetivo não é substituir a interface tradicional por um chat, mas entender como ambas as formas de interação podem se complementar.</p>
+<p><strong>Instrutor:</strong> Joshua Kunst</p>
+<p><br></p>
+<p>Você pode encontrar todas as informações sobre os tutoriais na <a href="../../cronograma/tutoriales/index.html">página de tutoriais</a> do site da conferência.</p>
+<p><br></p>
+</section>
+</section>
+<section id="inscrição" class="level3">
+<h3 class="anchored" data-anchor-id="inscrição">Inscrição</h3>
+<p>Para se inscrever nos tutoriais, você pode se registrar através do <a href="https://www.eventbrite.com.ar/e/1998690018649">Eventbrite</a>.</p>
+<section id="preços-de-inscrição-nos-tutoriais-em-dólares-americanos-por-tutorial" class="level5">
+<h5 class="anchored" data-anchor-id="preços-de-inscrição-nos-tutoriais-em-dólares-americanos-por-tutorial">Preços de inscrição nos tutoriais (em dólares americanos, por tutorial)</h5>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>Preço</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Estudante</td>
+<td>US$25</td>
+</tr>
+<tr class="even">
+<td>Acadêmico/a</td>
+<td>US$35</td>
+</tr>
+<tr class="odd">
+<td>Indústria</td>
+<td>US$50</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>🎉 <strong>Aproveite o preço early bird (inscrição antecipada)!</strong> Se você se inscrever na conferência antes de <strong>4 de outubro</strong>, terá um desconto no preço do ingresso.</p>
+<p>Você pode encontrar todos os detalhes sobre os preços de inscrição, incluindo os valores de inscrição antecipada e regular da conferência, em nosso <a href="https://latinr.org/blog/pt/2026-08-25-inscricao.html">post de inscrição</a>.</p>
 
 
-<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="MjAyNg==" data-listing-date-sort="1789084800000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="830">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-09-11-tutorials.html" class="no-external">LatinR 2026 Tutorials</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-09-11-tutorials.html" class="no-external">
-<div class="listing-date">
-Sep 11, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="MjAyNg==" data-listing-date-sort="1787616000000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-08-25-registration.html" class="no-external">Registration</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-08-25-registration.html" class="no-external">
-<div class="listing-date">
-Aug 25, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="MjAyNg==" data-listing-date-sort="1787443200000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-08-23-warning-latin-r-com-domain.html" class="no-external">Important notice: latin-r.com is not the official LatinR website</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-08-23-warning-latin-r-com-domain.html" class="no-external">
-<div class="listing-date">
-Aug 23, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="MjAyNg==" data-listing-date-sort="1780444800000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-06-03-second-deadline-extension.html" class="no-external">Call for papers deadline extended again!</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-06-03-second-deadline-extension.html" class="no-external">
-<div class="listing-date">
-Jun 3, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="MjAyNg==" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-05-18-call-for-papers-deadline-extended.html" class="no-external">Call for papers deadline extended!</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-05-18-call-for-papers-deadline-extended.html" class="no-external">
-<div class="listing-date">
-May 18, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="MjAyNg==" data-listing-date-sort="1774569600000" data-listing-file-modified-sort="1789150911922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../blog/en/2026-03-27-call-for-papers.html" class="no-external">Call for papers</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="../../blog/en/2026-03-27-call-for-papers.html" class="no-external">
-<div class="listing-date">
-Mar 27, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
