@@ -7,8 +7,7 @@ ref: tutoriales
 
 ### Tutoriales de LatinR 2026
 
-![Collage de fotos de tutoriales de ediciones pasadas de LatinR](/img/posts/collage-tutoriales-ediciones-pasadas.png){fig-alt="Collage de fotos de tutoriales de ediciones pasadas de LatinR" width="100%"}
-<!-- TODO: reemplazar por el collage definitivo de fotos de tutoriales de ediciones pasadas -->
+![Collage de fotos de tutoriales de ediciones pasadas de LatinR](/img/posts/tutoriales.jpg){fig-alt="Persona participando de un tutorial en LatinR" width="100%"}
 
 <br> ¡Ya se viene la novena edición de LatinR! Este año, además de las charlas y sesiones de diálogo, tendremos una gran variedad de tutoriales prácticos dictados por especialistas de la comunidad R. A continuación te contamos de qué se tratará cada uno.
 
