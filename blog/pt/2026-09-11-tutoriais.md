@@ -7,7 +7,7 @@ ref: tutoriales
 
 ### Tutoriais do LatinR 2026
 
-![Colagem de fotos de tutoriais de edições anteriores do LatinR](/img/posts/tutoriales.jpg){fig-alt="Pessoa participando de um tutorial no LatinR" width="100%"}
+![Fotos de tutoriais de edições anteriores do LatinR](/img/posts/tutoriales.jpg){fig-alt="Pessoa participando de um tutorial no LatinR" width="100%"}
 
 <br> Já vem chegando a nona edição do LatinR! Este ano, além das palestras e sessões de diálogo, teremos uma grande variedade de tutoriais práticos ministrados por especialistas da comunidade R. A seguir, contamos do que vai se tratar cada um deles.
 
@@ -51,7 +51,7 @@ Neste workshop vamos explorar o uso programático de LLMs em R com ellmer. Verem
 
 #### Construindo modelos de Machine Learning com tidymodels: um tutorial prático
 
-![Flyer do tutorial "Construindo modelos de Machine Learning com tidymodels: um tutorial prático"](/img/posts/tutorial-tidymodels.png){fig-alt="Flyer do tutorial Construindo modelos de Machine Learning com tidymodels" width="100%"}
+![Flyer do tutorial "Construindo modelos de Machine Learning com tidymodels: um tutorial prático"](/img/posts/tutorial_tidymodels.png){fig-alt="Flyer do tutorial Construindo modelos de Machine Learning com tidymodels" width="100%"}
 
 **Idioma:** Espanhol
 
