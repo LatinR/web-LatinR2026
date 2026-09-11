@@ -1,7 +1,7 @@
 ---
 title: "Tutoriales de LatinR 2026"
 categories: "2026"
-date: 2026-09-07
+date: 2026-09-11
 ref: tutoriales
 ---
 
@@ -16,8 +16,7 @@ ref: tutoriales
 
 #### Automatiza la publicación de tus reportes con Quarto y GitHub Actions
 
-![Flyer del tutorial "Automatiza la publicación de tus reportes con Quarto y GitHub Actions"](/img/posts/flyer-tutorial-automatiza-publicacion-quarto-github-actions.png){fig-alt="Flyer del tutorial Automatiza la publicación de tus reportes con Quarto y GitHub Actions" width="100%"}
-<!-- TODO: reemplazar por el flyer definitivo del tutorial -->
+![Flyer del tutorial "Automatiza la publicación de tus reportes con Quarto y GitHub Actions"](/img/posts/tutorial_quarto-github-actions.png){fig-alt="Flyer del tutorial Automatiza la publicación de tus reportes con Quarto y GitHub Actions" width="100%"}
 
 **Idioma:** Español
 
@@ -29,8 +28,8 @@ El objetivo del taller es aprender a automatizar con GitHub Actions y GitHub Pag
 
 #### Making great slides with Quarto and revealjs
 
-![Flyer del tutorial "Making great slides with Quarto and revealjs"](/img/posts/flyer-tutorial-making-great-slides-quarto-revealjs.png){fig-alt="Flyer del tutorial Making great slides with Quarto and revealjs" width="100%"}
-<!-- TODO: reemplazar por el flyer definitivo del tutorial -->
+![Flyer del tutorial "Making great slides with Quarto and revealjs"](/img/posts/tutorial-slides-quarto.png){fig-alt="Flyer del tutorial Making great slides with Quarto and revealjs" width="100%"}
+
 
 **Idioma:** Inglés
 
@@ -42,8 +41,7 @@ Este taller está dedicado a la creación de grandes diapositivas en Quarto. No 
 
 #### LLMs in R using {ellmer}
 
-![Flyer del tutorial "LLMs in R using {ellmer}"](/img/posts/flyer-tutorial-llms-en-r-con-ellmer.png){fig-alt="Flyer del tutorial LLMs in R using ellmer" width="100%"}
-<!-- TODO: reemplazar por el flyer definitivo del tutorial -->
+![Flyer del tutorial "LLMs in R using {ellmer}"](/img/posts/tutorial-llms-en-r-con-ellmer.png){fig-alt="Flyer del tutorial LLMs in R using ellmer" width="100%"}
 
 **Idioma:** Inglés
 
@@ -55,8 +53,7 @@ En este taller exploraremos el uso de LLMs de forma programática en R con ellme
 
 #### Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
 
-![Flyer del tutorial "Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico"](/img/posts/flyer-tutorial-machine-learning-tidymodels.png){fig-alt="Flyer del tutorial Construyendo modelos de Machine Learning con tidymodels" width="100%"}
-<!-- TODO: reemplazar por el flyer definitivo del tutorial -->
+![Flyer del tutorial "Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico"](/img/posts/tutorial-tidymodels.png){fig-alt="Flyer del tutorial Construyendo modelos de Machine Learning con tidymodels" width="100%"}
 
 **Idioma:** Español
 
@@ -68,8 +65,7 @@ Este es un taller práctico que presenta, paso a paso, el flujo de trabajo para 
 
 #### De idea a paquete: programá tu primer paquete de R
 
-![Flyer del tutorial "De idea a paquete: programá tu primer paquete de R"](/img/posts/flyer-tutorial-de-idea-a-paquete.png){fig-alt="Flyer del tutorial De idea a paquete" width="100%"}
-<!-- TODO: reemplazar por el flyer definitivo del tutorial -->
+![Flyer del tutorial "De idea a paquete: programá tu primer paquete de R"](/img/posts/tutorial-de-idea-a-paquete.png){fig-alt="Flyer del tutorial De idea a paquete" width="100%"}
 
 **Idioma:** Español
 
@@ -81,7 +77,7 @@ En este taller práctico vas a aprender a transformar una idea en un paquete de 
 
 #### Shiny + ellmer: patrones para conectar conversación, datos e interfaz
 
-![Flyer del tutorial "Shiny + ellmer: patrones para conectar conversación, datos e interfaz"](/img/posts/flyer-tutorial-shiny-ellmer.png){fig-alt="Flyer del tutorial Shiny + ellmer" width="100%"}
+![Flyer del tutorial "Shiny + ellmer: patrones para conectar conversación, datos e interfaz"](/img/posts/tutorial-shiny-ellmer.png){fig-alt="Flyer del tutorial Shiny + ellmer" width="100%"}
 <!-- TODO: reemplazar por el flyer definitivo del tutorial -->
 
 **Idioma:** Español
@@ -112,4 +108,6 @@ Para inscribirte a los tutoriales podés registrarte a través de [Eventbrite](h
 
 <br>
 
-🎉 **¡Aprovechá el precio early bird!** Vale la pena recordar que, si además te inscribís a la conferencia, el precio **early bird** es más conveniente que el precio regular. Podés encontrar todos los detalles sobre los costos de inscripción, incluyendo los valores early bird y regular de la conferencia, en nuestro [post de inscripción](https://latinr.org/blog/es/2026-08-25-inscripcion.html).
+🎉 **¡Aprovechá el precio early bird (inscripción temprana)!** Si te inscribís a la conferencia antes del **4 de Octubre** tenes un descuento en el precio del ticket. 
+
+Podés encontrar todos los detalles sobre los costos de inscripción, incluyendo los valores de inscripción temprana y regular de la conferencia, en nuestro [post de inscripción](https://latinr.org/blog/es/2026-08-25-inscripcion.html).
