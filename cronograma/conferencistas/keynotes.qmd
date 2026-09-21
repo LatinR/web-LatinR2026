@@ -43,9 +43,11 @@ generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_en
 I'll talk about my experiences of trying to use AI to improve my life as a data analyst, R developer, and human being. At a time when generating ideas is easy but knowing which ones to pursue is harder, how do you figure out what is worth your time, what is actually going to have a positive impact, and how to make it work with you, not against you?
 
 
-### Emil Hvitfeldt
+### Emil Hvitfeldt: Building software that matters
 
 Emil Hvitfeldt is a software engineer at Posit and part of the tidymodels team’s effort to improve R’s modeling capabilities. He maintains several packages within the realms of modeling, text analysis, and color palettes. Trying to make slidecrafting a well respecting verb. He co-authored the book Supervised Machine Learning for Text Analysis in R with Julia Silge. Working on book Feature Engineering A-Z. More information at https://emilhvitfeldt.com.
+
+We build software for many different reasons and purposes, each choice impacted by what comes before it. Some software is written to be used once and thrown away; some is expected to be used by millions. We need to take into account not just how the users of our software solutions are using them, but how the stakeholders are affected. What happens when we let code be whimsical, without losing sight of what matters?
 
 ### Mauricio Gómez Ardila: From the Language Wars to Technological Synergy
 
