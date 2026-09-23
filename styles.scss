@@ -168,6 +168,18 @@ h2 {
 
 
 
+.tutorial-subtitle {
+  color: $primary;
+  font-weight: bold;
+}
+
+h3.tutorial-title {
+  background-color: $primary;
+  color: #fff !important;
+  padding: 0.1em 0.5em;
+  display: inline-block;
+}
+
 .card-header-sponsor {
   background-color: rgb(231, 229, 255);
   font-weight: bold;

@@ -15,11 +15,41 @@ Ao realizar a [inscrição na conferência](https://www.eventbrite.com.ar/e/1998
 Os tutoriais têm uma [taxa de inscrição adicional](https://latinr.org/pt/blog/pt/2026-08-25-inscricao.html), que varia de acordo com a categoria do participante.
 :::
 
-## Automatiza a publicação dos seus relatórios com Quarto e GitHub Actions
+## Horário
 
-#### Aprenda a implementar um fluxo de trabalho de implantação contínua para automatizar a geração e publicação de relatórios usando Quarto e GitHub Actions
+Três tutoriais serão realizados em paralelo pela manhã, e mais três à tarde. Por favor, revise bem os horários antes de se inscrever para confirmar que não está selecionando atividades que ocorrem em paralelo.
 
-### Sobre o curso
+```{=html}
+<table>
+<thead>
+<tr><th>Horário</th><th colspan="3">Workshops</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>8:30 - 12:00</td>
+<td><a href="#taller-quarto-gha">Automatiza la publicación de tus reportes con Quarto y GitHub Actions</a></td>
+<td><a href="#taller-revealjs">Making great slides with Quarto and revealjs</a></td>
+<td><a href="#taller-ellmer">LLMs in R using {ellmer}</a></td>
+</tr>
+<tr>
+<td>14:00 - 17:30</td>
+<td><a href="#taller-tidymodels">Construyendo modelos de Machine Learning con tidymodels</a></td>
+<td><a href="#taller-paquete-r">De idea a paquete: programá tu primer paquete de R</a></td>
+<td><a href="#taller-shiny-ellmer">Shiny + ellmer: patrones para conectar conversación, datos e interfaz</a></td>
+</tr>
+</tbody>
+</table>
+```
+
+## Descrição dos Workshops
+
+### Automatiza la publicación de tus reportes con Quarto y GitHub Actions {#taller-quarto-gha .tutorial-title}
+
+::: {.tutorial-subtitle}
+Aprenda a implementar um fluxo de trabalho de implantação contínua para automatizar a geração e publicação de relatórios usando Quarto e GitHub Actions
+:::
+
+#### Sobre o curso
 
 **Idioma:** Espanhol
 
@@ -27,75 +57,85 @@ Os tutoriais têm uma [taxa de inscrição adicional](https://latinr.org/pt/blog
 O objetivo do workshop é aprender a automatizar a publicação e atualização de projetos em R e Quarto através de GitHub Actions e GitHub Pages. Isso permitirá aos participantes melhorar a eficiência, reprodutibilidade e acessibilidade de suas análises e relatórios, facilitando a disseminação aberta de resultados.
 
 
-### Instrutora
+#### Instrutora
 
 **Jesica Formoso** é psicóloga cognitiva, Doutora pela Universidade de Buenos Aires e pesquisadora do CONICET na Argentina. Especializada em estatística aplicada às ciências da saúde, é instrutora certificada da Posit e The Carpentries. Pesquisa sobre compreensão de texto em crianças e assessora projetos em design metodológico, análise de dados e desenvolvimento de ferramentas reprodutíveis. É co-organizadora no R-Ladies Buenos Aires e colabora com R-Ladies Global e a comunidade Forwards. Além disso, integra a equipe da MetaDocencia, onde coordena a área de medição de impacto.
 
 
-## Making great slides with quarto and revealjs
+### Making great slides with quarto and revealjs {#taller-revealjs .tutorial-title}
 
-#### Aprenda a criar ótimos slides no Quarto usando o formato revealjs
+::: {.tutorial-subtitle}
+Aprenda a criar ótimos slides no Quarto usando o formato revealjs
+:::
 
-### Sobre o curso
+#### Sobre o curso
 
 **Idioma:** Inglês
 
 Este workshop é totalmente dedicado a criar ótimos slides no Quarto! Não é necessário ser especialista em Quarto para participar, mas ter algum conhecimento básico ajudará. Começaremos pelo básico da criação de uma apresentação de slides no Quarto usando o formato de saída revealjs e avançaremos por diversas dicas e truques para ajudar você a aproveitar ao máximo sua experiência de criação de slides. Abordaremos desde estilo e temas até a melhor forma de posicionar elementos nos seus slides para obter o melhor resultado.
 
-### Instrutor
+#### Instrutor
 
 **Emil Hvitfeldt** é engenheiro de software na Posit e faz parte da equipe do tidymodels, que trabalha para aprimorar as capacidades de modelagem em R. Ele mantém vários pacotes nas áreas de modelagem, análise de texto e paletas de cores. Também está tentando transformar *slidecrafting* em um verbo respeitável. É coautor, junto com Julia Silge, do livro *Supervised Machine Learning for Text Analysis in R* e atualmente está trabalhando no livro *Feature Engineering A-Z*.
 
 
-## LLMs in R using {ellmer}
+### LLMs in R using {ellmer} {#taller-ellmer .tutorial-title}
 
-#### Aprenda a usar LLMs de forma programática em R com {ellmer}
+::: {.tutorial-subtitle}
+Aprenda a usar LLMs de forma programática em R com {ellmer}
+:::
 
-### Sobre o curso
+#### Sobre o curso
 
 **Idioma:** Inglês
 
 Neste workshop vamos explorar o uso programático de LLMs em R com ellmer. Veremos os principais conceitos a entender, e você vai aprender a se conectar a APIs de LLMs, a extrair dados estruturados a partir de texto não estruturado, e a permitir que os LLMs chamem funções em R e acessem fontes externas para obter resultados mais confiáveis.
 
-### Instrutor
+#### Instrutor
 
 **Nic Crane** trabalha com manutenção de software de código aberto, consultoria em R e também possui experiência em ensino. Integra o Comitê de Gestão do Projeto Apache Arrow e faz parte da equipe responsável pela manutenção do pacote Arrow para R, contribuindo para o ecossistema Arrow como um todo e para sua adoção em fluxos de trabalho de ciência de dados. Nic colabora com o pacote ellmer para R, além de ministrar cursos e escrever sobre o uso de LLMs em R.
 
 
-## Construyendo modelos de Machine Learning con tidymodels: un tutorial práctico
+### Construyendo modelos de Machine Learning con tidymodels {#taller-tidymodels .tutorial-title}
 
-#### Workshop prático para construir modelos de machine learning com o ecossistema tidymodels em R
+::: {.tutorial-subtitle}
+Workshop prático para construir modelos de machine learning com o ecossistema tidymodels em R
+:::
 
-### Sobre o curso
+#### Sobre o curso
 
 **Idioma:** Espanhol
 
 Este é um workshop prático que apresenta, passo a passo, o fluxo de trabalho para construir modelos de Machine Learning em R utilizando o tidymodels. Serão exploradas algumas das principais ferramentas do ecossistema para trabalhar com dados, definir modelos e organizar um processo de modelagem reprodutível. Por meio de exemplos aplicados, serão revisadas diferentes etapas do processo, desde a preparação dos dados até a avaliação do desempenho dos modelos, buscando oferecer uma visão geral e prática das possibilidades que o tidymodels oferece para o desenvolvimento de modelos de Machine Learning em R.
 
-### Instrutor
+#### Instrutor
 
 **Freddy Hernández-Barajas** é Professor Associado de Estatística na Universidade Nacional da Colômbia, sede Medellín. Sua pesquisa está centrada em estatística e computação estatística, com especial interesse em modelos lineares generalizados, modelos mistos e simulação. É usuário e desenvolvedor de ferramentas para R e criou diversos pacotes para análise estatística, entre eles RelDists, DiscreteDists, ZeroOneDists e stests. Também é autor de vários livros de código aberto sobre R, como Manual de R, Análisis de regresión con R, Modelos Mixtos con R e Introducción a Machine Learning. Seu trabalho combina estatística, programação e ensino, promovendo o acesso aberto a recursos para a aprendizagem e a aplicação de métodos estatísticos com R.
 
-## De idea a paquete: programá tu primer paquete de R
+### De idea a paquete: programá tu primer paquete de R {#taller-paquete-r .tutorial-title}
 
-#### Workshop prático para transformar uma ideia em um pacote de R, da organização do projeto até a publicação
+::: {.tutorial-subtitle}
+Workshop prático para transformar uma ideia em um pacote de R, da organização do projeto até a publicação
+:::
 
-### Sobre o curso
+#### Sobre o curso
 
 **Idioma:** Espanhol
 
 Neste workshop prático você vai aprender a transformar uma ideia em um pacote de R, percorrendo as principais etapas do processo de desenvolvimento: organização do projeto, programação, documentação, testes e publicação. Também discutiremos o uso de IA (GitHub Copilot) como assistente durante o desenvolvimento do seu pacote.
 
-### Instrutora
+#### Instrutora
 
 **Yanina Bellini Saibene** - magister em Data Mining and Knowledge Discovery. Trabalha como Community Manager na rOpenSci e integra o conselho diretivo da RLadies+ e da The Carpentries. Yanina é a Sovereign Tech Fellow 2026, instrutora e trainer certificada pela The Carpentries e GitHub Star. É professora de graduação e pós-graduação na Universidade Austral (Argentina).
 
 
-## Shiny + ellmer: padrões para conectar conversa, dados e interface
+### Shiny + ellmer: patrones para conectar conversación, datos e interfaz {#taller-shiny-ellmer .tutorial-title}
 
-#### Workshop prático para incorporar inteligência artificial em suas aplicações Shiny
+::: {.tutorial-subtitle}
+Workshop prático para incorporar inteligência artificial em suas aplicações Shiny
+:::
 
-### Sobre o curso
+#### Sobre o curso
 
 **Idioma:** Espanhol
 
@@ -103,6 +143,6 @@ Este é um workshop prático que percorre, passo a passo, diferentes formas de i
 
 Cada padrão é apresentado como uma aplicação independente que muda uma única ideia em relação à anterior. Isso permite identificar claramente qual código habilita cada padrão, quando ele é útil e quais validações ele necessita. O objetivo não é substituir a interface tradicional por um chat, mas entender como ambas as formas de interação podem se complementar.
 
-### Instrutor
+#### Instrutor
 
 **Joshua Kunst**
