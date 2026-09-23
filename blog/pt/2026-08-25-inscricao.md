@@ -12,21 +12,23 @@ ref: inscripcion
 <br>
 
 ##### Preços de inscrição (em dólares americanos)
+<br>
+[Preço early bird]{.price-label} - Outubro 4
 
-**Preço early bird** - Outubro 4
-
-| | Conferência | Tutorial (por tutorial) |
+| | Conferência | Tutorial (cada um) |
 |---|---|---|
 | Estudante | US$35 | US$25 |
-| Acadêmico/a | US$50 | US$35 |
+| Academia ou serviço público | US$50 | US$35 |
 | Indústria | US$65 | US$50 |
 
-**Preço regular**
+<br>
 
-| | Conferência | Tutorial (por tutorial) |
+[Preço regular]{.price-label} - Outubro 19
+
+| | Conferência | Tutorial (cada um) |
 |---|---|---|
 | Estudante | US$40 | US$25 |
-| Acadêmico/a | US$60 | US$35 |
+| Academia ou serviço público | US$60 | US$35 |
 | Indústria | US$75 | US$50 |
 
 <br>

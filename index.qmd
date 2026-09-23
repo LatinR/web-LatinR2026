@@ -65,7 +65,7 @@ listing:
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-<center><a href='https://www.eventbrite.com.ar/e/1998690018649' target="_blank"><button type="button" class="btn btn-light btn-lg">Inscribite</button></a></center>
+<center><a href='https://www.eventbrite.com.ar/e/1998690018649' target="_blank"><button type="button" class="btn btn-light btn-lg">¡regístrate!</button></a></center>
 
 
 <br> 

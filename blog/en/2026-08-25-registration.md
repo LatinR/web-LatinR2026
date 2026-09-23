@@ -12,21 +12,23 @@ ref: inscripcion
 <br>
 
 ##### Registration fees (in US dollars)
+<br>
+[Early bird pricing]{.price-label} - October 4
 
-**Early bird pricing** - October 4
-
-| | Conference | Tutorial (per tutorial) |
+| | Conference | Tutorial (each) |
 |---|---|---|
 | Student | US$35 | US$25 |
-| Academic | US$50 | US$35 |
+| Academia or public service | US$50 | US$35 |
 | Industry | US$65 | US$50 |
 
-**Regular pricing**
+<br>
 
-| | Conference | Tutorial (per tutorial) |
+[Regular pricing]{.price-label} - October 19
+
+| | Conference | Tutorial (each) |
 |---|---|---|
 | Student | US$40 | US$25 |
-| Academic | US$60 | US$35 |
+| Academia or public service | US$60 | US$35 |
 | Industry | US$75 | US$50 |
 
 <br>
