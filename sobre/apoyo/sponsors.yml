@@ -38,10 +38,10 @@
 #   href: https://ropensci.org/
 #   thumbnail: ../../img/partners/ropensci.png
 #   type: community
-# - name: Cynkra
-#   href: https://www.cynkra.com/
-#   thumbnail: ../../img/partners/cynkra.svg
-#   type: sponsor
+  - name: Cynkra
+    href: https://www.cynkra.com/
+    thumbnail: ../../img/partners/cynkra_logo-2.png
+    type: sponsor
 # - name: Jumping Rivers
 #   href: https://www.jumpingrivers.com/
 #   thumbnail: ../../img/partners/JumpingRivers_Primary.png
