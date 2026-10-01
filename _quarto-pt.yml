@@ -58,6 +58,8 @@ website:
             href: cronograma/conferencistas/palestras-convidadas.qmd
           - text: "Workshops"
             href: cronograma/tutoriales/workshops-pt.qmd
+          - text: "HackeaR"
+            href: cronograma/hackear/hackear-pt.qmd
           # - text: "R Dev Day"
           #   href: cronograma/r-dev-day/rdevday-pt.qmd      
           # - text: "Traslaton rOpenSci"

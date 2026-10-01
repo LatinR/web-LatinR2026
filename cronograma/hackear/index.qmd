@@ -1,0 +1,22 @@
+---
+title: "HackeaR"
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+**Día y horario**: Viernes 13 de Noviembre de 8 a 10 am
+
+**Mentores y Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms
+
+**Acerca de:**
+
+¿Querés contribuir al ecosistema de R pero no sabés por dónde empezar?
+
+En este hackathon de dos horas vamos a trabajar en contribuciones reales a R base y proyectos de rOpenSci.
+
+Podés venir si querés dar tus primeros pasos o si ya contribuiste: habrá personas con experiencia para acompañarte, resolver tus dudas y ayudarte a convertir una idea, un issue o una mejora en una contribución concreta.
+
+¡Traé tu curiosidad y ganas de contribuir!
