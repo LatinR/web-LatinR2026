@@ -13,7 +13,7 @@ knitr:
 
 ## About
 
-Want to contribute to the R ecosystem but don't know where to start?
+**Want to contribute to the R ecosystem but don't know where to start?**
 
 In this two-hour hackathon we will work in small groups on real contributions to base R and rOpenSci projects.
 
