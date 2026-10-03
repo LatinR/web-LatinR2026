@@ -1,0 +1,31 @@
+---
+title: "HackeaR"
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+**Day and time**: Friday, November 13, from 8 to 10 am (local time)
+
+**Mentors:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms
+
+## About
+
+**Want to contribute to the R ecosystem but don't know where to start?**
+
+In this two-hour hackathon we will work in small groups on real contributions to base R and rOpenSci projects.
+
+Examples of possible contributions:
+
+- Analyze a bug in R
+- Generate solutions to a bug in R
+- Generate solutions to an issue listed in our hackathon project
+- Review translations of rOpenSci materials
+
+You can join if you want to take your first steps: there will be experienced people to support you, answer your questions, and help you turn an idea, an issue, or an improvement into a concrete contribution.
+
+If you already have contributing experience, we also invite you to participate.
+
+Bring your curiosity and your willingness to contribute!
