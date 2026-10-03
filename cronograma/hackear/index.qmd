@@ -7,16 +7,26 @@ knitr:
     warning: false
 ---
 
-**Día y horario**: Viernes 13 de Noviembre de 8 a 10 am
+**Día y horario**: Viernes 13 de Noviembre de 8 a 10 am (hola local)
 
 **Mentores y Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms
 
-**Acerca de:**
+## Acerca de
 
 ¿Querés contribuir al ecosistema de R pero no sabés por dónde empezar?
 
-En este hackathon de dos horas vamos a trabajar en contribuciones reales a R base y proyectos de rOpenSci.
+En este hackathon de dos horas vamos a trabajar en pequeños grupos para hacer contribuciones reales a R base y proyectos de rOpenSci. 
 
-Podés venir si querés dar tus primeros pasos o si ya contribuiste: habrá personas con experiencia para acompañarte, resolver tus dudas y ayudarte a convertir una idea, un issue o una mejora en una contribución concreta.
+Ejemplos de posibles contribuciones:
+
+- Analizar un error en R
+- Generar soluciones a un error en R
+- Generar soluciones a un issue listado en nuestro proyecto del hackathon
+- Revisar traducciones de materiales de rOpenSci
+
+Podés venir si querés dar tus primeros pasos: habrá personas con experiencia para acompañarte, resolver tus dudas y ayudarte a convertir una idea, un issue o una mejora en una contribución concreta.
+
+Si ya tenes experiencia contribuyendo también te invitamos a participar.
 
 ¡Traé tu curiosidad y ganas de contribuir!
+
