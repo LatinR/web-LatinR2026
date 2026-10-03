@@ -455,6 +455,48 @@
     "text": "Hoteles Aliados\nEstos son los hoteles aliados al evento. Las personas que asistan a la conferencia recibiran un descuento usando los códigos correspondientes a cada hotel.\n\nEutopíq Hotel\n\nVer ubicación en Google Maps\nCódigo de descuento:LATINR2026\n\n\nHotel Cool Living by Los Patios\n\nVer ubicación en Google Maps\nCódigo de descuento:LATINR2026\n\n\nTequendama Hotel Medellín\n\nVer ubicación en Google Maps\nCódigo de descuento:LATINR2026\n\n\nSonata 44 Hotel Laureles\n\nVer ubicación en Google Maps\nCódigo de descuento:LATINR2026\n\n\nBeminimal Hotel\n\nCódigo de descuento: %20LATINR2026\nVer sitio web"
   },
   {
+    "objectID": "cronograma/hackear/index.html",
+    "href": "cronograma/hackear/index.html",
+    "title": "HackeaR",
+    "section": "",
+    "text": "Día y horario: Viernes 13 de Noviembre de 8 a 10 am (hola local)\nMentores y Mentoras: Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms"
+  },
+  {
+    "objectID": "cronograma/hackear/index.html#acerca-de",
+    "href": "cronograma/hackear/index.html#acerca-de",
+    "title": "HackeaR",
+    "section": "Acerca de",
+    "text": "Acerca de\n¿Querés contribuir al ecosistema de R pero no sabés por dónde empezar?\nEn este hackathon de dos horas vamos a trabajar en pequeños grupos para hacer contribuciones reales a R base y proyectos de rOpenSci.\nEjemplos de posibles contribuciones:\n\nAnalizar un error en R\nGenerar soluciones a un error en R\nGenerar soluciones a un issue listado en nuestro proyecto del hackathon\nRevisar traducciones de materiales de rOpenSci\n\nPodés venir si querés dar tus primeros pasos: habrá personas con experiencia para acompañarte, resolver tus dudas y ayudarte a convertir una idea, un issue o una mejora en una contribución concreta.\nSi ya tenes experiencia contribuyendo también te invitamos a participar.\n¡Traé tu curiosidad y ganas de contribuir!"
+  },
+  {
+    "objectID": "cronograma/hackear/hackear-en.html",
+    "href": "cronograma/hackear/hackear-en.html",
+    "title": "HackeaR",
+    "section": "",
+    "text": "Day and time: Friday, November 13, from 8 to 10 am (local time)\nMentors: Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms"
+  },
+  {
+    "objectID": "cronograma/hackear/hackear-en.html#about",
+    "href": "cronograma/hackear/hackear-en.html#about",
+    "title": "HackeaR",
+    "section": "About",
+    "text": "About\nWant to contribute to the R ecosystem but don’t know where to start?\nIn this two-hour hackathon we will work in small groups on real contributions to base R and rOpenSci projects.\nExamples of possible contributions:\n\nAnalyze a bug in R\nGenerate solutions to a bug in R\nGenerate solutions to an issue listed in our hackathon project\nReview translations of rOpenSci materials\n\nYou can join if you want to take your first steps: there will be experienced people to support you, answer your questions, and help you turn an idea, an issue, or an improvement into a concrete contribution.\nIf you already have contributing experience, we also invite you to participate.\nBring your curiosity and your willingness to contribute!"
+  },
+  {
+    "objectID": "cronograma/hackear/hackear-pt.html",
+    "href": "cronograma/hackear/hackear-pt.html",
+    "title": "HackeaR",
+    "section": "",
+    "text": "Dia e horário: Sexta-feira, 13 de novembro, das 8h às 10h (horário local)\nMentores e Mentoras: Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms"
+  },
+  {
+    "objectID": "cronograma/hackear/hackear-pt.html#sobre",
+    "href": "cronograma/hackear/hackear-pt.html#sobre",
+    "title": "HackeaR",
+    "section": "Sobre",
+    "text": "Sobre\nQuer contribuir com o ecossistema R, mas não sabe por onde começar?\nNeste hackathon de duas horas, vamos trabalhar em pequenos grupos para fazer contribuições reais para o R base e para projetos do rOpenSci.\nExemplos de possíveis contribuições:\n\nAnalisar um bug no R\nGerar soluções para um bug no R\nGerar soluções para uma issue listada em nosso projeto do hackathon\nRevisar traduções de materiais do rOpenSci\n\nVocê pode vir se quiser dar seus primeiros passos: haverá pessoas com experiência para te acompanhar, tirar suas dúvidas e ajudar a transformar uma ideia, uma issue ou uma melhoria em uma contribuição concreta.\nSe você já tem experiência contribuindo, também te convidamos a participar.\nTraga sua curiosidade e vontade de contribuir!"
+  },
+  {
     "objectID": "cronograma/hoteles-aliados/index-pt.html",
     "href": "cronograma/hoteles-aliados/index-pt.html",
     "title": "Hotéis Aliados",
