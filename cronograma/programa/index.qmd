@@ -28,20 +28,20 @@ Este programa es preliminar y puede sufrir modificaciones.
 ### Día 1 - Miércoles 11 de noviembre (Tutoriales) {.tutorial-title}
 
 ```{=html}
-<table>
+<table class="program-table">
 <thead>
 <tr><th>Lugar</th><th>Horario</th><th>Auditorio principal</th><th>Auditorio 1, Piso 2</th><th>Auditorio 2, Piso 2</th></tr>
 </thead>
 <tbody>
-<tr><td rowspan="9">Extensión UdeA</td><td>7:00-8:30</td><td colspan="3">Registro / Acreditación</td></tr>
-<tr><td>8:30-10:00</td><td>Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 1</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 1</td><td>Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 1</td></tr>
-<tr><td>10:00-10:30</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:30-12:00</td><td>Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 2</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 2</td><td>Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 2</td></tr>
-<tr><td>12:00-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
-<tr><td>13:00-14:00</td><td colspan="3">Visita UdeA (Guía cultural)</td></tr>
-<tr><td>14:00-15:30</td><td>Tutor: Joshua Kunst<br>Shiny + ellmer<br>Parte 1</td><td>Tutor: Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 1</td><td>Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 1</td></tr>
-<tr><td>15:30-16:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>16:00-17:30</td><td>Tutor:Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td>Tutor:Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td>Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
+<tr><td rowspan="9">Extensión UdeA</td><td>7:00-8:30</td><td class="prog-general" colspan="3">Registro / Acreditación</td></tr>
+<tr><td>8:30-10:00</td><td class="prog-tutorial">Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 1</td><td class="prog-tutorial">Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 1</td><td class="prog-tutorial">Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 1</td></tr>
+<tr><td>10:00-10:30</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
+<tr><td>10:30-12:00</td><td class="prog-tutorial">Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 2</td><td class="prog-tutorial">Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 2</td><td class="prog-tutorial">Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 2</td></tr>
+<tr><td>12:00-13:00</td><td class="prog-general" colspan="3">Almuerzo Libre</td></tr>
+<tr><td>13:00-14:00</td><td class="prog-general" colspan="3">Visita UdeA (Guía cultural)</td></tr>
+<tr><td>14:00-15:30</td><td class="prog-tutorial">Tutor: Joshua Kunst<br>Shiny + ellmer<br>Parte 1</td><td class="prog-tutorial">Tutor: Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 1</td><td class="prog-tutorial">Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 1</td></tr>
+<tr><td>15:30-16:00</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
+<tr><td>16:00-17:30</td><td class="prog-tutorial">Tutor:Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td class="prog-tutorial">Tutor:Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td class="prog-tutorial">Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
 </tbody>
 </table>
 ```
@@ -49,22 +49,22 @@ Este programa es preliminar y puede sufrir modificaciones.
 ### Día 2 - Jueves 12 de noviembre (Keynotes y Ponencias) {.tutorial-title}
 
 ```{=html}
-<table>
+<table class="program-table">
 <thead>
 <tr><th>Lugar</th><th>Horario</th><th>Auditorio 1, Piso 2</th><th>Auditorio 2, Piso 2</th><th>Auditorio principal</th></tr>
 </thead>
 <tbody>
-<tr><td rowspan="4">Parque explora</td><td>7:00-8:00</td><td colspan="3">Registro / Acreditación</td></tr>
-<tr><td>8:00-8:15</td><td colspan="3">Inauguración</td></tr>
-<tr><td>8:15-8:30</td><td colspan="3">Show Artístico</td></tr>
-<tr><td>8:30-9:30</td><td colspan="3">Keynote Nic Crane: Aprendiendo con IA: Código, Datos y Vida</td></tr>
-<tr><td rowspan="5">Extensión UdeA</td><td>9:30-10:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:00-12:00</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
-<tr><td>12:00-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
-<tr><td>13:00-14:20</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
-<tr><td>14:30-15:30</td><td colspan="3">Visita al acuario</td></tr>
-<tr><td rowspan="2">Parque explora</td><td>15:30-16:30</td><td colspan="3">Keynote Emil Hvitfeldt: Construyendo software que importa</td></tr>
-<tr><td>16:30-18:00</td><td colspan="3">Pósters + cóctel</td></tr>
+<tr><td rowspan="4">Parque explora</td><td>7:00-8:00</td><td class="prog-general" colspan="3">Registro / Acreditación</td></tr>
+<tr><td>8:00-8:15</td><td class="prog-general" colspan="3">Inauguración</td></tr>
+<tr><td>8:15-8:30</td><td class="prog-general" colspan="3">Show Artístico</td></tr>
+<tr><td>8:30-9:30</td><td class="prog-keynote" colspan="3">Keynote Nic Crane: Aprendiendo con IA: Código, Datos y Vida</td></tr>
+<tr><td rowspan="5">Extensión UdeA</td><td>9:30-10:00</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
+<tr><td>10:00-12:00</td><td class="prog-charla-1">Ponencias</td><td class="prog-charla-2">Ponencias</td><td></td></tr>
+<tr><td>12:00-13:00</td><td class="prog-general" colspan="3">Almuerzo Libre</td></tr>
+<tr><td>13:00-14:20</td><td class="prog-charla-1">Ponencias</td><td class="prog-charla-2">Ponencias</td><td></td></tr>
+<tr><td>14:30-15:30</td><td class="prog-general" colspan="3">Visita al acuario</td></tr>
+<tr><td rowspan="2">Parque explora</td><td>15:30-16:30</td><td class="prog-keynote" colspan="3">Keynote Emil Hvitfeldt: Construyendo software que importa</td></tr>
+<tr><td>16:30-18:00</td><td class="prog-general" colspan="3">Pósters + cóctel</td></tr>
 </tbody>
 </table>
 ```
@@ -72,22 +72,22 @@ Este programa es preliminar y puede sufrir modificaciones.
 ### Día 3 - Viernes 13 de noviembre (Keynotes y Ponencias) {.tutorial-title}
 
 ```{=html}
-<table>
+<table class="program-table">
 <thead>
 <tr><th>Lugar</th><th>Horario</th><th>Auditorio 1, Piso 2</th><th>Auditorio 2, Piso 2</th><th>Auditorio principal</th></tr>
 </thead>
 <tbody>
-<tr><td rowspan="6">Extensión UdeA</td><td>7:00-8:00</td><td colspan="3">Registro / Acreditación</td></tr>
-<tr><td>8:00-9:00</td><td>Charlas Relámpago</td><td>Ponencias</td><td>Hackathon</td></tr>
-<tr><td>9:00-10:00</td><td>Ponencias</td><td>Ponencias</td><td>Hackathon</td></tr>
-<tr><td>10:00-10:30</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:30-12:10</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
-<tr><td>12:10-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
-<tr><td rowspan="5">Parque explora</td><td>13:00-14:00</td><td colspan="3">Visita Acuario Sala 2 - Parque explora</td></tr>
-<tr><td>14:00-15:30</td><td colspan="3">Panel Expertos</td></tr>
-<tr><td>15:30-16:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>16:00-17:30</td><td colspan="3">Keynote Mauricio Gómez Ardila: De la guerra de lenguajes a la sinergia tecnológica</td></tr>
-<tr><td>17:30-18:00</td><td colspan="3">Clausura</td></tr>
+<tr><td rowspan="6">Extensión UdeA</td><td>7:00-8:00</td><td class="prog-general" colspan="3">Registro / Acreditación</td></tr>
+<tr><td>8:00-9:00</td><td class="prog-charla-1">Charlas Relámpago</td><td class="prog-charla-2">Ponencias</td><td class="prog-general">Hackathon</td></tr>
+<tr><td>9:00-10:00</td><td class="prog-charla-1">Ponencias</td><td class="prog-charla-2">Ponencias</td><td class="prog-general">Hackathon</td></tr>
+<tr><td>10:00-10:30</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
+<tr><td>10:30-12:10</td><td class="prog-charla-1">Ponencias</td><td class="prog-charla-2">Ponencias</td><td></td></tr>
+<tr><td>12:10-13:00</td><td class="prog-general" colspan="3">Almuerzo Libre</td></tr>
+<tr><td rowspan="5">Parque explora</td><td>13:00-14:00</td><td class="prog-general" colspan="3">Visita Acuario Sala 2 - Parque explora</td></tr>
+<tr><td>14:00-15:30</td><td class="prog-general" colspan="3">Panel Expertos</td></tr>
+<tr><td>15:30-16:00</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
+<tr><td>16:00-17:30</td><td class="prog-keynote" colspan="3">Keynote Mauricio Gómez Ardila: De la guerra de lenguajes a la sinergia tecnológica</td></tr>
+<tr><td>17:30-18:00</td><td class="prog-general" colspan="3">Clausura</td></tr>
 </tbody>
 </table>
 ```
