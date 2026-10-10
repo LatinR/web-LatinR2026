@@ -25,7 +25,7 @@ This is the program of talks and keynotes. For workshops, please check the [tuto
 Este programa es preliminar y puede sufrir modificaciones.
 :::
 
-### Día 1 - Miércoles 11 de noviembre (Tutoriales)
+### Día 1 - Miércoles 11 de noviembre (Tutoriales) {.tutorial-title}
 
 ```{=html}
 <table>
@@ -34,19 +34,19 @@ Este programa es preliminar y puede sufrir modificaciones.
 </thead>
 <tbody>
 <tr><td rowspan="9">Extensión UdeA</td><td>7:00-8:30</td><td colspan="3">Registro / Acreditación</td></tr>
-<tr><td>8:30-10:00</td><td>Tutora: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 1</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 1</td><td>Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 1</td></tr>
+<tr><td>8:30-10:00</td><td>Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 1</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 1</td><td>Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 1</td></tr>
 <tr><td>10:00-10:30</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:30-12:00</td><td>Tutora: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 2</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 2</td><td>Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 2</td></tr>
+<tr><td>10:30-12:00</td><td>Tutore: Nic Crane<br>Using LLMs in R with ellmer<br>Parte 2</td><td>Tutor: Emil<br>Making great slides with Quarto and revealjs<br>Parte 2</td><td>Tutora: Jesica Formoso<br>Automatiza la publicación de reportes con Quarto<br>Parte 2</td></tr>
 <tr><td>12:00-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
 <tr><td>13:00-14:00</td><td colspan="3">Visita UdeA (Guía cultural)</td></tr>
-<tr><td>14:00-15:30</td><td>Joshua Kunst<br>Shiny + ellmer<br>Parte 1</td><td>Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 1</td><td>Tutor: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 1</td></tr>
+<tr><td>14:00-15:30</td><td>Tutor: Joshua Kunst<br>Shiny + ellmer<br>Parte 1</td><td>Tutor: Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 1</td><td>Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 1</td></tr>
 <tr><td>15:30-16:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>16:00-17:30</td><td>Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td>Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td>Tutor: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
+<tr><td>16:00-17:30</td><td>Tutor:Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td>Tutor:Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td>Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
 </tbody>
 </table>
 ```
 
-### Día 2 - Jueves 12 de noviembre (Keynotes y Ponencias)
+### Día 2 - Jueves 12 de noviembre (Keynotes y Ponencias) {.tutorial-title}
 
 ```{=html}
 <table>
@@ -57,19 +57,19 @@ Este programa es preliminar y puede sufrir modificaciones.
 <tr><td rowspan="4">Parque explora</td><td>7:00-8:00</td><td colspan="3">Registro / Acreditación</td></tr>
 <tr><td>8:00-8:15</td><td colspan="3">Inauguración</td></tr>
 <tr><td>8:15-8:30</td><td colspan="3">Show Artístico</td></tr>
-<tr><td>8:30-9:30</td><td colspan="3">Keynote1</td></tr>
+<tr><td>8:30-9:30</td><td colspan="3">Keynote Nic Crane: Aprendiendo con IA: Código, Datos y Vida</td></tr>
 <tr><td rowspan="5">Extensión UdeA</td><td>9:30-10:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:00-12:00</td><td>Ponencias(6)</td><td>Ponencias(6)</td><td></td></tr>
+<tr><td>10:00-12:00</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
 <tr><td>12:00-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
-<tr><td>13:00-14:20</td><td>Ponencias(4)</td><td>Ponencias(4)</td><td></td></tr>
+<tr><td>13:00-14:20</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
 <tr><td>14:30-15:30</td><td colspan="3">Visita al acuario</td></tr>
-<tr><td rowspan="2">Parque explora</td><td>15:30-16:30</td><td colspan="3">Keynote2</td></tr>
+<tr><td rowspan="2">Parque explora</td><td>15:30-16:30</td><td colspan="3">Keynote Emil Hvitfeldt: Construyendo software que importa</td></tr>
 <tr><td>16:30-18:00</td><td colspan="3">Pósters + cóctel</td></tr>
 </tbody>
 </table>
 ```
 
-### Día 3 - Viernes 13 de noviembre (Keynotes y Ponencias)
+### Día 3 - Viernes 13 de noviembre (Keynotes y Ponencias) {.tutorial-title}
 
 ```{=html}
 <table>
@@ -78,18 +78,18 @@ Este programa es preliminar y puede sufrir modificaciones.
 </thead>
 <tbody>
 <tr><td rowspan="6">Extensión UdeA</td><td>7:00-8:00</td><td colspan="3">Registro / Acreditación</td></tr>
-<tr><td>8:00-9:00</td><td>Relámpago(12)</td><td>Ponencias(3)</td><td>Hackathon</td></tr>
-<tr><td>9:00-10:00</td><td>Ponencias(3)</td><td>Ponencias(3)</td><td>Hackathon</td></tr>
+<tr><td>8:00-9:00</td><td>Charlas Relámpago</td><td>Ponencias</td><td>Hackathon</td></tr>
+<tr><td>9:00-10:00</td><td>Ponencias</td><td>Ponencias</td><td>Hackathon</td></tr>
 <tr><td>10:00-10:30</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>10:30-12:10</td><td>Ponencias(5)</td><td>Ponencias(5)</td><td></td></tr>
+<tr><td>10:30-12:10</td><td>Ponencias</td><td>Ponencias</td><td></td></tr>
 <tr><td>12:10-13:00</td><td colspan="3">Almuerzo Libre</td></tr>
 <tr><td rowspan="5">Parque explora</td><td>13:00-14:00</td><td colspan="3">Visita Acuario Sala 2 - Parque explora</td></tr>
 <tr><td>14:00-15:30</td><td colspan="3">Panel Expertos</td></tr>
 <tr><td>15:30-16:00</td><td colspan="3">Coffee Break</td></tr>
-<tr><td>16:00-17:30</td><td colspan="3">Keynote 3</td></tr>
+<tr><td>16:00-17:30</td><td colspan="3">Keynote Mauricio Gómez Ardila: De la guerra de lenguajes a la sinergia tecnológica</td></tr>
 <tr><td>17:30-18:00</td><td colspan="3">Clausura</td></tr>
 </tbody>
 </table>
 ```
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRkJA6JHVPQkm8n45CbdzlO4vUq6dkO62vSozofMwPV45EX6BkzKXcDQy-RDP__TNMwuK5ts5SCe9pF/pub?embedded=true" style="width: 100%; height: 100%;"></iframe>
+<!--<iframe src="https://docs.google.com/document/d/e/2PACX-1vRkJA6JHVPQkm8n45CbdzlO4vUq6dkO62vSozofMwPV45EX6BkzKXcDQy-RDP__TNMwuK5ts5SCe9pF/pub?embedded=true" style="width: 100%; height: 100%;"></iframe>-->
