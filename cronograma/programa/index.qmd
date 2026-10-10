@@ -9,21 +9,35 @@ knitr:
 
 ::: {.content-visible when-profile="es"}
 Este es el programa de las charlas y conferencias principales. Para los talleres, por favor consulta la página de [tutoriales](../tutoriales/index.qmd).
-:::
-
-::: {.content-visible when-profile="pt"}
-Neste programa, temos as palestras e keynotes. Para os workshops, por favor, consulte a página de [workshops](../tutoriales/workshops-pt.qmd).
-:::
-
-::: {.content-visible when-profile="en"}
-This is the program of talks and keynotes. For workshops, please check the [tutorials](../tutoriales/workshops.qmd) page.
-:::
 
 ## Programa preliminar
 
 ::: {.callout-note}
 Este programa es preliminar y puede sufrir modificaciones.
 :::
+:::
+
+::: {.content-visible when-profile="pt"}
+Neste programa, temos as palestras e keynotes. Para os workshops, por favor, consulte a página de [workshops](../tutoriales/workshops-pt.qmd).
+
+## Programa preliminar
+
+::: {.callout-note}
+Este programa é preliminar e pode sofrer alterações.
+:::
+:::
+
+::: {.content-visible when-profile="en"}
+This is the program of talks and keynotes. For workshops, please check the [tutorials](../tutoriales/workshops.qmd) page.
+
+## Preliminar Program
+
+::: {.callout-note}
+This program is preliminar and can change.
+:::
+:::
+
+
 
 ### Día 1 - Miércoles 11 de noviembre (Tutoriales) {.tutorial-title}
 
