@@ -41,7 +41,7 @@ Este programa es preliminar y puede sufrir modificaciones.
 <tr><td>13:00-14:00</td><td class="prog-general" colspan="3">Visita UdeA (Guía cultural)</td></tr>
 <tr><td>14:00-15:30</td><td class="prog-tutorial">Tutor: Joshua Kunst<br>Shiny + ellmer<br>Parte 1</td><td class="prog-tutorial">Tutor: Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 1</td><td class="prog-tutorial">Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 1</td></tr>
 <tr><td>15:30-16:00</td><td class="prog-general" colspan="3">Coffee Break</td></tr>
-<tr><td>16:00-17:30</td><td class="prog-tutorial">Tutor:Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td class="prog-tutorial">Tutor:Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td class="prog-tutorial">Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
+<tr><td>16:00-17:30</td><td class="prog-tutorial">Tutor: Joshua Kunst<br>Shiny + ellmer<br>Parte 2</td><td class="prog-tutorial">Tutor: Freddy Hernández<br>Construyendo modelos de ML con tidymodels<br>Parte 2</td><td class="prog-tutorial">Tutora: Yanina Bellini<br>De idea a paquete: programá tu primer paquete de R<br>Parte 2</td></tr>
 </tbody>
 </table>
 ```
