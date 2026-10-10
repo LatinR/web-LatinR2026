@@ -187,6 +187,51 @@ h3.tutorial-title {
   display: inline-block;
 }
 
+/* Programa preliminar */
+.program-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+.program-table th,
+.program-table td {
+  border: 1px solid #B5D4EB;
+  padding: 0.5em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.program-table th {
+  background-color: $primary;
+  color: #fff;
+}
+
+.program-table .prog-tutorial {
+  background-color: #4c3ceb;
+  color: #fff;
+}
+
+.program-table .prog-charla-1 {
+  background-color: #327ff7;
+  color: #fff;
+}
+
+.program-table .prog-charla-2 {
+  background-color: #9f3fff;
+  color: #fff;
+}
+
+.program-table .prog-general {
+  background-color: #9670ff;
+  color: #fff;
+}
+
+.program-table .prog-keynote {
+  background-color: #aaffff;
+  color: #000;
+}
+
 .card-header-sponsor {
   background-color: rgb(231, 229, 255);
   font-weight: bold;
