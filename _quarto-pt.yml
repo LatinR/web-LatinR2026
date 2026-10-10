@@ -50,8 +50,8 @@ website:
          # - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
       - text: Programa
         menu:
-      #     # - text: "Programaa resumido"
-      #     #   href: cronograma/programa/preliminar.qmd 
+          - text: "Programaa resumido"
+            href: cronograma/programa/preliminar.qmd 
       #      - text: "Programação de Palestras"
       #        href: cronograma/programa/index.qmd
           - text: "Palestras convidadas"

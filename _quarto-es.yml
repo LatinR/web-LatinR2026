@@ -49,8 +49,8 @@ website:
         #  - href: sobre/ediciones-anteriores/index.qmd  
       - text: Programa
         menu:
-      #     # - text: "Programa resumido"
-      #     #   href: cronograma/programa/preliminar.qmd 
+          - text: "Programa resumido"
+            href: cronograma/programa/preliminar.qmd 
       #     - text: "Programa de Charlas y Conferencias"
       #       href: cronograma/programa/index.qmd
           - text: "Conferencistas"
