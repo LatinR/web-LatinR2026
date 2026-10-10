@@ -51,7 +51,7 @@ website:
       - text: Programa
         menu:
           - text: "Programaa resumido"
-            href: cronograma/programa/preliminar.qmd 
+            href: cronograma/programa/index.qmd 
       #      - text: "Programação de Palestras"
       #        href: cronograma/programa/index.qmd
           - text: "Palestras convidadas"

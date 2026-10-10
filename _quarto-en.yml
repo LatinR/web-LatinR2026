@@ -50,7 +50,7 @@ website:
       - text: Program
         menu:
           - text: "Summarised program"
-            href: cronograma/programa/preliminar.qmd 
+            href: cronograma/programa/index.qmd 
       #     - text: "Program with Talks and Keynotes"
       #       href: cronograma/programa/index.qmd
           - text: "Keynote Speakers"
