@@ -1,7 +1,7 @@
 ---
 title: "Meet the LatinR 2026 keynote speakers"
 categories: "2026"
-date: 2026-09-22
+date: 2026-10-10
 ref: keynotes
 ---
 
@@ -13,8 +13,8 @@ ref: keynotes
 
 #### Nic Crane: Learning with AI: Code, Data, and Life
 
-![Flyer for Nic Crane's keynote](/img/posts/PLACEHOLDER-flyer-nic-crane.png){fig-alt="Flyer for Nic Crane's keynote" width="100%"}
-<!-- TODO: replace with the final flyer for Nic Crane's keynote -->
+![Flyer for Nic Crane's keynote](/img/posts/flyer-nic-crane.png){fig-alt="Flyer for Nic Crane's keynote" width="100%"}
+
 
 **November 12 - Parque Explora, 8:30-10:00.**
 
@@ -26,8 +26,8 @@ In this talk, Nic will share their experiences of trying to use AI to improve th
 
 #### Emil Hvitfeldt: Building software that matters
 
-![Flyer for Emil Hvitfeldt's keynote](/img/posts/PLACEHOLDER-flyer-emil-hvitfeldt.png){fig-alt="Flyer for Emil Hvitfeldt's keynote" width="100%"}
-<!-- TODO: replace with the final flyer for Emil Hvitfeldt's keynote -->
+![Flyer for Emil Hvitfeldt's keynote](/img/posts/flyer-emil-hvitfeldt.png){fig-alt="Flyer for Emil Hvitfeldt's keynote" width="100%"}
+
 
 **November 12 - Parque Explora, 14:00-15:30.**
 
@@ -39,8 +39,8 @@ We build software for many different reasons and purposes, each choice impacted 
 
 #### Mauricio Gómez Ardila: From the Language Wars to Technological Synergy
 
-![Flyer for Mauricio Gómez Ardila's keynote](/img/posts/PLACEHOLDER-flyer-mauricio-gomez-ardila.png){fig-alt="Flyer for Mauricio Gómez Ardila's keynote" width="100%"}
-<!-- TODO: replace with the final flyer for Mauricio Gómez Ardila's keynote -->
+![Flyer for Mauricio Gómez Ardila's keynote](/img/posts/flyer-mauricio-gomez-ardila.png){fig-alt="Flyer for Mauricio Gómez Ardila's keynote" width="100%"}
+
 
 **November 13 - Parque Explora, 16:00-17:30.**
 
