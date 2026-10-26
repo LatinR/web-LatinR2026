@@ -7,9 +7,9 @@ knitr:
     warning: false
 ---
 
-**Dia e horário**: Sexta-feira, 13 de novembro, das 8h às 10h (horário local)
+**Dia e horário**: Sexta-feira, 13 de novembro, das 8h às 10h (horário local, UTC-5)
 
-**Mentores e Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms
+**Mentores e Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms, Luis D. Verde, Francisco Cardozo, Diana Garcia, Paola Corrales, Elio Campitelli, Beatriz Milz, Heather Turner, Ella Kaye
 
 ## Sobre
 
@@ -29,3 +29,8 @@ Você pode vir se quiser dar seus primeiros passos: haverá pessoas com experiê
 Se você já tem experiência contribuindo, também te convidamos a participar.
 
 Traga sua curiosidade e vontade de contribuir!
+
+## Recursos
+
+- [rOpenSci Help Wanted Issues](https://ropensci.org/help-wanted/)
+- [R Devel HackeaR dashboard](https://github.com/orgs/r-devel/projects/14/)
