@@ -7,7 +7,7 @@ knitr:
     warning: false
 ---
 
-**Dia e horário**: Sexta-feira, 13 de novembro, das 8h às 10h (horário local)
+**Dia e horário**: Sexta-feira, 13 de novembro, das 8h às 10h (horário local, UTC-5)
 
 **Mentores e Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms, Luis D. Verde, Francisco Cardozo, Diana Garcia, Paola Corrales, Elio Campitelli, Beatriz Milz, Heather Turner, Ella Kaye
 
