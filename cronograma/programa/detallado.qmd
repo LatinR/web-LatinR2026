@@ -1,0 +1,46 @@
+---
+title: "{{< meta titulo-programa-detallado >}}"
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+```{r}
+source(here::here("R/generar-programa.R"))
+idioma <- Sys.getenv("QUARTO_PROFILE", "es")
+```
+
+::: {.content-visible when-profile="es"}
+Este es el programa detallado de LatinR 2026. Puedes ver una vista general en el [programa resumido](index.qmd).
+
+::: {.callout-note .programa-nota icon=false}
+Este programa puede sufrir modificaciones.
+:::
+:::
+
+::: {.content-visible when-profile="pt"}
+Esta é a programação detalhada do LatinR 2026. Você pode ver uma visão geral no [programa resumido](index.qmd).
+
+::: {.callout-note .programa-nota icon=false}
+Este programa pode sofrer alterações.
+:::
+:::
+
+::: {.content-visible when-profile="en"}
+This is the detailed program of LatinR 2026. You can see an overview in the [summarised program](index.qmd).
+
+::: {.callout-note .programa-nota icon=false}
+This program may change.
+:::
+:::
+
+::: {.panel-tabset .programa-dias}
+
+```{r}
+#| results: asis
+imprimir_programa(idioma)
+```
+
+:::

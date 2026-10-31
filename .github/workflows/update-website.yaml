@@ -43,16 +43,12 @@ jobs:
             any::bslib
             any::here
             any::readr
+            any::stringr
+            any::htmltools
             any::googlesheets4
             any::usethis          
             any::toastui
             any::reactable
-
-# Descomentar cuando tengamos la info del equipo y comité
-  #    - name: Execute Script
- #       run: |
- #        Rscript "data-raw/actions-update-from-google-sheets.R"      
-          
 
       - name: render
         run: |

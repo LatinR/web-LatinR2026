@@ -232,6 +232,196 @@ h3.tutorial-title {
   color: #000;
 }
 
+/* Programa (resumido y detallado) */
+// Colores oficiales de LatinR
+$latinr-violeta: #5542FF;
+$latinr-gris: #ECECEC;
+
+.programa-dias .nav-tabs {
+  border-bottom: 3px solid $latinr-violeta;
+}
+
+.programa-dias .nav-tabs .nav-link {
+  background-color: $latinr-gris;
+  color: $latinr-violeta;
+  border: none;
+  margin-right: 0.25em;
+}
+
+.programa-dias .nav-tabs .nav-link:hover,
+.programa-dias .nav-tabs .nav-link.active {
+  background-color: $latinr-violeta;
+  color: #fff;
+}
+
+/* Aviso de programa preliminar */
+.callout.programa-nota {
+  border: none !important;
+  border-left: 4px solid $latinr-violeta !important;
+  background-color: #fff;
+}
+
+.callout.programa-nota .callout-header {
+  background-color: $latinr-gris !important;
+  color: #1a1a1a;
+}
+
+.callout.programa-nota .callout-body-container {
+  background-color: #fff;
+  font-size: 0.85em;
+  border: 2px solid $latinr-gris;
+  border-top: none;
+  border-left: none;
+}
+
+h3.programa-dia {
+  background-color: $latinr-violeta;
+  color: #fff !important;
+  padding: 0.25em 0.75em;
+  margin-top: 1.5em;
+  border-radius: 4px;
+}
+
+.cronograma-container {
+  margin-top: 1em;
+}
+
+.cronograma-keynote .sesion-titulo {
+  display: inline-block;
+  background-color: $latinr-violeta;
+  color: #fff;
+  padding: 0.15em 0.6em;
+  border-radius: 4px;
+}
+
+.cronograma-row {
+  display: grid;
+  grid-template-columns: 7.5em 1fr;
+  gap: 1em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #B5D4EB;
+}
+
+.cronograma-row .horario {
+  font-weight: bold;
+  color: $latinr-violeta;
+}
+
+.cronograma-general .sesion-titulo {
+  font-weight: normal;
+}
+
+.cronograma-general .charla {
+  background-color: $latinr-gris;
+}
+
+.salas-paralelas {
+  display: grid;
+  grid-template-columns: repeat(var(--n-salas, 2), minmax(0, 1fr));
+  gap: 1em;
+}
+
+.sala {
+  border-top: 4px solid $latinr-violeta;
+  background-color: $latinr-gris;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+}
+
+/* Break dentro de un bloque de sesiones que continúan después */
+.bloque-nota {
+  margin-top: 0.5em;
+  color: #737373;
+  font-size: 0.9em;
+}
+
+/* Segunda parte de una sesión cuando la otra sala tiene una sesión nueva */
+.sesion-continuacion .sesion-titulo {
+  color: #737373;
+}
+
+.sala-nombre {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  color: $latinr-violeta;
+}
+
+.sala .sesion + .sesion {
+  border-top: 1px dashed $latinr-violeta;
+  margin-top: 0.75em;
+  padding-top: 0.75em;
+}
+
+.sesion-horario {
+  font-size: 0.8em;
+  color: #737373;
+}
+
+.sesion-enlace {
+  font-size: 0.85em;
+  color: $latinr-violeta;
+}
+
+.sesion-titulo {
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+
+.charla {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0.5em 0.75em;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+}
+
+.charla-titulo {
+  font-weight: bold;
+  font-size: 1.15em;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+  color: #1a1a1a;
+}
+
+.charla-autores {
+  color: #666666;
+  font-size: 0.9em;
+}
+
+.charla-autor {
+  display: block;
+}
+
+.charla-autores a {
+  margin-left: 0.15em;
+}
+
+.charla-resumen {
+  margin-top: 0.5em;
+}
+
+.charla-resumen summary {
+  color: $latinr-violeta;
+  cursor: pointer;
+}
+
+.charla-resumen p {
+  margin: 0.5em 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .cronograma-row,
+  .salas-paralelas {
+    grid-template-columns: 1fr;
+  }
+
+  .cronograma-row {
+    gap: 0.25em;
+  }
+}
+
 .card-header-sponsor {
   background-color: rgb(231, 229, 255);
   font-weight: bold;

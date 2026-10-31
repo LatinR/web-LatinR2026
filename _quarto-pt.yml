@@ -1,5 +1,9 @@
 lang: pt
 
+# Títulos de las páginas del programa (se usan con {{< meta >}} en cronograma/programa/)
+titulo-programa-resumido: "Programa resumido"
+titulo-programa-detallado: "Programação detalhada"
+
 format:
   html:
     include-in-header:
@@ -50,8 +54,10 @@ website:
          # - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
       - text: Programa
         menu:
-          - text: "Programaa resumido"
+          - text: "Programa resumido"
             href: cronograma/programa/index.qmd 
+          - text: "Programação detalhada"
+            href: cronograma/programa/detallado.qmd
       #      - text: "Programação de Palestras"
       #        href: cronograma/programa/index.qmd
           - text: "Palestras convidadas"
@@ -64,10 +70,6 @@ website:
           #   href: cronograma/r-dev-day/rdevday-pt.qmd      
           # - text: "Traslaton rOpenSci"
           #   href: cronograma/translaton/translaton-pt.qmd                  
-          # - text: "Apresentações"
-          #   href: cronograma/programa/presentaciones.qmd 
-          # - text: "Pôsters"
-          #   href: cronograma/programa/posters.qmd               
       - text: "Novidades"
         href: blog/pt/index.html   
       - text: Edições anteriores

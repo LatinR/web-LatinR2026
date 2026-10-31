@@ -6,7 +6,13 @@
 
 /.quarto/
 data-raw/token.json
+# Tiene las URLs de las hojas del programa: no subir hasta que tengan acceso restringido
+data-raw/actualizar-programa.R
 docs/*
 
 **/*.quarto_ipynb
+# Salidas de Quarto que quedan junto a los .qmd (por ejemplo, con quarto render).
+# El sitio se genera en docs/.
+*.html
+**/index-listing.json
 .positai
