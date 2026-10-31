@@ -7,7 +7,7 @@ knitr:
     warning: false
 ---
 
-**Día y horario**: Viernes 13 de Noviembre de 8 a 10 am (hola local, UTC-5)
+**Día y horario**: Viernes 13 de noviembre de 8 a 10 am (hora local, UTC-5)
 
 **Mentores y Mentoras:** Riva Quiroga, Yanina Bellini Saibene, Jeroen Ooms, Luis D. Verde, Francisco Cardozo, Diana Garcia, Paola Corrales, Elio Campitelli, Beatriz Milz, Heather Turner, Ella Kaye
 
@@ -21,12 +21,13 @@ Ejemplos de posibles contribuciones:
 
 - Analizar un error en R
 - Generar soluciones a un error en R
+- Contribuir a la documentación de R
 - Generar soluciones a un issue listado en nuestro proyecto del hackathon
 - Revisar traducciones de materiales de rOpenSci
 
 Podés venir si querés dar tus primeros pasos: habrá personas con experiencia para acompañarte, resolver tus dudas y ayudarte a convertir una idea, un issue o una mejora en una contribución concreta.
 
-Si ya tenes experiencia contribuyendo también te invitamos a participar.
+Si ya tienes experiencia contribuyendo también te invitamos a participar.
 
 ¡Traé tu curiosidad y ganas de contribuir!
 

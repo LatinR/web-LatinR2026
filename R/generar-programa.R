@@ -13,32 +13,42 @@ textos_programa <- list(
   es = list(
     resumen = "Ver resumen",
     ver_mas = "Ver más",
-    pagina_tutoriales = "../tutoriales/index.html",
+    paginas = c(tutoriales = "../tutoriales/index.html", hackear = "../hackear/index.html"),
     continuacion = "Continuación"
   ),
   pt = list(
     resumen = "Ver resumo",
     ver_mas = "Ver mais",
-    pagina_tutoriales = "../tutoriales/workshops-pt.html",
+    paginas = c(tutoriales = "../tutoriales/workshops-pt.html", hackear = "../hackear/hackear-pt.html"),
     continuacion = "Continuação"
   ),
   en = list(
     resumen = "Show abstract",
     ver_mas = "Read more",
-    pagina_tutoriales = "../tutoriales/workshops.html",
+    paginas = c(tutoriales = "../tutoriales/workshops.html", hackear = "../hackear/hackear-en.html"),
     continuacion = "Continued"
   )
 )
 
-# Ancla de la descripción de cada tutorial en la página de tutoriales
-# (cronograma/tutoriales/). Las claves son los id_sesion de la hoja sesiones-web.
-anclas_tutoriales <- c(
-  T1 = "taller-ellmer",
-  T2 = "taller-revealjs",
-  T3 = "taller-quarto-gha",
-  T4 = "taller-shiny-ellmer",
-  T5 = "taller-tidymodels",
-  T6 = "taller-paquete-r"
+# Sesiones que tienen su descripción en otra página del sitio: llevan un enlace "Ver más".
+# Las claves son los id_sesion de la hoja sesiones-web. `pagina` es una de las `paginas`
+# de textos_programa (cambia según el idioma) y `ancla`, opcional, la sección de esa página.
+enlaces_sesiones <- list(
+  T1 = c(pagina = "tutoriales", ancla = "taller-ellmer"),
+  T2 = c(pagina = "tutoriales", ancla = "taller-revealjs"),
+  T3 = c(pagina = "tutoriales", ancla = "taller-quarto-gha"),
+  T4 = c(pagina = "tutoriales", ancla = "taller-shiny-ellmer"),
+  T5 = c(pagina = "tutoriales", ancla = "taller-tidymodels"),
+  T6 = c(pagina = "tutoriales", ancla = "taller-paquete-r"),
+  S9 = c(pagina = "hackear")
+)
+
+# Fecha de cada día del programa. El programa detallado la usa para abrir la pestaña
+# del día actual durante la conferencia.
+fechas_programa <- c(
+  "miércoles" = "2026-11-11",
+  "jueves" = "2026-11-12",
+  "viernes" = "2026-11-13"
 )
 
 # Título de la pestaña de cada día. Los nombres coinciden con la columna `dia` de la hoja.
@@ -171,12 +181,19 @@ generar_div_charla <- function(charla, autores, textos) {
   paste0(html, '</div>\n')
 }
 
+# Texto de los enlaces "Ver más", con un ícono de lupa.
+html_ver_mas <- function(textos) {
+  paste0('<i class="bi bi-search"></i> <span>', textos$ver_mas, '</span>')
+}
+
 es_continuacion <- function(sesion) {
   !is.na(sesion$id_sesion) & sesion$id_sesion != "" & (is.na(sesion$sesion) | sesion$sesion == "")
 }
 
 # Una sesión: horario, título y las charlas asignadas (si las tiene).
 # Las continuaciones solo muestran un aviso, sin repetir el título ni las charlas.
+# En el programa detallado las sesiones con charlas llevan el ancla "sesion-<id_sesion>";
+# en el resumido no se muestran las charlas, sino un enlace a esa ancla.
 generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE) {
   if (es_continuacion(sesion)) {
     return(paste0(
@@ -191,11 +208,24 @@ generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE)
     dplyr::arrange(as.numeric(orden)) |>
     dplyr::left_join(programa$presentaciones, by = "id_presentacion")
 
-  html_charlas <- purrr::map_chr(
-    seq_len(nrow(charlas)),
-    \(i) generar_div_charla(charlas[i, ], programa$autores, textos)
-  ) |>
-    paste(collapse = "")
+  ancla <- paste0("sesion-", sesion$id_sesion)
+
+  html_charlas <- if (nrow(charlas) == 0) {
+    ""
+  } else if (programa$detallado) {
+    purrr::map_chr(
+      seq_len(nrow(charlas)),
+      \(i) generar_div_charla(charlas[i, ], programa$autores, textos)
+    ) |>
+      paste(collapse = "")
+  } else {
+    paste0(
+      '  <a class="sesion-enlace" href="detallado.html#', ancla, '">',
+      html_ver_mas(textos), '</a>\n'
+    )
+  }
+
+  atributo_id <- if (programa$detallado && nrow(charlas) > 0) paste0(' id="', ancla, '"') else ""
 
   html_horario <- if (mostrar_horario) {
     paste0('  <div class="sesion-horario">', formatear_horario(sesion$inicio, sesion$fin), '</div>\n')
@@ -203,17 +233,17 @@ generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE)
     ""
   }
 
-  html_enlace <- if (isTRUE(sesion$id_sesion %in% names(anclas_tutoriales))) {
-    paste0(
-      '  <a class="sesion-enlace" href="', textos$pagina_tutoriales, '#',
-      anclas_tutoriales[[sesion$id_sesion]], '">', textos$ver_mas, '</a>\n'
-    )
+  html_enlace <- if (isTRUE(sesion$id_sesion %in% names(enlaces_sesiones))) {
+    enlace <- enlaces_sesiones[[sesion$id_sesion]]
+    href <- textos$paginas[[enlace[["pagina"]]]]
+    if (!is.na(enlace["ancla"])) href <- paste0(href, "#", enlace[["ancla"]])
+    paste0('  <a class="sesion-enlace" href="', href, '">', html_ver_mas(textos), '</a>\n')
   } else {
     ""
   }
 
   paste0(
-    '<div class="sesion">\n',
+    '<div class="sesion"', atributo_id, '>\n',
     html_horario,
     '  <div class="sesion-titulo">', htmltools::htmlEscape(sesion$sesion), '</div>\n',
     html_enlace,
@@ -341,21 +371,23 @@ generar_html_dia <- function(programa, dia_filtro, idioma = "es") {
       }
     })
 
-  paste0('<div class="cronograma-container">\n', paste(html_bloques, collapse = ""), '</div>')
+  paste0(
+    '<div class="cronograma-container" data-fecha="', fechas_programa[[dia_filtro]], '">\n',
+    paste(html_bloques, collapse = ""),
+    '</div>'
+  )
 }
 
 # Imprime el programa de cada día (para usar en un chunk con `results: asis`).
 # - Con `pestanas = TRUE` cada día es una pestaña: el chunk tiene que estar
 #   dentro de un div `.panel-tabset`. Con `pestanas = FALSE` los días van uno
 #   después del otro, cada uno con su título.
-# - Con `detallado = FALSE` se muestran solo las sesiones, sin las charlas.
+# - Con `detallado = FALSE` se muestran solo las sesiones, con un enlace a sus charlas
+#   en el programa detallado.
 imprimir_programa <- function(idioma = "es", detallado = TRUE, pestanas = TRUE) {
   dias <- dias_programa[[idioma]]
   programa <- cargar_programa()
-
-  if (!detallado) {
-    programa$agrupacion <- programa$agrupacion[0, ]
-  }
+  programa$detallado <- detallado
 
   purrr::iwalk(dias, function(titulo_dia, dia) {
     if (pestanas) {

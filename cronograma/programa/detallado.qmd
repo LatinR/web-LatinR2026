@@ -44,3 +44,37 @@ imprimir_programa(idioma)
 ```
 
 :::
+
+```{=html}
+<script>
+// Abre la pestaña del día que corresponde:
+// - Si el enlace apunta a una sesión (#sesion-S1, etc., desde el programa resumido),
+//   abre la pestaña de esa sesión y baja hasta ella.
+// - Si no, durante la conferencia abre la pestaña del día actual (hora de Colombia).
+//   Antes y después de la conferencia queda la primera pestaña.
+function mostrarPestana(elemento) {
+  const pestana = elemento && elemento.closest(".tab-pane");
+  if (!pestana) return false;
+  const boton = document.querySelector('[data-bs-target="#' + pestana.id + '"]');
+  if (boton) bootstrap.Tab.getOrCreateInstance(boton).show();
+  return true;
+}
+
+function abrirPestanaDelDia() {
+  if (location.hash) {
+    const sesion = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (mostrarPestana(sesion)) {
+      // Baja hasta el comienzo del bloque, para que se vean el horario y la sala
+      const bloque = sesion.closest(".cronograma-row") || sesion;
+      setTimeout(() => bloque.scrollIntoView(), 0);
+      return;
+    }
+  }
+  const hoy = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Bogota" }).format(new Date());
+  mostrarPestana(document.querySelector('.cronograma-container[data-fecha="' + hoy + '"]'));
+}
+
+window.addEventListener("load", abrirPestanaDelDia);
+window.addEventListener("hashchange", abrirPestanaDelDia);
+</script>
+```

@@ -362,6 +362,17 @@ h3.programa-dia {
 .sesion-enlace {
   font-size: 0.85em;
   color: $latinr-violeta;
+  text-decoration: none;
+}
+
+.sesion-enlace span {
+  text-decoration: underline;
+}
+
+/* Al llegar a una sesión desde un enlace, deja espacio para el navbar */
+.cronograma-row,
+.sesion[id] {
+  scroll-margin-top: 5rem;
 }
 
 .sesion-titulo {
