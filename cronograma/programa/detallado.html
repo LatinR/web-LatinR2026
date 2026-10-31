@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.20">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Programa detallado – LatinR 2026</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-72ac93fe746b31bd8e23caaf32dff3f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>.blog-section-en, .blog-section-pt { display: none !important; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo light-content">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../.././pt/index.html"> 
+<span class="menu-text">PT</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../.././en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text"><strong>ES</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Principal</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inscripción" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Inscripción</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-inscripción">    
+        <li>
+    <a class="dropdown-item" href="../../blog/es/2026-08-25-inscripcion.html">
+ <span class="dropdown-text">Información de inscripción</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eventbrite.com.ar/e/1998690018649">
+ <span class="dropdown-text">Inscribirse en Eventbrite</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-latinr-2026" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">LatinR 2026</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-latinr-2026">    
+        <li>
+    <a class="dropdown-item" href="../../cronograma/lugar/index.html">
+ <span class="dropdown-text">Lugar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/recursos-turisticos/index.html">
+ <span class="dropdown-text">Recursos turísticos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/hoteles-aliados/index.html">
+ <span class="dropdown-text">Hoteles Aliados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/equipo/index.html">
+ <span class="dropdown-text">Equipo Organizador</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/apoyo/index.html">
+ <span class="dropdown-text">Apoyo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sobre/coc/index.html">
+ <span class="dropdown-text">Código de Conducta</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programa" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Programa</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-programa">    
+        <li>
+    <a class="dropdown-item" href="../../cronograma/programa/index.html">
+ <span class="dropdown-text">Programa resumido</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/programa/detallado.html">
+ <span class="dropdown-text">Programa detallado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/conferencistas/index.html">
+ <span class="dropdown-text">Conferencistas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/tutoriales/index.html">
+ <span class="dropdown-text">Tutoriales</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cronograma/hackear/index.html">
+ <span class="dropdown-text">HackeaR</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/es/index.html"> 
+<span class="menu-text">Novedades</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ediciones-anteriores" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Ediciones anteriores</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ediciones-anteriores">    
+        <li>
+    <a class="dropdown-item" href="https://2025.latinr.org/">
+ <span class="dropdown-text">2025</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2024.latinr.org/">
+ <span class="dropdown-text">2024</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2023.latinr.org/">
+ <span class="dropdown-text">2023</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2022.latinr.org/">
+ <span class="dropdown-text">2022</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2021.latinr.org/">
+ <span class="dropdown-text">2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2020.latinr.org/">
+ <span class="dropdown-text">2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2019.latinr.org/">
+ <span class="dropdown-text">2019</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://2018.latinr.org/">
+ <span class="dropdown-text">2018</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Programa detallado</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Este es el programa detallado de LatinR 2026. Puedes ver una vista general en el <a href="../../cronograma/programa/index.html">programa resumido</a>.</p>
+<div class="programa-nota callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Este programa puede sufrir modificaciones.</p>
+</div>
+</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset programa-dias">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Miércoles 11 de noviembre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Jueves 12 de noviembre</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Viernes 13 de noviembre</a></li></ul>
+<div class="tab-content programa-dias">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+ <div class="cronograma-container">
+<div class="cronograma-row cronograma-general">
+  <div class="horario">7:30–8:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Acreditación</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">8:30–12:00</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 3;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio principal</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: Using LLMs in R with ellmer (Nic Crane)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-ellmer">Ver más</a>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: Making great slides with Quarto and revealjs (Emil Hvitfeldt)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-revealjs">Ver más</a>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 2</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: Automatiza la publicación de reportes con Quarto (Jesica Formoso)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-quarto-gha">Ver más</a>
+</div>
+</div>
+    </div>
+    <div class="bloque-nota">Coffee Break: 10:00–10:30</div>
+  </div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">12:00–13:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Almuerzo libre</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">13:00–14:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Visita UdeA (guía cultural)</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">14:00–17:30</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 3;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio principal</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: Shiny + ellmer (Joshua Kunst)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-shiny-ellmer">Ver más</a>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: Construyendo modelos de ML con tidymodels (Freddy Hernández)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-tidymodels">Ver más</a>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 2</div>
+<div class="sesion">
+  <div class="sesion-titulo">Tutorial: De idea a paquete: programá tu primer paquete de R (Yanina Bellini)</div>
+  <a class="sesion-enlace" href="../tutoriales/index.html#taller-paquete-r">Ver más</a>
+</div>
+</div>
+    </div>
+    <div class="bloque-nota">Coffee Break: 15:30–16:00</div>
+  </div>
+</div>
+</div> 
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+ <div class="cronograma-container">
+<div class="cronograma-row cronograma-general">
+  <div class="horario">7:00–8:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Acreditación</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">8:00–8:15</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Inauguración</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">8:15–8:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Show artístico</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general cronograma-keynote">
+  <div class="horario">8:30–9:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Keynote Nic Crane: "Learning with AI: Code, Data, and Life"</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">9:30–10:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Coffee Break</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">10:00–12:00</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 2;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-titulo">Paquetes, frameworks e infraestructura</div>
+<div class="charla">
+  <div class="charla-titulo">Continuing our journey through the R universe</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Jeroen Ooms</strong> <a href="https://jeroen.github.io" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/jeroen" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/datajeroen" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://fosstodon.org/@jeroenooms" target="_blank" aria-label="mastodon"><i class="bi bi-mastodon"></i></a> <a href="https://bsky.app/profile/jeroenooms.bsky.social" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Seguimos explorando el universo de R? En esta segunda misión por R-universe, la plataforma abierta de rOpenSci para publicar y descubrir paquetes, artículos y datos, iremos un poco más allá de la órbita habitual. Veremos cómo navegar por este ecosistema, aprovechar sus APIs y herramientas, y ayudar a que nuestros paquetes sean más visibles y fáciles de encontrar.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Currículo del Programa de Campeon(a|e)s de rOpenSci para el desarrollo y mantenimiento de paquetes de R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Yanina Bellini Saibene</strong> <a href="https://yabellini.netlify.app" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/yabellini" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/yabellini/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://rstats.me/@yabellini" target="_blank" aria-label="mastodon"><i class="bi bi-mastodon"></i></a> <a href="https://bsky.app/profile/yabellini.bsky.social" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a></span>
+<span class="charla-autor"><strong>Maëlle Salmon</strong> <a href="https://masalmon.eu/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a></span>
+<span class="charla-autor"><strong>Paola Corrales</strong> <a href="https://paocorrales.github.io/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a></span>
+<span class="charla-autor"><strong>Alejandra Bellini</strong> <a href="https://www.linkedin.com/in/alejandra-bellini-b410a2b/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://www.instagram.com/alejandrabellini" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En esta charla presentamos el currículo del Programa de Campeon(a|e)s de rOpenSci: una propuesta que integra habilidades técnicas para desarrollar paquetes de R con herramientas para construir comunidades inclusivas y colaborativas. Compartiremos sus materiales abiertos en español e inglés, su enfoque pedagógico y los resultados de evaluaciones independientes que muestran su impacto en las personas participantes y sus comunidades. ¡Conocé el programa y descubrí cómo adaptar sus recursos!</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Explorando el lupus en México: datos abiertos y análisis reproducibles en R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Evelia Lorena Coss Navarrete</strong> <a href="https://eveliacoss.github.io/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/EveliaCoss/" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/evelia-lorena-coss-navarrete-562226229/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://viernesbioinformatica.github.io/" target="_blank" aria-label="twitter"><i class="bi bi-twitter-x"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>De un artículo científico a un paquete de datos para aprender R. A partir de datos transcriptómicos de mujeres mexicanas con lupus y controles sanas, este paquete permite comparar tres tipos celulares —monocitos, moDCs y tolDCs— para explorar la tolerancia inmunológica. Incluye una guía paso a paso para reproducir las figuras del artículo publicado en Frontiers in Immunology, conectando datos reales, código y resultados para enseñar bioinformática.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Evangelion: A Standardized R Framework for Perception and Expectation Survey Processing</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Angelo De Lucca Viacava</strong> <a href="https://www.linkedin.com/in/angelo-de-lucca-viacava-33a181aa" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Valentina Cortés Ayala</strong> <a href="https://www.linkedin.com/in/valentina-cortés-ayala" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Evangelion es un framework en R para estandarizar el procesamiento de encuestas de percepción y expectativas, desde la validación de datos hasta el reporte final. Diseñado en el Banco Central de Chile, resuelve la fragmentación de scripts ad-hoc que dificulta la reproducibilidad y el traspaso entre analistas. El paquete LILITH contiene todas las funciones necesarias en el proceso. Cualquier institución con encuestas repetidas puede adoptarlo.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Extendiendo los Horizontes de R con Rust</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Andres Felipe Quintero Moreano</strong> <a href="https://github.com/andyquinterom" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/andresquinterom/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En esta charla, exploraremos por qué Rust se adapta de forma natural a los equipos de datos, desde su robusta seguridad hasta sus ventajas en concurrencia. Verás casos de estudio de cómo las organizaciones están aprovechando Rust y R de manera conjunta para abordar desafíos intensivos en cómputo a gran escala. Finalmente, aprenderás a desarrollar un paquete de R que utiliza Rust para escribir funciones de alto rendimiento.</p>
+  </details>
+</div>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 2</div>
+<div class="sesion">
+  <div class="sesion-horario">10:00–11:00</div>
+  <div class="sesion-titulo">Datos espaciales</div>
+<div class="charla">
+  <div class="charla-titulo">Integración reproducible de datos satelitales y paneles espaciales en R: una aplicación de PM₂.₅ para Colombia</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Edwin Fernando Muñoz Chipatecua</strong> <a href="https://co.linkedin.com/in/edwinfernandomunozch" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Cómo integrar datos satelitales, climáticos y de salud para estudiar la contaminación del aire en Colombia? Presentamos un flujo reproducible en R que integra datos de PM₂.₅, viento y mortalidad para 1.122 municipios entre 2012 y 2022. Mostraremos el procesamiento espacial y la construcción del panel, junto con una estrategia de efectos fijos y variable instrumental, destacando un flujo reproducible que puede adaptarse a nuevas fuentes de información.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">gchartsmap: Acceso a datos de límites geoespaciales de Google como Simple Features en R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Oscar de León</strong> <a href="https://github.com/odeleongt" target="_blank" aria-label="github"><i class="bi bi-github"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>El paquete gchartsmap da acceso a límites geográficos a nivel nacional y subnacional que están publicados a través de servidores estáticos de Google, que mantienen una alta disponibilidad y estabilidad. Estos datos, que no están documentados por Google, son críticos para el uso de servicios como Google Trends a través de su interfaz de programación de aplicaciones (API). gchartsmap ayuda a las usuarias a construir llamadas de APIs de Google usando los códigos correctos para regiones específicas.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">SpatFD: Functional Geostatistics: Univariate and Multivariate Functional Spatial Prediction</div>
+</div>
+</div>
+<div class="sesion">
+  <div class="sesion-horario">11:00–12:00</div>
+  <div class="sesion-titulo">Datos biomédicos y salud</div>
+<div class="charla">
+  <div class="charla-titulo">Interpretabilidad por prototipos en señales biomédicas: la capa de inferencia en R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Alber Ferney Montenegro Vargas</strong> <a href="https://github.com/afmontenegrov" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/alber-ferney-montenegro-vargas-79272621a" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://01a0c8e9-259c-6ecc-242e-fa1adab8e24e.share.connect.posit.cloud/" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Los modelos de aprendizaje profundo aciertan sobre señales biomédicas y no explican por qué. Presento ProtoKDM, un marco que explica cada predicción señalando registros reales de pacientes, y la capa de R que lo valida: PERMANOVA sobre el espacio latente, bootstrap BCa sobre los pesos densitarios y modelos mixtos para variabilidad inter-sujeto. Cómo se articula Python con R vía reticulate y Parquet, y por qué la inferencia en R es lo que vuelve defendible una explicación.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Marco metodológico para meta-análisis diagnósticos con grandes corpus literarios usando R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Jennyfer Portilla Yela</strong> <a href="https://www.linkedin.com/in/jennyferyela/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>José Rafael Tovar Cuevas</strong></span>
+<span class="charla-autor"><strong>Diego Fernando Manotas Duque</strong> <a href="https://www.linkedin.com/in/diego-fernando-manotas-duque-35a66380/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>El crecimiento exponencial de la literatura biomédica compromete la viabilidad, reproducibilidad y control de sesgos de los metaanálisis diagnósticos. Se presenta un marco escalable, implementado en R, que integra la Asignación Latente de Dirichlet (LDA) para la preselección temática automatizada de estudios y un metaanálisis multivariado jerárquico para sintetizar conjuntamente sensibilidad y especificidad. Se aplica a dengue en América Latina y es transferible a otros dominios clínicos.</p>
+  </details>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">12:00–13:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Almuerzo libre</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">13:00–14:20</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 2;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-titulo">Manejo y gestión de datos</div>
+<div class="charla">
+  <div class="charla-titulo">Crear un paquete R como infraestructura para documentos institucionales consistentes</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Jesica Formoso</strong> <a href="https://jformoso.github.io/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/JFormoso" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jesica-formoso/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Irene Vazano</strong> <a href="https://metadocencia.org/author/irene-vazano/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://www.linkedin.com/in/irene-vazano/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Flujo de trabajo basado en un paquete de R para centralizar y automatizar la producción de reportes y presentaciones con identidad visual institucional mediante Quarto. El paquete permite crear nuevos documentos a partir de plantillas y actualizar de forma centralizada colores, tipografías, logos y estilos, facilitando el mantenimiento, la consistencia visual y la adopción por equipos con distintos niveles de experiencia en R.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">PactR: Una metodología para generación automática de pruebas para validar contratos de datos</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Magdiel Ablan Bortone</strong> <a href="https://www.ixpantia.com/es" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/mablan-ixpantia" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/magdiel-ablan-bortone-bb279973/?isSelfProfile=false&amp;locale=en_US" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Validar contratos de datos exige escribir y mantener pruebas a mano. PactR es una metodología que toma un contrato de datos en Markdown y usa un LLM para generar automaticamente pruebas unitarias en testthat para validar la calidad de los datos.  Los resultados preliminares obtenidos aplicando PactR indican que la metodología genera pruebas ejecutables que cubren las especificaciones del contrato, cerrando el ciclo entre especificación y validación de los datos.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Estandarización y gobernanza mediante un Sistema de Gestión de Datos (SGD) desarrollado íntegramente en R: Caso de consultora ambiental chilena</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Francisca M. Narbona</strong> <a href="https://github.com/francisca-imn" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/francisca-m-narbona" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Stephanie Orellana</strong> <a href="https://sporella.xyz/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/sporella/" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://linkedin.com/in/sporella" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Soledad Kremer</strong></span>
+<span class="charla-autor"><strong>Antonio Tironi</strong></span>
+<span class="charla-autor"><strong>Jorge Homero Marquez</strong></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En estudios ambientales, los datos de flora, fauna, suelo y meteorología llegan en formatos distintos, con errores y se limpian a mano. Mostraremos un sistema de gestión de datos en R que los lleva del terreno al informe: apps {shiny} que validan formularios al instante, {taxize} para verificar nombres científicos, ETL con {tidyverse} hacia una única fuente estándar, informes reproducibles y exportación a Darwin Core. Un flujo replicable para cualquier equipo con datos de terreno.</p>
+  </details>
+</div>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 2</div>
+<div class="sesion">
+  <div class="sesion-titulo">Modelos estadísticos y aplicaciones</div>
+<div class="charla">
+  <div class="charla-titulo">Análisis de datos censurados tipo I a través de la distribución poisson-transmutada tipo exponencial en el marco de los modelos gamlss.</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Rebeca Isabel Rodríguez González</strong> <a href="https://www.linkedin.com/in/rebecarodriguezgonzalez" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Freddy Hernández</strong> <a href="https://fhernanb.github.io/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a></span>
+<span class="charla-autor"><strong>Olga Usuga</strong> <a href="https://www.linkedin.com/in/olga-cecilia-usuga-manco-4931772a5/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En este trabajo se presenta la implementación de la distribución Poisson Transmutada Tipo Exponencial (P-TRTE) en el marco de los modelos GAMLSS (Generalized Additive Models for Location, Scale and Shape) en R, a través del paquete DiscreteDists. Esta distribución permite la estimación bajo muestras completas y censuradas tipo I. Por medio de la implementación se generaron diferentes funciones, así como la familia GAMLSS para modelos de regresión, y se evaluó mediante problemas de aplicación.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">ppforest2: bosques aleatorios basados en proyecciones en R</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Andrés Vidal</strong> <a href="https://andresvidal.dev/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/andres-vidal" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/andresvidalberriel/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En clasificación con variables altamente correlacionadas o clases separadas por fronteras diagonales, es posible capturar esa estructura mediante combinaciones lineales. En árboles de decisión, esto apunta a la familia de los oblicuos. La búsqueda de proyecciones es una forma de obtener estas combinaciones. Se presenta ppforest2, un paquete de R que implementa este tipo de modelos y su agregación en bosques aleatorios: de alto desempeño, extensible, reproducible y desplegable en producción.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Medios de pago de baja restriccion como vectores de lavado de activos: un experimento de sensibilidad basado en agentes con racionalidad adversarial</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Esneider Rios</strong> <a href="https://esneider-rios-stats.vercel.app/es" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/eariosb" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/esneider-rios/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>SIM-LA/FT es un entorno experimental de simulación basada en agentes para estudiar medios de pago de baja restricccion como vectores de lavado de activos. Mediante una base legítima común, estrategias con racionalidad adversarial e indicadores transaccionales y de red, evalúa qué factores condicionan la detectabilidad y cuándo se requiere inteligencia no transaccional. Sus resultados generan hipótesis reproducibles, no estimaciones reales.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Análisis de "amontamiento" con R aplicado a la regulación de la inversión pública</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Edison Lorenzo Mondragón Guzmán</strong> <a href="https://github.com/edisonlmg" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/edison-mondragon/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://bsky.app/profile/edisonmondragon.bsky.social" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a> <a href="https://x.com/EdisonMondragon" target="_blank" aria-label="twitter"><i class="bi bi-twitter-x"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>El «amontonamiento» (o «bunching») mide cómo se acumulan los agentes justo por debajo de un umbral que activa un costo. Lo aplicamos a la Ley 31358 del Perú, que establece que las inversiones públicas mayores a S/ 5 millones deben transferir hasta el 2 % de su presupuesto a la Contraloría. Con bunching, rddensity, rdrobust y otros paquetes, analizamos el Banco de Inversiones y hallamos un exceso de proyectos justo por debajo de S/ 5 millones desde 2023, no observado antes.</p>
+  </details>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">14:30–15:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Visita al acuario</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general cronograma-keynote">
+  <div class="horario">15:30–16:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Keynote Emil Hvitfeldt: "Building software that matters"</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">16:30–18:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Pósters + cóctel</div>
+<div class="charla">
+  <div class="charla-titulo">Desarrollo de herramientas en R para recursos hídricos</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Alonso Arriagada</strong> <a href="https://alobondo.github.io/hydrology_apps" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/Alobondo" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/alonso-arriagada" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Desarrollo de aplicaciones shiny, paquetes y funciones para aplicar de forma rápida y sencilla diferentes análisis estadísticos y estimaciones usando metodologías estándares en análisis de recursos hídricos. La idea es promover el uso de R para este tipo de análisis en la industria y entregar a usuarios una opción amigable para el manejo de datos hidrometeorológicos.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Indicadores de salud pública en el software estadístico R: Un ejemplo práctico para estimar la carga de la enfermedad de la violencia física contra las mujeres</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Gustavo Adolfo Lopera Gallego</strong> <a href="https://co.linkedin.com/in/gustavo-adolfo-lopera-gallego-728659209" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001810974" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span>
+<span class="charla-autor"><strong>David Esteban Cartagena Mejía</strong> <a href="https://github.com/dcartagena2001" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/david-cartagena-a4b14315b/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0002508794" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span>
+<span class="charla-autor"><strong>Difariney González Gómez</strong> <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001353897" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>La violencia física contra las mujeres constituye un problema de salud pública, con efectos que trascienden la mortalidad, discapacidad y deterioro de la calidad de vida. Se propone una interfaz interactiva en R para estimar indicadores de carga de enfermedad, integrando mortalidad y morbilidad. Mediante visualizaciones y georreferenciación, la herramienta permite explorar brechas territoriales, grupos etarios y tipos de violencia, facilitando el análisis para la prevención y toma de decisiones.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Modelado de sobredispersión mediante la distribución Poisson - Lindley generalizada en el marco de los modelos GAMLSS: aplicación en datos del sector salud</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Freddy Hernandez</strong> <a href="https://fhernanb.github.io" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a></span>
+<span class="charla-autor"><strong>Olga Usuga</strong> <a href="https://www.linkedin.com/in/olga-cecilia-usuga-manco-4931772a5/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Se presenta la implementación de la distribución Poisson-Lindley generalizada para modelar datos de conteo con sobredispersión en GAMLSS, mediante el paquete DiscreteDists de R. Se desarrollan las funciones estándar y dos parametrizaciones: NPGL, basada en los parámetros originales, y NPGL2, en términos de la media. Se realiza un estudio de simulación para evaluar los estimadores y se ilustra su aplicación con datos del sector salud.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Árboles evolutivos para clasificación binaria: un enfoque basado en optimización genética</div>
+</div>
+<div class="charla">
+  <div class="charla-titulo">bioeviR: An R Package for Building Evidence-Centric Biological Networks Through Reproducible Integration of Multi-Omics, Regulatory, and Literature-Derived Data Sources</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Gustavo Bruges</strong> <a href="https://github.com/Gustavo-Bruges" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/gustavo-bruges-a1a079128/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://bsky.app/profile/gustavobruges.bsky.social" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a> <a href="https://x.com/ErreEspanol" target="_blank" aria-label="twitter"><i class="bi bi-twitter-x"></i></a></span>
+<span class="charla-autor"><strong>Fernando Hernández-Medina</strong> <a href="https://github.com/fernandoh76" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/fernando-hernandez-bb20a2116/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Sabes de dónde viene cada arista de tu red biológica? bioeviR es un paquete de R que integra literatura (PubMed), interacciones proteicas (STRING), anotación funcional (GO), y regulación transcripcional  en un único objeto evi_network, conservando la procedencia de cada interacción: fuente, tipo de evidencia y confianza. Incluye análisis topológico, detección de comunidades, exportación a Cytoscape y reposicionamiento de fármacos. Redes reproducibles y auditables para biología de sistemas.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Evolución del Índice de Percepción de la Corrupción en América Latina y el Caribe: Una aplicación de la metodología STATIS</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Yeni Katerine Mariño Pabón</strong> <a href="https://x.com/yenimarinop" target="_blank" aria-label="twitter"><i class="bi bi-twitter-x"></i></a></span>
+<span class="charla-autor"><strong>Eddy Johanna Fajardo Ortiz</strong> <a href="https://scholar.google.com/citations?user=NYm-9GQAAAAJ&amp;hl=es" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://apolo.unab.edu.co/es/persons/eddy-johanna-fajardo-ortiz/" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span>
+<span class="charla-autor"><strong>Hector Romero</strong> <a href="https://profesores.uis.edu.co/escuela-economia-administracion/hector-luis-romero-valbuena-es/index.html" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://scholar.google.com/citations?user=BXQ7UrQAAAAJ&amp;hl=es" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Se estudió la evolución de los indicadores del Índice de Percepción de la Corrupción y su relación con variables económicas e institucionales en América Latina y el Caribe entre el 2014 y 2024 en 19 países de la región. La metodología usada es el STATIS. Se utilizó RStudio con las librerías Ade4, dplyr, purrr, RColorBrewer, ggplot2 y writexl. Se encontró que entre 2023 y 2024, es donde se encuentra el mayor cambio en la percepción de la corrupción entre los países</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Análisis estadístico del cáncer de cuello uterino en encuestas de muestreo complejo: Una aplicación con R y el paquete survey.</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Mariana Ruiz Zamora</strong></span>
+<span class="charla-autor"><strong>Difariney Gonzalez Gomez</strong></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Sabías que es posible analizar una encuesta nacional con un diseño muestral complejo en R y obtener resultados epidemiológicos confiables? En esta presentación mostraremos, a partir de los datos de la ENDS 2025, cómo el paquete Survey permite incorporar factores de expansión, estratificación y conglomerados, y cómo los modelos de regresión logística ayudan a explorar los factores asociados a la prevención del cáncer de cuello uterino en Colombia.</p>
+  </details>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+ <div class="cronograma-container">
+<div class="cronograma-row cronograma-general">
+  <div class="horario">7:00–8:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Acreditación</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">8:00–10:00</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 2;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio principal</div>
+<div class="sesion">
+  <div class="sesion-titulo">HackeaR</div>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-horario">8:00–8:50</div>
+  <div class="sesion-titulo">Shiny</div>
+<div class="charla">
+  <div class="charla-titulo">ChrysaPlanner: una aplicación Shiny para la programación de cosecha y proyección de tallos en floricultura comercial de crisantemo</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Giovanny Reales Rodríguez</strong> <a href="https://www.linkedin.com/in/giovanny-reales-rodr%C3%ADguez-ghadhara/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Cuánta flor tendrás lista la próxima semana? ChrysaPlanner responde esa pregunta. Es una aplicación Shiny para productores de crisantemo que combina el registro de siembras con los ciclos de floración de cada variedad para proyectar, día a día y semana a semana, cuántos tallos estarán listos para cortar y desde qué camas. Desarrollada en R con un enfoque práctico para la toma de decisiones en campo. App: https://ghadhara.shinyapps.io/EstimadosFloracionshinyapp/</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Visualización interactiva y detección de anomalías en micromovilidad eléctrica mediante Shiny</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>David Villegas Ceballos</strong> <a href="https://github.com/dvillegasc" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/david-villegas-ceballos/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Olga Usuga Manco</strong> <a href="https://www.linkedin.com/in/olga-cecilia-usuga-manco-4931772a5/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="http://orcid.org/0000-0003-3062-1820" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span>
+<span class="charla-autor"><strong>Carmen Patiño Rodríguez</strong> <a href="https://www.linkedin.com/in/carmen-elena-pati%C3%B1o-rodr%C3%ADguez-013b6810a/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://orcid.org/0000-0001-6040-4734" target="_blank" aria-label="enlace"><i class="bi bi-link-45deg"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>78.000 registros por viaje. Miles de posibles fallas escondidas ahí dentro. Analizarlas a mano, con scripts que hay que reescribir cada vez, es un cuello de botella que nadie quiere. Te muestro cómo un dashboard en R Shiny convierte ese diluvio de datos de sensores en un mapa de anomalías que se explora con clics, no con código. Menos horas debuggeando scripts, más decisiones rápidas y bien sustentadas.</p>
+  </details>
+</div>
+</div>
+<div class="sesion">
+  <div class="sesion-horario">8:50–9:30</div>
+  <div class="sesion-titulo">Aplicaciones de R</div>
+<div class="charla">
+  <div class="charla-titulo">Minería de Reglas de Asociación para Caracterizar la Economía Popular en Colombia</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Daniel José Molina Barrios</strong> <a href="https://personal-landing-beta-neon.vercel.app/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/dmetrics1" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/danieljmolina" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Qué patrones caracterizan a la economía popular en Colombia? Este trabajo analiza los microdatos de EMICRON 2024 del DANE mediante un pipeline reproducible en R y minería de reglas de asociación con Apriori. El análisis revela una fuerte polarización: la exclusión digital se presenta como un fenómeno acumulativo, mientras que la formalización fiscal no muestra patrones predecibles a partir de variables financieras o tecnológicas. Se presentan además tres perfiles de micronegocios.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Un pipeline reproducible en R para mantenimiento predictivo de flotas sin sensores mediante supervivencia y aprendizaje automático</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Iván González Di Lorenzo</strong></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>La mayoría de las flotas de la región no tiene sensores, pero sí años de órdenes de trabajo. Mostramos cómo convertir esos registros en mantenimiento predictivo accionable para 38 camiones recolectores: redes (igraph) para descubrir modos de falla, Random Survival Forest para el cuándo va a fallar un vehículo, XGBoost para el qué sistema estará involucrado. Incluye lo que no funcionó, y los controles de validación que sostienen el resultado. Todo el pipeline en R, reproducible de punta a punta.</p>
+  </details>
+</div>
+</div>
+<div class="sesion">
+  <div class="sesion-horario">9:30–10:00</div>
+  <div class="sesion-titulo">Charlas relámpago</div>
+<div class="charla">
+  <div class="charla-titulo">Aplicación web en R Shiny para la comparación estructuras geométricas mediante paisajes de persistencia</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Alex de Jesús Pico Amaya</strong> <a href="https://alexpicoamaya.com/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/alexpicoa" target="_blank" aria-label="github"><i class="bi bi-github"></i></a></span>
+<span class="charla-autor"><strong>Rafael Melendez Surmay</strong></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>La app en R Shiny integra TDA y Matrix para ejecutar un flujo completo de Análisis Topológico de Datos (ATD) desde el navegador. Permite generar nubes de puntos, construir complejos de Vietoris–Rips, visualizar diagramas de persistencia, códigos de barras y paisajes de persistencia, además de realizar pruebas de hipótesis por permutación para comparar estructuras geométricas.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Transcriptomics analysis of interferon-related genes in Triple-Negative Breast Cancer</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Julio Cesar Duque Gaviria</strong> <a href="https://omics.pe" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/JulioDuque23" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jcduque23/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Jherson Cisneros Gutierrez</strong> <a href="https://omics.pe" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/Jherson62" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jherson-o-cisneros-g-876049245/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Noemi Enriquez Alccahuaman</strong> <a href="https://omics.pe" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://www.linkedin.com/in/noemi-enriquez-alccahuaman-23120937a/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Alexis Germán Murillo Carrasco</strong> <a href="https://omics.pe" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://www.linkedin.com/in/alexis-germán-murillo-carrasco-35913a97/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>El cáncer de mama triple negativo (TNBC) es un subtipo agresivo con limitadas opciones terapéuticas, pero ¿su perfil inmunológico es igual en todos los pacientes? Analizamos tres cohortes e identificamos mayor activación de la vía inflamatoria de IFN-II y diferencias en células inmunes tumorales. Incluso, un subgrupo con alta actividad de IFN-II presentó mayor actividad inmune y mejores desenlaces clínicos, destacando su potencial como marcador pronóstico y herramienta de estratificación.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Python limpia, R analiza: Un flujo reproducible para el análisis de datos abiertos de natalidad en Colombia</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Didier Manuel Castro Vasquez</strong> <a href="https://github.com/didcasva" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/didier-castro/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Jose Esteban Cepeda Zúñiga</strong> <a href="https://www.linkedin.com/in/jose-esteban-cepeda-zu%C3%B1iga-14a201350/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Sarai Del Valle Restrepo</strong> <a href="https://www.linkedin.com/in/sarai-del-valle-restrepo-a400743b8/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Jennyfer Portilla Yela</strong> <a href="https://www.linkedin.com/in/jennyferyela/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Por qué elegir entre Python y R cuando podemos aprovechar las fortalezas de ambos? Esta presentación muestra un flujo reproducible que integra Python y R para transformar los microdatos abiertos de natalidad del DANE en información analizable y publicable. Python se encarga de la limpieza y transformación; R, del análisis, visualización y reporte. El caso colombiano demuestra cómo esta arquitectura puede facilitar análisis eficientes, trazables y transferibles a otros datos públicos</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Metodología reproducible en R para el estudio del clima en Barranquilla mediante la Ciencia de datos</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Sebastian Alberto Ariza Grubert</strong> <a href="https://github.com/Sealargr" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/sebastian-ariza-grubert-681371355/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Joseph David Arias Viloria</strong> <a href="https://github.com/J0S23" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/josephd-arias-viloria-0368163a0" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Por qué algunos días en Barranquilla se sienten insoportables y otros mucho más cómodos, incluso con temperaturas similares? Esta presentación revela cómo R convirtió miles de registros meteorológicos en una metodología reproducible para comprender el clima local. Mediante visualización de datos, cadenas de Markov y PCA, se descubren patrones estacionales y se construye un Índice de Confort Térmico con temperatura, humedad y viento, transformando datos complejos en conocimiento útil.</p>
+  </details>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">10:00–10:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Coffee Break</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row">
+  <div class="horario">10:30–12:10</div>
+  <div class="bloque">
+    <div class="salas-paralelas" style="--n-salas: 2;">
+<div class="sala">
+  <div class="sala-nombre">Auditorio 1</div>
+<div class="sesion">
+  <div class="sesion-titulo">Inteligencia artificial</div>
+<div class="charla">
+  <div class="charla-titulo">Cuantificar la complejidad y tamaño del soporte requerido de genAI en proyectos de inteligencia artificial definiendo espacios liminales</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Frans van Dunné</strong> <a href="https://www.ixpantia.com" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/FvD" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/fransvandunne/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://bsky.app/profile/fransvandunne.com" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Presentamos una metodología para decidir qué modelos fundacionales (LLM's) usar en ciencia de datos asistida y en soluciones de IA, ya que la elección del modelo y del contexto impacta directamente en costos y calidad. Introducimos el concepto de espacios liminales: zonas de transición entre fases de proyectos de IA donde una idea se transforma en algo accionable. Al cuantificar la brecha entre estados del proyecto, decidimos de forma informada y monitoreamos la calidad a largo plazo.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Comparación reproducible de GPT, Claude y Gemini para alineación conceptual usando {ellmer}</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Fernando Mena</strong> <a href="https://www.linkedin.com/in/fernandojmena/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Este trabajo presenta un flujo reproducible en R para comparar modelos de lenguaje en una tarea de alineación conceptual entre marcos de habilidades laborales. Usando {ellmer}, se consultan modelos de OpenAI, Claude y Gemini con una misma rúbrica. Sus respuestas se comparan con evaluaciones de 11 expertos mediante correlaciones, error absoluto, ROC, AUC, sensibilidad, especificidad y estabilidad, mostrando cómo R permite evaluaciones transparentes y auditables.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">El valor de aprender y enseñar R en la era de la IA</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Luis D. Verde Arregoitia</strong> <a href="https://liomys.mx" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/luisDVA" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/luis-d-verde-arregoitia-a20339209/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://bsky.app/profile/liomys.mx" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a></span>
+<span class="charla-autor"><strong>Jesica Formoso</strong> <a href="https://jformoso.github.io/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/JFormoso" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jesica-formoso/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Los grandes modelos de lenguaje permiten programar en R sin necesariamente dominar el lenguaje, y esto puede reducir el interés y la motivación para aprenderlo. Esta charla analiza el impacto de las herramientas de ‘IA generativa’ en la enseñanza de R, desde la experiencia de instructores. Proponemos adaptar la educación: enfocarse en comprender y modificar el código generado por modelos de IA, y destacar el valor de las comunidades, para cerrar brechas y recuperar el interés en el lenguaje.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">De paquetes a plataformas híbridas: La evolución de R en el monitoreo de políticas públicas frente a los desafíos de la IA</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>RIchard Detomasi</strong> <a href="https://github.com/Richard-Detomasi" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/richard-detomasi-691b242b" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://nombreinstancia/@RichDeto/@mastodon.social" target="_blank" aria-label="mastodon"><i class="bi bi-mastodon"></i></a></span>
+<span class="charla-autor"><strong>Gabriela Mathieu</strong> <a href="https://gabrielamathieu.rbind.io" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/calcita" target="_blank" aria-label="github"><i class="bi bi-github"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Esta charla presenta la evolución de R de herramienta de análisis a un ecosistema de monitoreo de políticas públicas basado en Shiny y PostgreSQL. Se detallará la implementación de una arquitectura híbrida (R + Python) para integrar IA Generativa (Gemini Enterprise) en el seguimiento de 63 compromisos de gobierno, orquestando una solución robusta para la toma de decisiones de alto nivel y demostrando cómo R puede ser el núcleo de sistemas de gestión estatal frente a los desafíos de la IA</p>
+  </details>
+</div>
+</div>
+</div>
+<div class="sala">
+  <div class="sala-nombre">Auditorio 2</div>
+<div class="sesion">
+  <div class="sesion-titulo">Trabajo con imágenes</div>
+<div class="charla">
+  <div class="charla-titulo">Auditoría de sesgos demográficos en modelos preentrenados de visión facial: análisis estadístico reproducible en R sobre un dataset colombiano</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Luna Nicole lugo Ospina</strong> <a href="https://github.com/lunalugoeuc-a11y" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/luna-lugo/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Angie Katherine Loango Rayo</strong> <a href="https://github.com/angieloangor" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/angie-loango/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>¿Los modelos de visión facial funcionan igual para todas las personas? Presentamos una auditoría reproducible en R sobre más de 1.000 identidades colombianas para evaluar sesgos en envejecimiento facial, clasificación demográfica y reconocimiento de identidad. Mostraremos cómo combinar métricas de equidad, análisis estadístico y herramientas como Quarto y Shiny para detectar disparidades y comunicar resultados de forma clara y reproducible.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Cuando las métricas no deciden: R detrás de un modelo de envejecimiento facial</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Nathalia Gonzalez Castañeda</strong> <a href="https://www.linkedin.com/in/nathaliagonzalezc" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Alber Ferney Montenegro Vargas</strong> <a href="https://www.linkedin.com/in/alber-ferney-montenegro-vargas-79272621a/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Adaptación de un modelo de envejecimiento facial al fenotipo colombiano para apoyar la identificación de personas desaparecidas. El ajuste produjo dos versiones candidatas, pero las métricas no permitían decidir cuál funcionaba mejor. Se utilizaron modelos mixtos en R y un dashboard Shiny para analizar y visualizar las evaluaciones. ¿Qué hacer cuando las métricas no pueden decidir? R ayudó a encontrar la respuesta.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Análisis lingüístico de errores en motores OCR sobre documentos administrativos colombianos del siglo XX</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>John Alejandro Bernal Guaman</strong> <a href="https://www.linkedin.com/in/john-alejandro-bernalg" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Angie Valentina Donato</strong></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>Dos motores OCR pueden empatar en tasa de error y aun así perder cosas muy distintas. En esta charla abrimos esa caja negra con R: qué tipos de error comete cada motor, cuántas fechas, nombres, números y códigos conserva, y qué tan estable es su desempeño entre documentos. Lo hacemos con tidytext y quanteda sobre documentos administrativos colombianos del siglo XX, en un reporte Quarto que puedes reutilizar con tus propios datos.</p>
+  </details>
+</div>
+<div class="charla">
+  <div class="charla-titulo">Usando R y Python para el Análisis de Datos de Chinchilla Cordillerana (Chinchilla chinchilla) en Imágenes de Cámara Trampa</div>
+  <div class="charla-autores"><span class="charla-autor"><strong>Stephanie Orellana</strong> <a href="https://sporella.xyz/" target="_blank" aria-label="sitio_web"><i class="bi bi-globe"></i></a> <a href="https://github.com/sporella/" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://linkedin.com/in/sporella" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a> <a href="https://bsky.app/profile/sporella.bsky.social" target="_blank" aria-label="bluesky"><i class="bi bi-bluesky"></i></a></span>
+<span class="charla-autor"><strong>Javier Flores Martinez</strong></span>
+<span class="charla-autor"><strong>Álvaro Ly</strong></span>
+<span class="charla-autor"><strong>Francisca Muñoz Narbona</strong> <a href="https://github.com/francisca-imn" target="_blank" aria-label="github"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/francisca-m-narbona" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span>
+<span class="charla-autor"><strong>Antonio Tironi Silva</strong> <a href="https://www.linkedin.com/in/antonio-tironi-silva-9923624/" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></span></div>
+  <details class="charla-resumen">
+    <summary>Ver resumen</summary>
+    <p>En este trabajo mostraremos el flujo de trabajo que combina herramientas de R y Python para la visualización y análisis de datos de actividad de chinchillas en imágenes de cámaras trampa. Utilizamos un modelo de Redes Neuronales Convolucionales en Python para la detección de las especies y realizamos la visualización y análisis de datos en R con Shiny. Hablaremos sobre flujos combinados con ambos lenguajes y la creación de shinyapps para grandes volúmenes de datos geoespaciales.</p>
+  </details>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">12:10–13:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Almuerzo libre</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">13:00–14:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Visita Acuario Sala 2 - Parque Explora</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general cronograma-keynote">
+  <div class="horario">14:00–15:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Panel de expertos</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">15:30–16:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Coffee Break</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general cronograma-keynote">
+  <div class="horario">16:00–17:30</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Keynote Mauricio Gómez Ardila: "De la guerra de lenguajes a la sinergia tecnológica"</div>
+</div>
+</div>
+</div>
+<div class="cronograma-row cronograma-general">
+  <div class="horario">17:30–18:00</div>
+  <div class="bloque"><div class="sesion">
+  <div class="sesion-titulo">Clausura</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>CC BY-NC © 2018-2026, LatinR Team</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:info@latinr.org">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/latinr">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/LatinR_Conf">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/latinrconf/">
+      <i class="bi bi-linkedin" role="img" aria-label="Linkedin">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ">
+      <i class="bi bi-slack" role="img" aria-label="Slack">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
