@@ -64,9 +64,13 @@ function abrirPestanaDelDia() {
   if (location.hash) {
     const sesion = document.getElementById(decodeURIComponent(location.hash.slice(1)));
     if (mostrarPestana(sesion)) {
-      // Baja hasta el comienzo del bloque, para que se vean el horario y la sala
-      const bloque = sesion.closest(".cronograma-row") || sesion;
-      setTimeout(() => bloque.scrollIntoView(), 0);
+      // Baja hasta la sala de la sesión, para que se vea su nombre. Si la sesión no es
+      // la primera de su sala, baja directo a ella. En las filas sin sala (por ejemplo,
+      // los pósters) baja hasta el comienzo de la fila, para que se vea el horario.
+      const sala = sesion.closest(".sala");
+      const primeraDeLaSala = sala && sala.querySelector(".sesion") === sesion;
+      const destino = sala ? (primeraDeLaSala ? sala : sesion) : (sesion.closest(".cronograma-row") || sesion);
+      setTimeout(() => destino.scrollIntoView(), 0);
       return;
     }
   }
