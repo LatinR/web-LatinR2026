@@ -80,7 +80,7 @@ get_info_team <- function(){
     dplyr::mutate(
       category = dplyr::case_when(
        name_complete %in% c("Natalia da Silva", "Riva Quiroga", "Yanina Bellini Saibene") ~ "chairs",
-       name_complete %in% c("Olga Usuaga", "Elena Patiño") ~ "chairs_locales",
+       name_complete %in% c("Olga Usuaga", "Carmen Patiño") ~ "chairs_locales",
         TRUE ~ "organizacion"
       )
     ) |> 

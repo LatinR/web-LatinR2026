@@ -1,7 +1,8 @@
 # Arma el programa (resumido y detallado) a partir de los .rds que genera data-raw/actualizar-programa.R
 #
-# - programa-sesiones.rds: un bloque del cronograma por fila (dia, inicio, fin, sala, id_sesion, sesion).
-#   Si la sala está vacía, el bloque es para todos (breaks, keynotes, etc.).
+# - programa-sesiones.rds: un bloque del cronograma por fila (dia, inicio, fin, sala, id_sesion, paralela, sesion).
+#   Las filas con "sí" en `paralela` van en columnas, una por sala. Las demás son para todos
+#   (breaks, keynotes, etc.) y, si tienen sala, se muestra como el lugar del bloque.
 #   Si una fila tiene id_sesion pero no tiene texto en `sesion`, es la continuación de la
 #   sesión con ese mismo id (por ejemplo, la segunda parte de un tutorial después del break).
 #   Cuando todas las salas continúan después de un break, las dos partes se muestran como un
@@ -74,7 +75,9 @@ cargar_programa <- function() {
   leer <- function(archivo) readr::read_rds(here::here("cronograma/programa", archivo))
 
   list(
-    sesiones = leer("programa-sesiones.rds"),
+    # str_squish: una misma sala escrita con espacios de más no debe generar otra columna.
+    sesiones = leer("programa-sesiones.rds") |>
+      dplyr::mutate(sala = stringr::str_squish(sala)),
     agrupacion = leer("programa-agrupacion.rds"),
     presentaciones = leer("programa-presentaciones.rds"),
     autores = leer("programa-autores.rds")
@@ -194,7 +197,7 @@ es_continuacion <- function(sesion) {
 # Las continuaciones solo muestran un aviso, sin repetir el título ni las charlas.
 # En el programa detallado las sesiones con charlas llevan el ancla "sesion-<id_sesion>";
 # en el resumido no se muestran las charlas, sino un enlace a esa ancla.
-generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE) {
+generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE, lugar = NA) {
   if (es_continuacion(sesion)) {
     return(paste0(
       '<div class="sesion sesion-continuacion">\n',
@@ -233,6 +236,12 @@ generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE)
     ""
   }
 
+  html_lugar <- if (!is.na(lugar) && lugar != "") {
+    paste0('  <div class="sala-nombre">', htmltools::htmlEscape(lugar), '</div>\n')
+  } else {
+    ""
+  }
+
   html_enlace <- if (isTRUE(sesion$id_sesion %in% names(enlaces_sesiones))) {
     enlace <- enlaces_sesiones[[sesion$id_sesion]]
     href <- textos$paginas[[enlace[["pagina"]]]]
@@ -246,6 +255,7 @@ generar_div_sesion <- function(sesion, programa, textos, mostrar_horario = TRUE)
     '<div class="sesion"', atributo_id, '>\n',
     html_horario,
     '  <div class="sesion-titulo">', htmltools::htmlEscape(sesion$sesion), '</div>\n',
+    html_lugar,
     html_enlace,
     html_charlas,
     '</div>\n'
@@ -260,7 +270,7 @@ generar_div_general <- function(sesion, programa, textos) {
   paste0(
     '<div class="cronograma-row cronograma-general', clase_keynote, '">\n',
     '  <div class="horario">', formatear_horario(sesion$inicio, sesion$fin), '</div>\n',
-    '  <div class="bloque">', generar_div_sesion(sesion, programa, textos, mostrar_horario = FALSE), '</div>\n',
+    '  <div class="bloque">', generar_div_sesion(sesion, programa, textos, mostrar_horario = FALSE, lugar = sesion$sala), '</div>\n',
     '</div>\n'
   )
 }
@@ -355,7 +365,7 @@ generar_html_dia <- function(programa, dia_filtro, idioma = "es") {
     dplyr::mutate(
       minuto_inicio = hora_a_minutos(inicio),
       minuto_fin = hora_a_minutos(fin),
-      general = is.na(sala) | sala == ""
+      general = !stringr::str_to_lower(paralela) %in% c("sí", "si")
     ) |>
     dplyr::arrange(minuto_inicio, !general) |>
     dplyr::mutate(bloque = cumsum(general | !dplyr::lag(!general, default = FALSE)))
