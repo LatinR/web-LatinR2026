@@ -4,13 +4,30 @@ title: "Location"
 
 # LatinR 2026 Venue — Medellín, Colombia
 
-LatinR 2026 will take place in **Medellín, Colombia**, across two iconic venues in the city.
+LatinR 2026 will take place in **Medellín, Colombia**, across two iconic venues in the city:
+
+- **Edificio de Extensión (Extension Building) at Universidad de Antioquia (UdeA)**
+- **Parque Explora Auditorium**
+
+::: {.callout-important}
+## Check where each activity takes place!
+
+Please check the venue before you head out. You will find this information in the program and in the app, where the venue of each activity is listed.
+
+On **Wednesday, November 11**, all tutorials will take place at the **Edificio de Extensión of Universidad de Antioquia**. On the other days, there will be activities at both venues.
+:::
+
+To help you find your way, this schematic map shows the main landmarks: Universidad Metro station, the University entrances (Metro and Ferrocarril gates), the Edificio de Extensión, and Parque Explora.
+
+::: {#map}
+![Schematic map of the LatinR 2026 venues](/img/mapa_guia.png){fig-alt="Schematic map showing Universidad Metro station (Line A), Parque Explora to the west of the station, the UdeA Edificio de Extensión on Carrera 52 Carabobo, the walking route between both venues along Carrera 53 Av. Ferrocarril, and the Metro and Ferrocarril gates of Universidad de Antioquia." width="100%"}
+:::
 
 ---
 
 ## Parque Explora
 
-**Opening ceremony, Keynotes, and Aquarium visit**
+**Opening, Keynotes, Panel, Posters, Aquarium and Music Room visits, and Closing**
 
 ::: {.columns}
 ::: {.column width="60%"}
@@ -20,9 +37,12 @@ Parque Explora will host:
 
 - 🎤 **Opening ceremony**
 - 🎤 **Keynote talks**
-- 🐟 **Visit to the aquarium and an interactive room at Explora Park** — one of the special conference activities
+- 💬 **Panel:** "Más allá del código: pensar, aprender y resolver con IA" (Beyond code: thinking, learning, and solving with AI)
+- 📋 **Posters + cocktail**
+- 🐟 **Visit to the Aquarium** (Thursday) and 🎵 **the Music Room** (Friday) at Parque Explora — special conference activities! ✨
+- 👋 **Closing ceremony**
 
-**Address:** Carrera 52 #73-75, Medellín, Colombia Auditorium, Floor 1
+**Address:** Carrera 52 #73-75, Medellín, Colombia - Auditorium, Floor 1
 **Website:** [www.parqueexplora.org](https://www.parqueexplora.org/)
 :::
 ::: {.column width="40%"}
@@ -34,7 +54,7 @@ Parque Explora will host:
 
 ## Universidad de Antioquia — Edificio de Extensión
 
-**Tutorials, Regular talks, Lightning talks, and Posters**
+**Tutorials, Regular talks, Lightning talks, and HackeaR**
 
 ::: {.columns}
 ::: {.column width="60%"}
@@ -45,7 +65,9 @@ The Edificio de Extensión will host:
 - 📚 **Tutorials**
 - 🗣️ **Regular talks**
 - ⚡ **Lightning talks**
-- 📋 **Poster sessions**
+- 💻 **[HackeaR](/cronograma/hackear/hackear-en.qmd)**
+
+Activities take place in the auditoriums on floors 2 and 3.
 
 **Address:** Cl. 70 # 52 - 72, Medellín, Colombia
 **Website:** [www.udea.edu.co](https://www.udea.edu.co/)
@@ -63,22 +85,30 @@ Medellín is served by **José María Córdova International Airport** (IATA cod
 
 From the international airport you can reach central Medellín by:
 
-- 🚌 Intercity bus services (to Terminal del Norte or Terminal del Centro). There are
-three bus routes to Medellín: "Terminal del Norte"; (North Bus Terminal -north area),
-"Hotel Nutibara"(downtown), and "San Diego/Exposiciones" (Metro Station -south
-area)
+- 🚌 **Intercity buses:** there are three bus routes to Medellín: Terminal del Norte (North Bus Terminal, north area), Hotel Nutibara (downtown), and the south route, with stops at San Diego and Exposiciones Metro station.
 - 🚕 Taxi or ride-sharing apps (Uber, InDriver, etc.)
 
 ### Getting around the city
 
 Medellín has an excellent integrated public transport system:
 
-- **Metro** — Lines A and B connect downtown Medellín with the north, south, and
-western areas of the city.
-- **Tram** — Connects downtown and San Antonio Station with the eastern area of the
-city, including Buenos Aires and Miraflores.
-- **Cable car** — Cable car lines connecting hillside neighborhoods with Metro stations.
+- **Metro** — Lines A and B connect downtown Medellín with the north, south, and western areas of the city.
+- **Tram** — Connects downtown and San Antonio Station with the eastern area of the city, including Buenos Aires and Miraflores.
+- **Cable car (Metrocable)** — Cable car lines connect hillside neighborhoods with Metro stations.
 - **Integrated bus** — Feeder and local buses connect neighborhoods and nearby towns with the Metro system.
 
-Both venues are located in the University City area, accessible from _Universidad_ and _Hospital_ stations on _Metro Line A_, near the Botanical Garden, Planetarium, and Parque Norte. 
-More access information at https://www.parqueexplora.org/visitanos/como-llegar.
+## Getting to the venues
+
+Both venues are located in the University City area, near the Botanical Garden, the Planetarium, and Parque Norte.
+
+### By Metro: a convenient way to reach both venues
+
+The reference station for both Universidad de Antioquia and Parque Explora is **Universidad**, on **Line A**.
+
+- **If you are at a Line A station:** take the train towards Niquía and get off at Universidad station.
+- **If you are coming on Line B:** transfer at San Antonio station to Line A, towards Niquía, and get off at Universidad.
+- **If you are in downtown Medellín:** go to San Antonio station and take Line A northbound (towards Niquía).
+
+From Universidad station you can enter the Universidad de Antioquia campus and walk to Parque Explora. To enter the University, use the **Metro gate** (portería Metro) or the **Ferrocarril gate** (portería del Ferrocarril), depending on where you are going (see the [map](#map)).
+
+Official information about the system is available on the [Metro de Medellín](https://www.metrodemedellin.gov.co/) website. More access options at [How to get to Parque Explora](https://www.parqueexplora.org/visitanos/como-llegar) (in Spanish).

@@ -31,6 +31,7 @@ Si ya tienes experiencia contribuyendo también te invitamos a participar.
 
 ¡Traé tu curiosidad y ganas de contribuir!
 
+
 ## Recursos
 
 - [rOpenSci Help Wanted Issues](https://ropensci.org/help-wanted/)
