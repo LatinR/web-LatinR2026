@@ -65,7 +65,7 @@ listing:
 <center> {{< fa location-dot >}} Universidad de Antioquia, Medellín, Colombia </center>
 <br>
 </section>
-<center><a href='https://www.eventbrite.com.ar/e/1998690018649' target="_blank"><button type="button" class="btn btn-light btn-lg">¡regístrate!</button></a></center>
+<center><a href='https://github.com/LatinR/presentaciones_latinR2026' target="_blank"><button type="button" class="btn btn-light btn-lg">Materiales de la conferencia</button></a></center>
 
 
 <br> 
@@ -101,7 +101,7 @@ generar_cards_keynotes(info_keynotes, col_information = "info_es", width_col = "
 <br>
 </section>
 
-<center><a href='https://www.eventbrite.com.ar/e/1998690018649' target="_blank"><button type="button" class="btn btn-light btn-lg">Register</button></a></center>
+<center><a href='https://github.com/LatinR/presentaciones_latinR2026' target="_blank"><button type="button" class="btn btn-light btn-lg">Conference materials</button></a></center>
 
 <br>
 :::
@@ -135,7 +135,7 @@ generar_cards_keynotes(info_keynotes, col_information = "info_en", width_col = "
 <br>
 </section>
 
-<center><a href='https://www.eventbrite.com.ar/e/1998690018649' target="_blank"><button type="button" class="btn btn-light btn-lg">Inscreva-se</button></a></center>
+<center><a href='https://github.com/LatinR/presentaciones_latinR2026' target="_blank"><button type="button" class="btn btn-light btn-lg">Materiais da conferência</button></a></center>
 <br>
 :::
 :::
